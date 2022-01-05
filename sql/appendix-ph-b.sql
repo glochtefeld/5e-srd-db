@@ -1,31 +1,31 @@
-CREATE TABLE srd.pantheon (
-    id INT PRIMARY KEY AUTOINCREMENT,
+CREATE TABLE pantheon (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(15) NOT NULL,
-    description VARCHAR(1500) not null
+    description VARCHAR(1500) NOT NULL
 );
 
-create table srd.alignment (
-    id int primary key autoincrement,
-    abbreviation varchar(2) not null,
-    name varchar(20) not null
+CREATE TABLE alignment (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    abbreviation VARCHAR(2) NOT NULL,
+    name VARCHAR(20) NOT NULL
 );
 
-create table srd.domain (
-    id int primary key autoincrement,
-    name varchar(10) not null
+CREATE TABLE domain (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(10) NOT NULL
 );
 
 
-CREATE TABLE srd.deity (
-    pantheon int REFERENCES srd.pantheonName (id),
-    name varchar(25) not null,
-    description varchar(50),
-    alignment int REFERENCES srd.alignment (id),
-    symbol varchar(50) not null
+CREATE TABLE deity (
+    pantheon INT REFERENCES pantheonName (id),
+    name VARCHAR(25) NOT NULL,
+    description VARCHAR(50),
+    alignment INT REFERENCES alignment (id),
+    symbol VARCHAR(50) NOT NULL
 );
 
-create table srd.deityDomain (
-    deity int REFERENCES srd.deity (id),
-    domain int REFERENCES srd.domain (id)
-    CONSTRAINT PRIMARY KEY (deity, domain)
+CREATE TABLE deityDomain (
+    deity int REFERENCES deity (id),
+    domain int REFERENCES domain (id),
+    PRIMARY KEY (deity, domain)
 );

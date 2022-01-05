@@ -13,7 +13,7 @@ class DB:
 
     def write(self, sql):
         self.cur.execute(sql)
-        self.cur.commit()
+        self.conn.commit()
     
     def readone(self, sql):
         data = self.cur.execute(sql)
@@ -30,7 +30,6 @@ def read_sql_file(path):
     with open(path,'r') as sql_file:
         data = sql_file.read()
         commands = [d.strip() for d in data.split(';')]
-    print(commands)
     return commands
 
 if __name__ == '__main__':
@@ -64,9 +63,17 @@ if __name__ == '__main__':
             cout("DONE")
 
     cout("Building database " + outpath + "...")
-    read_sql_file("sql/test.sql")
+    os.makedirs(outpath[:outpath.rfind('/')],exist_ok=True)
 
+    commands = []
+    commands += read_sql_file("sql/appendix-ph-b.sql")
+    commands += read_sql_file("sql/ogl-content/appendix-ph-b-data.sql")
+    
     db = DB(outpath)
+
+    for comm in commands:
+        cout(comm)
+        db.write(comm)
     db.close()
 
 """
