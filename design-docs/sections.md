@@ -15,7 +15,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [ ] Magic Items
 - [ ] Monsters
 - [ ] Appendix PH-A
-- [ ] Appendix PH-B (nice)
+- [x] Appendix PH-B (nice)
 - [ ] Appendix PH-C
 - [ ] Appendix MM-A
 - [ ] Appendix MM-B

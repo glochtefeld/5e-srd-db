@@ -17,6 +17,7 @@ CREATE TABLE domain (
 
 
 CREATE TABLE deity (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     pantheon INT REFERENCES pantheonName (id),
     name VARCHAR(25) NOT NULL,
     description VARCHAR(50),
