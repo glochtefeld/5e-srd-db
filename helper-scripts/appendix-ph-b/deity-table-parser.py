@@ -67,40 +67,28 @@ def main():
 
         for c in deity_cmds:
             print(c)
+        print()
         for c in domain_cmds:
             print(c)
+        print()
 
 if __name__ == '__main__':
     main()
 
 """
-Example table:
+Example table row:
 
 Nike, goddess of victory
 LN
 War
 Winged woman
-Pan, god of nature
-CN
-Nature
-Syrinx (pan pipes)
-Poseidon, god of the sea and earthquakes
-CN
-Tempest
-Trident
-Tyche, goddess of good fortune
-N
-Trickery
-Red pentagram
-Hercules, god of strength and adventure
-CG
-Tempest, War
-Lion’s head
 
-Desired output:
-INSERT INTO deity (pantheon, name, description, alignment, symbol) VALUES (2,'Nike, goddess of victory',2,'Winged woman');
+Note that when pasted, the text is on four lines. 
+
+Desired output (assuming deity number of 1):
+INSERT INTO deity (pantheon, name, description, alignment, symbol) VALUES (3,'Nike, goddess of victory',2,'Winged woman');
 ...
-INSERT INTO deityDomain (deity, domain) VALUES (x,y)
+INSERT INTO deityDomain (deity, domain) VALUES (1,8)
 ...
 
 BEGIN LICENSE TEXT
