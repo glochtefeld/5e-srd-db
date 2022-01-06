@@ -16,6 +16,6 @@ This is a small file that I use to keep track of what sections still need relati
 - [ ] Monsters
 - [ ] Appendix PH-A
 - [x] Appendix PH-B (nice)
-- [ ] Appendix PH-C
+- [x] Appendix PH-C
 - [ ] Appendix MM-A
 - [ ] Appendix MM-B
