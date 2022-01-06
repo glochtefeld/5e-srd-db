@@ -25,6 +25,14 @@ class DB:
     def close(self):
         self.conn.close()
 
+def read_sql_in_dir(path):
+    commands = []
+    with os.scandir(path) as directory:
+        for script in directory:
+            if script.path.endswith(".sql") and script.is_file():
+                commands += read_sql_file(script.path)
+    return commands
+
 def read_sql_file(path):
     commands = []
     with open(path,'r') as sql_file:
@@ -66,8 +74,8 @@ if __name__ == '__main__':
     os.makedirs(outpath[:outpath.rfind('/')],exist_ok=True)
 
     commands = []
-    commands += read_sql_file("sql/appendix-ph-b.sql")
-    commands += read_sql_file("sql/ogl-content/appendix-ph-b-data.sql")
+    commands += read_sql_in_dir("sql")
+    commands += read_sql_in_dir("sql/ogl-content")
     
     db = DB(outpath)
 
