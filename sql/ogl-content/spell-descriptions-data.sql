@@ -21,14 +21,22 @@ INSERT INTO castTime (measure) VALUES ('Hour');
 INSERT INTO castTime (measure) VALUES ('Day');
 INSERT INTO castTime (measure) VALUES ('Month');
 INSERT INTO castTime (measure) VALUES ('Year');
+INSERT INTO castTime (measure) VALUES ('Until dispelled');
+INSERT INTO castTime (measure) VALUES ('Special');
 
 INSERT INTO castDistance (measure) VALUES ('Self');
 INSERT INTO castDistance (measure) VALUES ('Touch');
 INSERT INTO castDistance (measure) VALUES ('Feet');
 INSERT INTO castDistance (measure) VALUES ('Miles');
+INSERT INTO castDistance (measure) VALUES ('Special');
+INSERT INTO castDistance (measure) VALUES ('Sight');
+INSERT INTO castDistance (measure) VALUES ('Unlimited');
+
 
 INSERT INTO castArea (measure) VALUES ('Cone');
 INSERT INTO castArea (measure) VALUES ('Cube');
 INSERT INTO castArea (measure) VALUES ('Cylinder');
 INSERT INTO castArea (measure) VALUES ('Line');
 INSERT INTO castArea (measure) VALUES ('Sphere');
+INSERT INTO castArea (measure) VALUES ('Radius');
+INSERT INTO castArea (measure) VALUES ('Hemisphere');

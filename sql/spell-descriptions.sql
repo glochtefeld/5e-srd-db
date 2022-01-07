@@ -9,7 +9,7 @@ CREATE TABLE magicSchool (
     name VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE spellTime (
+CREATE TABLE castTime (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     measure VARCHAR(15) NOT NULL
 );
@@ -28,16 +28,17 @@ CREATE TABLE spell (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
     level INT NOT NULL,
+    isRitual BOOLEAN DEFAULT FALSE,
     schoolID REFERENCES magicSchool (id) NOT NULL,
     castTimeID REFERENCES castTime (id) NOT NULL,
     castTime INT NOT NULL DEFAULT 1,
     reactionTrigger VARCHAR(100) DEFAULT '',
     distanceID REFERENCES castDistance (id) NOT NULL,
     range INT,
-    area REFERENCES castArea (id) DEFAULT NULL,
+    areaID REFERENCES castArea (id) DEFAULT NULL,
     componentBits INT NOT NULL,
     specialMaterial VARCHAR(100) DEFAULT NULL,
-    durationMeasure REFERENCES castTime (id) NOT NULL,
+    durationID REFERENCES castTime (id) NOT NULL,
     durationTime INT,
     concentration BOOLEAN DEFAULT FALSE,
     description VARCHAR(1000) NOT NULL DEFAULT '',

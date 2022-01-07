@@ -4,26 +4,26 @@ INSERT INTO pantheon (name, description) VALUES ('Egyptian', 'These gods are a y
 
 INSERT INTO pantheon (name, description) VALUES ('Greek', 'The gods of Olympus make themselves known with the gentle lap of waves against the shores and the crash of the thunder among the cloud-enshrouded peaks. The thick boar-infested woods and the sere, olive-covered hillsides hold evidence of their passing. Every aspect of nature echoes with their presence, and they’ve made a place for themselves inside the human heart, too');
 
-INSERT INTO pantheon (name, description) VALUES ('Norse', 'Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring—this is the land of the Vikings, the home of the Norse pantheon. It’s a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven’t been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it’s surprising the mortals turned out as well as they did. Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.\nThe Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym).'); 
+INSERT INTO pantheon (name, description) VALUES ('Norse', 'Where the land plummets from the snowy hills into the icy fjords below, where the longboats draw up on to the beach, where the glaciers flow forward and retreat with every fall and spring—this is the land of the Vikings, the home of the Norse pantheon. It’s a brutal clime, and one that calls for brutal living. The warriors of the land have had to adapt to the harsh conditions in order to survive, but they haven’t been too twisted by the needs of their environment. Given the necessity of raiding for food and wealth, it’s surprising the mortals turned out as well as they did. Their powers reflect the need these warriors had for strong leadership and decisive action. Thus, they see their deities in every bend of a river, hear them in the crash of the thunder and the booming of the glaciers, and smell them in the smoke of a burning longhouse.\nThe Norse pantheon includes two main families, the Aesir (deities of war and destiny) and the Vanir (gods of fertility and prosperity). Once enemies, these two families are now closely allied against their common enemies, the giants (including the gods Surtur and Thrym).');
 
-INSERT INTO alignment (abbreviation, name) VALUES ('LG', 'Lawful Good'); -- 1
+INSERT INTO alignment (abbreviation, name) VALUES ('LG', 'Lawful Good');
 INSERT INTO alignment (abbreviation, name) VALUES ('LN', 'Lawful Neutral');
 INSERT INTO alignment (abbreviation, name) VALUES ('LE', 'Lawful Evil');
-INSERT INTO alignment (abbreviation, name) VALUES ('NG', 'Neutral Good'); -- 4
+INSERT INTO alignment (abbreviation, name) VALUES ('NG', 'Neutral Good');
 INSERT INTO alignment (abbreviation, name) VALUES ('N', 'Neutral');
 INSERT INTO alignment (abbreviation, name) VALUES ('NE', 'Neutral Evil');
-INSERT INTO alignment (abbreviation, name) VALUES ('CG', 'Chaotic Good'); -- 7
+INSERT INTO alignment (abbreviation, name) VALUES ('CG', 'Chaotic Good');
 INSERT INTO alignment (abbreviation, name) VALUES ('CN', 'Chaotic Neutral');
 INSERT INTO alignment (abbreviation, name) VALUES ('CE', 'Chaotic Evil');
 
-INSERT INTO domain (name) VALUES ('Death'); -- 1
-INSERT INTO domain (name) VALUES ('Knowledge'); -- 2
-INSERT INTO domain (name) VALUES ('Life'); -- 3
-INSERT INTO domain (name) VALUES ('Light'); -- 4
-INSERT INTO domain (name) VALUES ('Nature'); -- 5
-INSERT INTO domain (name) VALUES ('Tempest'); -- 6
-INSERT INTO domain (name) VALUES ('Trickery'); -- 7
-INSERT INTO domain (name) VALUES ('War'); -- 8
+INSERT INTO domain (name) VALUES ('Death');
+INSERT INTO domain (name) VALUES ('Knowledge');
+INSERT INTO domain (name) VALUES ('Life');
+INSERT INTO domain (name) VALUES ('Light');
+INSERT INTO domain (name) VALUES ('Nature');
+INSERT INTO domain (name) VALUES ('Tempest');
+INSERT INTO domain (name) VALUES ('Trickery');
+INSERT INTO domain (name) VALUES ('War');
 
 INSERT INTO deity (pantheon, name, description, alignment, symbol) VALUES (1,'The Daghdha','god of weather and crops',7,'Bubbling cauldron or shield');
 INSERT INTO deity (pantheon, name, description, alignment, symbol) VALUES (1,'Arawn','god of life and death',6,'Black star on gray background');

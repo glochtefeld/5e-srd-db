@@ -37,7 +37,7 @@ def read_sql_file(path):
     commands = []
     with open(path,'r') as sql_file:
         data = sql_file.read()
-        commands = [d.strip() for d in data.split(';')]
+        commands = [d.strip() for d in data.split(';\n')]
     return commands
 
 if __name__ == '__main__':
@@ -80,8 +80,13 @@ if __name__ == '__main__':
     db = DB(outpath)
 
     for comm in commands:
-        cout(comm)
-        db.write(comm)
+        try:
+            cout(comm)
+            db.write(comm)
+        except Exception as e:
+            print(e)
+            db.close()
+            sys.exit("Aborting.")
     db.close()
 
 """

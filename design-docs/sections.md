@@ -11,7 +11,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [ ] Combat
 - [ ] Spellcasting
 - [ ] Spell Lists
-- [ ] Spell Descriptions
+- [x] Spell Descriptions
 - [ ] Magic Items
 - [ ] Monsters
 - [ ] Appendix PH-A

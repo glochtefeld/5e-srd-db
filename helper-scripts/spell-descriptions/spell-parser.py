@@ -15,16 +15,21 @@ def get_school(k):
 
 time =  {
     'action': 1,
-    'bonus action': 2,
-    'reaction': 3,
+    'bonus': 2,
+    'reaction,': 3,
     'Instantaneous': 4,
     'round': 5,
     'minute': 6,
+    'minutes':6,
     'hour': 7,
+    'hour.': 7,
     'hours': 7,
     'day': 8,
+    'days': 8,
     'month': 9,
-    'year': 10
+    'year': 10,
+    'Until dispelled': 11,
+    'Special': 12
 }
 def get_time(k):
     return time[k]
@@ -42,17 +47,28 @@ distance = {
     'Touch': 2,
     'feet': 3,
     'foot': 3,
-    'miles': 4
+    'mile': 4,
+    'miles': 4,
+    'Special': 5,
+    'Sight': 6,
+    'Unlimited': 7
 }
 def get_dist(k):
     return distance[k]
 
 area = {
     'Cone': 1,
+    'cone': 1,
     'Cube': 2,
+    'cube': 2,
     'Cylinder': 3,
+    'cylinder': 3,
     'Line': 4,
-    'Sphere': 5
+    'line': 4,
+    'Sphere': 5,
+    'sphere': 5,
+    'radius': 6,
+    'hemisphere': 7,
 }
 def get_area(k):
     return area[k]
@@ -94,8 +110,14 @@ def main():
             c_time_measure = get_time(casting_time[1].strip())
             c_reaction_trigger = ""
             if c_time_measure == 3:
-                c_reaction_trigger = ' '.join(casting_time[2:])
-            i+=1
+                c_reaction_trigger += ' '.join(casting_time[2:]) + " "
+                i+=1
+                while not lines[i].startswith('Range'):
+                    i+=1
+                    c_reaction_trigger += lines[i][:-1] + ' '
+                c_reaction_trigger = c_reaction_trigger.strip()
+            else:
+                i+=1
 
             if args.verbose:
                 print(c_time_count,end=", ")
@@ -105,17 +127,23 @@ def main():
             # dist, range, area
             rnge = lines[i][7:].split(' ')
             dist = ""
-            spRange = ""
+            spRange = "1"
             area = "NULL"
             if rnge[0] == 'Touch\n':
                 dist = get_dist(rnge[0][:-1])
             elif rnge[0].startswith('Self'):
                 if len(rnge) > 1: # has an area
-                    dist = rnge[1][rnge[1].find('-')+1:]
+                    dist = get_dist(rnge[1][rnge[1].find('-')+4:rnge[1].find('-')+8])
                     spRange = rnge[1][1:rnge[1].find('-')]
-                    area = rnge[2][:-2]
+                    area = get_area(rnge[2][:-2])
                 else:
                     dist = get_dist(rnge[0][:-1])
+            elif rnge[0].startswith('Special'):
+                dist = get_dist('Special')
+            elif rnge[0].startswith('Sight'):
+                dist = get_dist('Sight')
+            elif rnge[0].startswith('Unlimited'):
+                dist = get_dist('Unlimited')
             else:
                 spRange = rnge[0]
                 dist = get_dist(rnge[1][:-1])
@@ -156,6 +184,15 @@ def main():
             elif dur[0].startswith('Instantaneous'):
                 dur_type = get_time(dur[0][:-1])
                 dur_len = 1
+            elif dur[0].startswith('Until'):
+                dur_type = get_time('Until dispelled')
+                dur_len = 1
+            elif dur[0].startswith('Special'):
+                dur_type = get_time('Special')
+                dur_len = 1
+            elif dur[0].startswith('Up'):
+                dur_len = dur[2]
+                dur_type = get_time(dur[3][:-1])
             else:
                 dur_len = dur[0]
                 dur_type = get_time(dur[1][:-1])
@@ -193,8 +230,9 @@ def main():
             if args.verbose:
                 print(higher_lvl, end=", \n")
 
-            spells.append(f"INSERT INTO spell (name, level, isRitual, schoolID, castTimeID, castTime, reactionTrigger, distanceID, range, area, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('{name}',{level}, {ritual}, {school}, {c_time_measure}, {c_time_count}, '{c_reaction_trigger}', {dist}, {spRange}, {area}, {component}, '{specMat}', {dur_type}, {dur_len}, {conc}, '{desc}', '{higher_lvl}', NULL, NULL, NULL);") 
-            print()
+            spells.append(f"INSERT INTO spell (name, level, isRitual, schoolID, castTimeID, castTime, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('{name}',{level}, {ritual}, {school}, {c_time_measure}, {c_time_count}, '{c_reaction_trigger}', {dist}, {spRange}, {area}, {component}, '{specMat}', {dur_type}, {dur_len}, {conc}, '{desc}', '{higher_lvl}', NULL, NULL, NULL);") 
+            if args.verbose:
+                print()
 
         for sp in spells:
             print(sp)
@@ -204,31 +242,64 @@ if __name__ == '__main__':
     main()
 
 """
-A spell pasted from the SRD looks like this:
+A CRITICAL WARNING: The SRD likes to mix apostrophes (’) and single quotes (\'). 
+Make sure you do a global find/replace and change all of them to apostrophes.
 
-Acid Arrow
-2nd-­‐‑level evocation
-Casting Time: 1 action
-Range: 90 feet
-Components: V, S, M (powdered rhubarb leaf and an
-adder’s stomach)
-Duration: Instantaneous
-A shimmering green arrow streaks toward a target
-within range and bursts in a spray of acid. Make a
-ranged spell attack against the target. On a hit, the
-target takes 4d4 acid damage immediately and 2d4
-acid damage at the end of its next turn. On a miss,
-the arrow splashes the target with acid for half as
-much of the initial damage and no damage at the end
-of its next turn.
-At Higher Levels. When you cast this spell using a
-spell slot of 3rd level or higher, the damage (both
-initial and later) increases by 1d4 for each slot level
-above 2nd.
+ALSO: The 'Weird' spell has the unique quality that the duration is 'up to one minute'
+spelled out. It's easier just to change that to an actual number, like every other
+concentration spell.
+
+ALSO: Each spell needs to have a blank line after it, including the last one.
+I used a vim macro to just blast through them. Ideally, you won't actually
+need this script at all.
+
+FINALLY: Copying directly from the SRD PDF will include some copyright notices.
+This primitive parser can't handle those, so just take them out. 
+
+A spell pasted from the SRD looks like this (without indentation):
+    Acid Arrow
+    2nd-­‐‑level evocation
+    Casting Time: 1 action
+    Range: 90 feet
+    Components: V, S, M (powdered rhubarb leaf and an
+    adder’s stomach)
+    Duration: Instantaneous
+    A shimmering green arrow streaks toward a target
+    within range and bursts in a spray of acid. Make a
+    ranged spell attack against the target. On a hit, the
+    target takes 4d4 acid damage immediately and 2d4
+    acid damage at the end of its next turn. On a miss,
+    the arrow splashes the target with acid for half as
+    much of the initial damage and no damage at the end
+    of its next turn.
+    At Higher Levels. When you cast this spell using a
+    spell slot of 3rd level or higher, the damage (both
+    initial and later) increases by 1d4 for each slot level
+    above 2nd.
 
 We want to turn it into something like this:
+    INSERT INTO spell 
+        (name, level, schoolID, castTimeID, castTime, reactionTrigger,
+        distanceID, range, area, componentBits, specialMaterial,
+        durationID, durationTime, concentration, 
+        description, 
+        higherLevels,
+        bcArgs, bcConstants, bcFn) 
+    VALUES 
+        ('Acid Arrow', 2, 5, 1, 1, NULL,
+        3, 90, NULL, 7, 'powdered rhubarb leaf and an adder’s stomach',
+        4, NULL, FALSE,
+        'A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.',
+        'When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.',
+        NULL, NULL, NULL);
 
-INSERT INTO spell (name, level, schoolID, castTimeID, castTime, reactionTrigger, distanceID, range, area, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Acid Arrow', 2, 5, 1, 1, NULL, 3, 90, NULL, 7, 'powdered rhubarb leaf and an adder’s stomach', 4, NULL, FALSE, 'A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.', 'When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.', NULL, NULL, NULL);
+Except on one line.
 
-Obviously, we aren't going for readability.
+Copyright 2022 Gavin Lochtefeld
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """

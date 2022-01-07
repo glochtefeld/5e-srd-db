@@ -120,10 +120,10 @@ Components: V, S, M (a morsel of food)
 Duration: 24 hours
 This spell lets you convince a beast that you mean it
 no harm. Choose a beast that you can see within
-range. It must see and hear you. If the beast's
+range. It must see and hear you. If the beast’s
 Intelligence is 4 or higher, the spell fails. Otherwise,
 the beast must succeed on a Wisdom saving throw
-or be charmed by you for the spell's duration. If you
+or be charmed by you for the spell’s duration. If you
 or one of your companions harms the target, the
 spells ends.
 At Higher Levels. When you cast this spell using a
@@ -848,7 +848,6 @@ action to make a Strength or Dexterity check (its
 choice) against your spell save DC. On a success, it
 frees itself.
 
-
 Blade Barrier
 6th-­‐‑level evocation
 Casting Time: 1 action
@@ -976,8 +975,8 @@ The next time you hit a creature with a weapon
 attack before this spell ends, the weapon gleams
 with astral radiance as you strike. The attack deals
 an extra 2d6 radiant damage to the target, which
-becomes visible if it's invisible, and the target sheds
-dim light in a 5-­‐‑foot radius and can't become
+becomes visible if it’s invisible, and the target sheds
+dim light in a 5-­‐‑foot radius and can’t become
 invisible until the spell ends.
 At Higher Levels. When you cast this spell using a
 spell slot of 3rd level or higher, the extra damage
@@ -1098,6 +1097,7 @@ spell slot of 2nd level or higher, you can target one
 additional creature for each slot level above 1st. The
 creatures must be within 30 feet of each other when
 you target them.
+
 Chill Touch
 Necromancy cantrip
 Casting Time: 1 action
@@ -1351,7 +1351,7 @@ Duration: Concentration, up to 1 minute
 Creatures of your choice that you can see within
 range and that can hear you must make a Wisdom
 saving throw. A target automatically succeeds on
-this saving throw if it can't be charmed. On a failed
+this saving throw if it can’t be charmed. On a failed
 save, a target is affected by this spell. Until the spell
 ends, you can use a bonus action on each of your
 turns to designate a direction that is horizontal to
@@ -1360,7 +1360,7 @@ movement as possible to move in that direction on
 its next turn. It can take its action before it moves.
 After moving in this way, it can make another
 Wisdom saving to try to end the effect.
-A target isn't compelled to move into an obviously
+A target isn’t compelled to move into an obviously
 deadly hazard, such as a fire or pit, but it will
 provoke opportunity attacks to move in the
 designated direction.
@@ -1863,7 +1863,7 @@ casting a spell. If the creature is casting a spell of 3rd
 level or lower, its spell fails and has no effect. If it is
 casting a spell of 4th level or higher, make an ability
 check using your spellcasting ability. The DC equals
-10 + the spell's level. On a success, the creature's
+10 + the spell’s level. On a success, the creature’s
 spell fails and has no effect.
 At Higher Levels. When you cast this spell using a
 spell slot of 4th level or higher, the interrupted spell
@@ -1997,6 +1997,7 @@ This spell has no effect on undead or constructs.
 At Higher Levels. When you cast this spell using a
 spell slot of 2nd level or higher, the healing increases
 by 1d8 for each slot level above 1st.
+
 Dancing Lights
 Evocation cantrip
 Casting Time: 1 action
@@ -2578,6 +2579,7 @@ damage.
 If you have a body part, lock of hair, clipping from
 a nail, or similar portion of the target’s body, the
 target makes its saving throw with disadvantage.
+
 Druidcraft
 Transmutation cantrip
 Casting Time: 1 action
@@ -2652,6 +2654,7 @@ The GM can adjust the DC higher or lower,
 depending on the nature of the rubble. On a
 successful save, the creature takes half as much
 damage and doesn’t fall prone or become buried.
+
 Eldritch Blast
 Evocation cantrip
 Casting Time: 1 action
@@ -3018,13 +3021,13 @@ beast.
 Your familiar acts independently of you, but it
 always obeys your commands. In combat, it rolls its
 own initiative and acts on its own turn. A familiar
-can't attack, but it can take other actions as normal.
+can’t attack, but it can take other actions as normal.
 When the familiar drops to 0 hit points, it
 disappears, leaving behind no physical form. It
 reappears after you cast this spell again
 While your familiar is within 100 feet of you, you
 can communicate with it telepathically. Additionally,
-as an action, you can see through your familiar's
+as an action, you can see through your familiar’s
 eyes and hear what it hears until the start of your
 next turn, gaining the benefits of any special senses
 that the familiar has. During this time, you are deaf
@@ -3035,7 +3038,7 @@ where it awaits your summons. Alternatively, you
 can dismiss it forever. As an action while it is
 temporarily dismissed, you can cause it to reappear
 in any unoccupied space within 30 feet of you.
-You can't have more than one familiar at a time. If
+You can’t have more than one familiar at a time. If
 you cast this spell while you already have a familiar,
 you instead cause it to adopt a new form. Choose one
 of the forms from the above list. Your familiar
@@ -3167,6 +3170,7 @@ or carried.
 At Higher Levels. When you cast this spell using a
 spell slot of 4th level or higher, the damage increases
 by 1d6 for each slot level above 3rd.
+
 Fire Bolt
 Evocation cantrip
 Casting Time: 1 action
@@ -3176,9 +3180,9 @@ Duration: Instantaneous
 You hurl a mote of fire at a creature or object within
 range. Make a ranged spell attack against the target.
 On a hit, the target takes 1d10 fire damage. A
-flammable object hit by this spell ignites if it isn't
+flammable object hit by this spell ignites if it isn’t
 being worn or carried.
-This spell's damage increases by 1d10 when you
+This spell’s damage increases by 1d10 when you
 reach 5th level (2d10), 11th level (3d10), and 17th
 level (4d10).
 
@@ -3889,6 +3893,7 @@ only that effect.
 You can create a permanently guarded and
 warded structure by casting this spell there every
 day for one year.
+
 Guidance
 Divination cantrip
 Casting Time: 1 action
@@ -4638,6 +4643,7 @@ move the target, which must remain within the
 spell’s range.
 When the spell ends, the target floats gently to the
 ground if it is still aloft.
+
 Light
 Evocation cantrip
 Casting Time: 1 action
@@ -4755,6 +4761,7 @@ armor, and a protective magical force surrounds it
 until the spell ends. The target’s base AC becomes 13
 + its Dexterity modifier. The spell ends if the target
 dons armor or if you dismiss the spell as an action.
+
 Mage Hand
 Conjuration cantrip
 Casting Time: 1 action
@@ -5136,6 +5143,7 @@ transmutation into a different substance) expels you
 and deals 50 bludgeoning damage to you. If expelled,
 you fall prone in an unoccupied space closest to
 where you first entered.
+
 Mending
 Transmutation cantrip
 Casting Time: 1 minute
@@ -5151,6 +5159,7 @@ former damage.
 This spell can physically repair a magic item or
 construct, but the spell can’t restore magic to such
 an object.
+
 Message
 Transmutation cantrip
 Casting Time: 1 action
@@ -5200,6 +5209,7 @@ spells, and the charmed condition. The spell even
 foils wish spells and spells or effects of similar power
 used to affect the target’s mind or to gain
 information about the target.
+
 Minor Illusion
 Illusion cantrip
 Casting Time: 1 action
@@ -5673,6 +5683,7 @@ land. All plants in a half-­‐‑mile radius centered on a
 point within range become enriched for 1 year. The
 plants yield twice the normal amount of food when
 harvested.
+
 Poison Spray
 Conjuration cantrip
 Casting Time: 1 action
@@ -5684,7 +5695,7 @@ within range and project a puff of noxious gas from
 your palm. The creature must succeed on a
 Constitution saving throw or take 1d12 poison
 damage.
-This spell's damage increases by 1d12 when you
+This spell’s damage increases by 1d12 when you
 reach 5th level (2d12), 11th level (3d12), and 17th
 level (4d12).
 
@@ -5762,6 +5773,7 @@ effect on undead or constructs.
 At Higher Levels. When you cast this spell using a
 spell slot of 3rd level or higher, the healing increases
 by 1d8 for each slot level above 2nd.
+
 Prestidigitation
 Transmutation cantrip
 Casting Time: 1 action
@@ -5955,6 +5967,7 @@ size of the cube by 100 feet for each slot level
 beyond 4th. Thus you could protect a cube that can
 be up to 200 feet on one side by using a spell slot of
 5th level.
+
 Produce Flame
 Conjuration cantrip
 Casting Time: 1 action
@@ -6142,6 +6155,7 @@ that use Strength until the spell ends.
 At the end of each of the target’s turns, it can make
 a Constitution saving throw against the spell. On a
 success, the spell ends.
+
 Ray of Frost
 Evocation cantrip
 Casting Time: 1 action
@@ -6270,6 +6284,7 @@ the creature’s speed. Similarly, the globe can be
 picked up and moved by other creatures.
 A disintegrate spell targeting the globe destroys it
 without harming anything inside it.
+
 Resistance
 Abjuration cantrip
 Casting Time: 1 action
@@ -6370,6 +6385,7 @@ inside can see out of it as if through a 3-­‐‑foot-­‐‑by-­‐‑5-­�
 foot window centered on the rope.
 Anything inside the extradimensional space drops
 out when the spell ends.
+
 Sacred Flame
 Evocation cantrip
 Casting Time: 1 action
@@ -6684,6 +6700,7 @@ Duration: Concentration, up to 10 minutes
 A shimmering field appears and surrounds a
 creature of your choice within range, granting it a +2
 bonus to AC for the duration.
+
 Shillelagh
 Transmutation cantrip
 Casting Time: 1 bonus action
@@ -6699,6 +6716,7 @@ using that weapon, and the weapon’s damage die
 becomes a d8. The weapon also becomes magical, if
 it isn’t already. The spell ends if you cast it again or if
 you let go of the weapon.
+
 Shocking Grasp
 Evocation cantrip
 Casting Time: 1 action
@@ -6871,6 +6889,7 @@ the spell is wasted.
 A creature affected by this spell makes another
 Wisdom saving throw at the end of its turn. On a
 successful save, the effect ends for it.
+
 Spare the Dying
 Necromancy cantrip
 Casting Time: 1 action
@@ -7496,6 +7515,7 @@ You can create a permanent teleportation circle by
 casting this spell in the same location every day for
 one year. You need not use the circle to teleport
 when you cast the spell in this way.
+
 Thaumaturgy
 Transmutation cantrip
 Casting Time: 1 action
@@ -7732,6 +7752,7 @@ ability to see things as they actually are. For the
 duration, the creature has truesight, notices secret
 doors hidden by magic, and can see into the Ethereal
 Plane, all out to a range of 120 feet.
+
 True Strike
 Divination cantrip
 Casting Time: 1 action
@@ -7788,6 +7809,7 @@ turns as an action.
 At Higher Levels. When you cast this spell using a
 spell slot of 4th level or higher, the damage increases
 by 1d6 for each slot level above 3rd.
+
 Vicious Mockery
 Enchantment cantrip
 Casting Time: 1 action
@@ -7801,7 +7823,7 @@ understand you), it must succeed on a Wisdom
 saving throw or take 1d4 psychic damage and have
 disadvantage on the next attack roll it makes before
 the end of its next turn.
-This spell's damage increases by 1d4 when you
+This spell’s damage increases by 1d4 when you
 reach 5th level (2d4), 11th level (3d4), and 17th
 level (4d4).
 
@@ -8046,7 +8068,7 @@ Weird
 Casting Time: 1 action
 Range: 120 feet
 Components: V, S
-Duration: Concentration, up to one minute
+Duration: Concentration, up to 1 minute
 Drawing on the deepest fears of a group of creatures,
 you create illusory creatures in their minds, visible
 only to them. Each creature in a 30-­‐‑foot-­‐‑radius
@@ -8243,3 +8265,4 @@ form, and it can’t speak or cast spells.
 The target’s gear melds into the new form. The
 target can’t activate, wield, or otherwise benefit
 from any of its equipment.
+
