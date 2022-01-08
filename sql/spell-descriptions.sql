@@ -9,7 +9,7 @@ CREATE TABLE magicSchool (
     name VARCHAR(20) NOT NULL
 );
 
-CREATE TABLE castTime (
+CREATE TABLE time (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     measure VARCHAR(15) NOT NULL
 );

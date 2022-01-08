@@ -230,7 +230,7 @@ def main():
             if args.verbose:
                 print(higher_lvl, end=", \n")
 
-            spells.append(f"INSERT INTO spell (name, level, isRitual, schoolID, castTimeID, castTime, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('{name}',{level}, {ritual}, {school}, {c_time_measure}, {c_time_count}, '{c_reaction_trigger}', {dist}, {spRange}, {area}, {component}, '{specMat}', {dur_type}, {dur_len}, {conc}, '{desc}', '{higher_lvl}', NULL, NULL, NULL);") 
+            spells.append(f"INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('{name}',{level}, {ritual}, {school}, {c_time_measure}, {c_time_count}, '{c_reaction_trigger}', {dist}, {spRange}, {area}, {component}, '{specMat}', {dur_type}, {dur_len}, {conc}, '{desc}', '{higher_lvl}', NULL, NULL, NULL);") 
             if args.verbose:
                 print()
 
@@ -279,7 +279,7 @@ A spell pasted from the SRD looks like this (without indentation):
 
 We want to turn it into something like this:
     INSERT INTO spell 
-        (name, level, schoolID, castTimeID, castTime, reactionTrigger,
+        (name, level, schoolID, timeID, time, reactionTrigger,
         distanceID, range, area, componentBits, specialMaterial,
         durationID, durationTime, concentration, 
         description, 
