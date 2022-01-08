@@ -56,6 +56,8 @@ if __name__ == '__main__':
         outpath = args.output
 
     if os.path.isdir(outpath):
+        if outpath[-1] != '/':
+            outpath += '/'
         outpath += "SRD5.db"
 
     if os.path.exists(outpath):
