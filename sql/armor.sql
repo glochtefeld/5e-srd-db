@@ -1,6 +1,7 @@
 CREATE TABLE coin (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(15) NOT NULL,
+    abbreviation VARCHAR(2) NOT NULL,
     exchangeRate DECIMAL(18,10)
 );
 
@@ -17,7 +18,8 @@ CREATE TABLE armor (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     typeID REFERENCES armorType (id),
     name VARCHAR(20) NOT NULL,
-    cost DECIMAL(18,10) NOT NULL,
+    coinID REFERENCES coin (id) NOT NULL,
+    cost INTEGER NOT NULL,
     acBonus INTEGER NOT NULL,
     maxDexMod INTEGER,
     minStrength INTEGER,

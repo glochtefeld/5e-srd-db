@@ -6,17 +6,18 @@ CREATE TABLE damageType (
 CREATE TABLE weaponProperty (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(20) NOT NULL,
-    description VARCHAR(1000) NOT NULL,
+    description VARCHAR(1000) NOT NULL
 );
 
 CREATE TABLE weapon (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,
-    cost DECIMAL(18,10) NOT NULL,
+    coinID REFERENCES coin (id) NOT NULL,
+    cost INTEGER NOT NULL,
     damageTypeID INTEGER NOT NULL,
     dice VARCHAR(5),
     weight DECIMAL(18,10) NOT NULL,
-    roll BLOB
+    roll BLOB DEFAULT NULL
 );
 
 CREATE TABLE weaponWithProperty (
