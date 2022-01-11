@@ -5,7 +5,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [ ] Races
 - [ ] Classes
 - [ ] Beyond 1st Level
-- [ ] Equipment
+- [x] Equipment
 - [ ] Feats
 - [ ] Using Ability Scores
 - [ ] Combat
