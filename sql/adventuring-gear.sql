@@ -1,11 +1,11 @@
-CREATE TABLE gearType (
+CREATE TABLE itemType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL
 );
 
-CREATE TABLE gear (
+CREATE TABLE item (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    gearType REFERENCES gearType (id),
+    itemType REFERENCES itemType (id),
     name VARCHAR(50) NOT NULL,
     description VARCHAR(1000) DEFAULT '',
     coinID REFERENCES coin (id),
@@ -23,7 +23,7 @@ CREATE TABLE equipmentPack (
 
 CREATE TABLE packItem (
     packID REFERENCES equipmentPack (id),
-    itemID REFERENCES gear (id),
+    itemID REFERENCES item (id),
     quantity INTEGER NOT NULL,
     PRIMARY KEY (packID, itemID)
 );
