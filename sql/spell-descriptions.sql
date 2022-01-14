@@ -14,7 +14,7 @@ CREATE TABLE time (
     measure VARCHAR(15) NOT NULL
 );
 
-CREATE TABLE castDistance (
+CREATE TABLE distance (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     measure VARCHAR(15) NOT NULL
 );
@@ -33,7 +33,7 @@ CREATE TABLE spell (
     timeID REFERENCES time (id) NOT NULL,
     time INT NOT NULL DEFAULT 1,
     reactionTrigger VARCHAR(100) DEFAULT '',
-    distanceID REFERENCES castDistance (id) NOT NULL,
+    distanceID REFERENCES distance (id) NOT NULL,
     range INT,
     areaID REFERENCES castArea (id) DEFAULT NULL,
     componentBits INT NOT NULL,

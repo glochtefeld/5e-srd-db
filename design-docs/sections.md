@@ -7,7 +7,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [ ] Beyond 1st Level
 - [x] Equipment
 - [ ] Feats
-- [ ] Using Ability Scores
+- [x] Using Ability Scores
 - [ ] Combat
 - [ ] Spellcasting
 - [ ] Spell Lists

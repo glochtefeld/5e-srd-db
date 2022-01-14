@@ -24,13 +24,13 @@ INSERT INTO time (measure) VALUES ('Year');
 INSERT INTO time (measure) VALUES ('Until dispelled');
 INSERT INTO time (measure) VALUES ('Special');
 
-INSERT INTO castDistance (measure) VALUES ('Self');
-INSERT INTO castDistance (measure) VALUES ('Touch');
-INSERT INTO castDistance (measure) VALUES ('Feet');
-INSERT INTO castDistance (measure) VALUES ('Miles');
-INSERT INTO castDistance (measure) VALUES ('Special');
-INSERT INTO castDistance (measure) VALUES ('Sight');
-INSERT INTO castDistance (measure) VALUES ('Unlimited');
+INSERT INTO distance (measure) VALUES ('Self');
+INSERT INTO distance (measure) VALUES ('Touch');
+INSERT INTO distance (measure) VALUES ('Feet');
+INSERT INTO distance (measure) VALUES ('Miles');
+INSERT INTO distance (measure) VALUES ('Special');
+INSERT INTO distance (measure) VALUES ('Sight');
+INSERT INTO distance (measure) VALUES ('Unlimited');
 
 
 INSERT INTO castArea (measure) VALUES ('Cone');
