@@ -20,3 +20,9 @@ FROM weapon w
 		INNER JOIN weaponDice wd2 ON wwp.higherDiceID = wd2.id
     INNER JOIN weaponProperty wp ON wwp.propertyID = wp.id
 GROUP BY w.id;
+
+-- All Martial Melee weapons
+SELECT wwp.weaponID
+FROM weaponWithProperty wwp
+INNER JOIN weaponWithProperty wwp2 ON wwp.weaponID = wwp2.weaponID
+WHERE wwp.propertyID = 2 AND wwp2.propertyID = 8

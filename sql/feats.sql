@@ -1,0 +1,6 @@
+CREATE TABLE feat (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(30) NOT NULL,
+    prerequisite VARCHAR(100) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
