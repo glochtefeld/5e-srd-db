@@ -86,6 +86,7 @@ if __name__ == '__main__':
             cout(comm)
             db.write(comm)
         except Exception as e:
+            print(comm)
             print(e)
             db.close()
             sys.exit("Aborting.")

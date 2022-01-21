@@ -8,16 +8,16 @@ CREATE TABLE class (
 );
 
 /* Proficiencies */
-CREATE TABLE classArmorProfiency (
+CREATE TABLE classArmorProficiency (
     classID REFERENCES class (id),
     armorTypeID REFERENCES armorType (id),
-    PRIMARY KEY (classID, armorID)
+    PRIMARY KEY (classID, armorTypeID)
 );
 
 CREATE TABLE classWeaponPropProficiency (
     classID REFERENCES class (id),
     weaponPropertyID REFERENCES weaponProperty (id),
-    PRIMARY KEY (classID, weaponID)
+    PRIMARY KEY (classID, weaponPropertyID)
 );
 
 CREATE TABLE classWeaponProficiency (
