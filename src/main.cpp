@@ -35,6 +35,11 @@ auto main(int argc, char** argv) -> int {
         std::cerr << parser;
         std::exit(EXIT_FAILURE);
     }
-    auto out = parser.get<std::string>("--output");
+    auto out = fs::path { parser.get<std::string>("--output") };
+    if (!fs::is_directory(out)) {
+        out = fs::path { parser.get<std::string>("--output") + "SRD5.db" };
+    }
+
+
     return EXIT_SUCCESS;
 }
