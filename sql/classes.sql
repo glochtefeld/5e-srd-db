@@ -4,7 +4,9 @@ CREATE TABLE class (
     hitDice INTEGER NOT NULL, 
     hpPerLevelAvg INTEGER NOT NULL,
     numToolProfs INTEGER NOT NULL,
-    numSkills INTEGER NOT NULL
+    numSkills INTEGER NOT NULL,
+    casterTypeID REFERENCES casterType (id),
+    casterStyleID REFERENCES casterStyle (id)
 );
 
 /* Proficiencies */
@@ -93,3 +95,37 @@ CREATE TABLE level (
     /* Prof. bonus is ceil(level/4)+1, but APPARENTLY the python sqlite lib doesn't support it */
 );
 
+CREATE TABLE casterType (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE casterStyle (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    style VARCHAR(20) NOT NULL
+);
+
+CREATE TABLE metamagicOption (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(20) NOT NULL,
+    description(500) NOT NULL
+);
+
+CREATE TABLE fightingStyle (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(25) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE classFightingStyle (
+    classID REFERENCES class (id),
+    fightingStyleID REFERENCES fightingStyle (id)
+);
+
+CREATE TABLE classFeature (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    classID REFERENCES class (id),
+    levelID REFERENCES level (id),
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(5000) NOT NULL
+);
