@@ -1,0 +1,26 @@
+CREATE TABLE metamagicOption (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(20) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE fightingStyle (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(25) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE pactBoon (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(20) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
+
+CREATE TABLE warlockInvocation (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    levelPrereq REFERENCES level (id) DEFAULT NULL,
+    otherPrereq VARCHAR(50) DEFAULT NULL,
+    name VARCHAR(50) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
+
