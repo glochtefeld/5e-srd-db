@@ -226,8 +226,8 @@ INSERT INTO level (ordinal, proficiencyBonus) VALUES ('th', 6);
 INSERT INTO casterType (name) VALUES ('Mundane');
 INSERT INTO casterType (name) VALUES ('Full Caster');
 INSERT INTO casterType (name) VALUES ('Half Caster');
-INSERT INTO casterType (name) VALUES ('Quarter Caster');
-INSERT INTO casterType (name) VALUES ('Patron Caster');
+INSERT INTO casterType (name) VALUES ('Third Caster');
+INSERT INTO casterType (name) VALUES ('Pact Caster');
 
 INSERT INTO casterStyle (name) VALUES ('Mundane');
 INSERT INTO casterStyle (name) VALUES ('Prepared');
