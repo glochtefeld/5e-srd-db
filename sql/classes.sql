@@ -68,7 +68,6 @@ CREATE TABLE casterStyle (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(20) NOT NULL
 );
-
 CREATE TABLE classFightingStyle (
     classID REFERENCES class (id),
     fightingStyleID REFERENCES fightingStyle (id)
