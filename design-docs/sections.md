@@ -3,7 +3,7 @@
 This is a small file that I use to keep track of what sections still need relations built.
 ## Section List
 - [ ] Races
-- [ ] Classes
+- [x] Classes
 - [ ] Beyond 1st Level
 - [x] Equipment
 - [x] Feats
