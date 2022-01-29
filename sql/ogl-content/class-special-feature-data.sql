@@ -64,3 +64,32 @@ INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALU
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Whispers of the Grave', 9, NULL, 'You can cast speak with dead at will, without expending a spell slot.');
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Witch Sight', 15, NULL, 'You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.');
 
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (1, 2, 2);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (3, 3, 2);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (6, 4, 2);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (9, 4, 3);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (12, 5, 3);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (16, 5, 4);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (17, 6, 4);
+INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (20, 999, 4);
+
+INSERT INTO martialDamage (levelID, dieSize) VALUES (1, 4);
+INSERT INTO martialDamage (levelID, dieSize) VALUES (5, 6);
+INSERT INTO martialDamage (levelID, dieSize) VALUES (11, 8);
+INSERT INTO martialDamage (levelID, dieSize) VALUES (17, 10);
+
+INSERT INTO movementBonus (levelID, amount) VALUES (1, 0);
+INSERT INTO movementBonus (levelID, amount) VALUES (2, 10);
+INSERT INTO movementBonus (levelID, amount) VALUES (6, 15);
+INSERT INTO movementBonus (levelID, amount) VALUES (10, 20);
+INSERT INTO movementBonus (levelID, amount) VALUES (14, 25);
+INSERT INTO movementBonus (levelID, amount) VALUES (18, 30);
+
+INSERT INTO invocationsKnown (levelID, amount) VALUES (1, 0);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (2, 2);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (5, 3);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (7, 4);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (9, 5);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (12, 6);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (15, 7);
+INSERT INTO invocationsKnown (levelID, amount) VALUES (18, 8);
