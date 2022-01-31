@@ -4,13 +4,13 @@ This is a small file that I use to keep track of what sections still need relati
 ## Section List
 - [ ] Races
 - [x] Classes
-- [ ] Beyond 1st Level
+- [x] Beyond 1st Level
 - [x] Equipment
 - [x] Feats
 - [x] Using Ability Scores
 - [ ] Combat
 - [ ] Spellcasting
-- [ ] Spell Lists
+- [x] Spell Lists
 - [x] Spell Descriptions
 - [ ] Magic Items
 - [ ] Monsters
