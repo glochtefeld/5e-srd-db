@@ -9,7 +9,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [x] Feats
 - [x] Using Ability Scores
 - [ ] Combat
-- [ ] Spellcasting
+- [x] Spellcasting
 - [x] Spell Lists
 - [x] Spell Descriptions
 - [ ] Magic Items
