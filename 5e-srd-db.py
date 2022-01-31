@@ -35,7 +35,7 @@ def read_sql_in_dir(path):
 
 def read_sql_file(path):
     commands = []
-    with open(path,'r') as sql_file:
+    with open(path,'r', encoding='UTF-8') as sql_file:
         data = sql_file.read()
         commands = [d.strip() for d in data.split(';\n')]
     return commands
