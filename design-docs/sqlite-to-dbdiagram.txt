@@ -1,0 +1,10 @@
+%s/DECIMAL.*)/DECIMAL/
+%s/VARCHAR.*)/VARCHAR/
+%s/ (id)/.id/
+%s/PRIMARY KEY AUTOINCREMENT/[pk, increment]/
+%s/,$//
+%s/REFERENCES/INT [ref: >/
+%s/^)$/}/
+%s/(/{/
+%s/PRIMARY KEY {/Indexes {  (/
+%s/CREATE TABLE/TABLE/

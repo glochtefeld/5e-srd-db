@@ -48,7 +48,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     def cout(string, cend="\n"):
-        if not args.quiet or args.verbose: # change to && for production
+        if not args.quiet and args.verbose:
             print(string, end=cend)
 
     outpath = "OUT/SRD5.db"
