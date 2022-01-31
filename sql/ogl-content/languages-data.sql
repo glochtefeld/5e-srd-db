@@ -1,0 +1,24 @@
+INSERT INTO script (name) VALUES ('None');
+INSERT INTO script (name) VALUES ('Common');
+INSERT INTO script (name) VALUES ('Dwarvish');
+INSERT INTO script (name) VALUES ('Elvish');
+INSERT INTO script (name) VALUES ('Infernal');
+INSERT INTO script (name) VALUES ('Celestial');
+INSERT INTO script (name) VALUES ('Draconic');
+
+INSERT INTO language (name, scriptID, exotic) VALUES ('Common', 2, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Dwarvish', 3, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Elvish', 4, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Giant', 3, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Gnomish', 3, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Goblin', 3, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Halfling', 2, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Orc', 3, 0);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Abyssal', 5, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Celestial', 6, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Draconic', 7, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Deep Speech', 1, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Infernal', 5, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Primordial', 3, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Sylvan', 4, 1);
+INSERT INTO language (name, scriptID, exotic) VALUES ('Undercommon', 4, 1);

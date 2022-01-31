@@ -1,0 +1,11 @@
+CREATE TABLE script (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR (25) NOT NULL
+);
+
+CREATE TABLE language (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR (25) NOT NULL,
+    scriptID REFERENCES script (id),
+    exotic BOOLEAN NOT NULL
+);
