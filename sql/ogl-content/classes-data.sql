@@ -271,16 +271,16 @@ INSERT INTO multiclassArmorProficiency (classID, armorTypeID) VALUES (8, 5);
 INSERT INTO multiclassArmorProficiency (classID, armorTypeID) VALUES (9, 2);
 INSERT INTO multiclassArmorProficiency (classID, armorTypeID) VALUES (11, 2);
 
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (1, 1);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (1, 2);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (5, 1);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (5, 2);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (6, 1);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (7, 1);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (7, 2);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (8, 1);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (8, 2);
-INSERT INTO multiclassWeaponPropProficiency (classID, weaponTypeID) VALUES (11, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (1, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (1, 2);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (5, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (5, 2);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (6, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (7, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (7, 2);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (8, 1);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (8, 2);
+INSERT INTO multiclassWeaponPropProficiency (classID, weaponPropertyID) VALUES (11, 1);
 
 INSERT INTO multiclassWeaponProficiency (classID, weaponID) VALUES (6, 28);
 

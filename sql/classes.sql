@@ -90,8 +90,8 @@ CREATE TABLE multiclassArmorProficiency (
 
 CREATE TABLE multiclassWeaponPropProficiency (
     classID REFERENCES class (id),
-    weaponTypeID REFERENCES weaponType (id),
-    PRIMARY KEY (classID, weaponTypeID)
+    weaponPropertyID REFERENCES weaponProperty (id),
+    PRIMARY KEY (classID, weaponPropertyID)
 );
 
 CREATE TABLE multiclassWeaponProficiency (
