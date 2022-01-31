@@ -18,7 +18,6 @@ CREATE TABLE skill (
     example VARCHAR(500) NOT NULL
 );
 
-
 CREATE TABLE travelPace (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(10) NOT NULL,

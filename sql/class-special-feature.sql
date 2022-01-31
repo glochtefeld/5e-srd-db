@@ -16,12 +16,8 @@ CREATE TABLE movementBonus (
     amount INTEGER NOT NULL,
     PRIMARY KEY (levelID)
 );
-
 /* Sneak attack damage is always [ceil(level/2)]d6 */
-/* Ki points, sorcery points  follow this pattern:
-    (level) => level == 1 ? 0 : level
-*/
-
+/* Ki points, sorcery points  follow this pattern: (level) => level == 1 ? 0 : level */
 CREATE TABLE invocationsKnown (
     levelID REFERENCES level (id),
     amount INTEGER NOT NULL,

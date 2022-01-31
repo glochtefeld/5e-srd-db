@@ -1,4 +1,4 @@
-/* Unless otherwise stated: only the changes between levels are stored.
+/* note: Unless otherwise stated: only the changes between levels are stored.
 Check for max(amount) at a level <= current. */
 
 CREATE TABLE cantripProgression (

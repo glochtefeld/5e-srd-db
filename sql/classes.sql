@@ -9,7 +9,6 @@ CREATE TABLE class (
     casterStyleID REFERENCES casterStyle (id)
 );
 
-/* Proficiencies */
 CREATE TABLE classArmorProficiency (
     classID REFERENCES class (id),
     armorTypeID REFERENCES armorType (id),
@@ -57,7 +56,7 @@ CREATE TABLE level (
     ordinal VARCHAR(3) NOT NULL,
     proficiencyBonus INTEGER NOT NULL,
     xp INTEGER NOT NULL
-    /* Prof. bonus is ceil(level/4)+1, but APPARENTLY the python sqlite lib doesn't support it */
+    /* note: Prof. bonus is ceil(level/4)+1, but APPARENTLY the python sqlite lib doesn't support it */
 );
 
 CREATE TABLE casterType (
@@ -78,7 +77,8 @@ CREATE TABLE multiclassPrereq (
     classID REFERENCES class (id),
     abilityID REFERENCES ability (id),
     score INTEGER NOT NULL,
-    optional BOOLEAN NOT NULL, /* Logical OR, one prereq must be satisfied */
+    /* Logical OR, one prereq must be satisfied */
+    optional BOOLEAN NOT NULL, 
     PRIMARY KEY (classID, abilityID)
 );
 

@@ -31,7 +31,6 @@ CREATE TABLE weapon (
     roll BLOB DEFAULT NULL
 );
 
-
 CREATE TABLE weaponWithProperty (
     weaponID REFERENCES weapon (id) NOT NULL,
     propertyID REFERENCES weaponProperty (id) NOT NULL,

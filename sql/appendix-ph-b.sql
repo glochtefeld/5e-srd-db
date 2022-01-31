@@ -18,15 +18,15 @@ CREATE TABLE domain (
 
 CREATE TABLE deity (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    pantheon INT REFERENCES pantheon (id),
+    pantheon REFERENCES pantheon (id),
     name VARCHAR(25) NOT NULL,
     description VARCHAR(50),
-    alignment INT REFERENCES alignment (id),
+    alignment REFERENCES alignment (id),
     symbol VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE deityDomain (
-    deity int REFERENCES deity (id),
-    domain int REFERENCES domain (id),
+    deity REFERENCES deity (id),
+    domain REFERENCES domain (id),
     PRIMARY KEY (deity, domain)
 );

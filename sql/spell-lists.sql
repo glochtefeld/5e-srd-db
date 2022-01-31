@@ -4,9 +4,10 @@ CREATE TABLE spellList (
     PRIMARY KEY (classID, spellID)
 );
 
+/* note: Curse you, circle of the land */
 CREATE TABLE subclassSpellList (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    source VARCHAR (25) DEFAULT NULL, /* Curse you, circle of the land */
+    source VARCHAR (25) DEFAULT NULL,
     subclassID REFERENCES subclass (id),
     levelAdded REFERENCES level (id) DEFAULT NULL,
     spellID REFERENCES spell (id)
