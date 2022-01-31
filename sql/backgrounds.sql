@@ -11,7 +11,7 @@ CREATE TABLE background (
 
 CREATE TABLE backgroundLanguage (
     backgroundID REFERENCES background (id),
-    languageID REFERENCES langauge (id),
+    languageID REFERENCES language (id),
     PRIMARY KEY (backgroundID, languageID)
 );
 
