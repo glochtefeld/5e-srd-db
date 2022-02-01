@@ -5,8 +5,7 @@ CREATE TABLE background (
     featureName VARCHAR (25) NOT NULL,
     featureDetail VARCHAR (500) NOT NULL,
     numLanguages INTEGER NOT NULL DEFAULT 0,
-    anyLangauge BOOLEAN DEFAULT 0,
-    numSkills INTEGER NOT NULL DEFAULT 2
+    anyLangauge BOOLEAN DEFAULT 0
 );
 
 CREATE TABLE backgroundLanguage (

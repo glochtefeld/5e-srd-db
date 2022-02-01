@@ -24,6 +24,11 @@ CREATE TABLE castArea (
     measure VARCHAR(15) NOT NULL
 );
 
+CREATE TABLE damageType (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(20) NOT NULL
+);
+
 CREATE TABLE spell (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
@@ -43,7 +48,9 @@ CREATE TABLE spell (
     concentration BOOLEAN DEFAULT FALSE,
     description VARCHAR(1000) NOT NULL DEFAULT '',
     higherLevels VARCHAR(1000) NOT NULL DEFAULT '',
+    damageType REFERENCES damageType (id),
     bcArgs BLOB DEFAULT NULL,
     bcConstants BLOB DEFAULT NULL,
     bcFn BLOB DEFAULT NULL
 );
+

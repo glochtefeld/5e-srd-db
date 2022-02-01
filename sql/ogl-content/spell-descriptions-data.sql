@@ -1,46 +1,3 @@
-INSERT INTO componentType (bit, name, abbreviation) VALUES (1,'Verbal','V');
-INSERT INTO componentType (bit, name, abbreviation) VALUES (2,'Somatic','S');
-INSERT INTO componentType (bit, name, abbreviation) VALUES (4,'Material','M');
-
-INSERT INTO magicSchool (name) VALUES ('Abjuration');
-INSERT INTO magicSchool (name) VALUES ('Conjuration');
-INSERT INTO magicSchool (name) VALUES ('Divination');
-INSERT INTO magicSchool (name) VALUES ('Enchantment');
-INSERT INTO magicSchool (name) VALUES ('Evocation');
-INSERT INTO magicSchool (name) VALUES ('Illusion');
-INSERT INTO magicSchool (name) VALUES ('Necromancy');
-INSERT INTO magicSchool (name) VALUES ('Transmutation');
-
-INSERT INTO time (measure) VALUES ('Action');
-INSERT INTO time (measure) VALUES ('Bonus Action');
-INSERT INTO time (measure) VALUES ('Reaction');
-INSERT INTO time (measure) VALUES ('Instantaneous');
-INSERT INTO time (measure) VALUES ('Round');
-INSERT INTO time (measure) VALUES ('Minute');
-INSERT INTO time (measure) VALUES ('Hour');
-INSERT INTO time (measure) VALUES ('Day');
-INSERT INTO time (measure) VALUES ('Month');
-INSERT INTO time (measure) VALUES ('Year');
-INSERT INTO time (measure) VALUES ('Until dispelled');
-INSERT INTO time (measure) VALUES ('Special');
-
-INSERT INTO distance (measure) VALUES ('Self');
-INSERT INTO distance (measure) VALUES ('Touch');
-INSERT INTO distance (measure) VALUES ('Feet');
-INSERT INTO distance (measure) VALUES ('Miles');
-INSERT INTO distance (measure) VALUES ('Special');
-INSERT INTO distance (measure) VALUES ('Sight');
-INSERT INTO distance (measure) VALUES ('Unlimited');
-
-
-INSERT INTO castArea (measure) VALUES ('Cone');
-INSERT INTO castArea (measure) VALUES ('Cube');
-INSERT INTO castArea (measure) VALUES ('Cylinder');
-INSERT INTO castArea (measure) VALUES ('Line');
-INSERT INTO castArea (measure) VALUES ('Sphere');
-INSERT INTO castArea (measure) VALUES ('Radius');
-INSERT INTO castArea (measure) VALUES ('Hemisphere');
-
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Acid Arrow',2, FALSE, 5, 1, 1, '', 3, 90, NULL, 7, '(powdered rhubarb leaf and an adder’s stomach)', 4, 1, FALSE, 'A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. ', 'When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Acid Splash',0, FALSE, 2, 1, 1, '', 3, 60, NULL, 3, '', 4, 1, FALSE, 'You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6). ', '', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Aid',2, FALSE, 1, 1, 1, '', 3, 30, NULL, 7, '(a tiny strip of white cloth)', 7, 8, FALSE, 'Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target’s hit point maximum and current hit points increase by 5 for the duration. ', 'When you cast this spell using a spell slot of 3rd level or higher, a target’s hit points increase by an additional 5 for each slot level above 2nd.', NULL, NULL, NULL);
@@ -364,3 +321,71 @@ INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigge
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Wish',9, FALSE, 2, 1, 1, '', 1, 1, NULL, 1, '', 4, 1, FALSE, 'Wish is the mightiest spell a mortal creature can cast. By simply speaking aloud, you can alter the very foundations of reality in accord with your desires. The basic use of this spell is to duplicate any other spell of 8th level or lower. You don’t need to meet any requirements in that spell, including costly components. The spell simply takes effect. Alternatively, you can create one of the following effects of your choice: • You create one object of up to 25,000 gp in value that isn’t a magic item. The object can be no more than 300 feet in any dimension, and it appears in an unoccupied space you can see on the ground. • You allow up to twenty creatures that you can see to regain all hit points, and you end all effects on them described in the greater restoration spell. • You grant up to ten creatures that you can see resistance to a damage type you choose. • You grant up to ten creatures you can see immunity to a single spell or other magical effect for 8 hours. For instance, you could make yourself and all your companions immune to a lich’s life drain attack. • You undo a single recent event by forcing a reroll of any roll made within the last round (including your last turn). Reality reshapes itself to accommodate the new result. For example, a wish spell could undo an opponent’s successful save, a foe’s critical hit, or a friend’s failed save. You can force the reroll to be made with advantage or disadvantage, and you can choose whether to use the reroll or the original roll. You might be able to achieve something beyond the scope of the above examples. State your wish to the GM as precisely as possible. The GM has great latitude in ruling what occurs in such an instance; the greater the wish, the greater the likelihood that something goes wrong. This spell might simply fail, the effect you desire might only be partly achieved, or you might suffer some unforeseen consequence as a result of how you worded the wish. For example, wishing that a villain were dead might propel you forward in time to a period when that villain is no longer alive, effectively removing you from the game. Similarly, wishing for a legendary magic item or artifact might instantly transport you to the presence of the item’s current owner. The stress of casting this spell to produce any effect other than duplicating another spell weakens you. After enduring that stress, each time you cast a spell until you finish a long rest, you take 1d10 necrotic damage per level of that spell. This damage can’t be reduced or prevented in any way. In addition, your Strength drops to 3, if it isn’t 3 or lower already, for 2d4 days. For each of those days that you spend resting and doing nothing more than light activity, your remaining recovery time decreases by 2 days. Finally, there is a 33 percent chance that you are unable to cast wish ever again if you suffer this stress. ', '', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Word of Recall',6, FALSE, 2, 1, 1, '', 3, 5, NULL, 1, '', 4, 1, FALSE, 'You and up to five willing creatures within 5 feet of you instantly teleport to a previously designated sanctuary. You and any creatures that teleport with you appear in the nearest unoccupied space to the spot you designated when you prepared your sanctuary (see below). If you cast this spell without first preparing a sanctuary, the spell has no effect. You must designate a sanctuary by casting this spell within a location, such as a temple, dedicated to or strongly linked to your deity. If you attempt to cast the spell in this manner in an area that isn’t dedicated to your deity, the spell has no effect. ', '', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Zone of Truth',2, FALSE, 4, 1, 1, '', 3, 60, NULL, 3, '', 6, 10, FALSE, 'You create a magical zone that guards against deception in a 15-­‐‑foot-­‐‑radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw. An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as it remains within the boundaries of the truth.V, S Duration: Concentration, up to 24 hours Your magic turns others into beasts. Choose any number of willing creatures that you can see within range. You transform each target into the form of a Large or smaller beast with a challenge rating of 4 or lower. On subsequent turns, you can use your action to transform affected creatures into new forms. The transformation lasts for the duration for each target, or until the target drops to 0 hit points or dies. You can choose a different form for each target. A target’s game statistics are replaced by the statistics of the chosen beast, though the target retains its alignment and Intelligence, Wisdom, and Charisma scores. The target assumes the hit points of its new form, and when it reverts to its normal form, it returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn’t reduce the creature’s normal form to 0 hit points, it isn’t knocked unconscious. The creature is limited in the actions it can perform by the nature of its new form, and it can’t speak or cast spells. The target’s gear melds into the new form. The target can’t activate, wield, or otherwise benefit from any of its equipment. ', '', NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Black Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 30, 4, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 5x30 foot line of acidic death. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 1, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Blue Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 30, 4, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 5x30 foot line of electric death. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 6, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Brass Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 30, 4, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 5x30 foot line of fiery death. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 4, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Bronze Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 30, 4, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. you exhale a 5.x30 foot line of electric death.  When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 6, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Copper Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 30, 4, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 5x30 foot line of acidic death. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 1, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Gold Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of fiery death. When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 4, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Green Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of poisonous death.  When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 9, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Red Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of fiery death. Your draconic ancestry determines the size, shape, and damage type of the exhalation.  When you use your breath weapon, each creature in the area of the exhalation must make a Dexterity saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 4, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Silver Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of chilled death.  When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 3, NULL, NULL, NULL);
+INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, damageType, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn White Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of chilled death.  When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', 3, NULL, NULL, NULL);
+
+INSERT INTO damageType (name) VALUES ('Acid');
+INSERT INTO damageType (name) VALUES ('Bludgeoning');
+INSERT INTO damageType (name) VALUES ('Cold');
+INSERT INTO damageType (name) VALUES ('Fire');
+INSERT INTO damageType (name) VALUES ('Force');
+INSERT INTO damageType (name) VALUES ('Lightning');
+INSERT INTO damageType (name) VALUES ('Necrotic');
+INSERT INTO damageType (name) VALUES ('Piercing');
+INSERT INTO damageType (name) VALUES ('Poison');
+INSERT INTO damageType (name) VALUES ('Psychic');
+INSERT INTO damageType (name) VALUES ('Radiant');
+INSERT INTO damageType (name) VALUES ('Slashing');
+INSERT INTO damageType (name) VALUES ('Thunder');
+
+INSERT INTO componentType (bit, name, abbreviation) VALUES (1,'Verbal','V');
+INSERT INTO componentType (bit, name, abbreviation) VALUES (2,'Somatic','S');
+INSERT INTO componentType (bit, name, abbreviation) VALUES (4,'Material','M');
+
+INSERT INTO magicSchool (name) VALUES ('Abjuration');
+INSERT INTO magicSchool (name) VALUES ('Conjuration');
+INSERT INTO magicSchool (name) VALUES ('Divination');
+INSERT INTO magicSchool (name) VALUES ('Enchantment');
+INSERT INTO magicSchool (name) VALUES ('Evocation');
+INSERT INTO magicSchool (name) VALUES ('Illusion');
+INSERT INTO magicSchool (name) VALUES ('Necromancy');
+INSERT INTO magicSchool (name) VALUES ('Transmutation');
+
+INSERT INTO time (measure) VALUES ('Action');
+INSERT INTO time (measure) VALUES ('Bonus Action');
+INSERT INTO time (measure) VALUES ('Reaction');
+INSERT INTO time (measure) VALUES ('Instantaneous');
+INSERT INTO time (measure) VALUES ('Round');
+INSERT INTO time (measure) VALUES ('Minute');
+INSERT INTO time (measure) VALUES ('Hour');
+INSERT INTO time (measure) VALUES ('Day');
+INSERT INTO time (measure) VALUES ('Month');
+INSERT INTO time (measure) VALUES ('Year');
+INSERT INTO time (measure) VALUES ('Until dispelled');
+INSERT INTO time (measure) VALUES ('Special');
+
+INSERT INTO distance (measure) VALUES ('Self');
+INSERT INTO distance (measure) VALUES ('Touch');
+INSERT INTO distance (measure) VALUES ('Feet');
+INSERT INTO distance (measure) VALUES ('Miles');
+INSERT INTO distance (measure) VALUES ('Special');
+INSERT INTO distance (measure) VALUES ('Sight');
+INSERT INTO distance (measure) VALUES ('Unlimited');
+
+
+INSERT INTO castArea (measure) VALUES ('Cone');
+INSERT INTO castArea (measure) VALUES ('Cube');
+INSERT INTO castArea (measure) VALUES ('Cylinder');
+INSERT INTO castArea (measure) VALUES ('Line');
+INSERT INTO castArea (measure) VALUES ('Sphere');
+INSERT INTO castArea (measure) VALUES ('Radius');
+INSERT INTO castArea (measure) VALUES ('Hemisphere');
+

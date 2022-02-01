@@ -20,6 +20,7 @@ CREATE TABLE raceFeature (
 CREATE TABLE raceLanguage (
     raceID REFERENCES race (id),
     languageID REFERENCES language (id),
+    amount INTEGER DEFAULT 1,
     PRIMARY KEY (raceID, languageID)
 );
 
@@ -50,6 +51,13 @@ CREATE TABLE subraceFeature (
     name VARCHAR (15) NOT NULL,
     description VARCHAR (500) NOT NULL,
     bc DEFAULT NULL
+);
+
+CREATE TABLE draconicAncestry (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(15) NOT NULL,
+    resistance REFERENCES damageType (id),
+    breathWeapon REFERENCES spell (id)
 );
 
 CREATE TABLE rockGnomeTinkerOption (

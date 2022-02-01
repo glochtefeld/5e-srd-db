@@ -6,6 +6,7 @@ INSERT INTO script (name) VALUES ('Infernal');
 INSERT INTO script (name) VALUES ('Celestial');
 INSERT INTO script (name) VALUES ('Draconic');
 
+INSERT INTO language (name, scriptID, exotic) VALUES ('Any', 1, 0);
 INSERT INTO language (name, scriptID, exotic) VALUES ('Common', 2, 0);
 INSERT INTO language (name, scriptID, exotic) VALUES ('Dwarvish', 3, 0);
 INSERT INTO language (name, scriptID, exotic) VALUES ('Elvish', 4, 0);
