@@ -64,7 +64,7 @@ if __name__ == '__main__':
         if args.quiet:
             os.remove(outpath)
         else:
-            cout("Warning: about to overwrite file at " + outpath + ".")
+            print("Warning: about to overwrite file at " + outpath + ".")
             choice = input("Continue? [Y/n]: ")
             if choice != "" and (choice[0] == 'N' or choice[0] == 'n'):
                 sys.exit("Cancelling operation.")
