@@ -9,6 +9,7 @@ INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Medium', 6, 5, 6, 1);
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Heavy', 6, 10, 6, 5);
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Shield', 1, 1, 1, 1);
+INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Cover', 5, 1, 5, 1);
 
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (1, 'No Armor', 1, 0, 10, 100, NULL, FALSE, 0);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (2, 'Padded', 1, 5, 1, 100, NULL, TRUE, 8);
@@ -24,3 +25,6 @@ INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, 
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (4, 'Splint', 1, 200, 7, NULL, 15, TRUE, 60);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (4, 'Plate', 1, 1500, 8, NULL, 15, TRUE, 65);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (5, 'Shield', 1, 10, 2, NULL, NULL, FALSE, 6);
+INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Half Cover', 1, 0, 2, NULL, NULL, FALSE, 0);
+INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Three-quarters Cover', 1, 0, 5, NULL, NULL, FALSE, 0);
+INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Total Cover', 1, 0, 999, NULL, NULL, FALSE, 0);
