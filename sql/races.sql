@@ -14,7 +14,7 @@ CREATE TABLE raceFeature (
     raceID REFERENCES race (id),
     name VARCHAR (15) NOT NULL,
     description VARCHAR (500) NOT NULL,
-    bc DEFAULT NULL
+    bc BLOB DEFAULT NULL
 );
 
 CREATE TABLE raceLanguage (
@@ -50,7 +50,7 @@ CREATE TABLE subraceFeature (
     subraceID REFERENCES subrace (id),
     name VARCHAR (15) NOT NULL,
     description VARCHAR (500) NOT NULL,
-    bc DEFAULT NULL
+    bc BLOB DEFAULT NULL
 );
 
 CREATE TABLE draconicAncestry (

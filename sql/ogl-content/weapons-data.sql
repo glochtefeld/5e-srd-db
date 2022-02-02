@@ -1,8 +1,3 @@
-INSERT INTO damageType (name) VALUES ('None');
-INSERT INTO damageType (name) VALUES ('bludgeoning');
-INSERT INTO damageType (name) VALUES ('piercing');
-INSERT INTO damageType (name) VALUES ('slashing');
-
 INSERT INTO weaponProperty (name, description) VALUES('Simple','Most people can use simple weapons with proficiency. These weapons include clubes, maces, and other weapons often found in the hands of commoners.');
 INSERT INTO weaponProperty (name, description) VALUES('Martial','Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use marial weapons because these weapons put thier fighting style and training to the best use.');
 INSERT INTO weaponProperty (name, description) VALUES('Ammunition','You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-­‐‑handed weapon).  At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.  If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see “Improvised Weapons” later in the section). A sling must be loaded to deal any damage when used in this way.');

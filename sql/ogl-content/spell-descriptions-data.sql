@@ -345,6 +345,7 @@ INSERT INTO damageType (name) VALUES ('Psychic');
 INSERT INTO damageType (name) VALUES ('Radiant');
 INSERT INTO damageType (name) VALUES ('Slashing');
 INSERT INTO damageType (name) VALUES ('Thunder');
+INSERT INTO damageType (name) VALUES ('None');
 
 INSERT INTO componentType (bit, name, abbreviation) VALUES (1,'Verbal','V');
 INSERT INTO componentType (bit, name, abbreviation) VALUES (2,'Somatic','S');

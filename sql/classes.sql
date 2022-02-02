@@ -78,7 +78,7 @@ CREATE TABLE multiclassPrereq (
     abilityID REFERENCES ability (id),
     score INTEGER NOT NULL,
     /* Logical OR, one prereq must be satisfied */
-    optional BOOLEAN NOT NULL, 
+    optional BOOLEAN NOT NULL,
     PRIMARY KEY (classID, abilityID)
 );
 
