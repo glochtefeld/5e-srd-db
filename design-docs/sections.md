@@ -2,7 +2,7 @@
 ## About
 This is a small file that I use to keep track of what sections still need relations built.
 ## Section List
-- [ ] Races
+- [x] Races
 - [x] Classes
 - [x] Beyond 1st Level
 - [x] Equipment
