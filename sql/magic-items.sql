@@ -1,0 +1,10 @@
+CREATE TABLE rarity (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(15) NOT NULL
+);
+
+CREATE TABLE magicItem (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(30) NOT NULL,
+    rarityID REFERENCES rarity (id),
+    ite
