@@ -28,3 +28,22 @@ INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, 
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Half Cover', 1, 0, 2, NULL, NULL, FALSE, 0);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Three-quarters Cover', 1, 0, 5, NULL, NULL, FALSE, 0);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Total Cover', 1, 0, 999, NULL, NULL, FALSE, 0);
+
+INSERT INTO objectAC (substance, ac) VALUES ('Cloth', 11);
+INSERT INTO objectAC (substance, ac) VALUES ('paper', 11);
+INSERT INTO objectAC (substance, ac) VALUES ('rope', 11);
+INSERT INTO objectAC (substance, ac) VALUES ('Crystal', 13);
+INSERT INTO objectAC (substance, ac) VALUES ('glass', 13);
+INSERT INTO objectAC (substance, ac) VALUES ('ice', 13);
+INSERT INTO objectAC (substance, ac) VALUES ('Wood', 15);
+INSERT INTO objectAC (substance, ac) VALUES ('bone', 15);
+INSERT INTO objectAC (substance, ac) VALUES ('Stone', 17);
+INSERT INTO objectAC (substance, ac) VALUES ('Iron', 19);
+INSERT INTO objectAC (substance, ac) VALUES ('steel', 19);
+INSERT INTO objectAC (substance, ac) VALUES ('Mithral', 21);
+INSERT INTO objectAC (substance, ac) VALUES ('Adamantine', 23);
+
+INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (1, '1d4', '2d4');
+INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (2, '1d6', '3d6');
+INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (3, '1d8', '4d8');
+INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (4, '1d10', '5d10');

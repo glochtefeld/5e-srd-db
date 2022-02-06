@@ -14,6 +14,7 @@ This is a small file that I use to keep track of what sections still need relati
 - [x] Spell Descriptions
 - [x] Traps
 - [x] Diseases
+- [x] Poisons
 - [ ] Magic Items
 - [ ] Monsters
 - [ ] Appendix PH-A

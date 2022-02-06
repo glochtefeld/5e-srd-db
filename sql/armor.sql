@@ -26,3 +26,15 @@ CREATE TABLE armor (
     stealthPenalty BOOLEAN NOT NULL,
     weight INTEGER NOT NULL
 );
+
+CREATE TABLE objectAC (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    substance VARCHAR(15) NOT NULL,
+    ac INTEGER NOT NULL
+);
+
+CREATE TABLE objectHP (
+    sizeID REFERENCES creatureSize (id) PRIMARY KEY,
+    fragile VARCHAR(5) NOT NULL,
+    resilient VARCHAR(5) NOT NULL
+);
