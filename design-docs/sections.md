@@ -12,8 +12,8 @@ This is a small file that I use to keep track of what sections still need relati
 - [x] Spellcasting
 - [x] Spell Lists
 - [x] Spell Descriptions
-- [ ] Traps
-- [ ] Diseases
+- [x] Traps
+- [x] Diseases
 - [ ] Magic Items
 - [ ] Monsters
 - [ ] Appendix PH-A
