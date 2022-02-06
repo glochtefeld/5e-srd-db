@@ -18,3 +18,18 @@ CREATE TABLE trapType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL
 );
+
+CREATE TABLE trap (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(30) NOT NULL,
+    upperLevel REFERENCES level (id) NOT NULL,
+    trapDangerID REFERENCES trapDanger (id) NOT NULL,
+    description VARCHAR(1000) NOT NULL,
+    bc BLOB DEFAULT NULL
+);
+
+CREATE TABLE trapByType (
+    trapID REFERENCES trap (id),
+    trapTypeID REFERENCES trapType (id)
+    PRIMARY KEY (trapID, trapTypeID)
+);
