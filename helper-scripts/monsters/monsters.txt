@@ -3,12 +3,6 @@ Large aberration, lawful evil
 Armor Class 17 (natural armor)
 Hit Points 135 (18d10 + 36)
 Speed 10 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 9 (−1) 15 (+2) 18 (+4) 15 (+2) 18 (+4)
 Saving Throws Con +6, Int +8, Wis +6
 Skills History +12, Perception +10
@@ -16,74 +10,23 @@ Senses darkvision 120 ft., passive Perception 20
 Languages Deep Speech, telepathy 120 ft.
 Challenge 10 (5,900 XP)
 Amphibious. The aboleth can breathe air and water.
-Mucous Cloud. While underwater, the aboleth is
-surrounded by transformative mucus. A creature that
-touches the aboleth or that hits it with a melee attack
-while within 5 feet of it must make a DC 14
-Constitution saving throw. On a failure, the creature is
-diseased for 1d4 hours. The diseased creature can
-breathe only underwater.
-Probing Telepathy. If a creature communicates
-telepathically with the aboleth, the aboleth learns the
-creature’s greatest desires if the aboleth can see the
-creature.
+Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.
+Probing Telepathy. If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
 Actions
 Multiattack. The aboleth makes three tentacle attacks.
-Tentacle. Melee Weapon Attack: +9 to hit, reach 10 ft.,
-one target. Hit: 12 (2d6 + 5) bludgeoning damage. If
-the target is a creature, it must succeed on a DC 14
-Constitution saving throw or become diseased. The
-disease has no effect for 1 minute and can be removed
-by any magic that cures disease. After 1 minute, the
-diseased creature’s skin becomes translucent and slimy,
-the creature can’t regain hit points unless it is
-underwater, and the disease can be removed only by
-heal or another disease-­‐curing spell of 6th level or
-higher. When the creature is outside a body of water, it
-takes 6 (1d12) acid damage every 10 minutes unless
-moisture is applied to the skin before 10 minutes have
-passed.
-Tail. Melee Weapon Attack: +9 to hit, reach 10 ft. one
-target. Hit: 15 (3d6 + 5) bludgeoning damage.
-Enslave (3/Day). The aboleth targets one creature it
-can see within 30 feet of it. The target must succeed on
-a DC 14 Wisdom saving throw or be magically charmed
-by the aboleth until the aboleth dies or until it is on a
-different plane of existence from the target. The
-charmed target is under the aboleth’s control and can’t
-take reactions, and the aboleth and the target can
-communicate telepathically with each other over any
-distance.
-Whenever the charmed target takes damage, the
-target can repeat the saving throw. On a success, the
-effect ends. No more than once every 24 hours, the
-target can also repeat the saving throw when it is at
-least 1 mile away from the aboleth.
+Tentacle. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6 + 5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-­‐curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+Tail. Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6 + 5) bludgeoning damage.
+Enslave (3/Day). The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.  Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
 Legendary Actions
-The aboleth can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The aboleth regains spent
-legendary actions at the start of its turn.
-Detect. The aboleth makes a Wisdom (Perception)
-check.
-Tail Swipe. The aboleth makes one tail attack.
-Psychic Drain (Costs 2 Actions). One creature charmed
-by the aboleth takes 10 (3d6) psychic damage, and
-the aboleth regains hit points equal to the damage
-the creature takes.
+The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.  Detect. The aboleth makes a Wisdom (Perception) check.
+Tail Swipe. The aboleth makes one tail attack.  Psychic Drain (Costs 2 Actions). One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.
+END
 
 Deva
 Medium celestial, lawful good
 Armor Class 17 (natural armor)
 Hit Points 136 (16d8 + 64)
 Speed 30 ft., fly 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 18 (+4) 18 (+4) 17 (+3) 20 (+5) 20 (+5)
 Saving Throws Wis +9, Cha +9
 Skills Insight +9, Perception +9
@@ -130,12 +73,6 @@ Large celestial, lawful good
 Armor Class 19 (natural armor)
 Hit Points 200 (16d10 + 112)
 Speed 40 ft., fly 120 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 24 (+7) 20 (+5) 24 (+7) 19 (+4) 22 (+6) 25 (+7)
 Saving Throws Con +12, Wis +11, Cha +12
 Skills Perception +11
@@ -174,12 +111,6 @@ Large celestial, lawful good
 Armor Class 21 (natural armor)
 Hit Points 243 (18d10 + 144)
 Speed 50 ft., fly 150 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 26 (+8) 22 (+6) 26 (+8) 25 (+7) 25 (+7) 30 (+10)
 Saving Throws Int +14, Wis +14, Cha +17
 Skills Perception +14
@@ -248,18 +179,13 @@ can see it, the target must succeed on a DC 15
 Constitution saving throw or be blinded until magic
 such as the lesser restoration spell removes the
 blindness.
+END
 
 Animated Armor
-Medium construct, unaligned
+Medium construct, neutral neutral
 Armor Class 18 (natural armor)
 Hit Points 33 (6d8 + 6)
 Speed 25 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 11 (+0) 13 (+1) 1 (−5)
 3 (−4)
 1 (−5)
@@ -284,16 +210,10 @@ Multiattack. The armor makes two melee attacks.
 Slam. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) bludgeoning damage.
 Flying Sword
-Small construct, unaligned
+Small construct, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 17 (5d6)
 Speed 0 ft., fly 50 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 12 (+1) 15 (+2) 11 (+0) 1 (−5)
 5 (−3)
 1 (−5)
@@ -317,16 +237,10 @@ Actions
 Longsword. Melee Weapon Attack: +3 to hit, reach 5 ft.,
 one target. Hit: 5 (1d8 + 1) slashing damage.
 Rug of Smothering
-Large construct, unaligned
+Large construct, neutral neutral
 Armor Class 12
 Hit Points 33 (6d10)
 Speed 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 14 (+2) 10 (+0) 1 (−5)
 3 (−4)
 1 (−5)
@@ -356,16 +270,10 @@ and the rug can’t smother another target. In addition,
 at the start of each of the target’s turns, the target
 takes 10 (2d6 + 3) bludgeoning damage.
 Ankheg
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 14 (natural armor), 11 while prone
 Hit Points 39 (6d10 + 6)
 Speed 30 ft., burrow 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 11 (+0) 13 (+1) 1 (−5) 13 (+1) 6 (−2)
 Senses darkvision 60 ft., tremorsense 60 ft., passive
 Perception 11
@@ -389,12 +297,6 @@ Medium elemental, lawful neutral
 Armor Class 17 (natural armor, shield)
 Hit Points 39 (6d8 + 12)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 12 (+1) 15 (+2) 12 (+1) 13 (+1) 10 (+0)
 Saving Throws Con +4
 Damage Immunities fire, poison
@@ -415,18 +317,13 @@ Warhammer. Melee Weapon Attack: +5 to hit, reach 5
 ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or
 8 (1d10 + 3) bludgeoning damage if used with two
 hands to make a melee attack, plus 3 (1d6) fire damage.
+END
 
 Basilisk
-Medium monstrosity, unaligned
+Medium monstrosity, neutral neutral
 Armor Class 15 (natural armor)
 Hit Points 52 (8d8 + 16)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 8 (−1) 15 (+2) 2 (−4)
 8 (−1)
 7 (−2)
@@ -461,12 +358,6 @@ Huge monstrosity, neutral evil
 Armor Class 17 (natural armor)
 Hit Points 168 (16d12 + 64)
 Speed 50 ft., climb 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 16 (+3) 18 (+4) 7 (−2) 14 (+2) 12 (+1)
 Skills Perception +6, Stealth +7
 Damage Immunities lightning
@@ -510,12 +401,6 @@ Medium humanoid (goblinoid), chaotic evil
 Armor Class 16 (hide armor, shield)
 Hit Points 27 (5d8 + 5)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 14 (+2) 13 (+1) 8 (−1) 11 (+0) 9 (−1)
 Skills Stealth +6, Survival +2
 Senses darkvision 60 ft., passive Perception 10
@@ -535,16 +420,10 @@ reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 +
 2) piercing damage in melee or 5 (1d6 + 2) piercing
 damage at range.
 Bulette
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 94 (9d10 + 45)
 Speed 40 ft., burrow 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 11 (+0) 21 (+5) 2 (−4) 10 (+0) 5 (−3)
 Skills Perception +6
 Senses darkvision 60 ft., tremorsense 60 ft., passive
@@ -570,18 +449,13 @@ feet out of the bulette’s space into an unoccupied
 space of the creature’s choice. If no unoccupied space
 is within range, the creature instead falls prone in the
 bulette’s space.
+END
 
 Centaur
 Large monstrosity, neutral good
 Armor Class 12
 Hit Points 45 (6d10 + 12)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 14 (+2) 14 (+2) 9 (−1) 13 (+1) 11 (+0)
 Skills Athletics +6, Perception +3, Survival +3
 Senses passive Perception 13
@@ -607,12 +481,6 @@ Large monstrosity, chaotic evil
 Armor Class 14 (natural armor)
 Hit Points 114 (12d10 + 48)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 11 (+0) 19 (+4) 3 (−4) 14 (+2) 10 (+0)
 Skills Perception +8
 Senses darkvision 60 ft., passive Perception 18
@@ -639,12 +507,6 @@ Large aberration, chaotic evil
 Armor Class 16 (natural armor)
 Hit Points 93 (11d10 + 33)
 Speed 30 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 16 (+3) 5 (−3) 11 (+0) 5 (−3)
 Skills Perception +4
 Damage Immunities poison
@@ -676,12 +538,6 @@ Large aberration, chaotic neutral
 Armor Class 14 (natural armor)
 Hit Points 78 (12d10 + 12)
 Speed 10 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 15 (+2) 12 (+1) 13 (+1) 12 (+1) 14 (+2)
 Skills Stealth +5
 Senses darkvision 60 ft., passive Perception 11
@@ -737,16 +593,10 @@ throws. If an attack hits a duplicate, or if a duplicate
 fails a saving throw against an effect that deals damage,
 the duplicate disappears.
 Cockatrice
-Small monstrosity, unaligned
+Small monstrosity, neutral neutral
 Armor Class 11
 Hit Points 27 (6d6 + 6)
 Speed 20 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 6 (−2) 12 (+1) 12 (+1) 2 (−4) 13 (+1) 5 (−3)
 Senses darkvision 60 ft., passive Perception 11
 Languages —
@@ -765,12 +615,6 @@ Medium celestial, lawful good
 Armor Class 19 (natural armor)
 Hit Points 97 (13d8 + 39)
 Speed 30 ft., fly 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 20 (+5) 17 (+3) 18 (+4) 20 (+5) 18 (+4)
 Saving Throws Con +5, Wis +7, Cha +6
 Damage Resistances radiant
@@ -820,18 +664,13 @@ capabilities (except class features, legendary actions,
 and lair actions) that the new form has but that it lacks.
 If the new form has a bite attack, the couatl can use its
 bite in that form.
+END
 
 Darkmantle
-Small monstrosity, unaligned
+Small monstrosity, neutral neutral
 Armor Class 11
 Hit Points 22 (5d6 + 5)
 Speed 10 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 12 (+1) 13 (+1) 2 (−4) 10 (+0) 5 (−3)
 Skills Stealth +3
 Senses blindsight 60 ft., passive Perception 10
@@ -868,18 +707,13 @@ can’t penetrate this darkness, and no natural light can
 illuminate it. If any of the darkness overlaps with an
 area of light created by a spell of 2nd level or lower,
 the spell creating the light is dispelled.
+END
 
 Balor
 Huge fiend (demon), chaotic evil
 Armor Class 19 (natural armor)
 Hit Points 262 (21d12 + 126)
 Speed 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 26 (+8) 15 (+2) 22 (+6) 20 (+5) 16 (+3) 22 (+6)
 Saving Throws Str +14, Con +12, Wis +9, Cha +12
 Damage Resistances cold, lightning; bludgeoning,
@@ -926,12 +760,6 @@ Small fiend (demon), chaotic evil
 Armor Class 11 (natural armor)
 Hit Points 18 (4d6 + 4)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 11 (+0) 11 (+0) 12 (+1) 5 (−3)
 8 (−1)
 3 (−4)
@@ -963,12 +791,6 @@ Large fiend (demon), chaotic evil
 Armor Class 17 (natural armor)
 Hit Points 157 (15d10 + 75)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 15 (+2) 21 (+5) 19 (+4) 17 (+3) 16 (+3)
 Saving Throws Str +9, Con +9, Wis +7, Cha +7
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1002,12 +824,6 @@ Large fiend (demon), chaotic evil
 Armor Class 16 (natural armor)
 Hit Points 136 (13d10 + 65)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 17 (+3) 20 (+5) 5 (−3) 12 (+1) 13 (+1)
 Saving Throws Str +7, Con +8, Wis +4
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1036,12 +852,6 @@ Large fiend (demon), chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 189 (18d10 + 90)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 20 (+5) 20 (+5) 18 (+4) 16 (+3) 20 (+5)
 Saving Throws Str +9, Con +10, Wis +8, Cha +10
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1081,12 +891,6 @@ Large fiend (demon), chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 184 (16d10 + 96)
 Speed 20 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 10 (+0) 22 (+6) 19 (+4) 12 (+1) 15 (+2)
 Saving Throws Con +11, Int +9, Wis +6, Cha +7
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1124,12 +928,6 @@ Tiny fiend (demon, shapechanger), chaotic evil
 Armor Class 13
 Hit Points 7 (3d4)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 5 (−3) 17 (+3) 10 (+0) 7 (−2) 10 (+0) 10 (+0)
 Skills Stealth +5
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1172,12 +970,6 @@ Large fiend (demon), chaotic evil
 Armor Class 15 (natural armor)
 Hit Points 104 (11d10 + 44)
 Speed 40 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 15 (+2) 18 (+4) 8 (−1) 13 (+1) 8 (−1)
 Saving Throws Dex +5, Wis +4, Cha +2
 Damage Resistances cold, fire, lightning; bludgeoning,
@@ -1211,18 +1003,13 @@ screech. Each creature within 20 feet of it that can hear
 it and that isn’t a demon must succeed on a DC 14
 Constitution saving throw or be stunned until the end
 of the vrock’s next turn.
+END
 
 Barbed Devil
 Medium fiend (devil), lawful evil
 Armor Class 15 (natural armor)
 Hit Points 110 (13d8 + 52)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 17 (+3) 18 (+4) 12 (+1) 14 (+2) 14 (+2)
 Saving Throws Str +6, Con +7, Wis +5, Cha +5
 Skills Deception +5, Insight +5, Perception +8
@@ -1257,12 +1044,6 @@ Medium fiend (devil), lawful evil
 Armor Class 13 (natural armor)
 Hit Points 52 (8d8 + 16)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 15 (+2) 15 (+2) 9 (−1) 11 (+0) 11 (+0)
 Saving Throws Str +5, Con +4, Wis +2
 Damage Resistances cold; bludgeoning, piercing, and
@@ -1304,12 +1085,6 @@ Large fiend (devil), lawful evil
 Armor Class 19 (natural armor)
 Hit Points 142 (15d10 + 60)
 Speed 40 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 16 (+3) 18 (+4) 13 (+1) 14 (+2) 16 (+3)
 Saving Throws Int +5, Wis +6, Cha +7
 Skills Deception +7, Insight +6
@@ -1341,12 +1116,6 @@ Medium fiend (devil), lawful evil
 Armor Class 16 (natural armor)
 Hit Points 85 (10d8 + 40)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 18 (+4) 11 (+0) 12 (+1) 14 (+2)
 Saving Throws Con +7, Wis +4, Cha +5
 Damage Resistances cold; bludgeoning, piercing, and
@@ -1396,12 +1165,6 @@ Medium fiend (devil), lawful evil
 Armor Class 18 (plate)
 Hit Points 153 (18d8 + 72)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 16 (+3) 18 (+4) 14 (+2) 14 (+2) 18 (+4)
 Saving Throws Dex +7, Con +8, Wis +6, Cha +8
 Damage Resistances cold; bludgeoning, piercing, and
@@ -1437,12 +1200,6 @@ Large fiend (devil), lawful evil
 Armor Class 18 (natural armor)
 Hit Points 178 (17d10 + 85)
 Speed 20 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 17 (+3) 21 (+5) 12 (+1) 16 (+3) 17 (+3)
 Saving Throws Str +10, Dex +7, Wis +7, Cha +7
 Damage Resistances cold; bludgeoning, piercing, and
@@ -1478,18 +1235,13 @@ Hurl Flame. Ranged Spell Attack: +7 to hit, range 150
 ft., one target. Hit: 14 (4d6) fire damage. If the target is
 a flammable object that isn’t being worn or carried, it
 also catches fire.
+END
 
 Ice Devil
 Large fiend (devil), lawful evil
 Armor Class 18 (natural armor)
 Hit Points 180 (19d10 + 76)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 14 (+2) 18 (+4) 18 (+4) 15 (+2) 18 (+4)
 Saving Throws Dex +7, Con +9, Wis +7, Cha +9
 Damage Resistances bludgeoning, piercing, and
@@ -1546,12 +1298,6 @@ Tiny fiend (devil, shapechanger), lawful evil
 Armor Class 13
 Hit Points 10 (3d4 + 3)
 Speed 20 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 6 (−2) 17 (+3) 13 (+1) 11 (+0) 12 (+1) 14 (+2)
 Skills Deception +4, Insight +3, Persuasion +4, Stealth
 +5
@@ -1589,12 +1335,6 @@ Medium fiend (devil), lawful evil
 Armor Class 7
 Hit Points 13 (3d8)
 Speed 15 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 5 (−3) 11 (+0) 1 (−5) 11 (+0) 3 (−4)
 Damage Resistances cold
 Damage Immunities fire, poison
@@ -1617,12 +1357,6 @@ Large fiend (devil), lawful evil
 Armor Class 19 (natural armor)
 Hit Points 300 (24d10 + 168)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 26 (+8) 14 (+2) 24 (+7) 22 (+6) 18 (+4) 24 (+7)
 Saving Throws Dex +8, Con +13, Wis +10
 Damage Resistances cold; bludgeoning, piercing, and
@@ -1669,18 +1403,13 @@ one target. Hit: 15 (2d6 + 8) bludgeoning damage plus
 21 (6d6) fire damage.
 Tail. Melee Weapon Attack: +14 to hit, reach 10 ft., one
 target. Hit: 24 (3d10 + 8) bludgeoning damage.
+END
 
 Plesiosaurus
-Large beast, unaligned
+Large beast, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 68 (8d10 + 24)
 Speed 20 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 2 (−4) 12 (+1) 5 (−3)
 Skills Perception +3, Stealth +4
 Senses passive Perception 13
@@ -1692,16 +1421,10 @@ Actions
 Bite. Melee Weapon Attack: +6 to hit, reach 10 ft., one
 target. Hit: 14 (3d6 + 4) piercing damage.
 Triceratops
-Huge beast, unaligned
+Huge beast, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 95 (10d12 + 30)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 9 (−1) 17 (+3) 2 (−4) 11 (+0) 5 (−3)
 Senses passive Perception 10
 Languages —
@@ -1719,16 +1442,10 @@ Stomp. Melee Weapon Attack: +9 to hit, reach 5 ft.,
 one prone creature. Hit: 22 (3d10 + 6) bludgeoning
 damage.
 Tyrannosaurus Rex
-Huge beast, unaligned
+Huge beast, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 136 (13d12 + 52)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 25 (+7) 10 (+0) 19 (+4) 2 (−4) 12 (+1) 9 (−1)
 Skills Perception +4
 Senses passive Perception 14
@@ -1751,12 +1468,6 @@ Medium monstrosity (shapechanger), neutral
 Armor Class 14
 Hit Points 52 (8d8 + 16)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 11 (+0) 18 (+4) 14 (+2) 11 (+0) 12 (+1) 14 (+2)
 Skills Deception +6, Insight +3
 Condition Immunities charmed
@@ -1792,18 +1503,13 @@ long as the doppelganger’s concentration isn’t broken
 target’s mind, the doppelganger has advantage on
 Wisdom (Insight) and Charisma (Deception,
 Intimidation, and Persuasion) checks against the target.
+END
 
 Ancient Black Dragon
 Gargantuan dragon, chaotic evil
 Armor Class 22 (natural armor)
 Hit Points 367 (21d20 + 147)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 14 (+2) 25 (+7) 16 (+3) 15 (+2) 19 (+4)
 Saving Throws Dex +9, Con +14, Wis +9, Cha +11
 Skills Perception +16, Stealth +9
@@ -1855,18 +1561,13 @@ must succeed on a DC 23 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Black Dragon
 Huge dragon, chaotic evil
 Armor Class 19 (natural armor)
 Hit Points 195 (17d12 + 85)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 14 (+2) 21 (+5) 14 (+2) 13 (+1) 17 (+3)
 Saving Throws Dex +7, Con +10, Wis +6, Cha +8
 Skills Perception +11, Stealth +7
@@ -1918,18 +1619,13 @@ must succeed on a DC 19 Dexterity saving throw or
 take 13 (2d6 + 6) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Black Dragon
 Large dragon, chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 127 (15d10 + 45)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 14 (+2) 17 (+3) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +5, Con +6, Wis +3, Cha +5
 Skills Perception +6, Stealth +5
@@ -1952,18 +1648,13 @@ a 30-­‐foot line that is 5 feet wide. Each creature in that
 line must make a DC 14 Dexterity saving throw, taking
 49 (11d8) acid damage on a failed save, or half as much
 damage on a successful one.
+END
 
 Black Dragon Wyrmling
 Medium dragon, chaotic evil
 Armor Class 17 (natural armor)
 Hit Points 33 (6d8 + 6)
 Speed 30 ft., fly 60 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 14 (+2) 13 (+1) 10 (+0) 11 (+0) 13 (+1)
 Saving Throws Dex +4, Con +3, Wis +2, Cha +3
 Skills Perception +4, Stealth +4
@@ -1982,18 +1673,13 @@ a 15-­‐foot line that is 5 feet wide. Each creature in that
 line must make a DC 11 Dexterity saving throw, taking
 22 (5d8) acid damage on a failed save, or half as much
 damage on a successful one.
+END
 
 Ancient Blue Dragon
 Gargantuan dragon, lawful evil
 Armor Class 22 (natural armor)
 Hit Points 481 (26d20 + 208)
 Speed 40 ft., burrow 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 29 (+9) 10 (+0) 27 (+8) 18 (+4) 17 (+3) 21 (+5)
 Saving Throws Dex +7, Con +15, Wis +10, Cha +12
 Skills Perception +17, Stealth +7
@@ -2044,18 +1730,13 @@ must succeed on a DC 24 Dexterity saving throw or
 take 16 (2d6 + 9) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Blue Dragon
 Huge dragon, lawful evil
 Armor Class 19 (natural armor)
 Hit Points 225 (18d12 + 108)
 Speed 40 ft., burrow 30 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 25 (+7) 10 (+0) 23 (+6) 16 (+3) 15 (+2) 19 (+4)
 Saving Throws Dex +5, Con +11, Wis +7, Cha +9
 Skills Perception +12, Stealth +5
@@ -2106,18 +1787,13 @@ must succeed on a DC 20 Dexterity saving throw or
 take 14 (2d6 + 7) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Blue Dragon
 Large dragon, lawful evil
 Armor Class 18 (natural armor)
 Hit Points 152 (16d10 + 64)
 Speed 40 ft., burrow 20 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 10 (+0) 19 (+4) 14 (+2) 13 (+1) 17 (+3)
 Saving Throws Dex +4, Con +8, Wis +5, Cha +7
 Skills Perception +9, Stealth +4
@@ -2139,18 +1815,13 @@ lightning in an 60-­‐foot line that is 5 feet wide. Each
 creature in that line must make a DC 16 Dexterity
 saving throw, taking 55 (10d10) lightning damage on a
 failed save, or half as much damage on a successful one.
+END
 
 Blue Dragon Wyrmling
 Medium dragon, lawful evil
 Armor Class 17 (natural armor)
 Hit Points 52 (8d8 + 16)
 Speed 30 ft., burrow 15 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 10 (+0) 15 (+2) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +2, Con +4, Wis +2, Cha +4
 Skills Perception +4, Stealth +2
@@ -2168,18 +1839,13 @@ lightning in a 30-­‐foot line that is 5 feet wide. Each
 creature in that line must make a DC 12 Dexterity
 saving throw, taking 22 (4d10) lightning damage on a
 failed save, or half as much damage on a successful one.
+END
 
 Ancient Green Dragon
 Gargantuan dragon, lawful evil
 Armor Class 21 (natural armor)
 Hit Points 385 (22d20 + 154)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 12 (+1) 25 (+7) 20 (+5) 17 (+3) 19 (+4)
 Saving Throws Dex +8, Con +14, Wis +10, Cha +11
 Skills Deception +11, Insight +10, Perception +17,
@@ -2233,18 +1899,13 @@ must succeed on a DC 23 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Green Dragon
 Huge dragon, lawful evil
 Armor Class 19 (natural armor)
 Hit Points 207 (18d12 + 90)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 12 (+1) 21 (+5) 18 (+4) 15 (+2) 17 (+3)
 Saving Throws Dex +6, Con +10, Wis +7, Cha +8
 Skills Deception +8, Insight +7, Perception +12,
@@ -2298,18 +1959,13 @@ must succeed on a DC 19 Dexterity saving throw or
 take 13 (2d6 + 6) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Green Dragon
 Large dragon, lawful evil
 Armor Class 18 (natural armor)
 Hit Points 136 (16d10 + 48)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 12 (+1) 17 (+3) 16 (+3) 13 (+1) 15 (+2)
 Saving Throws Dex +4, Con +6, Wis +4, Cha +5
 Skills Deception +5, Perception +7, Stealth +4
@@ -2333,18 +1989,13 @@ poisonous gas in a 30-­‐foot cone. Each creature in that
 area must make a DC 14 Constitution saving throw,
 taking 42 (12d6) poison damage on a failed save, or
 half as much damage on a successful one.
+END
 
 Green Dragon Wyrmling
 Medium dragon, lawful evil
 Armor Class 17 (natural armor)
 Hit Points 38 (7d8 + 7)
 Speed 30 ft., fly 60 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 12 (+1) 13 (+1) 14 (+2) 11 (+0) 13 (+1)
 Saving Throws Dex +3, Con +3, Wis +2, Cha +3
 Skills Perception +4, Stealth +3
@@ -2364,18 +2015,13 @@ poisonous gas in a 15-­‐foot cone. Each creature in that
 area must make a DC 11 Constitution saving throw,
 taking 21 (6d6) poison damage on a failed save, or half
 as much damage on a successful one.
+END
 
 Ancient Red Dragon
 Gargantuan dragon, chaotic evil
 Armor Class 22 (natural armor)
 Hit Points 546 (28d20 + 252)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 30 (+10) 10 (+0) 29 (+9) 18 (+4) 15 (+2) 23 (+6)
 Saving Throws Dex +7, Con +16, Wis +9, Cha +13
 Skills Perception +16, Stealth +7
@@ -2426,18 +2072,13 @@ must succeed on a DC 25 Dexterity saving throw or
 take 17 (2d6 + 10) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Red Dragon
 Huge dragon, chaotic evil
 Armor Class 19 (natural armor)
 Hit Points 256 (19d12 + 133)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 10 (+0) 25 (+7) 16 (+3) 13 (+1) 21 (+5)
 Saving Throws Dex +6, Con +13, Wis +7, Cha +11
 Skills Perception +13, Stealth +6
@@ -2488,18 +2129,13 @@ must succeed on a DC 22 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Red Dragon
 Large dragon, chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 178 (17d10 + 85)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 10 (+0) 21 (+5) 14 (+2) 11 (+0) 19 (+4)
 Saving Throws Dex +4, Con +9, Wis +4, Cha +8
 Skills Perception +8, Stealth +4
@@ -2521,18 +2157,13 @@ a 30-­‐foot cone. Each creature in that area must make a
 DC 17 Dexterity saving throw, taking 56 (16d6) fire
 damage on a failed save, or half as much damage on a
 successful one.
+END
 
 Red Dragon Wyrmling
 Medium dragon, chaotic evil
 Armor Class 17 (natural armor)
 Hit Points 75 (10d8 + 30)
 Speed 30 ft., climb 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 17 (+3) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +2, Con +5, Wis +2, Cha +4
 Skills Perception +4, Stealth +2
@@ -2550,18 +2181,13 @@ a 15-­‐foot cone. Each creature in that area must make a
 DC 13 Dexterity saving throw, taking 24 (7d6) fire
 damage on a failed save, or half as much damage on a
 successful one.
+END
 
 Ancient White Dragon
 Gargantuan dragon, chaotic evil
 Armor Class 20 (natural armor)
 Hit Points 333 (18d20 + 144)
 Speed 40 ft., burrow 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 26 (+8) 10 (+0) 26 (+8) 10 (+0) 13 (+1) 14 (+2)
 Saving Throws Dex +6, Con +14, Wis +7, Cha +8
 Skills Perception +13, Stealth +6
@@ -2616,18 +2242,13 @@ must succeed on a DC 22 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult White Dragon
 Huge dragon, chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 200 (16d12 + 96)
 Speed 40 ft., burrow 30 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 10 (+0) 22 (+6) 8 (−1) 12 (+1) 12 (+1)
 Saving Throws Dex +5, Con +11, Wis +6, Cha +6
 Skills Perception +11, Stealth +5
@@ -2682,18 +2303,13 @@ must succeed on a DC 19 Dexterity saving throw or
 take 13 (2d6 + 6) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young White Dragon
 Large dragon, chaotic evil
 Armor Class 17 (natural armor)
 Hit Points 133 (14d10 + 56)
 Speed 40 ft., burrow 20 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 10 (+0) 18 (+4) 6 (−2) 11 (+0) 12 (+1)
 Saving Throws Dex +3, Con +7, Wis +3, Cha +4
 Skills Perception +6, Stealth +3
@@ -2719,18 +2335,13 @@ blast in a 30-­‐foot cone. Each creature in that area must
 make a DC 15 Constitution saving throw, taking 45
 (10d8) cold damage on a failed save, or half as much
 damage on a successful one.
+END
 
 White Dragon Wyrmling
 Medium dragon, chaotic evil
 Armor Class 16 (natural armor)
 Hit Points 32 (5d8 + 10)
 Speed 30 ft., burrow 15 ft., fly 60 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 10 (+0) 14 (+2) 5 (−3) 10 (+0) 11 (+0)
 Saving Throws Dex +2, Con +4, Wis +2, Cha +2
 Skills Perception +4, Stealth +2
@@ -2748,18 +2359,13 @@ blast of hail in a 15-­‐foot cone. Each creature in that
 area must make a DC 12 Constitution saving throw,
 taking 22 (5d8) cold damage on a failed save, or half as
 much damage on a successful one.
+END
 
 Ancient Brass Dragon
 Gargantuan dragon, chaotic good
 Armor Class 20 (natural armor)
 Hit Points 297 (17d20 + 119)
 Speed 40 ft., burrow 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 10 (+0) 25 (+7) 16 (+3) 15 (+2) 19 (+4)
 Saving Throws Dex +6, Con +13, Wis +8, Cha +10
 Skills History +9, Perception +14, Persuasion +10,
@@ -2831,18 +2437,13 @@ must succeed on a DC 22 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Brass Dragon
 Huge dragon, chaotic good
 Armor Class 18 (natural armor)
 Hit Points 172 (15d12 + 75)
 Speed 40 ft., burrow 30 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 10 (+0) 21 (+5) 14 (+2) 13 (+1) 17 (+3)
 Saving Throws Dex +5, Con +10, Wis +6, Cha +8
 Skills History +7, Perception +11, Persuasion +8, Stealth
@@ -2901,18 +2502,13 @@ must succeed on a DC 19 Dexterity saving throw or
 take 13 (2d6 + 6) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Brass Dragon
 Large dragon, chaotic good
 Armor Class 17 (natural armor)
 Hit Points 110 (13d10 + 39)
 Speed 40 ft., burrow 20 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 17 (+3) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +3, Con +6, Wis +3, Cha +5
 Skills Perception +6, Persuasion +5, Stealth +3
@@ -2941,18 +2537,13 @@ DC 14 Constitution saving throw or fall unconscious
 for 5 minutes. This effect ends for a creature if the
 creature takes damage or someone uses an action to
 wake it.
+END
 
 Brass Dragon Wyrmling
 Medium dragon, chaotic good
 Armor Class 16 (natural armor)
 Hit Points 16 (3d8 + 3)
 Speed 30 ft., burrow 15 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 10 (+0) 13 (+1) 10 (+0) 11 (+0) 13 (+1)
 Saving Throws Dex +2, Con +3, Wis +2, Cha +3
 Skills Perception +4, Stealth +2
@@ -2977,18 +2568,13 @@ DC 11 Constitution saving throw or fall unconscious
 for 1 minute. This effect ends for a creature if the
 creature takes damage or someone uses an action to
 wake it.
+END
 
 Ancient Bronze Dragon
 Gargantuan dragon, lawful good
 Armor Class 22 (natural armor)
 Hit Points 444 (24d20 + 192)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 29 (+9) 10 (+0) 27 (+8) 18 (+4) 17 (+3) 21 (+5)
 Saving Throws Dex +7, Con +15, Wis +10, Cha +12
 Skills Insight +10, Perception +17, Stealth +7
@@ -3059,18 +2645,13 @@ must succeed on a DC 24 Dexterity saving throw or
 take 16 (2d6 + 9) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Bronze Dragon
 Huge dragon, lawful good
 Armor Class 19 (natural armor)
 Hit Points 212 (17d12 + 102)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 25 (+7) 10 (+0) 23 (+6) 16 (+3) 15 (+2) 19 (+4)
 Saving Throws Dex +5, Con +11, Wis +7, Cha +9
 Skills Insight +7, Perception +12, Stealth +5
@@ -3141,18 +2722,13 @@ must succeed on a DC 20 Dexterity saving throw or
 take 14 (2d6 + 7) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Bronze Dragon
 Large dragon, lawful good
 Armor Class 18 (natural armor)
 Hit Points 142 (15d10 + 60)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 10 (+0) 19 (+4) 14 (+2) 13 (+1) 17 (+3)
 Saving Throws Dex +3, Con +7, Wis +4, Cha +6
 Skills Insight +4, Perception +7, Stealth +3
@@ -3181,18 +2757,13 @@ in a 30-­‐foot cone. Each creature in that area must
 succeed on a DC 15 Strength saving throw. On a
 failed save, the creature is pushed 40 feet away from
 the dragon.
+END
 
 Bronze Dragon Wyrmling
 Medium dragon, lawful good
 Armor Class 17 (natural armor)
 Hit Points 32 (5d8 + 10)
 Speed 30 ft., fly 60 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 10 (+0) 15 (+2) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +2, Con +4, Wis +2, Cha +4
 Skills Perception +4, Stealth +2
@@ -3217,18 +2788,13 @@ in a 30-­‐foot cone. Each creature in that area must
 succeed on a DC 12 Strength saving throw. On a
 failed save, the creature is pushed 30 feet away from
 the dragon.
+END
 
 Ancient Copper Dragon
 Gargantuan dragon, chaotic good
 Armor Class 21 (natural armor)
 Hit Points 350 (20d20 + 140)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 12 (+1) 25 (+7) 20 (+5) 17 (+3) 19 (+4)
 Saving Throws Dex +8, Con +14, Wis +10, Cha +11
 Skills Deception +11, Perception +17, Stealth +8
@@ -3303,18 +2869,13 @@ must succeed on a DC 23 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Copper Dragon
 Huge dragon, chaotic good
 Armor Class 18 (natural armor)
 Hit Points 184 (16d12 + 80)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 12 (+1) 21 (+5) 18 (+4) 15 (+2) 17 (+3)
 Saving Throws Dex +6, Con +10, Wis +7, Cha +8
 Skills Deception +8, Perception +12, Stealth +6
@@ -3376,18 +2937,13 @@ must succeed on a DC 19 Dexterity saving throw or
 take 13 (2d6 + 6) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Copper Dragon
 Large dragon, chaotic good
 Armor Class 17 (natural armor)
 Hit Points 119 (14d10 + 42)
 Speed 40 ft., climb 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 12 (+1) 17 (+3) 16 (+3) 13 (+1) 15 (+2)
 Saving Throws Dex +4, Con +6, Wis +4, Cha +5
 Skills Deception +5, Perception +7, Stealth +4
@@ -3420,18 +2976,13 @@ bonus action on its turn, but not both. These effects
 last for 1 minute. The creature can repeat the saving
 throw at the end of each of its turns, ending the
 effect on itself with a successful save.
+END
 
 Copper Dragon Wyrmling
 Medium dragon, chaotic good
 Armor Class 16 (natural armor)
 Hit Points 22 (4d8 + 4)
 Speed 30 ft., climb 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 12 (+1) 13 (+1) 14 (+2) 11 (+0) 13 (+1)
 Saving Throws Dex +3, Con +3, Wis +2, Cha +3
 Skills Perception +4, Stealth +3
@@ -3460,18 +3011,13 @@ bonus action on its turn, but not both. These effects
 last for 1 minute. The creature can repeat the saving
 throw at the end of each of its turns, ending the
 effect on itself with a successful save.
+END
 
 Ancient Gold Dragon
 Gargantuan dragon, lawful good
 Armor Class 22 (natural armor)
 Hit Points 546 (28d20 + 252)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 30 (+10) 14 (+2) 29 (+9) 18 (+4) 17 (+3) 28 (+9)
 Saving Throws Dex +9, Con +16, Wis +10, Cha +16
 Skills Insight +10, Perception +17, Persuasion +16,
@@ -3545,18 +3091,13 @@ must succeed on a DC 25 Dexterity saving throw or
 take 17 (2d6 + 10) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Gold Dragon
 Huge dragon, lawful good
 Armor Class 19 (natural armor)
 Hit Points 256 (19d12 + 133)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 14 (+2) 25 (+7) 16 (+3) 15 (+2) 24 (+7)
 Saving Throws Dex +8, Con +13, Wis +8, Cha +13
 Skills Insight +8, Perception +14, Persuasion +13,
@@ -3630,18 +3171,13 @@ must succeed on a DC 22 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Gold Dragon
 Large dragon, lawful good
 Armor Class 18 (natural armor)
 Hit Points 178 (17d10 + 85)
 Speed 40 ft., fly 80 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 14 (+2) 21 (+5) 16 (+3) 13 (+1) 20 (+5)
 Saving Throws Dex +6, Con +9, Wis +5, Cha +9
 Skills Insight +5, Perception +9, Persuasion +9, Stealth
@@ -3673,18 +3209,13 @@ on Strength-­‐based attack rolls, Strength checks, and
 Strength saving throws for 1 minute. A creature can
 repeat the saving throw at the end of each of its
 turns, ending the effect on itself on a success.
+END
 
 Gold Dragon Wyrmling
 Medium dragon, lawful good
 Armor Class 17 (natural armor)
 Hit Points 60 (8d8 + 24)
 Speed 30 ft., fly 60 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 14 (+2) 17 (+3) 14 (+2) 11 (+0) 16 (+3)
 Saving Throws Dex +4, Con +5, Wis +2, Cha +5
 Skills Perception +4, Stealth +4
@@ -3711,18 +3242,13 @@ on Strength-­‐based attack rolls, Strength checks, and
 Strength saving throws for 1 minute. A creature can
 repeat the saving throw at the end of each of its
 turns, ending the effect on itself on a success.
+END
 
 Ancient Silver Dragon
 Gargantuan dragon, lawful good
 Armor Class 22 (natural armor)
 Hit Points 487 (25d20 + 225)
 Speed 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 30 (+10) 10 (+0) 29 (+9) 18 (+4) 15 (+2) 23 (+6)
 Saving Throws Dex +7, Con +16, Wis +9, Cha +13
 Skills Arcana +11, History +11, Perception +16, Stealth
@@ -3794,18 +3320,13 @@ must succeed on a DC 25 Dexterity saving throw or
 take 17 (2d6 + 10) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Adult Silver Dragon
 Huge dragon, lawful good
 Armor Class 19 (natural armor)
 Hit Points 243 (18d12 + 126)
 Speed 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 10 (+0) 25 (+7) 16 (+3) 13 (+1) 21 (+5)
 Saving Throws Dex +5, Con +12, Wis +6, Cha +10
 Skills Arcana +8, History +8, Perception +11, Stealth +5
@@ -3876,18 +3397,13 @@ must succeed on a DC 21 Dexterity saving throw or
 take 15 (2d6 + 8) bludgeoning damage and be
 knocked prone. The dragon can then fly up to half its
 flying speed.
+END
 
 Young Silver Dragon
 Large dragon, lawful good
 Armor Class 18 (natural armor)
 Hit Points 168 (16d10 + 80)
 Speed 40 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 10 (+0) 21 (+5) 14 (+2) 11 (+0) 19 (+4)
 Saving Throws Dex +4, Con +9, Wis +4, Cha +8
 Skills Arcana +6, History +6, Perception +8, Stealth +4
@@ -3916,18 +3432,13 @@ succeed on a DC 17 Constitution saving throw or be
 paralyzed for 1 minute. A creature can repeat the
 saving throw at the end of each of its turns, ending
 the effect on itself on a success.
+END
 
 Silver Dragon Wyrmling
 Medium dragon, lawful good
 Armor Class 17 (natural armor)
 Hit Points 45 (6d8 + 18)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 17 (+3) 12 (+1) 11 (+0) 15 (+2)
 Saving Throws Dex +2, Con +5, Wis +2, Cha +4
 Skills Perception +4, Stealth +2
@@ -3952,18 +3463,13 @@ succeed on a DC 13 Constitution saving throw or be
 paralyzed for 1 minute. A creature can repeat the
 saving throw at the end of each of its turns, ending
 the effect on itself on a success.
+END
 
 Dragon Turtle
 Gargantuan dragon, neutral
 Armor Class 20 (natural armor)
 Hit Points 341 (22d20 + 110)
 Speed 20 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 25 (+7) 10 (+0) 20 (+5) 10 (+0) 12 (+1) 12 (+1)
 Saving Throws Dex +6, Con +11, Wis +7
 Damage Resistances fire
@@ -3997,12 +3503,6 @@ Large monstrosity, chaotic evil
 Armor Class 19 (natural armor)
 Hit Points 123 (13d10 + 52)
 Speed 30 ft., climb 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 16 (+3) 18 (+4) 13 (+1) 14 (+2) 12 (+1)
 Skills Perception +5, Stealth +9
 Senses darkvision 120 ft., passive Perception 15
@@ -4043,12 +3543,6 @@ Medium fey, neutral
 Armor Class 11 (16 with barkskin)
 Hit Points 22 (5d8)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 12 (+1) 11 (+0) 14 (+2) 15 (+2) 18 (+4)
 Skills Perception +4, Stealth +5
 Senses darkvision 60 ft., passive Perception 14
@@ -4100,12 +3594,6 @@ Medium humanoid (dwarf), lawful evil
 Armor Class 16 (scale mail, shield)
 Hit Points 26 (4d8 + 8)
 Speed 25 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 11 (+0) 14 (+2) 11 (+0) 10 (+0) 9 (−1)
 Damage Resistances poison
 Senses darkvision 120 ft., passive Perception 10
@@ -4140,6 +3628,7 @@ spell, or uses its Enlarge, or until its concentration is
 broken, up to 1 hour (as if concentrating on a spell).
 Any equipment the duergar wears or carries is invisible
 with it.
+END
 
 Elementals
 Air Elemental
@@ -4147,12 +3636,6 @@ Large elemental, neutral
 Armor Class 15
 Hit Points 90 (12d10 + 24)
 Speed 0 ft., fly 90 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 20 (+5) 14 (+2) 6 (−2) 10 (+0) 6 (−2)
 Damage Resistances lightning, thunder; bludgeoning,
 piercing, and slashing from nonmagical attacks
@@ -4188,12 +3671,6 @@ Large elemental, neutral
 Armor Class 17 (natural armor)
 Hit Points 126 (12d10 + 60)
 Speed 30 ft., burrow 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 8 (−1) 20 (+5) 5 (−3) 10 (+0) 5 (−3)
 Damage Vulnerabilities thunder
 Damage Resistances bludgeoning, piercing, and
@@ -4220,12 +3697,6 @@ Large elemental, neutral
 Armor Class 13
 Hit Points 102 (12d10 + 36)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 17 (+3) 16 (+3) 6 (−2) 10 (+0) 7 (−2)
 Damage Resistances bludgeoning, piercing, and
 slashing from nonmagical attacks
@@ -4263,12 +3734,6 @@ Large elemental, neutral
 Armor Class 14 (natural armor)
 Hit Points 114 (12d10 + 48)
 Speed 30 ft., swim 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 14 (+2) 18 (+4) 5 (−3) 10 (+0) 8 (−1)
 Damage Resistances acid; bludgeoning, piercing, and
 slashing from nonmagical attacks
@@ -4308,12 +3773,6 @@ Medium humanoid (elf), neutral evil
 Armor Class 15 (chain shirt)
 Hit Points 13 (3d8)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 14 (+2) 10 (+0) 11 (+0) 11 (+0) 12 (+1)
 Skills Perception +2, Stealth +4
 Senses darkvision 120 ft., passive Perception 12
@@ -4346,12 +3805,6 @@ Medium monstrosity, neutral evil
 Armor Class 13 (natural armor)
 Hit Points 44 (8d8 + 8)
 Speed 30 ft., climb 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 15 (+2) 13 (+1) 7 (−2) 12 (+1) 8 (−1)
 Skills Perception +3, Stealth +4, Survival +3
 Senses darkvision 60 ft., passive Perception 13
@@ -4390,12 +3843,6 @@ Large giant, chaotic evil
 Armor Class 12 (natural armor)
 Hit Points 85 (10d10 + 30)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 8 (−1) 17 (+3) 6 (−2) 10 (+0) 8 (−1)
 Skills Perception +4
 Senses darkvision 60 ft., passive Perception 14
@@ -4414,19 +3861,14 @@ Battleaxe. Melee Weapon Attack: +7 to hit, reach 5 ft.,
 one target. Hit: 14 (2d8 + 5) slashing damage.
 Morningstar. Melee Weapon Attack: +7 to hit, reach 5
 ft., one target. Hit: 14 (2d8 + 5) piercing damage.
+END
 
 Fungi
 Shrieker
-Medium plant, unaligned
+Medium plant, neutral neutral
 Armor Class 5
 Hit Points 13 (3d8)
 Speed 0 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 1 (−5)
 1 (−5) 10 (+0) 1 (−5)
 3 (−4)
@@ -4446,16 +3888,10 @@ of it. The shrieker continues to shriek until the
 disturbance moves out of range and for 1d4 of the
 shrieker’s turns afterward.
 Violet Fungus
-Medium plant, unaligned
+Medium plant, neutral neutral
 Armor Class 5
 Hit Points 18 (4d8)
 Speed 5 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 3 (−4)
 1 (−5) 10 (+0) 1 (−5)
 3 (−4)
@@ -4473,18 +3909,13 @@ Multiattack. The fungus makes 1d4 Rotting Touch
 attacks.
 Rotting Touch. Melee Weapon Attack: +2 to hit, reach
 10 ft., one creature. Hit: 4 (1d8) necrotic damage.
+END
 
 Gargoyle
 Medium elemental, chaotic evil
 Armor Class 15 (natural armor)
 Hit Points 52 (7d8 + 21)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 11 (+0) 16 (+3) 6 (−2) 11 (+0) 7 (−2)
 Damage Resistances bludgeoning, piercing, and
 slashing from nonmagical attacks that aren’t
@@ -4504,18 +3935,13 @@ Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) piercing damage.
 Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) slashing damage.
+END
 
 Djinni
 Large elemental, chaotic good
 Armor Class 17 (natural armor)
 Hit Points 161 (14d10 + 84)
 Speed 30 ft., fly 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 15 (+2) 22 (+6) 15 (+2) 16 (+3) 20 (+5)
 Saving Throws Dex +6, Wis +7, Cha +9
 Damage Immunities lightning, thunder
@@ -4561,12 +3987,6 @@ Large elemental, lawful evil
 Armor Class 17 (natural armor)
 Hit Points 200 (16d10 + 112)
 Speed 40 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 12 (+1) 24 (+7) 16 (+3) 15 (+2) 16 (+3)
 Saving Throws Int +7, Wis +6, Cha +7
 Damage Immunities fire
@@ -4594,18 +4014,13 @@ one target. Hit: 13 (2d6 + 6) slashing damage plus 7
 (2d6) fire damage.
 Hurl Flame. Ranged Spell Attack: +7 to hit, range 120
 ft., one target. Hit: 17 (5d6) fire damage.
+END
 
 Ghost
 Medium undead, any alignment
 Armor Class 11
 Hit Points 45 (10d8)
 Speed 0 ft., fly 40 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 7 (−2) 13 (+1) 10 (+0) 10 (+0) 12 (+1) 17 (+3)
 Damage Resistances acid, fire, lightning, thunder;
 bludgeoning, piercing, and slashing from nonmagical
@@ -4672,12 +4087,6 @@ Medium undead, chaotic evil
 Armor Class 13
 Hit Points 36 (8d8)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 17 (+3) 10 (+0) 11 (+0) 10 (+0) 8 (−1)
 Damage Resistances necrotic
 Damage Immunities poison
@@ -4708,12 +4117,6 @@ Medium undead, chaotic evil
 Armor Class 12
 Hit Points 22 (5d8)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 13 (+1) 15 (+2) 10 (+0) 7 (−2) 10 (+0) 6 (−2)
 Damage Immunities poison
 Condition Immunities charmed, exhaustion, poisoned
@@ -4736,12 +4139,6 @@ Huge giant, neutral good (50%) or neutral evil (50%)
 Armor Class 14 (natural armor)
 Hit Points 200 (16d12 + 96)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 27 (+8) 10 (+0) 22 (+6) 12 (+1) 16 (+3) 16 (+3)
 Saving Throws Con +10, Wis +7, Cha +7
 Skills Insight +7, Perception +7
@@ -4767,12 +4164,6 @@ Huge giant, lawful evil
 Armor Class 18 (plate)
 Hit Points 162 (13d12 + 78)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 25 (+7) 9 (−1) 23 (+6) 10 (+0) 14 (+2) 13 (+1)
 Saving Throws Dex +3, Con +10, Cha +5
 Skills Athletics +11, Perception +6
@@ -4791,12 +4182,6 @@ Huge giant, neutral evil
 Armor Class 15 (patchwork armor)
 Hit Points 138 (12d12 + 60)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 9 (−1) 21 (+5) 9 (−1) 10 (+0) 12 (+1)
 Saving Throws Con +8, Wis +3, Cha +4
 Skills Athletics +9, Perception +3
@@ -4815,12 +4200,6 @@ Huge giant, chaotic evil
 Armor Class 13 (natural armor)
 Hit Points 105 (10d12 + 40)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 21 (+5) 8 (−1) 19 (+4) 5 (−3)
 9 (−1)
 6 (−2)
@@ -4839,12 +4218,6 @@ Huge giant, neutral
 Armor Class 17 (natural armor)
 Hit Points 126 (11d12 + 55)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 15 (+2) 20 (+5) 10 (+0) 12 (+1) 9 (−1)
 Saving Throws Dex +5, Con +8, Wis +4
 Skills Athletics +12, Perception +4
@@ -4871,12 +4244,6 @@ Huge giant, chaotic good
 Armor Class 16 (scale mail)
 Hit Points 230 (20d12 + 100)
 Speed 50 ft., swim 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 29 (+9) 14 (+2) 20 (+5) 16 (+3) 18 (+4) 18 (+4)
 Saving Throws Str +14, Con +10, Wis +9, Cha +9
 Skills Arcana +8, Athletics +14, History +8, Perception
@@ -4910,12 +4277,6 @@ Medium aberration, neutral
 Armor Class 9
 Hit Points 67 (9d8 + 27)
 Speed 10 ft., swim 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 8 (−1) 16 (+3) 3 (−4) 10 (+0) 6 (−2)
 Condition Immunities prone
 Senses darkvision 60 ft., passive Perception 10
@@ -4959,12 +4320,6 @@ Medium humanoid (gnoll), chaotic evil
 Armor Class 15 (hide armor, shield)
 Hit Points 22 (5d8)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 12 (+1) 11 (+0) 6 (−2) 10 (+0) 7 (−2)
 Senses darkvision 60 ft., passive Perception 10
 Languages Gnoll
@@ -4988,12 +4343,6 @@ Small humanoid (gnome), neutral good
 Armor Class 15 (chain shirt)
 Hit Points 16 (3d6 + 6)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 14 (+2) 14 (+2) 12 (+1) 10 (+0) 9 (−1)
 Skills Investigation +3, Perception +2, Stealth +4
 Senses darkvision 120 ft., passive Perception 12
@@ -5025,12 +4374,6 @@ Small humanoid (goblinoid), neutral evil
 Armor Class 15 (leather armor, shield)
 Hit Points 7 (2d6)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 8 (−1) 14 (+2) 10 (+0) 10 (+0) 8 (−1)
 8 (−1)
 Skills Stealth +6
@@ -5046,16 +4389,10 @@ Shortbow. Ranged Weapon Attack: +4 to hit, range
 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Golems
 Clay Golem
-Large construct, unaligned
+Large construct, neutral neutral
 Armor Class 14 (natural armor)
 Hit Points 133 (14d10 + 56)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 9 (−1) 18 (+4) 3 (−4)
 8 (−1)
 1 (−5)
@@ -5104,12 +4441,6 @@ Medium construct, neutral
 Armor Class 9
 Hit Points 93 (11d8 + 44)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 9 (−1) 18 (+4) 6 (−2) 10 (+0) 5 (−3)
 Damage Immunities lightning, poison; bludgeoning,
 piercing, and slashing from nonmagical attacks that
@@ -5153,18 +4484,13 @@ Actions
 Multiattack. The golem makes two slam attacks.
 Slam. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 13 (2d8 + 4) bludgeoning damage.
+END
 
 Iron Golem
-Large construct, unaligned
+Large construct, neutral neutral
 Armor Class 20 (natural armor)
 Hit Points 210 (20d10 + 100)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 24 (+7) 9 (−1) 20 (+5) 3 (−4) 11 (+0) 1 (−5)
 Damage Immunities fire, poison, psychic; bludgeoning,
 piercing, and slashing from nonmagical attacks that
@@ -5196,16 +4522,10 @@ area must make a DC 19 Constitution saving throw,
 taking 45 (10d8) poison damage on a failed save, or
 half as much damage on a successful one.
 Stone Golem
-Large construct, unaligned
+Large construct, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 178 (17d10 + 85)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 9 (−1) 20 (+5) 3 (−4) 11 (+0) 1 (−5)
 Damage Immunities poison, psychic; bludgeoning,
 piercing, and slashing from nonmagical attacks that
@@ -5237,16 +4557,10 @@ These effects last for 1 minute. A target can repeat the
 saving throw at the end of each of its turns, ending the
 effect on itself on a success.
 Gorgon
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 19 (natural armor)
 Hit Points 114 (12d10 + 48)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 11 (+0) 18 (+4) 2 (−4) 12 (+1) 7 (−2)
 Skills Perception +4
 Condition Immunities petrified
@@ -5278,12 +4592,6 @@ Medium monstrosity, neutral
 Armor Class 14 (natural armor)
 Hit Points 27 (6d8)
 Speed 30 ft., climb 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 14 (+2) 11 (+0) 3 (−4) 14 (+2) 5 (−3)
 Damage Resistances bludgeoning, piercing, and
 slashing from nonmagical attacks
@@ -5301,16 +4609,10 @@ one target. Hit: 9 (2d6 + 2) slashing damage.
 Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) piercing damage.
 Griffon
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 12
 Hit Points 59 (7d10 + 21)
 Speed 30 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 2 (−4) 13 (+1) 8 (−1)
 Skills Perception +5
 Senses darkvision 60 ft., passive Perception 15
@@ -5330,12 +4632,6 @@ Medium humanoid (grimlock), neutral evil
 Armor Class 11
 Hit Points 11 (2d8 + 2)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 12 (+1) 12 (+1) 9 (−1)
 8 (−1)
 6 (−2)
@@ -5356,18 +4652,13 @@ Actions
 Spiked Bone Club. Melee Weapon Attack: +5 to hit,
 reach 5 ft., one target. Hit: 5 (1d4 + 3) bludgeoning
 damage plus 2 (1d4) piercing damage.
+END
 
 Green Hag
 Medium fey, neutral evil
 Armor Class 17 (natural armor)
 Hit Points 82 (11d8 + 33)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 12 (+1) 16 (+3) 13 (+1) 14 (+2) 14 (+2)
 Skills Arcana +3, Deception +4, Perception +4, Stealth
 +3
@@ -5410,12 +4701,6 @@ Medium fiend, neutral evil
 Armor Class 17 (natural armor)
 Hit Points 112 (15d8 + 45)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 16 (+3) 14 (+2) 16 (+3)
 Skills Deception +7, Insight +6, Perception +6, Stealth
 +6
@@ -5465,12 +4750,6 @@ Medium fey, chaotic evil
 Armor Class 14 (natural armor)
 Hit Points 52 (7d8 + 21)
 Speed 30 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 13 (+1) 16 (+3) 12 (+1) 12 (+1) 13 (+1)
 Senses darkvision 60 ft., passive Perception 11
 Languages Aquan, Common, Giant
@@ -5510,6 +4789,7 @@ might feel the claws. Otherwise, a creature must take
 an action to visually inspect the illusion and succeed on
 a DC 16 Intelligence (Investigation) check to discern
 that the hag is disguised.
+END
 
 Half-Dragon Template
 A beast, humanoid, giant, or monstrosity can become
@@ -5555,18 +4835,13 @@ Challenge 7 or higher
 Gargantuan
 As an adult dragon
 Challenge 8 or higher
+END
 
 Half-­‐Red Dragon Veteran
 Medium humanoid (human), any alignment
 Armor Class 18 (plate)
 Hit Points 65 (10d8 + 20)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)
 Skills Athletics +5, Perception +2
 Damage Resistances fire
@@ -5596,12 +4871,6 @@ Medium monstrosity, chaotic evil
 Armor Class 11
 Hit Points 38 (7d8 + 7)
 Speed 20 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 12 (+1) 13 (+1) 12 (+1) 7 (−2) 10 (+0) 13 (+1)
 Senses passive Perception 10
 Languages Common
@@ -5639,12 +4908,6 @@ Medium fiend, lawful evil
 Armor Class 15 (natural armor)
 Hit Points 45 (7d8 + 14)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 12 (+1) 14 (+2) 6 (−2) 13 (+1) 6 (−2)
 Skills Perception +5
 Damage Immunities fire
@@ -5668,16 +4931,10 @@ DC 12 Dexterity saving throw, taking 21 (6d6) fire
 damage on a failed save, or half as much damage on a
 successful one.
 Hippogriff
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 11
 Hit Points 19 (3d10 + 3)
 Speed 40 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 13 (+1) 13 (+1) 2 (−4) 12 (+1) 8 (−1)
 Skills Perception +5
 Senses passive Perception 15
@@ -5697,12 +4954,6 @@ Medium humanoid (goblinoid), lawful evil
 Armor Class 18 (chain mail, shield)
 Hit Points 11 (2d8 + 2)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 13 (+1) 12 (+1) 12 (+1) 10 (+0) 10 (+0) 9 (−1)
 Senses darkvision 60 ft., passive Perception 10
 Languages Common, Goblin
@@ -5723,12 +4974,6 @@ Tiny construct, neutral
 Armor Class 13 (natural armor)
 Hit Points 5 (2d4)
 Speed 20 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 4 (−3) 15 (+2) 11 (+0) 10 (+0) 10 (+0) 7 (−2)
 Damage Immunities poison
 Condition Immunities charmed, poisoned
@@ -5748,16 +4993,10 @@ poisoned for 1 minute. If the saving throw fails by 5 or
 more, the target is instead poisoned for 5 (1d10)
 minutes and unconscious while poisoned in this way.
 Hydra
-Huge monstrosity, unaligned
+Huge monstrosity, neutral neutral
 Armor Class 15 (natural armor)
 Hit Points 172 (15d12 + 75)
 Speed 30 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 12 (+1) 20 (+5) 2 (−4) 10 (+0) 7 (−2)
 Skills Perception +6
 Senses darkvision 60 ft., passive Perception 16
@@ -5786,18 +5025,13 @@ Multiattack. The hydra makes as many bite attacks as
 it has heads.
 Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one
 target. Hit: 10 (1d10 + 5) piercing damage.
+END
 
 Invisible Stalker
 Medium elemental, neutral
 Armor Class 14
 Hit Points 104 (16d8 + 32)
 Speed 50 ft., fly 50 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 19 (+4) 14 (+2) 10 (+0) 15 (+2) 11 (+0)
 Skills Perception +8, Stealth +10
 Damage Resistances bludgeoning, piercing, and
@@ -5819,18 +5053,13 @@ Actions
 Multiattack. The stalker makes two slam attacks.
 Slam. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 10 (2d6 + 3) bludgeoning damage.
+END
 
 Kobold
 Small humanoid (kobold), lawful evil
 Armor Class 12
 Hit Points 5 (2d6 − 2)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 7 (−2) 15 (+2) 9 (−1)
 8 (−1)
 7 (−2)
@@ -5855,12 +5084,6 @@ Gargantuan monstrosity (titan), chaotic evil
 Armor Class 18 (natural armor)
 Hit Points 472 (27d20 + 189)
 Speed 20 ft., swim 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 30 (+10) 11 (+0) 25 (+7) 22 (+6) 18 (+4) 20 (+5)
 Saving Throws Str +17, Dex +7, Con +14, Int +13, Wis
 +11
@@ -5938,18 +5161,13 @@ failed save, or half as much damage on a successful
 one. A strong current disperses the cloud, which
 otherwise disappears at the end of the kraken’s next
 turn.
+END
 
 Lamia
 Large monstrosity, chaotic evil
 Armor Class 13 (natural armor)
 Hit Points 97 (13d10 + 26)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 13 (+1) 15 (+2) 14 (+2) 15 (+2) 16 (+3)
 Skills Deception +7, Insight +4, Stealth +3
 Senses darkvision 60 ft., passive Perception 12
@@ -5980,12 +5198,6 @@ Medium undead, any evil alignment
 Armor Class 17 (natural armor)
 Hit Points 135 (18d8 + 54)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 11 (+0) 16 (+3) 16 (+3) 20 (+5) 14 (+2) 16 (+3)
 Saving Throws Con +10, Int +12, Wis +9
 Skills Arcana +18, History +12, Insight +9, Perception +9
@@ -6058,12 +5270,6 @@ Medium humanoid (lizardfolk), neutral
 Armor Class 15 (natural armor, shield)
 Hit Points 22 (4d8 + 4)
 Speed 30 ft., swim 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 10 (+0) 13 (+1) 7 (−2) 12 (+1) 7 (−2)
 Skills Perception +3, Stealth +4, Survival +5
 Senses passive Perception 13
@@ -6091,12 +5297,6 @@ Armor Class 10 in humanoid form, 11 (natural armor)
 in bear and hybrid form
 Hit Points 135 (18d8 + 54)
 Speed 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 17 (+3) 11 (+0) 12 (+1) 12 (+1)
 Skills Perception +7
 Damage Immunities bludgeoning, piercing, and
@@ -6136,12 +5336,6 @@ Armor Class 10 in humanoid form, 11 (natural armor)
 in boar or hybrid form
 Hit Points 78 (12d8 + 24)
 Speed 30 ft. (40 ft. in boar form)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 10 (+0) 15 (+2) 10 (+0) 11 (+0) 8 (−1)
 Skills Perception +2
 Damage Immunities bludgeoning, piercing, and
@@ -6182,12 +5376,6 @@ Medium humanoid (human, shapechanger), lawful evil
 Armor Class 12
 Hit Points 33 (6d8 + 6)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 15 (+2) 12 (+1) 11 (+0) 10 (+0) 8 (−1)
 Skills Perception +2, Stealth +4
 Damage Immunities bludgeoning, piercing, and
@@ -6225,12 +5413,6 @@ Medium humanoid (human, shapechanger), neutral
 Armor Class 12
 Hit Points 120 (16d8 + 48)
 Speed 30 ft. (40 ft. in tiger form)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 11 (+0)
 Skills Perception +5, Stealth +4
 Damage Immunities bludgeoning, piercing, and
@@ -6281,12 +5463,6 @@ Armor Class 11 in humanoid form, 12 (natural armor)
 in wolf or hybrid form
 Hit Points 58 (9d8 + 18)
 Speed 30 ft. (40 ft. in wolf form)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)
 Skills Perception +4, Stealth +3
 Damage Immunities bludgeoning, piercing, and
@@ -6321,18 +5497,13 @@ Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft.,
 one creature. Hit: 5 (1d6 + 2) piercing damage, or 6
 (1d8 + 2) piercing damage if used with two hands to
 make a melee attack.
+END
 
 Magmin
 Small elemental, chaotic neutral
 Armor Class 14 (natural armor)
 Hit Points 9 (2d6 + 2)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 7 (−2) 15 (+2) 12 (+1) 8 (−1) 11 (+0) 10 (+0)
 Damage Resistances bludgeoning, piercing, and
 slashing from nonmagical attacks
@@ -6361,12 +5532,6 @@ Large monstrosity, lawful evil
 Armor Class 14 (natural armor)
 Hit Points 68 (8d10 + 24)
 Speed 30 ft., fly 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 16 (+3) 17 (+3) 7 (−2) 12 (+1) 8 (−1)
 Senses darkvision 60 ft., passive Perception 11
 Languages Common
@@ -6390,12 +5555,6 @@ Medium monstrosity, lawful evil
 Armor Class 15 (natural armor)
 Hit Points 127 (17d8 + 51)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 15 (+2) 16 (+3) 12 (+1) 13 (+1) 15 (+2)
 Skills Deception +5, Insight +4, Perception +4, Stealth
 +5
@@ -6443,12 +5602,6 @@ Small elemental, neutral evil
 Armor Class 12
 Hit Points 17 (5d6)
 Speed 30 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 5 (−3) 14 (+2) 10 (+0) 9 (−1) 11 (+0) 10 (+0)
 Skills Perception +2, Stealth +4
 Damage Vulnerabilities fire
@@ -6480,12 +5633,6 @@ Small elemental, neutral evil
 Armor Class 11
 Hit Points 21 (6d6)
 Speed 30 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 7 (−2) 13 (+1) 10 (+0) 9 (−1) 11 (+0) 12 (+1)
 Skills Perception +2, Stealth +3
 Damage Vulnerabilities bludgeoning, fire
@@ -6519,12 +5666,6 @@ Small elemental, neutral evil
 Armor Class 11
 Hit Points 22 (5d6 + 5)
 Speed 30 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 8 (−1) 12 (+1) 12 (+1) 7 (−2) 10 (+0) 10 (+0)
 Skills Stealth +3
 Damage Vulnerabilities cold
@@ -6559,12 +5700,6 @@ Small elemental, neutral evil
 Armor Class 10
 Hit Points 21 (6d6)
 Speed 30 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 5 (−3) 11 (+0) 10 (+0) 11 (+0) 10 (+0) 12 (+1)
 Damage Immunities fire, poison
 Condition Immunities poisoned
@@ -6592,12 +5727,6 @@ Medium humanoid (merfolk), neutral
 Armor Class 11
 Hit Points 11 (2d8 + 2)
 Speed 10 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 13 (+1) 12 (+1) 11 (+0) 11 (+0) 12 (+1)
 Skills Perception +2
 Senses passive Perception 12
@@ -6614,12 +5743,6 @@ Large monstrosity, chaotic evil
 Armor Class 13 (natural armor)
 Hit Points 45 (6d10 + 12)
 Speed 10 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 10 (+0) 15 (+2) 8 (−1) 10 (+0) 9 (−1)
 Senses darkvision 60 ft., passive Perception 10
 Languages Abyssal, Aquan
@@ -6643,12 +5766,6 @@ Medium monstrosity (shapechanger), neutral
 Armor Class 12 (natural armor)
 Hit Points 58 (9d8 + 18)
 Speed 15 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 12 (+1) 15 (+2) 5 (−3) 13 (+1) 8 (−1)
 Skills Stealth +5
 Damage Immunities acid
@@ -6684,12 +5801,6 @@ Large monstrosity, chaotic evil
 Armor Class 14 (natural armor)
 Hit Points 76 (9d10 + 27)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 11 (+0) 16 (+3) 6 (−2) 16 (+3) 9 (−1)
 Skills Perception +7
 Senses darkvision 60 ft., passive Perception 17
@@ -6718,12 +5829,6 @@ Medium undead, lawful evil
 Armor Class 11 (natural armor)
 Hit Points 58 (9d8 + 18)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 8 (−1) 15 (+2) 6 (−2) 10 (+0) 12 (+1)
 Saving Throws Wis +2
 Damage Vulnerabilities fire
@@ -6763,12 +5868,6 @@ Medium undead, lawful evil
 Armor Class 17 (natural armor)
 Hit Points 97 (13d8 + 39)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 10 (+0) 17 (+3) 11 (+0) 18 (+4) 16 (+3)
 Saving Throws Con +8, Int +5, Wis +9, Cha +8
 Skills History +5, Religion +5
@@ -6854,18 +5953,13 @@ in whirlwind form, the mummy lord is immune to all
 damage, and it can’t be grappled, petrified, knocked
 prone, restrained, or stunned. Equipment worn or
 carried by the mummy lord remain in its possession.
+END
 
 Guardian Naga
 Large monstrosity, lawful good
 Armor Class 18 (natural armor)
 Hit Points 127 (15d10 + 45)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 18 (+4) 16 (+3) 16 (+3) 19 (+4) 18 (+4)
 Saving Throws Dex +8, Con +7, Int +7, Wis +8, Cha +8
 Damage Immunities poison
@@ -6905,12 +5999,6 @@ Large monstrosity, chaotic evil
 Armor Class 15 (natural armor)
 Hit Points 75 (10d10 + 20)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 17 (+3) 14 (+2) 16 (+3) 15 (+2) 16 (+3)
 Saving Throws Dex +6, Con +5, Wis +5, Cha +6
 Damage Immunities poison
@@ -6944,12 +6032,6 @@ Large fiend, neutral evil
 Armor Class 13 (natural armor)
 Hit Points 68 (8d10 + 24)
 Speed 60 ft., fly 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 15 (+2)
 Damage Immunities fire
 Senses passive Perception 11
@@ -6967,18 +6049,13 @@ one target. Hit: 13 (2d8 + 4) bludgeoning damage plus
 Ethereal Stride. The nightmare and up to three willing
 creatures within 5 feet of it magically enter the
 Ethereal Plane from the Material Plane, or vice versa.
+END
 
 Ogre
 Large giant, chaotic evil
 Armor Class 11 (hide armor)
 Hit Points 59 (7d10 + 21)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 8 (−1) 16 (+3) 5 (−3)
 7 (−2)
 7 (−2)
@@ -6996,12 +6073,6 @@ Large giant, lawful evil
 Armor Class 16 (chain mail)
 Hit Points 110 (13d10 + 39)
 Speed 30 ft., fly 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 11 (+0) 16 (+3) 14 (+2) 12 (+1) 15 (+2)
 Saving Throws Dex +3, Con +6, Wis +4, Cha +5
 Skills Arcana +5, Deception +8, Perception +4
@@ -7034,16 +6105,10 @@ wielded in humanoid form. If the oni dies, it reverts to
 its true form, and its glaive reverts to its normal size.
 Oozes
 Black Pudding
-Large ooze, unaligned
+Large ooze, neutral neutral
 Armor Class 7
 Hit Points 85 (10d10 + 30)
 Speed 20 ft., climb 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 5 (−3) 16 (+3) 1 (−5)
 6 (−2)
 1 (−5)
@@ -7086,16 +6151,10 @@ new pudding has hit points equal to half the original
 pudding’s, rounded down. New puddings are one size
 smaller than the original pudding.
 Gelatinous Cube
-Large ooze, unaligned
+Large ooze, neutral neutral
 Armor Class 6
 Hit Points 84 (8d10 + 40)
 Speed 15 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 3 (−4) 20 (+5) 1 (−5)
 6 (−2)
 1 (−5)
@@ -7145,16 +6204,10 @@ action to make a DC 12 Strength check. On a success,
 the creature escapes and enters a space of its choice
 within 5 feet of the cube.
 Gray Ooze
-Medium ooze, unaligned
+Medium ooze, neutral neutral
 Armor Class 8
 Hit Points 22 (3d8 + 9)
 Speed 10 ft., climb 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 12 (+1) 6 (−2) 16 (+3) 1 (−5)
 6 (−2)
 2 (−4)
@@ -7188,16 +6241,10 @@ and takes a permanent and cumulative −1 penalty to
 the AC it offers. The armor is destroyed if the penalty
 reduces its AC to 10.
 Ochre Jelly
-Large ooze, unaligned
+Large ooze, neutral neutral
 Armor Class 8
 Hit Points 45 (6d10 + 12)
 Speed 10 ft., climb 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 6 (−2) 14 (+2) 2 (−4)
 6 (−2)
 1 (−5)
@@ -7230,12 +6277,6 @@ Medium humanoid (orc), chaotic evil
 Armor Class 13 (hide armor)
 Hit Points 15 (2d8 + 6)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 12 (+1) 16 (+3) 7 (−2) 11 (+0) 10 (+0)
 Skills Intimidation +2
 Senses darkvision 60 ft., passive Perception 10
@@ -7254,12 +6295,6 @@ Large aberration, neutral
 Armor Class 14 (natural armor)
 Hit Points 114 (12d10 + 48)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 11 (+0) 19 (+4) 6 (−2) 13 (+1) 6 (−2)
 Saving Throws Con +7
 Senses darkvision 120 ft., passive Perception 11
@@ -7298,16 +6333,10 @@ the end of the otyugh’s next turn. On a successful save,
 the target takes half the bludgeoning damage and isn’t
 stunned.
 Owlbear
-Large monstrosity, unaligned
+Large monstrosity, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 59 (7d10 + 21)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 20 (+5) 12 (+1) 17 (+3) 3 (−4) 12 (+1) 7 (−2)
 Skills Perception +3
 Senses darkvision 60 ft., passive Perception 13
@@ -7322,18 +6351,13 @@ Beak. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 creature. Hit: 10 (1d10 + 5) piercing damage.
 Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 14 (2d8 + 5) slashing damage.
+END
 
 Pegasus
 Large celestial, chaotic good
 Armor Class 12
 Hit Points 59 (7d10 + 21)
 Speed 60 ft., fly 90 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 10 (+0) 15 (+2) 13 (+1)
 Saving Throws Dex +4, Wis +4, Cha +3
 Skills Perception +6
@@ -7349,12 +6373,6 @@ Tiny dragon, neutral good
 Armor Class 13 (natural armor)
 Hit Points 7 (2d4 + 2)
 Speed 15 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 6 (−2) 15 (+2) 13 (+1) 10 (+0) 12 (+1) 10 (+0)
 Skills Perception +3, Stealth +4
 Senses blindsight 10 ft., darkvision 60 ft., passive
@@ -7383,16 +6401,10 @@ throw fails by 5 or more, the target falls unconscious
 for the same duration, or until it takes damage or
 another creature uses an action to shake it awake.
 Purple Worm
-Gargantuan monstrosity, unaligned
+Gargantuan monstrosity, neutral neutral
 Armor Class 18 (natural armor)
 Hit Points 247 (15d20 + 90)
 Speed 50 ft., burrow 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 28 (+9) 7 (−2) 22 (+6) 1 (−5)
 8 (−1)
 4 (−3)
@@ -7428,18 +6440,13 @@ ft., one creature. Hit: 19 (3d6 + 9) piercing damage, and
 the target must make a DC 19 Constitution saving
 throw, taking 42 (12d6) poison damage on a failed save,
 or half as much damage on a successful one.
+END
 
 Rakshasa
 Medium fiend, lawful evil
 Armor Class 16 (natural armor)
 Hit Points 110 (13d8 + 52)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 14 (+2) 17 (+3) 18 (+4) 13 (+1) 16 (+3) 20 (+5)
 Skills Deception +10, Insight +8
 Damage Vulnerabilities piercing from magic weapons
@@ -7474,16 +6481,10 @@ dreams. The cursed target gains no benefit from
 finishing a short or long rest. The curse lasts until it is
 lifted by a remove curse spell or similar magic.
 Remorhaz
-Huge monstrosity, unaligned
+Huge monstrosity, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 195 (17d12 + 85)
 Speed 30 ft., burrow 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 24 (+7) 13 (+1) 21 (+5) 4 (−3) 10 (+0) 5 (−3)
 Damage Immunities cold, fire
 Senses darkvision 60 ft., tremorsense 60 ft., passive
@@ -7517,16 +6518,10 @@ remorhaz. If the remorhaz dies, a swallowed creature is
 no longer restrained by it and can escape from the
 corpse using 15 feet of movement, exiting prone.
 Roc
-Gargantuan monstrosity, unaligned
+Gargantuan monstrosity, neutral neutral
 Armor Class 15 (natural armor)
 Hit Points 248 (16d20 + 80)
 Speed 20 ft., fly 120 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 28 (+9) 10 (+0) 20 (+5) 3 (−4) 10 (+0) 9 (−1)
 Saving Throws Dex +4, Con +9, Wis +4, Cha +3
 Skills Perception +4
@@ -7550,12 +6545,6 @@ Large monstrosity, neutral evil
 Armor Class 20 (natural armor)
 Hit Points 93 (11d10 + 33)
 Speed 10 ft., climb 10 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 8 (−1) 17 (+3) 7 (−2) 16 (+3) 6 (−2)
 Skills Perception +6, Stealth +5
 Senses darkvision 60 ft., passive Perception 16
@@ -7589,16 +6578,10 @@ another target.
 Reel. The roper pulls each creature grappled by it up to
 25 feet straight toward it.
 Rust Monster
-Medium monstrosity, unaligned
+Medium monstrosity, neutral neutral
 Armor Class 14 (natural armor)
 Hit Points 27 (5d8 + 5)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 13 (+1) 12 (+1) 13 (+1) 2 (−4) 13 (+1) 6 (−2)
 Senses darkvision 60 ft., passive Perception 11
 Languages —
@@ -7628,18 +6611,13 @@ offers. Armor reduced to an AC of 10 or a shield that
 drops to a +0 bonus is destroyed. If the object touched
 is a held metal weapon, it rusts as described in the Rust
 Metal trait.
+END
 
 Sahuagin
 Medium humanoid (sahuagin), lawful evil
 Armor Class 12 (natural armor)
 Hit Points 22 (4d8 + 4)
 Speed 30 ft., swim 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 13 (+1) 11 (+0) 12 (+1) 12 (+1) 13 (+1) 9 (−1)
 Skills Perception +5
 Senses darkvision 120 ft., passive Perception 15
@@ -7665,18 +6643,13 @@ Spear. Melee or Ranged Weapon Attack: +3 to hit,
 reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d6 +
 1) piercing damage, or 5 (1d8 + 1) piercing damage if
 used with two hands to make a melee attack.
+END
 
 Salamander
 Large elemental, neutral evil
 Armor Class 15 (natural armor)
 Hit Points 90 (12d10 + 24)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 14 (+2) 15 (+2) 11 (+0) 10 (+0) 12 (+1)
 Damage Vulnerabilities cold
 Damage Resistances bludgeoning, piercing, and
@@ -7711,12 +6684,6 @@ Medium fey, chaotic neutral
 Armor Class 14 (leather armor)
 Hit Points 31 (7d8)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 12 (+1) 16 (+3) 11 (+0) 12 (+1) 10 (+0) 14 (+2)
 Skills Perception +2, Performance +6, Stealth +5
 Senses passive Perception 12
@@ -7736,12 +6703,6 @@ Medium undead, chaotic evil
 Armor Class 12
 Hit Points 16 (3d8 + 3)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 6 (−2) 14 (+2) 13 (+1) 6 (−2) 10 (+0) 8 (−1)
 Skills Stealth +4 (+6 in dim light or darkness)
 Damage Vulnerabilities radiant
@@ -7771,16 +6732,10 @@ long rest.
 If a non-­‐evil humanoid dies from this attack, a new
 shadow rises from the corpse 1d4 hours later.
 Shambling Mound
-Large plant, unaligned
+Large plant, neutral neutral
 Armor Class 15 (natural armor)
 Hit Points 136 (16d10 + 48)
 Speed 20 ft., swim 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 8 (−1) 16 (+3) 5 (−3) 10 (+0) 5 (−3)
 Skills Stealth +2
 Damage Resistances cold, fire
@@ -7810,16 +6765,10 @@ bludgeoning damage. If the mound moves, the
 engulfed target moves with it. The mound can have
 only one creature engulfed at a time.
 Shield Guardian
-Large construct, unaligned
+Large construct, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 142 (15d10 + 60)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 8 (−1) 18 (+4) 7 (−2) 10 (+0) 3 (−4)
 Senses blindsight 10 ft., darkvision 60 ft., passive
 Perception 10
@@ -7865,12 +6814,6 @@ Medium undead, lawful evil
 Armor Class 13 (armor scraps)
 Hit Points 13 (2d8 + 4)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 10 (+0) 14 (+2) 15 (+2) 6 (−2)
 8 (−1)
 5 (−3)
@@ -7891,12 +6834,6 @@ Large undead, lawful evil
 Armor Class 12 (natural armor)
 Hit Points 67 (9d10 + 18)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 11 (+0) 15 (+2) 6 (−2)
 8 (−1)
 5 (−3)
@@ -7922,12 +6859,6 @@ Large undead, lawful evil
 Armor Class 13 (barding scraps)
 Hit Points 22 (3d10 + 6)
 Speed 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 12 (+1) 15 (+2) 2 (−4)
 8 (−1)
 5 (−3)
@@ -7945,12 +6876,6 @@ Medium undead, chaotic evil
 Armor Class 12
 Hit Points 22 (5d8)
 Speed 0 ft., fly 50 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 1 (−5) 14 (+2) 11 (+0) 10 (+0) 10 (+0) 11 (+0)
 Damage Resistances acid, cold, fire, lightning, thunder;
 bludgeoning, piercing, and slashing from nonmagical
@@ -7984,12 +6909,6 @@ Large monstrosity, lawful neutral
 Armor Class 17 (natural armor)
 Hit Points 199 (19d10 + 95)
 Speed 40 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 22 (+6) 10 (+0) 20 (+5) 16 (+3) 18 (+4) 23 (+6)
 Saving Throws Dex +6, Con +11, Int +9, Wis +10
 Skills Arcana +9, Perception +10, Religion +15
@@ -8063,12 +6982,6 @@ Large monstrosity, lawful neutral
 Armor Class 17 (natural armor)
 Hit Points 136 (16d10 + 48)
 Speed 40 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 15 (+2) 16 (+3) 18 (+4) 18 (+4) 18 (+4)
 Skills Arcana +12, History +12, Perception +8, Religion
 +8
@@ -8121,12 +7034,6 @@ Tiny fey, neutral good
 Armor Class 15 (leather armor)
 Hit Points 2 (1d4)
 Speed 10 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 3 (−4) 18 (+4) 10 (+0) 14 (+2) 13 (+1) 11 (+0)
 Skills Perception +3, Stealth +8
 Senses passive Perception 13
@@ -8153,16 +7060,10 @@ attacks or casts a spell, or until its concentration ends
 (as if concentrating on a spell). Any equipment the
 sprite wears or carries is invisible with it.
 Stirge
-Tiny beast, unaligned
+Tiny beast, neutral neutral
 Armor Class 14 (natural armor)
 Hit Points 2 (1d4)
 Speed 10 ft., fly 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 4 (−3) 16 (+3) 11 (+0) 2 (−4)
 8 (−1)
 6 (−2)
@@ -8186,12 +7087,6 @@ Medium fiend (shapechanger), neutral evil
 Armor Class 15 (natural armor)
 Hit Points 66 (12d8 + 12)
 Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 8 (−1) 17 (+3) 13 (+1) 15 (+2) 12 (+1) 20 (+5)
 Skills Deception +9, Insight +5, Perception +5,
 Persuasion +9, Stealth +7
@@ -8239,18 +7134,13 @@ finishes a long rest. The target dies if this effect
 reduces its hit point maximum to 0.
 Etherealness. The fiend magically enters the Ethereal
 Plane from the Material Plane, or vice versa.
+END
 
 Tarrasque
-Gargantuan monstrosity (titan), unaligned
+Gargantuan monstrosity (titan), neutral neutral
 Armor Class 25 (natural armor)
 Hit Points 676 (33d20 + 330)
 Speed 40 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 30 (+10) 11 (+0) 30 (+10) 3 (−4) 11 (+0) 11 (+0)
 Saving Throws Int +5, Wis +9, Cha +9
 Damage Immunities fire, poison; bludgeoning, piercing,
@@ -8333,12 +7223,6 @@ Huge plant, chaotic good
 Armor Class 16 (natural armor)
 Hit Points 138 (12d12 + 60)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 23 (+6) 8 (−1) 21 (+5) 12 (+1) 16 (+3) 12 (+1)
 Damage Resistances bludgeoning, piercing
 Damage Vulnerabilities fire
@@ -8370,12 +7254,6 @@ Large giant, chaotic evil
 Armor Class 15 (natural armor)
 Hit Points 84 (8d10 + 40)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 13 (+1) 20 (+5) 7 (−2)
 9 (−1)
 7 (−2)
@@ -8397,18 +7275,13 @@ Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 7 (1d6 + 4) piercing damage.
 Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 11 (2d6 + 4) slashing damage.
+END
 
 Unicorn
 Large celestial, lawful good
 Armor Class 12
 Hit Points 67 (9d10 + 18)
 Speed 50 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 14 (+2) 15 (+2) 11 (+0) 17 (+3) 16 (+3)
 Damage Immunities poison
 Condition Immunities charmed, paralyzed, poisoned
@@ -8463,18 +7336,13 @@ target gains a +2 bonus to AC until the end of the
 unicorn’s next turn.
 Heal Self (Costs 3 Actions). The unicorn magically
 regains 11 (2d8 + 2) hit points.
+END
 
 Vampire
 Medium undead (shapechanger), lawful evil
 Armor Class 16 (natural armor)
 Hit Points 144 (17d8 + 68)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 18 (+4) 18 (+4) 18 (+4) 17 (+3) 15 (+2) 18 (+4)
 Saving Throws Dex +9, Wis +7, Cha +9
 Skills Perception +7, Stealth +9
@@ -8593,18 +7461,13 @@ Unarmed Strike. The vampire makes one unarmed
 strike.
 Bite (Costs 2 Actions). The vampire makes one bite
 attack.
+END
 
 Vampire Spawn
 Medium undead, neutral evil
 Armor Class 15 (natural armor)
 Hit Points 82 (11d8 + 33)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 16 (+3) 16 (+3) 16 (+3) 11 (+0) 10 (+0) 12 (+1)
 Saving Throws Dex +6, Wis +3
 Skills Perception +3, Stealth +6
@@ -8650,18 +7513,13 @@ equal to the necrotic damage taken, and the vampire
 regains hit points equal to that amount. The reduction
 lasts until the target finishes a long rest. The target dies
 if this effect reduces its hit point maximum to 0.
+END
 
 Wight
 Medium undead, neutral evil
 Armor Class 14 (studded leather)
 Hit Points 45 (6d8 + 18)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 15 (+2) 14 (+2) 16 (+3) 10 (+0) 13 (+1) 15 (+2)
 Skills Perception +3, Stealth +4
 Damage Resistances necrotic; bludgeoning, piercing,
@@ -8697,17 +7555,13 @@ one target. Hit: 6 (1d8 + 2) slashing damage, or 7 (1d10
 Longbow. Ranged Weapon Attack: +4 to hit, range
 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing
 damage.
+END
+
 Will-­‐o’-­‐Wisp
 Tiny undead, chaotic evil
 Armor Class 19
 Hit Points 22 (9d4)
 Speed 0 ft., fly 50 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 1 (−5) 28 (+9) 10 (+0) 13 (+1) 14 (+2) 11 (+0)
 Damage Immunities lightning, poison
 Damage Resistances acid, cold, fire, necrotic, thunder;
@@ -8741,17 +7595,13 @@ Invisibility. The will-­‐o’-­‐wisp and its light magically
 become invisible until it attacks or uses its Consume
 Life, or until its concentration ends (as if concentrating
 on a spell).
+END
+
 Wraith
 Medium undead, neutral evil
 Armor Class 13
 Hit Points 67 (9d8 + 27)
 Speed 0 ft., fly 60 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
 6 (−2) 16 (+3) 16 (+3) 12 (+1) 14 (+2) 15 (+2)
 Damage Resistances acid, cold, fire, lightning, thunder;
 bludgeoning, piercing, and slashing from nonmagical
@@ -8777,7 +7627,6 @@ throw or its hit point maximum is reduced by an
 amount equal to the damage taken. This reduction
 lasts until the target finishes a long rest. The target dies
 if this effect reduces its hit point maximum to 0.
-
 Create Specter. The wraith targets a humanoid within
 10 feet of it that has been dead for no longer than 1
 minute and died violently. The target’s spirit rises as a
@@ -8785,17 +7634,13 @@ specter in the space of its corpse or in the nearest
 unoccupied space. The specter is under the wraith’s
 control. The wraith can have no more than seven
 specters under its control at one time.
+END
+
 Wyvern
-Large dragon, unaligned
+Large dragon, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 110 (13d10 + 39)
 Speed 20 ft., fly 80 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 10 (+0) 16 (+3) 5 (−3) 12 (+1) 6 (−2)
 Skills Perception +4
 Senses darkvision 60 ft., passive Perception 14
@@ -8814,18 +7659,13 @@ one creature. Hit: 11 (2d6 + 4) piercing damage. The
 target must make a DC 15 Constitution saving throw,
 taking 24 (7d6) poison damage on a failed save, or half
 as much damage on a successful one.
+END
 
 Xorn
 Medium elemental, neutral
 Armor Class 19 (natural armor)
 Hit Points 73 (7d8 + 42)
 Speed 20 ft., burrow 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 17 (+3) 10 (+0) 22 (+6) 11 (+0) 10 (+0) 11 (+0)
 Skills Perception +6, Stealth +3
 Damage Resistances piercing and slashing from
@@ -8849,19 +7689,13 @@ Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 6 (1d6 + 3) slashing damage.
 Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 13 (3d6 + 3) piercing damage.
+END
 
-Zombies
 Zombie
 Medium undead, neutral evil
 Armor Class 8
 Hit Points 22 (3d8 + 9)
 Speed 20 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 13 (+1) 6 (−2) 16 (+3) 3 (−4)
 6 (−2)
 5 (−3)
@@ -8885,12 +7719,6 @@ Large undead, neutral evil
 Armor Class 8
 Hit Points 85 (9d10 + 36)
 Speed 30 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
 19 (+4) 6 (−2) 18 (+4) 3 (−4)
 6 (−2)
 5 (−3)
@@ -8909,3 +7737,4 @@ zombie drops to 1 hit point instead.
 Actions
 Morningstar. Melee Weapon Attack: +6 to hit, reach 5
 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.
+END

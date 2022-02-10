@@ -2,7 +2,7 @@ use v6;
 
 constant @sizes = <Tiny Small Medium Large Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
-constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
+constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
 constant @abilities = <Str Dex Con Int Wis Cha>;
 subset AbilityPair of Pair where {$_.key ~~ Int:D && $_.value ~~ Int:D};
 
