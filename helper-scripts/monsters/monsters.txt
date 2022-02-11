@@ -30,44 +30,20 @@ Speed 30 ft., fly 90 ft.
 18 (+4) 18 (+4) 18 (+4) 17 (+3) 20 (+5) 20 (+5)
 Saving Throws Wis +9, Cha +9
 Skills Insight +9, Perception +9
-Damage Resistances radiant; bludgeoning, piercing,
-and slashing from nonmagical attacks
+Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened
 Senses darkvision 120 ft., passive Perception 19
 Languages all, telepathy 120 ft.
 Challenge 10 (5,900 XP)
-Angelic Weapons. The deva’s weapon attacks are
-magical. When the deva hits with any weapon, the
-weapon deals an extra 4d8 radiant damage (included in
-the attack).
-Innate Spellcasting. The deva’s spellcasting ability is
-Charisma (spell save DC 17). The deva can innately cast
-the following spells, requiring only verbal components:
-At will: detect evil and good
-1/day each: commune, raise dead
-Magic Resistance. The deva has advantage on saving
-throws against spells and other magical effects.
+Angelic Weapons. The deva’s weapon attacks are magical. When the deva hits with any weapon, the weapon deals an extra 4d8 radiant damage (included in the attack).
+Innate Spellcasting. The deva’s spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components: At will: detect evil and good 1/day each: commune, raise dead Magic Resistance. The deva has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The deva makes two melee attacks.
-Mace. Melee Weapon Attack: +8 to hit, reach 5 ft., one
-target. Hit: 7 (1d6 + 4) bludgeoning damage plus 18
-(4d8) radiant damage.
-Healing Touch (3/Day). The deva touches another
-creature. The target magically regains 20 (4d8 + 2) hit
-points and is freed from any curse, disease, poison,
-blindness, or deafness.
-Change Shape. The deva magically polymorphs into a
-humanoid or beast that has a challenge rating equal to
-or less than its own, or back into its true form. It
-reverts to its true form if it dies. Any equipment it is
-wearing or carrying is absorbed or borne by the new
-form (the deva’s choice).
-In a new form, the deva retains its game statistics
-and ability to speak, but its AC, movement modes,
-Strength, Dexterity, and special senses are replaced by
-those of the new form, and it gains any statistics and
-capabilities (except class features, legendary actions,
-and lair actions) that the new form has but that it lacks.
+Mace. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6 + 4) bludgeoning damage plus 18 (4d8) radiant damage.
+Healing Touch (3/Day). The deva touches another creature. The target magically regains 20 (4d8 + 2) hit points and is freed from any curse, disease, poison, blindness, or deafness.
+Change Shape. The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva’s choice).  In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.
+END
+
 Planetar
 Large celestial, lawful good
 Armor Class 19 (natural armor)
@@ -76,27 +52,15 @@ Speed 40 ft., fly 120 ft.
 24 (+7) 20 (+5) 24 (+7) 19 (+4) 22 (+6) 25 (+7)
 Saving Throws Con +12, Wis +11, Cha +12
 Skills Perception +11
-Damage Resistances radiant; bludgeoning, piercing,
-and slashing from nonmagical attacks
+Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened
 Senses truesight 120 ft., passive Perception 21
 Languages all, telepathy 120 ft.
 Challenge 16 (15,000 XP)
-Angelic Weapons. The planetar’s weapon attacks are
-magical. When the planetar hits with any weapon, the
-weapon deals an extra 5d8 radiant damage (included in
-the attack).
+Angelic Weapons. The planetar’s weapon attacks are magical. When the planetar hits with any weapon, the weapon deals an extra 5d8 radiant damage (included in the attack).
 Divine Awareness. The planetar knows if it hears a lie.
-Innate Spellcasting. The planetar’s spellcasting ability
-is Charisma (spell save DC 20). The planetar can
-innately cast the following spells, requiring no material
-components:
-At will: detect evil and good, invisibility (self only)
-3/day each: blade barrier, dispel evil and good, flame
-strike, raise dead
-1/day each: commune, control weather, insect plague
-Magic Resistance. The planetar has advantage on
-saving throws against spells and other magical effects.
+Innate Spellcasting. The planetar’s spellcasting ability is Charisma (spell save DC 20). The planetar can innately cast the following spells, requiring no material components: At will: detect evil and good, invisibility (self only) 3/day each: blade barrier, dispel evil and good, flame strike, raise dead 1/day each: commune, control weather, insect plague
+Magic Resistance. The planetar has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The planetar makes two melee attacks.
 Greatsword. Melee Weapon Attack: +12 to hit, reach 5
@@ -106,6 +70,8 @@ Healing Touch (4/Day). The planetar touches another
 creature. The target magically regains 30 (6d8 + 3) hit
 points and is freed from any curse, disease, poison,
 blindness, or deafness.
+END
+
 Solar
 Large celestial, lawful good
 Armor Class 21 (natural armor)
@@ -122,38 +88,16 @@ poisoned
 Senses truesight 120 ft., passive Perception 24
 Languages all, telepathy 120 ft.
 Challenge 21 (33,000 XP)
-Angelic Weapons. The solar’s weapon attacks are
-magical. When the solar hits with any weapon, the
-weapon deals an extra 6d8 radiant damage (included in
-the attack).
+Angelic Weapons. The solar’s weapon attacks are magical. When the solar hits with any weapon, the weapon deals an extra 6d8 radiant damage (included in the attack).
 Divine Awareness. The solar knows if it hears a lie.
-Innate Spellcasting. The solar’s spellcasting ability is
-Charisma (spell save DC 25). It can innately cast the
-following spells, requiring no material components:
-At will: detect evil and good, invisibility (self only)
-3/day each: blade barrier, dispel evil and good,
-resurrection
-1/day each: commune, control weather
-Magic Resistance. The solar has advantage on saving
-throws against spells and other magical effects.
+Innate Spellcasting. The solar’s spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components: At will: detect evil and good, invisibility (self only) 3/day each: blade barrier, dispel evil and good, resurrection 1/day each: commune, control weather Magic Resistance. The solar has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The solar makes two greatsword attacks.
 Greatsword. Melee Weapon Attack: +15 to hit, reach 5
 ft., one target. Hit: 22 (4d6 + 8) slashing damage plus
 27 (6d8) radiant damage.
-Slaying Longbow. Ranged Weapon Attack: +13 to hit,
-range 150/600 ft., one target. Hit: 15 (2d8 + 6) piercing
-damage plus 27 (6d8) radiant damage. If the target is a
-creature that has 100 hit points or fewer, it must
-succeed on a DC 15 Constitution saving throw or die.
-Flying Sword. The solar releases its greatsword to
-hover magically in an unoccupied space within 5 feet of
-it. If the solar can see the sword, the solar can mentally
-command it as a bonus action to fly up to 50 feet and
-either make one attack against a target or return to the
-solar’s hands. If the hovering sword is targeted by any
-effect, the solar is considered to be holding it. The
-hovering sword falls if the solar dies.
+Slaying Longbow. Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 15 (2d8 + 6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.
+Flying Sword. The solar releases its greatsword to hover magically in an unoccupied space within 5 feet of it. If the solar can see the sword, the solar can mentally command it as a bonus action to fly up to 50 feet and either make one attack against a target or return to the solar’s hands. If the hovering sword is targeted by any effect, the solar is considered to be holding it. The hovering sword falls if the solar dies.
 Healing Touch (4/Day). The solar touches another
 creature. The target magically regains 40 (8d8 + 4) hit
 points and is freed from any curse, disease, poison,
@@ -197,18 +141,14 @@ Senses blindsight 60 ft. (blind beyond this radius),
 passive Perception 6
 Languages —
 Challenge 1 (200 XP)
-Antimagic Susceptibility. The armor is incapacitated
-while in the area of an antimagic field. If targeted by
-dispel magic, the armor must succeed on a
-Constitution saving throw against the caster’s spell
-save DC or fall unconscious for 1 minute.
-False Appearance. While the armor remains
-motionless, it is indistinguishable from a normal suit of
-armor.
+Antimagic Susceptibility. The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
+False Appearance. While the armor remains motionless, it is indistinguishable from a normal suit of armor.
 Actions
 Multiattack. The armor makes two melee attacks.
 Slam. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) bludgeoning damage.
+END
+
 Flying Sword
 Small construct, neutral neutral
 Armor Class 17 (natural armor)
@@ -225,17 +165,13 @@ Senses blindsight 60 ft. (blind beyond this radius),
 passive Perception 7
 Languages —
 Challenge 1/4 (50 XP)
-Antimagic Susceptibility. The sword is incapacitated
-while in the area of an antimagic field. If targeted by
-dispel magic, the sword must succeed on a
-Constitution saving throw against the caster’s spell
-save DC or fall unconscious for 1 minute.
-False Appearance. While the sword remains
-motionless and isn’t flying, it is indistinguishable from a
-normal sword.
+Antimagic Susceptibility. The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
+False Appearance. While the sword remains motionless and isn’t flying, it is indistinguishable from a normal sword.
 Actions
 Longsword. Melee Weapon Attack: +3 to hit, reach 5 ft.,
 one target. Hit: 5 (1d8 + 1) slashing damage.
+END
+
 Rug of Smothering
 Large construct, neutral neutral
 Armor Class 12
@@ -251,16 +187,9 @@ Senses blindsight 60 ft. (blind beyond this radius),
 passive Perception 6
 Languages —
 Challenge 2 (450 XP)
-Antimagic Susceptibility. The rug is incapacitated while
-in the area of an antimagic field. If targeted by dispel
-magic, the rug must succeed on a Constitution saving
-throw against the caster’s spell save DC or fall
-unconscious for 1 minute.
-Damage Transfer. While it is grappling a creature, the
-rug takes only half the damage dealt to it, and the
-creature grappled by the rug takes the other half.
-False Appearance. While the rug remains motionless, it
-is indistinguishable from a normal rug.
+Antimagic Susceptibility. The rug is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
+Damage Transfer. While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half.
+False Appearance. While the rug remains motionless, it is indistinguishable from a normal rug.
 Actions
 Smother. Melee Weapon Attack: +5 to hit, reach 5 ft.,
 one Medium or smaller creature. Hit: The creature is
@@ -269,6 +198,8 @@ target is restrained, blinded, and at risk of suffocating,
 and the rug can’t smother another target. In addition,
 at the start of each of the target’s turns, the target
 takes 10 (2d6 + 3) bludgeoning damage.
+END
+
 Ankheg
 Large monstrosity, neutral neutral
 Armor Class 14 (natural armor), 11 while prone
@@ -292,6 +223,8 @@ no creature grappled. Each creature in that line must
 make a DC 13 Dexterity saving throw, taking 10 (3d6)
 acid damage on a failed save, or half as much damage
 on a successful one.
+END
+
 Azer
 Medium elemental, lawful neutral
 Armor Class 17 (natural armor, shield)
@@ -304,12 +237,8 @@ Condition Immunities poisoned
 Senses passive Perception 11
 Languages Ignan
 Challenge 2 (450 XP)
-Heated Body. A creature that touches the azer or hits it
-with a melee attack while within 5 feet of it takes 5
-(1d10) fire damage.
-Heated Weapons. When the azer hits with a metal
-melee weapon, it deals an extra 3 (1d6) fire damage
-(included in the attack).
+Heated Body. A creature that touches the azer or hits it with a melee attack while within 5 feet of it takes 5 (1d10) fire damage.
+Heated Weapons. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).
 Illumination. The azer sheds bright light in a 10-­‐foot
 radius and dim light for an additional 10 feet.
 Actions
@@ -318,6 +247,7 @@ ft., one target. Hit: 7 (1d8 + 3) bludgeoning damage, or
 8 (1d10 + 3) bludgeoning damage if used with two
 hands to make a melee attack, plus 3 (1d6) fire damage.
 END
+
 
 Basilisk
 Medium monstrosity, neutral neutral
@@ -330,29 +260,13 @@ Speed 20 ft.
 Senses darkvision 60 ft., passive Perception 9
 Languages —
 Challenge 3 (700 XP)
-Petrifying Gaze. If a creature starts its turn within 30
-feet of the basilisk and the two of them can see each
-other, the basilisk can force the creature to make a DC
-12 Constitution saving throw if the basilisk isn’t
-incapacitated. On a failed save, the creature magically
-begins to turn to stone and is restrained. It must repeat
-the saving throw at the end of its next turn. On a
-success, the effect ends. On a failure, the creature is
-petrified until freed by the greater restoration spell or
-other magic.
-A creature that isn’t surprised can avert its eyes to
-avoid the saving throw at the start of its turn. If it does
-so, it can’t see the basilisk until the start of its next turn,
-when it can avert its eyes again. If it looks at the
-basilisk in the meantime, it must immediately make the
-save.
-If the basilisk sees its reflection within 30 feet of it in
-bright light, it mistakes itself for a rival and targets
-itself with its gaze.
+Petrifying Gaze. If a creature starts its turn within 30 feet of the basilisk and the two of them can see each other, the basilisk can force the creature to make a DC 12 Constitution saving throw if the basilisk isn’t incapacitated. On a failed save, the creature magically begins to turn to stone and is restrained. It must repeat the saving throw at the end of its next turn. On a success, the effect ends. On a failure, the creature is petrified until freed by the greater restoration spell or other magic.  A creature that isn’t surprised can avert its eyes to avoid the saving throw at the start of its turn. If it does so, it can’t see the basilisk until the start of its next turn, when it can avert its eyes again. If it looks at the basilisk in the meantime, it must immediately make the save.  If the basilisk sees its reflection within 30 feet of it in bright light, it mistakes itself for a rival and targets itself with its gaze.
 Actions
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one
 target. Hit: 10 (2d6 + 3) piercing damage plus 7 (2d6)
 poison damage.
+END
+
 Behir
 Huge monstrosity, neutral evil
 Armor Class 17 (natural armor)
@@ -396,6 +310,8 @@ space within 10 feet of the behir. If the behir dies, a
 swallowed creature is no longer restrained by it and can
 escape from the corpse by using 15 feet of movement,
 exiting prone.
+END
+
 Bugbear
 Medium humanoid (goblinoid), chaotic evil
 Armor Class 16 (hide armor, shield)
@@ -408,10 +324,7 @@ Languages Common, Goblin
 Challenge 1 (200 XP)
 Brute. A melee weapon deals one extra die of its damage
 when the bugbear hits with it (included in the attack).
-Surprise Attack. If the bugbear surprises a creature and
-hits it with an attack during the first round of combat,
-the target takes an extra 7 (2d6) damage from the
-attack.
+Surprise Attack. If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.
 Actions
 Morningstar. Melee Weapon Attack: +4 to hit, reach 5
 ft., one target. Hit: 11 (2d8 + 2) piercing damage.
@@ -419,6 +332,8 @@ Javelin. Melee or Ranged Weapon Attack: +4 to hit,
 reach 5 ft. or range 30/120 ft., one target. Hit: 9 (2d6 +
 2) piercing damage in melee or 5 (1d6 + 2) piercing
 damage at range.
+END
+
 Bulette
 Large monstrosity, neutral neutral
 Armor Class 17 (natural armor)
@@ -430,26 +345,13 @@ Senses darkvision 60 ft., tremorsense 60 ft., passive
 Perception 16
 Languages —
 Challenge 5 (1,800 XP)
-Standing Leap. The bulette’s long jump is up to 30 feet
-and its high jump is up to 15 feet, with or without a
-running start.
+Standing Leap. The bulette’s long jump is up to 30 feet and its high jump is up to 15 feet, with or without a running start.
 Actions
 Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 30 (4d12 + 4) piercing damage.
-Deadly Leap. If the bulette jumps at least 15 feet as
-part of its movement, it can then use this action to land
-on its feet in a space that contains one or more other
-creatures. Each of those creatures must succeed on a
-DC 16 Strength or Dexterity saving throw (target’s
-choice) or be knocked prone and take 14 (3d6 + 4)
-bludgeoning damage plus 14 (3d6 + 4) slashing
-damage. On a successful save, the creature takes only
-half the damage, isn’t knocked prone, and is pushed 5
-feet out of the bulette’s space into an unoccupied
-space of the creature’s choice. If no unoccupied space
-is within range, the creature instead falls prone in the
-bulette’s space.
+Deadly Leap. If the bulette jumps at least 15 feet as part of its movement, it can then use this action to land on its feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target’s choice) or be knocked prone and take 14 (3d6 + 4) bludgeoning damage plus 14 (3d6 + 4) slashing damage. On a successful save, the creature takes only half the damage, isn’t knocked prone, and is pushed 5 feet out of the bulette’s space into an unoccupied space of the creature’s choice. If no unoccupied space is within range, the creature instead falls prone in the bulette’s space.
 END
+
 
 Centaur
 Large monstrosity, neutral good
@@ -476,6 +378,8 @@ one target. Hit: 11 (2d6 + 4) bludgeoning damage.
 Longbow. Ranged Weapon Attack: +4 to hit, range
 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing
 damage.
+END
+
 Chimera
 Large monstrosity, chaotic evil
 Armor Class 14 (natural armor)
@@ -502,6 +406,8 @@ fire in a 15-­‐foot cone. Each creature in that area must
 make a DC 15 Dexterity saving throw, taking 31 (7d8)
 fire damage on a failed save, or half as much damage
 on a successful one.
+END
+
 Chuul
 Large aberration, chaotic evil
 Armor Class 16 (natural armor)
@@ -515,9 +421,7 @@ Senses darkvision 60 ft., passive Perception 14
 Languages understands Deep Speech but can’t speak
 Challenge 4 (1,100 XP)
 Amphibious. The chuul can breathe air and water.
-Sense Magic. The chuul senses magic within 120 feet
-of it at will. This trait otherwise works like the detect
-magic spell but isn’t itself magical.
+Sense Magic. The chuul senses magic within 120 feet of it at will. This trait otherwise works like the detect magic spell but isn’t itself magical.
 Actions
 Multiattack. The chuul makes two pincer attacks. If the
 chuul is grappling a creature, the chuul can also use its
@@ -533,6 +437,8 @@ poisoned for 1 minute. Until this poison ends, the
 target is paralyzed. The target can repeat the saving
 throw at the end of each of its turns, ending the effect
 on itself on a success.
+END
+
 Cloaker
 Large aberration, chaotic neutral
 Armor Class 14 (natural armor)
@@ -543,15 +449,9 @@ Skills Stealth +5
 Senses darkvision 60 ft., passive Perception 11
 Languages Deep Speech, Undercommon
 Challenge 8 (3,900 XP)
-Damage Transfer. While attached to a creature, the
-cloaker takes only half the damage dealt to it (rounded
-down), and that creature takes the other half.
-False Appearance. While the cloaker remains
-motionless without its underside exposed, it is
-indistinguishable from a dark leather cloak.
-Light Sensitivity. While in bright light, the cloaker has
-disadvantage on attack rolls and Wisdom (Perception)
-checks that rely on sight.
+Damage Transfer. While attached to a creature, the cloaker takes only half the damage dealt to it (rounded down), and that creature takes the other half.
+False Appearance. While the cloaker remains motionless without its underside exposed, it is indistinguishable from a dark leather cloak.
+Light Sensitivity. While in bright light, the cloaker has disadvantage on attack rolls and Wisdom (Perception) checks that rely on sight.
 Actions
 Multiattack. The cloaker makes two attacks: one with
 its bite and one with its tail.
@@ -592,6 +492,8 @@ A duplicate has the cloaker’s AC and uses its saving
 throws. If an attack hits a duplicate, or if a duplicate
 fails a saving throw against an effect that deals damage,
 the duplicate disappears.
+END
+
 Cockatrice
 Small monstrosity, neutral neutral
 Armor Class 11
@@ -610,6 +512,8 @@ save, the creature begins to turn to stone and is
 restrained. It must repeat the saving throw at the end
 of its next turn. On a success, the effect ends. On a
 failure, the creature is petrified for 24 hours.
+END
+
 Couatl
 Medium celestial, lawful good
 Armor Class 19 (natural armor)
@@ -623,20 +527,9 @@ and slashing from nonmagical attacks
 Senses truesight 120 ft., passive Perception 15
 Languages all, telepathy 120 ft.
 Challenge 4 (1,100 XP)
-Innate Spellcasting. The couatl’s spellcasting ability is
-Charisma (spell save DC 14). It can innately cast the
-following spells, requiring only verbal components:
-At will: detect evil and good, detect magic, detect
-thoughts
-3/day each: bless, create food and water, cure wounds,
-lesser restoration, protection from poison, sanctuary,
-shield
-1/day each: dream, greater restoration, scrying
-Magic Weapons. The couatl’s weapon attacks are
-magical.
-Shielded Mind. The couatl is immune to scrying and to
-any effect that would sense its emotions, read its
-thoughts, or detect its location.
+Innate Spellcasting. The couatl’s spellcasting ability is Charisma (spell save DC 14). It can innately cast the following spells, requiring only verbal components: At will: detect evil and good, detect magic, detect thoughts 3/day each: bless, create food and water, cure wounds, lesser restoration, protection from poison, sanctuary, shield 1/day each: dream, greater restoration, scrying
+Magic Weapons. The couatl’s weapon attacks are magical.
+Shielded Mind. The couatl is immune to scrying and to any effect that would sense its emotions, read its thoughts, or detect its location.
 Actions
 Bite. Melee Weapon Attack: +8 to hit, reach 5 ft., one
 creature. Hit: 8 (1d6 + 5) piercing damage, and the
@@ -650,20 +543,7 @@ bludgeoning damage, and the target is grappled
 (escape DC 15). Until this grapple ends, the target is
 restrained, and the couatl can’t constrict another
 target.
-Change Shape. The couatl magically polymorphs into a
-humanoid or beast that has a challenge rating equal to
-or less than its own, or back into its true form. It
-reverts to its true form if it dies. Any equipment it is
-wearing or carrying is absorbed or borne by the new
-form (the couatl’s choice).
-In a new form, the couatl retains its game statistics
-and ability to speak, but its AC, movement modes,
-Strength, Dexterity, and other actions are replaced by
-those of the new form, and it gains any statistics and
-capabilities (except class features, legendary actions,
-and lair actions) that the new form has but that it lacks.
-If the new form has a bite attack, the couatl can use its
-bite in that form.
+Change Shape. The couatl magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the couatl’s choice).  In a new form, the couatl retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and other actions are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.  If the new form has a bite attack, the couatl can use its bite in that form.
 END
 
 Darkmantle
@@ -678,9 +558,7 @@ Languages —
 Challenge 1/2 (100 XP)
 Echolocation. The darkmantle can’t use its blindsight
 while deafened.
-False Appearance. While the darkmantle remains
-motionless, it is indistinguishable from a cave
-formation such as a stalactite or stalagmite.
+False Appearance. While the darkmantle remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite.
 Actions
 Crush. Melee Weapon Attack: +5 to hit, reach 5 ft., one
 creature. Hit: 6 (1d6 + 3) bludgeoning damage, and the
@@ -723,23 +601,10 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 13
 Languages Abyssal, telepathy 120 ft.
 Challenge 19 (22,000 XP)
-Death Throes. When the balor dies, it explodes, and
-each creature within 30 feet of it must make a DC 20
-Dexterity saving throw, taking 70 (20d6) fire damage
-on a failed save, or half as much damage on a
-successful one. The explosion ignites flammable
-objects in that area that aren’t being worn or carried,
-and it destroys the balor’s weapons.
-Fire Aura. At the start of each of the balor’s turns, each
-creature within 5 feet of it takes 10 (3d6) fire damage,
-and flammable objects in the aura that aren’t being
-worn or carried ignite. A creature that touches the
-balor or hits it with a melee attack while within 5 feet
-of it takes 10 (3d6) fire damage.
-Magic Resistance. The balor has advantage on saving
-throws against spells and other magical effects.
-Magic Weapons. The balor’s weapon attacks are
-magical.
+Death Throes. When the balor dies, it explodes, and each creature within 30 feet of it must make a DC 20 Dexterity saving throw, taking 70 (20d6) fire damage on a failed save, or half as much damage on a successful one. The explosion ignites flammable objects in that area that aren’t being worn or carried, and it destroys the balor’s weapons.
+Fire Aura. At the start of each of the balor’s turns, each creature within 5 feet of it takes 10 (3d6) fire damage, and flammable objects in the aura that aren’t being worn or carried ignite. A creature that touches the balor or hits it with a melee attack while within 5 feet of it takes 10 (3d6) fire damage.
+Magic Resistance. The balor has advantage on saving throws against spells and other magical effects.
+Magic Weapons. The balor’s weapon attacks are magical.
 Actions
 Multiattack. The balor makes two attacks: one with its
 longsword and one with its whip.
@@ -755,6 +620,8 @@ toward the balor.
 Teleport. The balor magically teleports, along with any
 equipment it is wearing or carrying, up to 120 feet to
 an unoccupied space it can see.
+END
+
 Dretch
 Small fiend (demon), chaotic evil
 Armor Class 11 (natural armor)
@@ -786,6 +653,8 @@ on a DC 11 Constitution saving throw or be poisoned
 until the start of its next turn. While poisoned in this
 way, the target can take either an action or a bonus
 action on its turn, not both, and can’t take reactions.
+END
+
 Glabrezu
 Large fiend (demon), chaotic evil
 Armor Class 17 (natural armor)
@@ -800,15 +669,8 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 13
 Languages Abyssal, telepathy 120 ft.
 Challenge 9 (5,000 XP)
-Innate Spellcasting. The glabrezu’s spellcasting ability
-is Intelligence (spell save DC 16). The glabrezu can
-innately cast the following spells, requiring no material
-components:
-At will: darkness, detect magic, dispel magic
-1/day each: confusion, fly, power word stun
-Magic Resistance. The glabrezu has advantage on
-saving throws against spells and other magical effects.
-Actions
+Innate Spellcasting. The glabrezu’s spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic 1/day each: confusion, fly, power word stun
+Magic Resistance. The glabrezu has advantage on saving throws against spells and other magical effects.  Actions
 Multiattack. The glabrezu makes four attacks: two with
 its pincers and two with its fists. Alternatively, it makes
 two attacks with its pincers and casts one spell.
@@ -819,6 +681,8 @@ grappled (escape DC 15). The glabrezu has two pincers,
 each of which can grapple only one target.
 Fist. Melee Weapon Attack: +9 to hit, reach 5 ft., one
 target. Hit: 7 (2d4 + 2) bludgeoning damage.
+END
+
 Hezrou
 Large fiend (demon), chaotic evil
 Armor Class 16 (natural armor)
@@ -833,8 +697,7 @@ Condition Immunities poisoned
 Senses darkvision 120 ft., passive Perception 11
 Languages Abyssal, telepathy 120 ft.
 Challenge 8 (3,900 XP)
-Magic Resistance. The hezrou has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The hezrou has advantage on saving throws against spells and other magical effects.
 Stench. Any creature that starts its turn within 10 feet
 of the hezrou must succeed on a DC 14 Constitution
 saving throw or be poisoned until the start of its next
@@ -847,6 +710,8 @@ Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 15 (2d10 + 4) piercing damage.
 Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 11 (2d6 + 4) slashing damage.
+END
+
 Marilith
 Large fiend (demon), chaotic evil
 Armor Class 18 (natural armor)
@@ -861,10 +726,8 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 13
 Languages Abyssal, telepathy 120 ft.
 Challenge 16 (15,000 XP)
-Magic Resistance. The marilith has advantage on
-saving throws against spells and other magical effects.
-Magic Weapons. The marilith’s weapon attacks are
-magical.
+Magic Resistance. The marilith has advantage on saving throws against spells and other magical effects.
+Magic Weapons. The marilith’s weapon attacks are magical.
 Reactive. The marilith can take one reaction on every
 turn in a combat.
 Actions
@@ -886,6 +749,8 @@ Reactions
 Parry. The marilith adds 5 to its AC against one melee
 attack that would hit it. To do so, the marilith must see
 the attacker and be wielding a melee weapon.
+END
+
 Nalfeshnee
 Large fiend (demon), chaotic evil
 Armor Class 18 (natural armor)
@@ -900,8 +765,7 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 11
 Languages Abyssal, telepathy 120 ft.
 Challenge 13 (10,000 XP)
-Magic Resistance. The nalfeshnee has advantage on
-saving throws against spells and other magical effects.
+Magic Resistance. The nalfeshnee has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The nalfeshnee uses Horror Nimbus if it
 can. It then makes three attacks: one with its bite and
@@ -923,6 +787,8 @@ for the next 24 hours.
 Teleport. The nalfeshnee magically teleports, along
 with any equipment it is wearing or carrying, up to 120
 feet to an unoccupied space it can see.
+END
+
 Quasit
 Tiny fiend (demon, shapechanger), chaotic evil
 Armor Class 13
@@ -945,8 +811,7 @@ Its statistics are the same in each form, except for the
 speed changes noted. Any equipment it is wearing or
 carrying isn’t transformed. It reverts to its true form if
 it dies.
-Magic Resistance. The quasit has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The quasit has advantage on saving throws against spells and other magical effects.
 Actions
 Claws (Bite in Beast Form). Melee Weapon Attack: +4
 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing
@@ -965,6 +830,8 @@ Invisibility. The quasit magically turns invisible until it
 attacks or uses Scare, or until its concentration ends (as
 if concentrating on a spell). Any equipment the quasit
 wears or carries is invisible with it.
+END
+
 Vrock
 Large fiend (demon), chaotic evil
 Armor Class 15 (natural armor)
@@ -979,8 +846,7 @@ Condition Immunities poisoned
 Senses darkvision 120 ft., passive Perception 11
 Languages Abyssal, telepathy 120 ft.
 Challenge 6 (2,300 XP)
-Magic Resistance. The vrock has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The vrock has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The vrock makes two attacks: one with its
 beak and one with its talons.
@@ -1020,13 +886,9 @@ Condition Immunities poisoned
 Senses darkvision 120 ft., passive Perception 18
 Languages Infernal, telepathy 120 ft.
 Challenge 5 (1,800 XP)
-Barbed Hide. At the start of each of its turns, the
-barbed devil deals 5 (1d10) piercing damage to any
-creature grappling it.
-Devil’s Sight. Magical darkness doesn’t impede the
-devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Barbed Hide. At the start of each of its turns, the barbed devil deals 5 (1d10) piercing damage to any creature grappling it.
+Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three melee attacks: one
 with its tail and two with its claws. Alternatively, it can
@@ -1035,10 +897,9 @@ Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 6 (1d6 + 3) piercing damage.
 Tail. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 10 (2d6 + 3) piercing damage.
-Hurl Flame. Ranged Spell Attack: +5 to hit, range 150
-ft., one target. Hit: 10 (3d6) fire damage. If the target is
-a flammable object that isn’t being worn or carried, it
-also catches fire.
+Hurl Flame. Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
+END
+
 Bearded Devil
 Medium fiend (devil), lawful evil
 Armor Class 13 (natural armor)
@@ -1055,8 +916,7 @@ Languages Infernal, telepathy 120 ft.
 Challenge 3 (700 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Steadfast. The devil can’t be frightened while it can see
 an allied creature within 30 feet of it.
 Actions
@@ -1080,6 +940,8 @@ damage dealt by the wound increases by 5 (1d10). Any
 creature can take an action to stanch the wound with a
 successful DC 12 Wisdom (Medicine) check. The wound
 also closes if the target receives magical healing.
+END
+
 Bone Devil
 Large fiend (devil), lawful evil
 Armor Class 19 (natural armor)
@@ -1097,8 +959,7 @@ Languages Infernal, telepathy 120 ft.
 Challenge 9 (5,000 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three attacks: two with
 its claws and one with its sting.
@@ -1111,6 +972,8 @@ a DC 14 Constitution saving throw or become poisoned
 for 1 minute. The target can repeat the saving throw at
 the end of each of its turns, ending the effect on itself
 on a success.
+END
+
 Chain Devil
 Medium fiend (devil), lawful evil
 Armor Class 16 (natural armor)
@@ -1127,8 +990,7 @@ Languages Infernal, telepathy 120 ft.
 Challenge 8 (3,900 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes two attacks with its
 chains.
@@ -1153,13 +1015,9 @@ make attacks while grappling. An animated chain
 reverts to its inanimate state if reduced to 0 hit points
 or if the devil is incapacitated or dies.
 Reactions
-Unnerving Mask. When a creature the devil can see
-starts its turn within 30 feet of the devil, the devil can
-create the illusion that it looks like one of the
-creature’s departed loved ones or bitter enemies. If the
-creature can see the devil, it must succeed on a DC 14
-Wisdom saving throw or be frightened until the end of
-its turn.
+Unnerving Mask. When a creature the devil can see starts its turn within 30 feet of the devil, the devil can create the illusion that it looks like one of the creature’s departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn.
+END
+
 Erinyes
 Medium fiend (devil), lawful evil
 Armor Class 18 (plate)
@@ -1174,11 +1032,8 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 12
 Languages Infernal, telepathy 120 ft.
 Challenge 12 (8,400 XP)
-Hellish Weapons. The erinyes’s weapon attacks are
-magical and deal an extra 13 (3d8) poison damage on a
-hit (included in the attacks).
-Magic Resistance. The erinyes has advantage on saving
-throws against spells and other magical effects.
+Hellish Weapons. The erinyes’s weapon attacks are magical and deal an extra 13 (3d8) poison damage on a hit (included in the attacks).
+Magic Resistance. The erinyes has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The erinyes makes three attacks.
 Longsword. Melee Weapon Attack: +8 to hit, reach 5 ft.,
@@ -1195,6 +1050,8 @@ Reactions
 Parry. The erinyes adds 4 to its AC against one melee
 attack that would hit it. To do so, the erinyes must see
 the attacker and be wielding a melee weapon.
+END
+
 Horned Devil
 Large fiend (devil), lawful evil
 Armor Class 18 (natural armor)
@@ -1212,8 +1069,7 @@ Languages Infernal, telepathy 120 ft.
 Challenge 11 (7,200 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three melee attacks: two
 with its fork and one with its tail. It can use Hurl Flame
@@ -1231,10 +1087,7 @@ the wound increases by 10 (3d6). Any creature can take
 an action to stanch the wound with a successful DC 12
 Wisdom (Medicine) check. The wound also closes if the
 target receives magical healing.
-Hurl Flame. Ranged Spell Attack: +7 to hit, range 150
-ft., one target. Hit: 14 (4d6) fire damage. If the target is
-a flammable object that isn’t being worn or carried, it
-also catches fire.
+Hurl Flame. Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
 END
 
 Ice Devil
@@ -1254,8 +1107,7 @@ Languages Infernal, telepathy 120 ft.
 Challenge 14 (11,500 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 devil’s darkvision.
-Magic Resistance. The devil has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three attacks: one with
 its bite, one with its claws, and one with its tail.
@@ -1293,6 +1145,8 @@ Constitution saving throw, taking 17 (5d6) cold damage
 on a failed save, or half as much damage on a
 successful one. The frigid air dissipates when the rest
 of the wall vanishes.
+END
+
 Imp
 Tiny fiend (devil, shapechanger), lawful evil
 Armor Class 13
@@ -1317,8 +1171,7 @@ changes noted. Any equipment it is wearing or carrying
 isn’t transformed. It reverts to its true form if it dies.
 Devil’s Sight. Magical darkness doesn’t impede the
 imp’s darkvision.
-Magic Resistance. The imp has advantage on saving
-throws against spells and other magical effects.
+Magic Resistance. The imp has advantage on saving throws against spells and other magical effects.
 Actions
 Sting (Bite in Beast Form). Melee Weapon Attack: +5
 to hit, reach 5 ft., one target. Hit: 5 (1d4 + 3) piercing
@@ -1330,6 +1183,8 @@ Invisibility. The imp magically turns invisible until it
 attacks or until its concentration ends (as if
 concentrating on a spell). Any equipment the imp
 wears or carries is invisible with it.
+END
+
 Lemure
 Medium fiend (devil), lawful evil
 Armor Class 7
@@ -1344,14 +1199,12 @@ Languages understands Infernal but can’t speak
 Challenge 0 (10 XP)
 Devil’s Sight. Magical darkness doesn’t impede the
 lemure’s darkvision.
-Hellish Rejuvenation. A lemure that dies in the Nine
-Hells comes back to life with all its hit points in 1d10
-days unless it is killed by a good-­‐aligned creature with a
-bless spell cast on that creature or its remains are
-sprinkled with holy water.
+Hellish Rejuvenation. A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-­‐aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.
 Actions
 Fist. Melee Weapon Attack: +3 to hit, reach 5 ft., one
 target. Hit: 2 (1d4) bludgeoning damage.
+END
+
 Pit Fiend
 Large fiend (devil), lawful evil
 Armor Class 19 (natural armor)
@@ -1366,23 +1219,10 @@ Condition Immunities poisoned
 Senses truesight 120 ft., passive Perception 14
 Languages Infernal, telepathy 120 ft.
 Challenge 20 (25,000 XP)
-Fear Aura. Any creature hostile to the pit fiend that
-starts its turn within 20 feet of the pit fiend must make
-a DC 21 Wisdom saving throw, unless the pit fiend is
-incapacitated. On a failed save, the creature is
-frightened until the start of its next turn. If a creature’s
-saving throw is successful, the creature is immune to
-the pit fiend’s Fear Aura for the next 24 hours.
-Magic Resistance. The pit fiend has advantage on
-saving throws against spells and other magical effects.
-Magic Weapons. The pit fiend’s weapon attacks are
-magical.
-Innate Spellcasting. The pit fiend’s spellcasting ability
-is Charisma (spell save DC 21). The pit fiend can
-innately cast the following spells, requiring no material
-components:
-At will: detect magic, fireball
-3/day each: hold monster, wall of fire
+Fear Aura. Any creature hostile to the pit fiend that starts its turn within 20 feet of the pit fiend must make a DC 21 Wisdom saving throw, unless the pit fiend is incapacitated. On a failed save, the creature is frightened until the start of its next turn. If a creature’s saving throw is successful, the creature is immune to the pit fiend’s Fear Aura for the next 24 hours.
+Magic Resistance. The pit fiend has advantage on saving throws against spells and other magical effects.
+Magic Weapons. The pit fiend’s weapon attacks are magical.
+Innate Spellcasting. The pit fiend’s spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components: At will: detect magic, fireball 3/day each: hold monster, wall of fire
 Actions
 Multiattack. The pit fiend makes four attacks: one with
 its bite, one with its claw, one with its mace, and one
@@ -1415,11 +1255,12 @@ Skills Perception +3, Stealth +4
 Senses passive Perception 13
 Languages —
 Challenge 2 (450 XP)
-Hold Breath. The plesiosaurus can hold its breath for 1
-hour.
+Hold Breath. The plesiosaurus can hold its breath for 1 hour.
 Actions
 Bite. Melee Weapon Attack: +6 to hit, reach 10 ft., one
 target. Hit: 14 (3d6 + 4) piercing damage.
+END
+
 Triceratops
 Huge beast, neutral neutral
 Armor Class 13 (natural armor)
@@ -1429,18 +1270,15 @@ Speed 50 ft.
 Senses passive Perception 10
 Languages —
 Challenge 5 (1,800 XP)
-Trampling Charge. If the triceratops moves at least 20
-feet straight toward a creature and then hits it with a
-gore attack on the same turn, that target must succeed
-on a DC 13 Strength saving throw or be knocked prone.
-If the target is prone, the triceratops can make one
-stomp attack against it as a bonus action.
+Trampling Charge. If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.  If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
 Actions
 Gore. Melee Weapon Attack: +9 to hit, reach 5 ft., one
 target. Hit: 24 (4d8 + 6) piercing damage.
 Stomp. Melee Weapon Attack: +9 to hit, reach 5 ft.,
 one prone creature. Hit: 22 (3d10 + 6) bludgeoning
 damage.
+END
+
 Tyrannosaurus Rex
 Huge beast, neutral neutral
 Armor Class 13 (natural armor)
@@ -1463,6 +1301,8 @@ restrained, and the tyrannosaurus can’t bite another
 target.
 Tail. Melee Weapon Attack: +10 to hit, reach 10 ft., one
 target. Hit: 20 (3d8 + 7) bludgeoning damage.
+END
+
 Doppelganger
 Medium monstrosity (shapechanger), neutral
 Armor Class 14
@@ -1483,26 +1323,13 @@ true form if it dies.
 Ambusher. In the first round of a combat, the
 doppelganger has advantage on attack rolls against any
 creature it has surprised.
-Surprise Attack. If the doppelganger surprises a
-creature and hits it with an attack during the first
-round of combat, the target takes an extra 10 (3d6)
-damage from the attack.
+Surprise Attack. If the doppelganger surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 10 (3d6) damage from the attack.
 Actions
 Multiattack. The doppelganger makes two melee
 attacks.
 Slam. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 7 (1d6 + 4) bludgeoning damage.
-Read Thoughts. The doppelganger magically reads the
-surface thoughts of one creature within 60 feet of it.
-The effect can penetrate barriers, but 3 feet of wood or
-dirt, 2 feet of stone, 2 inches of metal, or a thin sheet
-of lead blocks it. While the target is in range, the
-doppelganger can continue reading its thoughts, as
-long as the doppelganger’s concentration isn’t broken
-(as if concentrating on a spell). While reading the
-target’s mind, the doppelganger has advantage on
-Wisdom (Insight) and Charisma (Deception,
-Intimidation, and Persuasion) checks against the target.
+Read Thoughts. The doppelganger magically reads the surface thoughts of one creature within 60 feet of it.  The effect can penetrate barriers, but 3 feet of wood or dirt, 2 feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.
 END
 
 Ancient Black Dragon
@@ -1532,35 +1359,17 @@ Claw. Melee Weapon Attack: +15 to hit, reach 10 ft.,
 one target. Hit: 15 (2d6 + 8) slashing damage.
 Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one
 target. Hit: 17 (2d8 + 8) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 19 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Acid Breath (Recharge 5–6). The dragon exhales acid in
-a 90-­‐foot line that is 10 feet wide. Each creature in that
-line must make a DC 22 Dexterity saving throw, taking
-67 (15d8) acid damage on a failed save, or half as much
-damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Acid Breath (Recharge 5–6). The dragon exhales acid in a 90-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
 The dragon can take 3 legendary actions, choosing
 from the options below. Only one legendary action
 option can be used at a time and only at the end of
 another creature’s turn. The dragon regains spent
 legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 15 feet of the dragon
-must succeed on a DC 23 Dexterity saving throw or
-take 15 (2d6 + 8) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Adult Black Dragon
@@ -1590,35 +1399,13 @@ Claw. Melee Weapon Attack: +11 to hit, reach 5 ft.,
 one target. Hit: 13 (2d6 + 6) slashing damage.
 Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one
 target. Hit: 15 (2d8 + 6) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 16 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Acid Breath (Recharge 5–6). The dragon exhales acid in
-a 60-­‐foot line that is 5 feet wide. Each creature in that
-line must make a DC 18 Dexterity saving throw, taking
-54 (12d8) acid damage on a failed save, or half as much
-damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Acid Breath (Recharge 5–6). The dragon exhales acid in a 60-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 10 feet of the dragon
-must succeed on a DC 19 Dexterity saving throw or
-take 13 (2d6 + 6) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Young Black Dragon
@@ -1643,11 +1430,7 @@ target. Hit: 15 (2d10 + 4) piercing damage plus 4 (1d8)
 acid damage.
 Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one
 target. Hit: 11 (2d6 + 4) slashing damage.
-Acid Breath (Recharge 5–6). The dragon exhales acid in
-a 30-­‐foot line that is 5 feet wide. Each creature in that
-line must make a DC 14 Dexterity saving throw, taking
-49 (11d8) acid damage on a failed save, or half as much
-damage on a successful one.
+Acid Breath (Recharge 5–6). The dragon exhales acid in a 30-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful one.
 END
 
 Black Dragon Wyrmling
@@ -1701,35 +1484,13 @@ Claw. Melee Weapon Attack: +16 to hit, reach 10 ft.,
 one target. Hit: 16 (2d6 + 9) slashing damage.
 Tail. Melee Weapon Attack: +16 to hit, reach 20 ft., one
 target. Hit: 18 (2d8 + 9) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 20 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Lightning Breath (Recharge 5–6). The dragon exhales
-lightning in a 120-­‐foot line that is 10 feet wide. Each
-creature in that line must make a DC 23 Dexterity
-saving throw, taking 88 (16d10) lightning damage on a
-failed save, or half as much damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 120-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
-Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 15 feet of the dragon
-must succeed on a DC 24 Dexterity saving throw or
-take 16 (2d6 + 9) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.
+Detect. The dragon makes a Wisdom (Perception) check.
+Tail Attack. The dragon makes a tail attack.  
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 24 Dexterity saving throw or take 16 (2d6 + 9) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Adult Blue Dragon
@@ -1758,28 +1519,11 @@ Claw. Melee Weapon Attack: +12 to hit, reach 5 ft.,
 one target. Hit: 14 (2d6 + 7) slashing damage.
 Tail. Melee Weapon Attack: +12 to hit, reach 15 ft., one
 target. Hit: 16 (2d8 + 7) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 17 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Lightning Breath (Recharge 5–6). The dragon exhales
-lightning in a 90-­‐foot line that is 5 feet wide. Each
-creature in that line must make a DC 19 Dexterity
-saving throw, taking 66 (12d10) lightning damage on a
-failed save, or half as much damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 90-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
 Wing Attack (Costs 2 Actions). The dragon beats its
 wings. Each creature within 10 feet of the dragon
@@ -1870,35 +1614,12 @@ Claw. Melee Weapon Attack: +15 to hit, reach 10 ft.,
 one target. Hit: 22 (4d6 + 8) slashing damage.
 Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one
 target. Hit: 17 (2d8 + 8) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 19 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Poison Breath (Recharge 5–6). The dragon exhales
-poisonous gas in a 90-­‐foot cone. Each creature in that
-area must make a DC 22 Constitution saving throw,
-taking 77 (22d6) poison damage on a failed save, or
-half as much damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 90-­‐foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.  Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 15 feet of the dragon
-must succeed on a DC 23 Dexterity saving throw or
-take 15 (2d6 + 8) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 23 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Adult Green Dragon
@@ -1930,35 +1651,17 @@ Claw. Melee Weapon Attack: +11 to hit, reach 5 ft.,
 one target. Hit: 13 (2d6 + 6) slashing damage.
 Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one
 target. Hit: 15 (2d8 + 6) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 16 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Poison Breath (Recharge 5–6). The dragon exhales
-poisonous gas in a 60-­‐foot cone. Each creature in that
-area must make a DC 18 Constitution saving throw,
-taking 56 (16d6) poison damage on a failed save, or
-half as much damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 60-­‐foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
 The dragon can take 3 legendary actions, choosing
 from the options below. Only one legendary action
 option can be used at a time and only at the end of
 another creature’s turn. The dragon regains spent
 legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 10 feet of the dragon
-must succeed on a DC 19 Dexterity saving throw or
-take 13 (2d6 + 6) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 19 Dexterity saving throw or take 13 (2d6 + 6) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Young Green Dragon
@@ -2043,35 +1746,13 @@ Claw. Melee Weapon Attack: +17 to hit, reach 10 ft.,
 one target. Hit: 17 (2d6 + 10) slashing damage.
 Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one
 target. Hit: 19 (2d8 + 10) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 21 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Fire Breath (Recharge 5–6). The dragon exhales fire in
-a 90-­‐foot cone. Each creature in that area must make a
-DC 24 Dexterity saving throw, taking 91 (26d6) fire
-damage on a failed save, or half as much damage on a
-successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Fire Breath (Recharge 5–6). The dragon exhales fire in a 90-­‐foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 15 feet of the dragon
-must succeed on a DC 25 Dexterity saving throw or
-take 17 (2d6 + 10) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 15 feet of the dragon must succeed on a DC 25 Dexterity saving throw or take 17 (2d6 + 10) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Adult Red Dragon
@@ -2100,35 +1781,13 @@ Claw. Melee Weapon Attack: +14 to hit, reach 5 ft.,
 one target. Hit: 15 (2d6 + 8) slashing damage.
 Tail. Melee Weapon Attack: +14 to hit, reach 15 ft., one
 target. Hit: 17 (2d8 + 8) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 19 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Fire Breath (Recharge 5–6). The dragon exhales fire in
-a 60-­‐foot cone. Each creature in that area must make a
-DC 21 Dexterity saving throw, taking 63 (18d6) fire
-damage on a failed save, or half as much damage on a
-successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Fire Breath (Recharge 5–6). The dragon exhales fire in a 60-­‐foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
-The dragon can take 3 legendary actions, choosing
-from the options below. Only one legendary action
-option can be used at a time and only at the end of
-another creature’s turn. The dragon regains spent
-legendary actions at the start of its turn.
-Detect. The dragon makes a Wisdom (Perception)
-check.
+The dragon can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The dragon regains spent legendary actions at the start of its turn.
+Detect. The dragon makes a Wisdom (Perception) check.
 Tail Attack. The dragon makes a tail attack.
-Wing Attack (Costs 2 Actions). The dragon beats its
-wings. Each creature within 10 feet of the dragon
-must succeed on a DC 22 Dexterity saving throw or
-take 15 (2d6 + 8) bludgeoning damage and be
-knocked prone. The dragon can then fly up to half its
-flying speed.
+Wing Attack (Costs 2 Actions). The dragon beats its wings. Each creature within 10 feet of the dragon must succeed on a DC 22 Dexterity saving throw or take 15 (2d6 + 8) bludgeoning damage and be knocked prone. The dragon can then fly up to half its flying speed.
 END
 
 Young Red Dragon
@@ -2196,12 +1855,8 @@ Senses blindsight 60 ft., darkvision 120 ft., passive
 Perception 23
 Languages Common, Draconic
 Challenge 20 (25,000 XP)
-Ice Walk. The dragon can move across and climb icy
-surfaces without needing to make an ability check.
-Additionally, difficult terrain composed of ice or snow
-doesn’t cost it extra moment.
-Legendary Resistance (3/Day). If the dragon fails a
-saving throw, it can choose to succeed instead.
+Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check.  Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment.
+Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.
 It then makes three attacks: one with its bite and two
@@ -2213,20 +1868,8 @@ Claw. Melee Weapon Attack: +14 to hit, reach 10 ft.,
 one target. Hit: 15 (2d6 + 8) slashing damage.
 Tail. Melee Weapon Attack: +14 to hit, reach 20 ft., one
 target. Hit: 17 (2d8 + 8) bludgeoning damage.
-Frightful Presence. Each creature of the dragon’s
-choice that is within 120 feet of the dragon and aware
-of it must succeed on a DC 16 Wisdom saving throw or
-become frightened for 1 minute. A creature can repeat
-the saving throw at the end of each of its turns, ending
-the effect on itself on a success. If a creature’s saving
-throw is successful or the effect ends for it, the
-creature is immune to the dragon’s Frightful Presence
-for the next 24 hours.
-Cold Breath (Recharge 5–6). The dragon exhales an icy
-blast in a 90-­‐foot cone. Each creature in that area must
-make a DC 22 Constitution saving throw, taking 72
-(16d8) cold damage on a failed save, or half as much
-damage on a successful one.
+Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
+Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 90-­‐foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
 The dragon can take 3 legendary actions, choosing
 from the options below. Only one legendary action
@@ -3498,6 +3141,8 @@ throw, taking 52 (15d6) fire damage on a failed save, or
 half as much damage on a successful one. Being
 underwater doesn’t grant resistance against this
 damage.
+END
+
 Drider
 Large monstrosity, chaotic evil
 Armor Class 19 (natural armor)
@@ -3538,6 +3183,8 @@ one target. Hit: 7 (1d8 + 3) slashing damage, or 8 (1d10
 Longbow. Ranged Weapon Attack: +6 to hit, range
 150/600 ft., one target. Hit: 7 (1d8 + 3) piercing
 damage plus 4 (1d8) poison damage.
+END
+
 Dryad
 Medium fey, neutral
 Armor Class 11 (16 with barkskin)
@@ -3589,6 +3236,8 @@ successful, the target is immune to the dryad’s Fey
 Charm for the next 24 hours.
 The dryad can have no more than one humanoid and
 up to three beasts charmed at a time.
+END
+
 Duergar
 Medium humanoid (dwarf), lawful evil
 Armor Class 16 (scale mail, shield)
@@ -3631,6 +3280,8 @@ with it.
 END
 
 Elementals
+END
+
 Air Elemental
 Large elemental, neutral
 Armor Class 15
@@ -3666,6 +3317,8 @@ same damage and be knocked prone.
 If the saving throw is successful, the target takes half
 the bludgeoning damage and isn’t flung away or
 knocked prone.
+END
+
 Earth Elemental
 Large elemental, neutral
 Armor Class 17 (natural armor)
@@ -3692,6 +3345,8 @@ Actions
 Multiattack. The elemental makes two slam attacks.
 Slam. Melee Weapon Attack: +8 to hit, reach 10 ft.,
 one target. Hit: 14 (2d8 + 5) bludgeoning damage.
+END
+
 Fire Elemental
 Large elemental, neutral
 Armor Class 13
@@ -3729,6 +3384,8 @@ creature or a flammable object, it ignites. Until a
 creature takes an action to douse the fire, the target
 takes 5 (1d10) fire damage at the start of each of its
 turns.
+END
+
 Water Elemental
 Large elemental, neutral
 Armor Class 14 (natural armor)
@@ -3768,6 +3425,8 @@ grappled by it takes 13 (2d8 + 4) bludgeoning damage.
 A creature within 5 feet of the elemental can pull a
 creature or object out of it by taking an action to make
 a DC 14 Strength and succeeding.
+END
+
 Elf, Drow
 Medium humanoid (elf), neutral evil
 Armor Class 15 (chain shirt)
@@ -3800,6 +3459,8 @@ the saving throw fails by 5 or more, the target is also
 unconscious while poisoned in this way. The target
 wakes up if it takes damage or if another creature
 takes an action to shake it awake.
+END
+
 Ettercap
 Medium monstrosity, neutral evil
 Armor Class 13 (natural armor)
@@ -3838,6 +3499,8 @@ escaping from the webbing on a success. The effect
 also ends if the webbing is destroyed. The webbing has
 AC 10, 5 hit points, vulnerability to fire damage, and
 immunity to bludgeoning, poison, and psychic damage.
+END
+
 Ettin
 Large giant, chaotic evil
 Armor Class 12 (natural armor)
@@ -3864,6 +3527,8 @@ ft., one target. Hit: 14 (2d8 + 5) piercing damage.
 END
 
 Fungi
+END
+
 Shrieker
 Medium plant, neutral neutral
 Armor Class 5
@@ -3887,6 +3552,8 @@ of the shrieker, it emits a shriek audible within 300 feet
 of it. The shrieker continues to shriek until the
 disturbance moves out of range and for 1d4 of the
 shrieker’s turns afterward.
+END
+
 Violet Fungus
 Medium plant, neutral neutral
 Armor Class 5
@@ -3982,6 +3649,8 @@ restrained by the whirlwind, including itself, by
 succeeding on a DC 18 Strength check. If the check
 succeeds, the creature is no longer restrained and
 moves to the nearest space outside the whirlwind.
+END
+
 Efreeti
 Large elemental, lawful evil
 Armor Class 17 (natural armor)
@@ -4082,6 +3751,8 @@ body. The target is immune to this ghost’s Possession
 for 24 hours after succeeding on the saving throw or
 after the possession ends.
 Ghouls
+END
+
 Ghast
 Medium undead, chaotic evil
 Armor Class 13
@@ -4112,6 +3783,8 @@ DC 10 Constitution saving throw or be paralyzed for 1
 minute. The target can repeat the saving throw at the
 end of each of its turns, ending the effect on itself on a
 success.
+END
+
 Ghoul
 Medium undead, chaotic evil
 Armor Class 12
@@ -4134,6 +3807,8 @@ for 1 minute. The target can repeat the saving throw at
 the end of each of its turns, ending the effect on itself
 on a success.
 Giants
+END
+
 Cloud Giant
 Huge giant, neutral good (50%) or neutral evil (50%)
 Armor Class 14 (natural armor)
@@ -4159,6 +3834,8 @@ Morningstar. Melee Weapon Attack: +12 to hit, reach
 10 ft., one target. Hit: 21 (3d8 + 8) piercing damage.
 Rock. Ranged Weapon Attack: +12 to hit, range 60/240
 ft., one target. Hit: 30 (4d10 + 8) bludgeoning damage.
+END
+
 Fire Giant
 Huge giant, lawful evil
 Armor Class 18 (plate)
@@ -4177,6 +3854,8 @@ Greatsword. Melee Weapon Attack: +11 to hit, reach
 10 ft., one target. Hit: 28 (6d6 + 7) slashing damage.
 Rock. Ranged Weapon Attack: +11 to hit, range 60/240
 ft., one target. Hit: 29 (4d10 + 7) bludgeoning damage.
+END
+
 Frost Giant
 Huge giant, neutral evil
 Armor Class 15 (patchwork armor)
@@ -4195,6 +3874,8 @@ Greataxe. Melee Weapon Attack: +9 to hit, reach 10 ft.,
 one target. Hit: 25 (3d12 + 6) slashing damage.
 Rock. Ranged Weapon Attack: +9 to hit, range 60/240
 ft., one target. Hit: 28 (4d10 + 6) bludgeoning damage.
+END
+
 Hill Giant
 Huge giant, chaotic evil
 Armor Class 13 (natural armor)
@@ -4213,6 +3894,8 @@ Greatclub. Melee Weapon Attack: +8 to hit, reach 10
 ft., one target. Hit: 18 (3d8 + 5) bludgeoning damage.
 Rock. Ranged Weapon Attack: +8 to hit, range 60/240
 ft., one target. Hit: 21 (3d10 + 5) bludgeoning damage.
+END
+
 Stone Giant
 Huge giant, neutral
 Armor Class 17 (natural armor)
@@ -4239,6 +3922,8 @@ Rock Catching. If a rock or similar object is hurled at
 the giant, the giant can, with a successful DC 10
 Dexterity saving throw, catch the missile and take no
 bludgeoning damage from it.
+END
+
 Storm Giant
 Huge giant, chaotic good
 Armor Class 16 (scale mail)
@@ -4272,6 +3957,8 @@ feet of it. Each creature within 10 feet of that point
 must make a DC 17 Dexterity saving throw, taking 54
 (12d8) lightning damage on a failed save, or half as
 much damage on a successful one.
+END
+
 Gibbering Mouther
 Medium aberration, neutral
 Armor Class 9
@@ -4315,6 +4002,8 @@ The glob explodes in a blinding flash of light on impact.
 Each creature within 5 feet of the flash must succeed
 on a DC 13 Dexterity saving throw or be blinded until
 the end of the mouther’s next turn.
+END
+
 Gnoll
 Medium humanoid (gnoll), chaotic evil
 Armor Class 15 (hide armor, shield)
@@ -4338,6 +4027,8 @@ used with two hands to make a melee attack.
 Longbow. Ranged Weapon Attack: +3 to hit, range
 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing
 damage.
+END
+
 Gnome, Deep (Svirfneblin)
 Small humanoid (gnome), neutral good
 Armor Class 15 (chain shirt)
@@ -4369,6 +4060,8 @@ Constitution saving throw or be poisoned for 1 minute.
 The target can repeat the saving throw at the end of
 each of its turns, ending the effect on itself on a
 success.
+END
+
 Goblin
 Small humanoid (goblinoid), neutral evil
 Armor Class 15 (leather armor, shield)
@@ -4388,6 +4081,8 @@ one target. Hit: 5 (1d6 + 2) slashing damage.
 Shortbow. Ranged Weapon Attack: +4 to hit, range
 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Golems
+END
+
 Clay Golem
 Large construct, neutral neutral
 Armor Class 14 (natural armor)
@@ -4436,6 +4131,8 @@ Haste (Recharge 5–6). Until the end of its next turn,
 the golem magically gains a +2 bonus to its AC, has
 advantage on Dexterity saving throws, and can use its
 slam attack as a bonus action.
+END
+
 Flesh Golem
 Medium construct, neutral
 Armor Class 9
@@ -4521,6 +4218,8 @@ poisonous gas in a 15-­‐foot cone. Each creature in that
 area must make a DC 19 Constitution saving throw,
 taking 45 (10d8) poison damage on a failed save, or
 half as much damage on a successful one.
+END
+
 Stone Golem
 Large construct, neutral neutral
 Armor Class 17 (natural armor)
@@ -4556,6 +4255,8 @@ either an action or a bonus action on its turn, not both.
 These effects last for 1 minute. A target can repeat the
 saving throw at the end of each of its turns, ending the
 effect on itself on a success.
+END
+
 Gorgon
 Large monstrosity, neutral neutral
 Armor Class 19 (natural armor)
@@ -4587,6 +4288,8 @@ the saving throw at the end of its next turn. On a
 success, the effect ends on the target. On a failure, the
 target is petrified until freed by the greater restoration
 spell or other magic.
+END
+
 Grick
 Medium monstrosity, neutral
 Armor Class 14 (natural armor)
@@ -4608,6 +4311,8 @@ Tentacles. Melee Weapon Attack: +4 to hit, reach 5 ft.,
 one target. Hit: 9 (2d6 + 2) slashing damage.
 Beak. Melee Weapon Attack: +4 to hit, reach 5 ft., one
 target. Hit: 5 (1d6 + 2) piercing damage.
+END
+
 Griffon
 Large monstrosity, neutral neutral
 Armor Class 12
@@ -4627,6 +4332,8 @@ Beak. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 8 (1d8 + 4) piercing damage.
 Claws. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 11 (2d6 + 4) slashing damage.
+END
+
 Grimlock
 Medium humanoid (grimlock), neutral evil
 Armor Class 11
@@ -4696,6 +4403,8 @@ concentration ends (as if concentrating on a spell).
 While invisible, she leaves no physical evidence of her
 passage, so she can be tracked only by magic. Any
 equipment she wears or carries is invisible with her.
+END
+
 Night Hag
 Medium fiend, neutral evil
 Armor Class 17 (natural armor)
@@ -4745,6 +4454,8 @@ dies, and if the target was evil, its soul is trapped in the
 hag’s soul bag. The reduction to the target’s hit point
 maximum lasts until removed by the greater
 restoration spell or similar magic.
+END
+
 Sea Hag
 Medium fey, chaotic evil
 Armor Class 14 (natural armor)
@@ -4866,6 +4577,8 @@ a 15-­‐foot cone. Each creature in that area must make a
 DC 15 Dexterity saving throw, taking 24 (7d6) fire
 damage on a failed save, or half as much damage on a
 successful one.
+END
+
 Harpy
 Medium monstrosity, chaotic evil
 Armor Class 11
@@ -4903,6 +4616,8 @@ end of each of its turns. If the saving throw is
 successful, the effect ends on it.
 A target that successfully saves is immune to this
 harpy’s song for the next 24 hours.
+END
+
 Hell Hound
 Medium fiend, lawful evil
 Armor Class 15 (natural armor)
@@ -4930,6 +4645,8 @@ Fire Breath (Recharge 5–6). The hound exhales fire in a
 DC 12 Dexterity saving throw, taking 21 (6d6) fire
 damage on a failed save, or half as much damage on a
 successful one.
+END
+
 Hippogriff
 Large monstrosity, neutral neutral
 Armor Class 11
@@ -4949,6 +4666,8 @@ Beak. Melee Weapon Attack: +5 to hit, reach 5 ft., one
 target. Hit: 8 (1d10 + 3) piercing damage.
 Claws. Melee Weapon Attack: +5 to hit, reach 5 ft., one
 target. Hit: 10 (2d6 + 3) slashing damage.
+END
+
 Hobgoblin
 Medium humanoid (goblinoid), lawful evil
 Armor Class 18 (chain mail, shield)
@@ -4969,6 +4688,8 @@ one target. Hit: 5 (1d8 + 1) slashing damage, or 6 (1d10
 Longbow. Ranged Weapon Attack: +3 to hit, range
 150/600 ft., one target. Hit: 5 (1d8 + 1) piercing
 damage.
+END
+
 Homunculus
 Tiny construct, neutral
 Armor Class 13 (natural armor)
@@ -4992,6 +4713,8 @@ succeed on a DC 10 Constitution saving throw or be
 poisoned for 1 minute. If the saving throw fails by 5 or
 more, the target is instead poisoned for 5 (1d10)
 minutes and unconscious while poisoned in this way.
+END
+
 Hydra
 Huge monstrosity, neutral neutral
 Armor Class 15 (natural armor)
@@ -5079,6 +4802,8 @@ Dagger. Melee Weapon Attack: +4 to hit, reach 5 ft.,
 one target. Hit: 4 (1d4 + 2) piercing damage.
 Sling. Ranged Weapon Attack: +4 to hit, range 30/120
 ft., one target. Hit: 4 (1d4 + 2) bludgeoning damage.
+END
+
 Kraken
 Gargantuan monstrosity (titan), chaotic evil
 Armor Class 18 (natural armor)
@@ -5193,6 +4918,8 @@ Intoxicating Touch. Melee Spell Attack: +5 to hit, reach
 for 1 hour. Until the curse ends, the target has
 disadvantage on Wisdom saving throws and all ability
 checks.
+END
+
 Lich
 Medium undead, any evil alignment
 Armor Class 17 (natural armor)
@@ -5265,6 +4992,8 @@ creature within 20 feet of the lich must make a DC
 18 Constitution saving throw against this magic,
 taking 21 (6d6) necrotic damage on a failed save, or
 half as much damage on a successful one.
+END
+
 Lizardfolk
 Medium humanoid (lizardfolk), neutral
 Armor Class 15 (natural armor, shield)
@@ -5291,6 +5020,8 @@ Spiked Shield. Melee Weapon Attack: +4 to hit, reach 5
 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Lycanthropes
 Werebear
+END
+
 Medium humanoid (human, shapechanger), neutral
 good
 Armor Class 10 in humanoid form, 11 (natural armor)
@@ -5330,6 +5061,8 @@ Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8 +
 Greataxe (Humanoid or Hybrid Form Only). Melee
 Weapon Attack: +7 to hit, reach 5 ft., one target. Hit:
 10 (1d12 + 4) slashing damage.
+END
+
 Wereboar
 Medium humanoid (human, shapechanger), neutral evil
 Armor Class 10 in humanoid form, 11 (natural armor)
@@ -5371,6 +5104,8 @@ Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6 +
 3) slashing damage. If the target is a humanoid, it must
 succeed on a DC 12 Constitution saving throw or be
 cursed with wereboar lycanthropy.
+END
+
 Wererat
 Medium humanoid (human, shapechanger), lawful evil
 Armor Class 12
@@ -5408,6 +5143,8 @@ Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5
 Hand Crossbow (Humanoid or Hybrid Form Only).
 Ranged Weapon Attack: +4 to hit, range 30/120 ft., one
 target. Hit: 5 (1d6 + 2) piercing damage.
+END
+
 Weretiger
 Medium humanoid (human, shapechanger), neutral
 Armor Class 12
@@ -5457,6 +5194,8 @@ Longbow (Humanoid or Hybrid Form Only). Ranged
 Weapon Attack: +4 to hit, range 150/600 ft., one target.
 Hit: 6 (1d8 + 2) piercing damage.
 Werewolf
+END
+
 Medium humanoid (human, shapechanger), chaotic
 evil
 Armor Class 11 in humanoid form, 12 (natural armor)
@@ -5527,6 +5266,8 @@ target. Hit: 7 (2d6) fire damage. If the target is a
 creature or a flammable object, it ignites. Until a
 creature takes an action to douse the fire, the target
 takes 3 (1d6) fire damage at the end of each of its turns.
+END
+
 Manticore
 Large monstrosity, lawful evil
 Armor Class 14 (natural armor)
@@ -5550,6 +5291,8 @@ target. Hit: 6 (1d6 + 3) slashing damage.
 Tail Spike. Ranged Weapon Attack: +5 to hit, range
 100/200 ft., one target. Hit: 7 (1d8 + 3) piercing
 damage.
+END
+
 Medusa
 Medium monstrosity, lawful evil
 Armor Class 15 (natural armor)
@@ -5597,6 +5340,8 @@ Longbow. Ranged Weapon Attack: +5 to hit, range
 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing
 damage plus 7 (2d6) poison damage.
 Mephits
+END
+
 Dust Mephit
 Small elemental, neutral evil
 Armor Class 12
@@ -5628,6 +5373,8 @@ must succeed on a DC 10 Dexterity saving throw or be
 blinded for 1 minute. A creature can repeat the saving
 throw at the end of each of its turns, ending the effect
 on itself on a success.
+END
+
 Ice Mephit
 Small elemental, neutral evil
 Armor Class 11
@@ -5661,6 +5408,8 @@ foot cone of cold air. Each creature in that area must
 succeed on a DC 10 Dexterity saving throw, taking 5
 (2d4) cold damage on a failed save, or half as much
 damage on a successful one.
+END
+
 Magma Mephit
 Small elemental, neutral evil
 Armor Class 11
@@ -5695,6 +5444,8 @@ cone of fire. Each creature in that area must make a DC
 11 Dexterity saving throw, taking 7 (2d6) fire damage
 on a failed save, or half as much damage on a
 successful one.
+END
+
 Steam Mephit
 Small elemental, neutral evil
 Armor Class 10
@@ -5722,6 +5473,8 @@ foot cone of scalding steam. Each creature in that area
 must succeed on a DC 10 Dexterity saving throw, taking
 4 (1d8) fire damage on a failed save, or half as much
 damage on a successful one.
+END
+
 Merfolk
 Medium humanoid (merfolk), neutral
 Armor Class 11
@@ -5738,6 +5491,8 @@ Spear. Melee or Ranged Weapon Attack: +2 to hit,
 reach 5 ft. or range 20/60 ft., one target. Hit: 3 (1d6)
 piercing damage, or 4 (1d8) piercing damage if used
 with two hands to make a melee attack.
+END
+
 Merrow
 Large monstrosity, chaotic evil
 Armor Class 13 (natural armor)
@@ -5761,6 +5516,8 @@ reach 5 ft. or range 20/60 ft., one target. Hit: 11 (2d6 +
 creature, it must succeed on a Strength contest against
 the merrow or be pulled up to 20 feet toward the
 merrow.
+END
+
 Mimic
 Medium monstrosity (shapechanger), neutral
 Armor Class 12 (natural armor)
@@ -5796,6 +5553,8 @@ its Adhesive trait.
 Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one
 target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8)
 acid damage.
+END
+
 Minotaur
 Large monstrosity, chaotic evil
 Armor Class 14 (natural armor)
@@ -5824,6 +5583,8 @@ one target. Hit: 17 (2d12 + 4) slashing damage.
 Gore. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 13 (2d8 + 4) piercing damage.
 Mummies
+END
+
 Mummy
 Medium undead, lawful evil
 Armor Class 11 (natural armor)
@@ -5863,6 +5624,8 @@ the saving throw by 5 or more, it is also paralyzed for
 the same duration. A target that succeeds on the
 saving throw is immune to the Dreadful Glare of all
 mummies (but not mummy lords) for the next 24 hours.
+END
+
 Mummy Lord
 Medium undead, lawful evil
 Armor Class 17 (natural armor)
@@ -5994,6 +5757,8 @@ Spit Poison. Ranged Weapon Attack: +8 to hit, range
 15 Constitution saving throw, taking 45 (10d8) poison
 damage on a failed save, or half as much damage on a
 successful one.
+END
+
 Spirit Naga
 Large monstrosity, chaotic evil
 Armor Class 15 (natural armor)
@@ -6027,6 +5792,8 @@ creature. Hit: 7 (1d6 + 4) piercing damage, and the
 target must make a DC 13 Constitution saving throw,
 taking 31 (7d8) poison damage on a failed save, or half
 as much damage on a successful one.
+END
+
 Nightmare
 Large fiend, neutral evil
 Armor Class 13 (natural armor)
@@ -6068,6 +5835,8 @@ one target. Hit: 13 (2d8 + 4) bludgeoning damage.
 Javelin. Melee or Ranged Weapon Attack: +6 to hit,
 reach 5 ft. or range 30/120 ft., one target. Hit: 11 (2d6
 + 4) piercing damage.
+END
+
 Oni
 Large giant, lawful evil
 Armor Class 16 (chain mail)
@@ -6104,6 +5873,8 @@ transformed is its glaive, which shrinks so that it can be
 wielded in humanoid form. If the oni dies, it reverts to
 its true form, and its glaive reverts to its normal size.
 Oozes
+END
+
 Black Pudding
 Large ooze, neutral neutral
 Armor Class 7
@@ -6150,6 +5921,8 @@ two new puddings if it has at least 10 hit points. Each
 new pudding has hit points equal to half the original
 pudding’s, rounded down. New puddings are one size
 smaller than the original pudding.
+END
+
 Gelatinous Cube
 Large ooze, neutral neutral
 Armor Class 6
@@ -6203,6 +5976,8 @@ An engulfed creature can try to escape by taking an
 action to make a DC 12 Strength check. On a success,
 the creature escapes and enters a space of its choice
 within 5 feet of the cube.
+END
+
 Gray Ooze
 Medium ooze, neutral neutral
 Armor Class 8
@@ -6240,6 +6015,8 @@ nonmagical metal armor, its armor is partly corroded
 and takes a permanent and cumulative −1 penalty to
 the AC it offers. The armor is destroyed if the penalty
 reduces its AC to 10.
+END
+
 Ochre Jelly
 Large ooze, neutral neutral
 Armor Class 8
@@ -6272,6 +6049,8 @@ jellies if it has at least 10 hit points. Each new jelly has
 hit points equal to half the original jelly’s, rounded
 down. New jellies are one size smaller than the original
 jelly.
+END
+
 Orc
 Medium humanoid (orc), chaotic evil
 Armor Class 13 (hide armor)
@@ -6290,6 +6069,8 @@ one target. Hit: 9 (1d12 + 3) slashing damage.
 Javelin. Melee or Ranged Weapon Attack: +5 to hit,
 reach 5 ft. or range 30/120 ft., one target. Hit: 6 (1d6 +
 3) piercing damage.
+END
+
 Otyugh
 Large aberration, neutral
 Armor Class 14 (natural armor)
@@ -6332,6 +6113,8 @@ succeed on a DC 14 Constitution saving throw or take
 the end of the otyugh’s next turn. On a successful save,
 the target takes half the bludgeoning damage and isn’t
 stunned.
+END
+
 Owlbear
 Large monstrosity, neutral neutral
 Armor Class 13 (natural armor)
@@ -6368,6 +6151,8 @@ Challenge 2 (450 XP)
 Actions
 Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft.,
 one target. Hit: 11 (2d6 + 4) bludgeoning damage.
+END
+
 Pseudodragon
 Tiny dragon, neutral good
 Armor Class 13 (natural armor)
@@ -6400,6 +6185,8 @@ throw or become poisoned for 1 hour. If the saving
 throw fails by 5 or more, the target falls unconscious
 for the same duration, or until it takes damage or
 another creature uses an action to shake it awake.
+END
+
 Purple Worm
 Gargantuan monstrosity, neutral neutral
 Armor Class 18 (natural armor)
@@ -6480,6 +6267,8 @@ filling the target’s thoughts with horrible images and
 dreams. The cursed target gains no benefit from
 finishing a short or long rest. The curse lasts until it is
 lifted by a remove curse spell or similar magic.
+END
+
 Remorhaz
 Huge monstrosity, neutral neutral
 Armor Class 17 (natural armor)
@@ -6517,6 +6306,8 @@ which fall prone in a space within 10 feet of the
 remorhaz. If the remorhaz dies, a swallowed creature is
 no longer restrained by it and can escape from the
 corpse using 15 feet of movement, exiting prone.
+END
+
 Roc
 Gargantuan monstrosity, neutral neutral
 Armor Class 15 (natural armor)
@@ -6540,6 +6331,8 @@ one target. Hit: 23 (4d6 + 9) slashing damage, and the
 target is grappled (escape DC 19). Until this grapple
 ends, the target is restrained, and the roc can’t use its
 talons on another target.
+END
+
 Roper
 Large monstrosity, neutral evil
 Armor Class 20 (natural armor)
@@ -6577,6 +6370,8 @@ throws, and the roper can’t use the same tendril on
 another target.
 Reel. The roper pulls each creature grappled by it up to
 25 feet straight toward it.
+END
+
 Rust Monster
 Medium monstrosity, neutral neutral
 Armor Class 14 (natural armor)
@@ -6679,6 +6474,8 @@ DC 14). Until this grapple ends, the target is restrained,
 the salamander can automatically hit the target with its
 tail, and the salamander can’t make tail attacks against
 other targets.
+END
+
 Satyr
 Medium fey, chaotic neutral
 Armor Class 14 (leather armor)
@@ -6698,6 +6495,8 @@ Shortsword. Melee Weapon Attack: +5 to hit, reach 5
 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
 Shortbow. Ranged Weapon Attack: +5 to hit, range
 80/320 ft., one target. Hit: 6 (1d6 + 3) piercing damage.
+END
+
 Shadow
 Medium undead, chaotic evil
 Armor Class 12
@@ -6731,6 +6530,8 @@ the reduction lasts until the target finishes a short or
 long rest.
 If a non-­‐evil humanoid dies from this attack, a new
 shadow rises from the corpse 1d4 hours later.
+END
+
 Shambling Mound
 Large plant, neutral neutral
 Armor Class 15 (natural armor)
@@ -6764,6 +6565,8 @@ start of each of the mound’s turns or take 13 (2d8 + 4)
 bludgeoning damage. If the mound moves, the
 engulfed target moves with it. The mound can have
 only one creature engulfed at a time.
+END
+
 Shield Guardian
 Large construct, neutral neutral
 Armor Class 17 (natural armor)
@@ -6809,6 +6612,8 @@ wearer of the guardian’s amulet, the guardian grants a
 +2 bonus to the wearer’s AC if the guardian is within 5
 feet of the wearer.
 Skeletons
+END
+
 Skeleton
 Medium undead, lawful evil
 Armor Class 13 (armor scraps)
@@ -6829,6 +6634,8 @@ Shortsword. Melee Weapon Attack: +4 to hit, reach 5
 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Shortbow. Ranged Weapon Attack: +4 to hit, range
 80/320 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+END
+
 Minotaur Skeleton
 Large undead, lawful evil
 Armor Class 12 (natural armor)
@@ -6854,6 +6661,8 @@ Greataxe. Melee Weapon Attack: +6 to hit, reach 5 ft.,
 one target. Hit: 17 (2d12 + 4) slashing damage.
 Gore. Melee Weapon Attack: +6 to hit, reach 5 ft., one
 target. Hit: 13 (2d8 + 4) piercing damage.
+END
+
 Warhorse Skeleton
 Large undead, lawful evil
 Armor Class 13 (barding scraps)
@@ -6871,6 +6680,8 @@ Challenge 1/2 (100 XP)
 Actions
 Hooves. Melee Weapon Attack: +6 to hit, reach 5 ft.,
 one target. Hit: 11 (2d6 + 4) bludgeoning damage.
+END
+
 Specter
 Medium undead, chaotic evil
 Armor Class 12
@@ -6904,6 +6715,8 @@ to the damage taken. This reduction lasts until the
 creature finishes a long rest. The target dies if this
 effect reduces its hit point maximum to 0.
 Sphinxes
+END
+
 Androsphinx
 Large monstrosity, lawful neutral
 Armor Class 17 (natural armor)
@@ -6977,6 +6790,8 @@ can see.
 Cast a Spell (Costs 3 Actions). The sphinx casts a spell
 from its list of prepared spells, using a spell slot as
 normal.
+END
+
 Gynosphinx
 Large monstrosity, lawful neutral
 Armor Class 17 (natural armor)
@@ -7029,6 +6844,8 @@ can see.
 Cast a Spell (Costs 3 Actions). The sphinx casts a spell
 from its list of prepared spells, using a spell slot as
 normal.
+END
+
 Sprite
 Tiny fey, neutral good
 Armor Class 15 (leather armor)
@@ -7059,6 +6876,8 @@ Invisibility. The sprite magically turns invisible until it
 attacks or casts a spell, or until its concentration ends
 (as if concentrating on a spell). Any equipment the
 sprite wears or carries is invisible with it.
+END
+
 Stirge
 Tiny beast, neutral neutral
 Armor Class 14 (natural armor)
@@ -7082,6 +6901,8 @@ movement. It does so after it drains 10 hit points of
 blood from the target or the target dies. A creature,
 including the target, can use its action to detach the
 stirge.
+END
+
 Succubus/Incubus
 Medium fiend (shapechanger), neutral evil
 Armor Class 15 (natural armor)
@@ -7218,6 +7039,8 @@ attack.
 Move. The tarrasque moves up to half its speed.
 Chomp (Costs 2 Actions). The tarrasque makes one
 bite attack or uses its Swallow.
+END
+
 Treant
 Huge plant, chaotic good
 Armor Class 16 (natural armor)
@@ -7249,6 +7072,8 @@ remains animate for 1 day or until it dies; until the
 treant dies or is more than 120 feet from the tree; or
 until the treant takes a bonus action to turn it back into
 an inanimate tree. The tree then takes root if possible.
+END
+
 Troll
 Large giant, chaotic evil
 Armor Class 15 (natural armor)
@@ -7714,6 +7539,8 @@ zombie drops to 1 hit point instead.
 Actions
 Slam. Melee Weapon Attack: +3 to hit, reach 5 ft., one
 target. Hit: 4 (1d6 + 1) bludgeoning damage.
+END
+
 Ogre Zombie
 Large undead, neutral evil
 Armor Class 8
@@ -7738,3 +7565,4 @@ Actions
 Morningstar. Melee Weapon Attack: +6 to hit, reach 5
 ft., one target. Hit: 13 (2d8 + 4) bludgeoning damage.
 END
+
