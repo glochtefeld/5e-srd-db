@@ -1,0 +1,57 @@
+Elf, Drow
+Medium humanoid (elf), neutral evil
+Armor Class 15 (chain shirt)
+Hit Points 13 (3d8)
+Speed 30 ft.
+10 (+0) 14 (+2) 10 (+0) 11 (+0) 11 (+0) 12 (+1)
+Skills Perception +2, Stealth +4
+Senses darkvision 120 ft., passive Perception 12
+Languages Elvish, Undercommon
+Challenge 1/4 (50 XP)
+Traits
+Fey Ancestry. The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep.
+Innate Spellcasting. The drow’s spellcasting ability is Charisma (spell save DC 11). It can innately cast the following spells, requiring no material components: At will: dancing lights 1/day each: darkness, faerie fire
+Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
+Actions
+Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
+Hand Crossbow. Ranged Weapon Attack: +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+END
+
+Ettercap
+Medium monstrosity, neutral evil
+Armor Class 13 (natural armor)
+Hit Points 44 (8d8 + 8)
+Speed 30 ft., climb 30 ft.
+14 (+2) 15 (+2) 13 (+1) 7 (−2) 12 (+1) 8 (−1)
+Skills Perception +3, Stealth +4, Survival +3
+Senses darkvision 60 ft., passive Perception 13
+Languages —
+Challenge 2 (450 XP)
+Traits
+Spider Climb. The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
+Web Sense. While in contact with a web, the ettercap knows the exact location of any other creature in contact with the same web.
+Web Walker. The ettercap ignores movement restrictions caused by webbing.
+Actions
+Multiattack. The ettercap makes two attacks: one with its bite and one with its claws.
+Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 6 (1d8 + 2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute.  The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Claws. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (2d4 + 2) slashing damage.
+Web (Recharge 5–6). Ranged Weapon Attack: +4 to hit, range 30/60 ft., one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage.
+END
+
+Ettin
+Large giant, chaotic evil
+Armor Class 12 (natural armor)
+Hit Points 85 (10d10 + 30)
+Speed 40 ft.
+21 (+5) 8 (−1) 17 (+3) 6 (−2) 10 (+0) 8 (−1)
+Skills Perception +4
+Senses darkvision 60 ft., passive Perception 14
+Languages Giant, Orc
+Challenge 4 (1,100 XP)
+Traits
+Two Heads. The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.
+Wakeful. When one of the ettin’s heads is asleep, its other head is awake.
+Actions
+Multiattack. The ettin makes two attacks: one with its battleaxe and one with its morningstar.
+Battleaxe. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) slashing damage.  Morningstar. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 14 (2d8 + 5) piercing damage.
+END
