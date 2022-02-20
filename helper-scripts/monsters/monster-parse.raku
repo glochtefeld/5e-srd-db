@@ -10,8 +10,9 @@ my &get-pair = -> @arr { -> $s {
     my $key = @arr.grep({$_ eq $predicate}, :k)[0] + 1;
     $key => Int($val);
 } };
+my &get-idx = @arr { -> $s { @arr.grep({$_ eq $s}, :k)[0] + 1; }
 
-sub check-in-list($line, @list, :$idx, :$split=',') {
+sub pair-from-list($line, @list, :$idx, :$split=',') {
     my &check = &get-pair(@list);
     $line.substr($idx..*).split($split).map(&check);
 }
@@ -64,15 +65,16 @@ sub MAIN($file) {
             $line.raku.say;
 
             if $line.match(/^Saving\sThrow/) {
-                $m.saves = check-in-list($line, @abilities, :idx<14>);
+                $m.saves = pair-from-list($line, @abilities, :idx<14>);
             }
             elsif $line.match(/^Skills/) {
-                $m.skills = check-in-list($line, @skills, :idx<6>);
+                $m.skills = pair-from-list($line, @skills, :idx<6>);
             }
             elsif $line.match(/^Senses/) {
-                $m.senses = check-in-list($line, @senses, :idx<6>);
+                $m.senses = pair-from-list($line, @senses, :idx<6>);
             }
             elsif $line.match(/^Languages/) {
+                continue if $line.match(/—/);
                 $m.languages = check-in-list($line, @langauges, :idx<9>);
             }
             elsif $line.match(/^Challenge/) {}
