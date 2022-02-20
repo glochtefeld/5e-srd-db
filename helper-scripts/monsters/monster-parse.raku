@@ -4,10 +4,16 @@ constant @sizes = <Tiny Small Medium Large Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
 constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
 constant @abilities = <Str Dex Con Int Wis Cha>; # Used for saves
-sub get-ability-pair($s) {
-    (my $score, my $val) = $s.trim.split(' ');
-    my $score-key = @abilities.grep({$_ eq $score},:k) + 1;
-    return $score-key => Int($val);
+
+my &get-pair = -> @arr { -> $s {
+    (my $predicate, my $val) = $s.trim.split(' ');
+    my $key = @arr.grep({$_ eq $predicate}, :k)[0] + 1;
+    $key => Int($val);
+} };
+
+sub check-in-list($line, @list, :$idx, :$split=',') {
+    my &check = &get-pair(@list);
+    $line.substr($idx..*).split($split).map(&check);
 }
 
 subset AbilityPair of Pair where {$_.key ~~ Int:D && $_.value ~~ Int:D};
@@ -49,7 +55,8 @@ sub MAIN($file) {
         ($m.ac, my $ac-source) = @lines[2].substr(11..*).split(' ('); # Not using AC SOURCE
         ($m.hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
         $m.speeds = @lines[4].substr(5..*).split(', ');
-        $m.scores = @lines[5].split(/\((\+|\-)\d\)/).map({Int($_) if $_}).pairs;
+        $m.scores = @lines[5].split(/\((\+|\-)\d\)/).map({Int($_) if $_})
+            .pairs.map({$_.key + 1 => $_.value});
         
         my $j = 6;
         repeat {
@@ -57,13 +64,17 @@ sub MAIN($file) {
             $line.raku.say;
 
             if $line.match(/^Saving\sThrow/) {
-                my @saves = $line.substr(14..*).split(',').map(&get-ability-pair);
-                @saves.raku.say;
-                    
+                $m.saves = check-in-list($line, @abilities, :idx<14>);
             }
-            elsif $line.match(/^Skills/) {}
-            elsif $line.match(/^Senses/) {}
-            elsif $line.match(/^Languages/) {}
+            elsif $line.match(/^Skills/) {
+                $m.skills = check-in-list($line, @skills, :idx<6>);
+            }
+            elsif $line.match(/^Senses/) {
+                $m.senses = check-in-list($line, @senses, :idx<6>);
+            }
+            elsif $line.match(/^Languages/) {
+                $m.languages = check-in-list($line, @langauges, :idx<9>);
+            }
             elsif $line.match(/^Challenge/) {}
             elsif $line.match(/^Damage\sResistances/) {}
             elsif $line.match(/^Damage\sImmunities/) {}

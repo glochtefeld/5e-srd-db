@@ -6,7 +6,7 @@ Speed 30 ft.
 10 (+0) 14 (+2) 10 (+0) 11 (+0) 11 (+0) 12 (+1)
 Skills Perception +2, Stealth +4
 Senses darkvision 120 ft., passive Perception 12
-Languages Elvish, Undercommon
+Languages Elvish 1, Undercommon 1
 Challenge 1/4 (50 XP)
 Traits
 Fey Ancestry. The drow has advantage on saving throws against being charmed, and magic can’t put the drow to sleep.
@@ -25,7 +25,6 @@ Speed 30 ft., climb 30 ft.
 14 (+2) 15 (+2) 13 (+1) 7 (−2) 12 (+1) 8 (−1)
 Skills Perception +3, Stealth +4, Survival +3
 Senses darkvision 60 ft., passive Perception 13
-Languages —
 Challenge 2 (450 XP)
 Traits
 Spider Climb. The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
@@ -46,7 +45,7 @@ Speed 40 ft.
 21 (+5) 8 (−1) 17 (+3) 6 (−2) 10 (+0) 8 (−1)
 Skills Perception +4
 Senses darkvision 60 ft., passive Perception 14
-Languages Giant, Orc
+Languages Giant 1, Orc 1
 Challenge 4 (1,100 XP)
 Traits
 Two Heads. The ettin has advantage on Wisdom (Perception) checks and on saving throws against being blinded, charmed, deafened, frightened, stunned, and knocked unconscious.

@@ -6,7 +6,6 @@ Speed 20 ft., swim 40 ft.
 18 (+4) 15 (+2) 16 (+3) 2 (−4) 12 (+1) 5 (−3)
 Skills Perception +3, Stealth +4
 Senses passive Perception 13
-Languages —
 Challenge 2 (450 XP)
 Traits
 Hold Breath. The plesiosaurus can hold its breath for 1 hour.
@@ -21,7 +20,6 @@ Hit Points 95 (10d12 + 30)
 Speed 50 ft.
 22 (+6) 9 (−1) 17 (+3) 2 (−4) 11 (+0) 5 (−3)
 Senses passive Perception 10
-Languages —
 Challenge 5 (1,800 XP)
 Traits
 Trampling Charge. If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.  If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
@@ -38,7 +36,6 @@ Speed 50 ft.
 25 (+7) 10 (+0) 19 (+4) 2 (−4) 12 (+1) 9 (−1)
 Skills Perception +4
 Senses passive Perception 14
-Languages —
 Challenge 8 (3,900 XP)
 Traits
 Actions
@@ -56,7 +53,7 @@ Speed 30 ft.
 Skills Deception +6, Insight +3
 Condition Immunities charmed
 Senses darkvision 60 ft., passive Perception 11
-Languages Common
+Languages Common 1
 Challenge 3 (700 XP)
 Traits
 Shapechanger. The doppelganger can use its action to polymorph into a Small or Medium humanoid it has seen, or back into its true form. Its statistics, other than its size, are the same in each form. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
