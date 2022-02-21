@@ -3,3 +3,10 @@ CREATE TABLE monsterType (
     name VARCHAR(25) NOT NULL,
     description VARCHAR(500) NOT NULL
 );
+
+CREATE TABLE challegeRating (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cr DECIMAL NOT NULL,
+    xp INTEGER NOT NULL,
+    proficiencyBonus INTEGER NOT NULL
+);
