@@ -1,3 +1,5 @@
+DELETE FROM startEquipTbl;
+DELETE FROM sqlite_sequence where name='startEquipTbl';
 INSERT INTO startEquipTbl (name) VALUES ('armor');
 INSERT INTO startEquipTbl (name) VALUES ('item');
 INSERT INTO startEquipTbl (name) VALUES ('itemType');
@@ -5,6 +7,8 @@ INSERT INTO startEquipTbl (name) VALUES ('weapon');
 INSERT INTO startEquipTbl (name) VALUES ('weaponProperty');
 INSERT INTO startEquipTbl (name) VALUES ('equipmentPack');
 
+DELETE FROM startEquipItem;
+DELETE FROM sqlite_sequence where name='startEquipItem';
 INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (6, 5, 1);
 INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (4, 5, 4);
 INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (5, 2, 1);
@@ -50,6 +54,8 @@ INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (2, 7, 1);
 INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (2, 96, 1);
 INSERT INTO startEquipItem (tableID, itemID, quantity) VALUES (4, 8, 1);
 
+DELETE FROM startEquipBundle;
+DELETE FROM sqlite_sequence where name='startEquipBundle';
 INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (1, NULL, NULL);
 INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (2, NULL, NULL);
 INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (3, 4, NULL);
@@ -95,6 +101,8 @@ INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (42, NULL, NULL)
 INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (43, NULL, NULL);
 INSERT INTO startEquipBundle (item1ID, item2ID, item3ID) VALUES (44, NULL, NULL);
 
+DELETE FROM classBundleOption;
+DELETE FROM sqlite_sequence where name='classBundleOption';
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (1, 1, NULL, NULL);
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (1, 2, NULL, NULL);
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (1, 3, NULL, NULL);
@@ -153,5 +161,4 @@ INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES 
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (12, 44, 7, NULL);
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (12, 40, 41, NULL);
 INSERT INTO classBundleOption (classID, bundle1ID, bundle2ID, bundle3ID) VALUES (12, 42, 1, NULL);
-
 

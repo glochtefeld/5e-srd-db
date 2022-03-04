@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS creatureSize;
 CREATE TABLE creatureSize (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     size VARCHAR(10) NOT NULL,
@@ -5,6 +6,7 @@ CREATE TABLE creatureSize (
     areaSquare DECIMAL(18,10)
 );
 
+DROP TABLE IF EXISTS combatAction;
 CREATE TABLE combatAction (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,

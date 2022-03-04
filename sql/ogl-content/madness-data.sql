@@ -1,7 +1,11 @@
-'Short-Term', 6, '1d10x10'
-'Long-Term', 7, '1d10x10'
-'Indefinite', 12, ''
-INSERT INTO madnessEffect (higherRoll, description, madnessTypeID) VALUES (
+DELETE FROM madnessType;
+DELETE FROM sqlite_sequence where name='madnessType';
+INSERT INTO madnessType (name, durationID, durationLength) VALUES ('Short-Term', 6, '1d10x10');
+INSERT INTO madnessType (name, durationID, durationLength) VALUES ('Long-Term', 7, '1d10x10');
+INSERT INTO madnessType (name, durationID, durationLength) VALUES ('Indefinite', 12, '');
+
+DELETE FROM madnessEffect;
+DELETE FROM sqlite_sequence where name='madnessEffect';
 INSERT INTO madnessEffect (higherRoll, description, madnessTypeID) VALUES (20, 'The character retreats into his or her mind and becomes paralyzed. The effect ends if the character takes any damage.', 1);
 INSERT INTO madnessEffect (higherRoll, description, madnessTypeID) VALUES (30, 'The character becomes incapacitated and spends the duration screaming, laughing, or weeping.', 1);
 INSERT INTO madnessEffect (higherRoll, description, madnessTypeID) VALUES (40, 'The character becomes frightened and must use his or her action and movement each round to flee from the source of the fear.', 1);

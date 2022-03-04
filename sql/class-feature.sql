@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS classFeature;
 CREATE TABLE classFeature (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     classID REFERENCES class (id),

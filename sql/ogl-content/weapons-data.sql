@@ -1,3 +1,5 @@
+DELETE FROM weaponProperty;
+DELETE FROM sqlite_sequence where name='weaponProperty';
 INSERT INTO weaponProperty (name, description) VALUES('Simple','Most people can use simple weapons with proficiency. These weapons include clubes, maces, and other weapons often found in the hands of commoners.');
 INSERT INTO weaponProperty (name, description) VALUES('Martial','Martial weapons, including swords, axes, and polearms, require more specialized training to use effectively. Most warriors use marial weapons because these weapons put thier fighting style and training to the best use.');
 INSERT INTO weaponProperty (name, description) VALUES('Ammunition','You can use a weapon that has the ammunition property to make a ranged attack only if you have ammunition to fire from the weapon. Each time you attack with the weapon, you expend one piece of ammunition. Drawing the ammunition from a quiver, case, or other container is part of the attack (you need a free hand to load a one-­‐‑handed weapon).  At the end of the battle, you can recover half your expended ammunition by taking a minute to search the battlefield.  If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see “Improvised Weapons” later in the section). A sling must be loaded to deal any damage when used in this way.');
@@ -14,6 +16,8 @@ INSERT INTO weaponProperty (name, description) VALUES ('Versatile','This weapon 
 INSERT INTO weaponProperty (name, description) VALUES ('Lance','You have disadvantage when you use a lance to attack a target within 5 feet of you. Also, a lance requires two hands to wield when you aren’t mounted.');
 INSERT INTO weaponProperty (name, description) VALUES ('Net','A Large or smaller creature hit by a net is restrained until it is freed. A net has no effect on creatures that are formless, or creatures that are Huge or larger. A creature can use its action to make a DC 10 Strength check, freeing itself or another creature within its reach on a success. Dealing 5 slashing damage to the net (AC 10) also frees the creature without harming it, ending the effect and destroying the net.  When you use an action, bonus action, or reaction to attack with a net, you can make only one attack regardless of the number of attacks you can normally make. ');
 
+DELETE FROM weapon;
+DELETE FROM sqlite_sequence where name='weapon';
 INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('Club', 3, 1, 2, 3, 2);
 INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('Dagger', 1, 2, 8, 3, 1);
 INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('Greatclub', 3, 2, 2, 5, 10);
@@ -52,6 +56,8 @@ INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('C
 INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('Longbow', 1, 50, 8, 5, 2);
 INSERT INTO weapon (name, coinID, cost, damageTypeID, diceID, weight) VALUES ('Net', 1, 1, 14, 1, 3);
 
+DELETE FROM weaponRange;
+DELETE FROM sqlite_sequence where name='weaponRange';
 INSERT INTO weaponRange (lowerRange, upperRange) VALUES (NULL, NULL);
 INSERT INTO weaponRange (lowerRange, upperRange) VALUES (5, 15);
 INSERT INTO weaponRange (lowerRange, upperRange) VALUES (20, 60);
@@ -61,6 +67,8 @@ INSERT INTO weaponRange (lowerRange, upperRange) VALUES (80, 320);
 INSERT INTO weaponRange (lowerRange, upperRange) VALUES (100, 400);
 INSERT INTO weaponRange (lowerRange, upperRange) VALUES (150, 600);
 
+DELETE FROM weaponDice;
+DELETE FROM sqlite_sequence where name='weaponDice';
 INSERT INTO weaponDice (dice) VALUES ('');
 INSERT INTO weaponDice (dice) VALUES ('1d1');
 INSERT INTO weaponDice (dice) VALUES ('1d4');
@@ -70,6 +78,8 @@ INSERT INTO weaponDice (dice) VALUES ('1d10');
 INSERT INTO weaponDice (dice) VALUES ('1d12');
 INSERT INTO weaponDice (dice) VALUES ('2d6');
 
+DELETE FROM weaponWithProperty;
+DELETE FROM sqlite_sequence where name='weaponWithProperty';
 INSERT INTO weaponWithProperty (weaponID, propertyID, rangeID, higherDiceID) VALUES (1, 1, 1, 1);
 INSERT INTO weaponWithProperty (weaponID, propertyID, rangeID, higherDiceID) VALUES (1, 6, 1, 1);
 INSERT INTO weaponWithProperty (weaponID, propertyID, rangeID, higherDiceID) VALUES (1, 8, 1, 1);

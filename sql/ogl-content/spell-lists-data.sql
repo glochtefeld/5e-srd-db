@@ -1,3 +1,5 @@
+DELETE FROM spellList;
+DELETE FROM sqlite_sequence where name='spellList';
 INSERT INTO spellList (classID, spellID) VALUES (2, 71);
 INSERT INTO spellList (classID, spellID) VALUES (2, 180);
 INSERT INTO spellList (classID, spellID) VALUES (2, 187);
@@ -777,6 +779,8 @@ INSERT INTO spellList (classID, spellID) VALUES (12, 298);
 INSERT INTO spellList (classID, spellID) VALUES (12, 314);
 INSERT INTO spellList (classID, spellID) VALUES (12, 317);
 
+DELETE FROM subclassSpellList;
+DELETE FROM sqlite_sequence where name='subclassSpellList';
 INSERT INTO subclassSpellList (source, subclassID, levelAdded, spellID) VALUES (NULL, 3, 1, 29);
 INSERT INTO subclassSpellList (source, subclassID, levelAdded, spellID) VALUES (NULL, 3, 1, 70);
 INSERT INTO subclassSpellList (source, subclassID, levelAdded, spellID) VALUES (NULL, 3, 3, 178);

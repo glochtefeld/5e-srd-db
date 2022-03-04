@@ -1,3 +1,5 @@
+DELETE FROM race;
+DELETE FROM sqlite_sequence where name='race';
 INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvision) VALUES ('Dwarf', 'Dwarves mature at the same rate as humans, but they’re considered young until they reach the age of 50. On average, they live about 350 years.', 'Most dwarves are lawful, believing firmly in the benefits of a well-­‐‑ordered society. They tend toward good as well, with a strong sense of fair play and a belief that everyone deserves to share in the benefits of a just order.', 3, 'Size. Dwarves stand between 4 and 5 feet tall and average about 150 pounds. Your size is Medium.', 25, TRUE);
 INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvision) VALUES ('Elf', 'Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old.', 'Elves love freedom, variety, and self-­‐‑ expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others’ freedom as well as their own, and they are more often good than not.', 3, 'Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium.', 30, TRUE);
 INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvision) VALUES ('Halfling', 'A halfling reaches adulthood at the age of 20 and generally lives into the middle of his or her second century.', 'Most halflings are lawful good. As a rule, they are good-­‐‑hearted and kind, hate to see others in pain, and have no tolerance for oppression.  They are also very orderly and traditional, leaning heavily on the support of their community and the comfort of their old ways.', 2, 'Halflings average about 3 feet tall and weigh about 40 pounds. Your size is Small.', 25, FALSE);
@@ -8,6 +10,8 @@ INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvisi
 INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvision) VALUES ('Half-Orc', 'Half-­‐‑orcs mature a little faster than humans, reaching adulthood around age 14. They age noticeably faster and rarely live longer than 75 years.', 'Half-­‐‑orcs inherit a tendency toward chaos from their orc parents and are not strongly inclined toward good. Half-­‐‑orcs raised among orcs and willing to live out their lives among them are usually evil.', 3, 'Half-­‐‑orcs are somewhat larger and bulkier than humans, and they range from 5 to well over 6 feet tall. Your size is Medium.', 30, TRUE);
 INSERT INTO race (name, age, alignment, sizeID, sizeDescription, speed, darkvision) VALUES ('Tiefling', 'Tieflings mature at the same rate as humans but live a few years longer.', 'Tieflings might not have an innate tendency toward evil, but many of them end up there. Evil or not, an independent nature inclines many tieflings toward a chaotic alignment.', 3, 'Tieflings are about the same size and build as humans. Your size is Medium.', 30, TRUE);
 
+DELETE FROM raceFeature;
+DELETE FROM sqlite_sequence where name='raceFeature';
 INSERT INTO raceFeature (raceID, name, description, bc) VALUES (1, 'Heavy Armor Speed', 'Your speed is not reduced by wearing heavy armor.', NULL);
 INSERT INTO raceFeature (raceID, name, description, bc) VALUES (1, 'Darkvision', 'Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light.  You can’t discern color in darkness, only shades of gray.', NULL);
 INSERT INTO raceFeature (raceID, name, description, bc) VALUES (1, 'Dwarven Resilience', 'You have advantage on saving throws against poison, and you have resistance against poison damage.', NULL);
@@ -36,6 +40,8 @@ INSERT INTO raceFeature (raceID, name, description, bc) VALUES (9, 'Darkvision',
 INSERT INTO raceFeature (raceID, name, description, bc) VALUES (9, 'Hellish Resistance', 'You have resistance to fire damage.', NULL);
 INSERT INTO raceFeature (raceID, name, description, bc) VALUES (9, 'Infernal Legacy', 'You know the thaumaturgy cantrip. When you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-­‐‑level spell once with this trait and regain the ability to do so when you finish a long rest. When you reach 5th level, you can cast the darkness spell once with this trait and regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.', NULL);
 
+DELETE FROM raceLanguage;
+DELETE FROM sqlite_sequence where name='raceLanguage';
 INSERT INTO raceLanguage (raceID, languageID) VALUES (1, 2);
 INSERT INTO raceLanguage (raceID, languageID) VALUES (1, 3);
 INSERT INTO raceLanguage (raceID, languageID) VALUES (2, 2);
@@ -56,6 +62,8 @@ INSERT INTO raceLanguage (raceID, languageID) VALUES (8, 9);
 INSERT INTO raceLanguage (raceID, languageID) VALUES (9, 2);
 INSERT INTO raceLanguage (raceID, languageID) VALUES (9, 14);
 
+DELETE FROM raceASI;
+DELETE FROM sqlite_sequence where name='raceASI';
 INSERT INTO raceASI (raceID, abilityID, amount) VALUES (1, 3, 2);
 INSERT INTO raceASI (raceID, abilityID, amount) VALUES (2, 2, 2);
 INSERT INTO raceASI (raceID, abilityID, amount) VALUES (3, 2, 2);
@@ -75,19 +83,24 @@ INSERT INTO raceASI (raceID, abilityID, amount) VALUES (8, 3, 1);
 INSERT INTO raceASI (raceID, abilityID, amount) VALUES (9, 4, 1);
 INSERT INTO raceASI (raceID, abilityID, amount) VALUES (9, 6, 2);
 
+DELETE FROM subrace;
+DELETE FROM sqlite_sequence where name='subrace';
 INSERT INTO subrace (parentID, name, description) VALUES (1, 'Hill Dwarf', 'As a hill dwarf, you have keen senses, deep intuition, and remarkable resilience.');
 INSERT INTO subrace (parentID, name, description) VALUES (2, 'High Elf', 'As a high elf, you have a keen mind and a mastery of at least the basics of magic. In many fantasy gaming worlds, there are two kinds of high elves. One type is haughty and reclusive, believing themselves to be superior to non-­‐‑elves and even other elves. The other type is more common and more friendly, and often encountered among humans and other races.');
 INSERT INTO subrace (parentID, name, description) VALUES (3, 'Lightfoot', ' As a lightfoot halfling, you can easily hide from notice, even using other people as cover. You’re inclined to be affable and get along well with others.  Lightfoots are more prone to wanderlust than other halflings, and often dwell alongside other races or take up a nomadic life.');
 INSERT INTO subrace (parentID, name, description) VALUES (6, 'Rock Gnome', ' As a rock gnome, you have a natural inventiveness and hardiness beyond that of other gnomes.');
 INSERT INTO subrace (parentID, name, description) VALUES (7, '[Half-Elf default]', '');
 
+DELETE FROM subraceASI;
+DELETE FROM sqlite_sequence where name='subraceASI';
 INSERT INTO subraceASI (subraceID, abilityID, amount) VALUES (1, 5, 1);
 INSERT INTO subraceASI (subraceID, abilityID, amount) VALUES (2, 4, 1);
 INSERT INTO subraceASI (subraceID, abilityID, amount) VALUES (3, 6, 1);
 INSERT INTO subraceASI (subraceID, abilityID, amount) VALUES (4, 3, 1);
 INSERT INTO subraceASI (subraceID, abilityID, amount) VALUES (5, 7, 1);
 
-
+DELETE FROM subraceFeature;
+DELETE FROM sqlite_sequence where name='subraceFeature';
 INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (1, 'Dwarven Toughness', 'Your hit point maximum increases by 1, and it increases by 1 every time you gain a level.', NULL);
 INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (2, 'Elf Weapon Training', 'You have proficiency with the longsword, shortsword, shortbow, and longbow.', NULL);
 INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (2, 'Cantrip', 'You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for it.', NULL);
@@ -96,6 +109,8 @@ INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (3, 'Natura
 INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (4, 'Artificer’s Lore', 'Whenever you make an Intelligence (History) check related to magic items, alchemical objects, or technological devices, you can add twice your proficiency bonus, instead of any proficiency bonus you normally apply.  ', NULL);
 INSERT INTO subraceFeature (subraceID, name, description, bc) VALUES (4, 'Tinker', 'You have proficiency with artisan’s tools (tinker’s tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it.  You can have up to three such devices active at a time.  When you create a device, choose one of the following options:', NULL);
 
+DELETE FROM draconicAncestry;
+DELETE FROM sqlite_sequence where name='draconicAncestry';
 INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('Black', 1, 324);
 INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('Blue', 6, 325);
 INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('Brass', 4, 326);
@@ -107,6 +122,8 @@ INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('Red', 4, 
 INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('Silver', 3, 332);
 INSERT INTO draconicAncestry (name, resistance, breathWeapon) VALUES ('White', 3, 333);
 
+DELETE FROM rockGnomeTinkerOption;
+DELETE FROM sqlite_sequence where name='rockGnomeTinkerOption';
 INSERT INTO rockGnomeTinkerOption (name, description) VALUES ('Clockwork Toy', 'This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.');
 INSERT INTO rockGnomeTinkerOption (name, description) VALUES ('Fire Starter', 'The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.');
 INSERT INTO rockGnomeTinkerOption (name, description) VALUES ('Music Box', 'When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song’s end or when it is closed.');

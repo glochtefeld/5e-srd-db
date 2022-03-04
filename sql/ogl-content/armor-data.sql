@@ -1,9 +1,13 @@
+DELETE FROM coin;
+DELETE FROM sqlite_sequence where name='coin';
 INSERT INTO coin (name, abbreviation, exchangeRate) VALUES ('Gold', 'GP', 1);
 INSERT INTO coin (name, abbreviation, exchangeRate) VALUES ('Copper', 'CP', 100);
 INSERT INTO coin (name, abbreviation, exchangeRate) VALUES ('Silver', 'SP', 10);
 INSERT INTO coin (name, abbreviation, exchangeRate) VALUES ('Electrum', 'EP', 0.5);
 INSERT INTO coin (name, abbreviation, exchangeRate) VALUES ('Platinum', 'PP', 0.1);
 
+DELETE FROM armorType;
+DELETE FROM sqlite_sequence where name='armorType';
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('None',6,1,5,1);
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Light', 6, 1, 6, 1);
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Medium', 6, 5, 6, 1);
@@ -11,6 +15,8 @@ INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Shield', 1, 1, 1, 1);
 INSERT INTO armorType (name, donTimeID, donTime, doffTimeID, doffTime) VALUES ('Cover', 5, 1, 5, 1);
 
+DELETE FROM armor;
+DELETE FROM sqlite_sequence where name='armor';
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (1, 'No Armor', 1, 0, 10, 100, NULL, FALSE, 0);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (2, 'Padded', 1, 5, 1, 100, NULL, TRUE, 8);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (2, 'Leather', 1, 10, 1, 100, NULL, FALSE, 10);
@@ -29,6 +35,8 @@ INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, 
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Three-quarters Cover', 1, 0, 5, NULL, NULL, FALSE, 0);
 INSERT INTO armor (typeID, name, coinID, cost, acBonus, maxDexMod, minStrength, stealthPenalty, weight) VALUES (6, 'Total Cover', 1, 0, 999, NULL, NULL, FALSE, 0);
 
+DELETE FROM objectAC;
+DELETE FROM sqlite_sequence where name='objectAC';
 INSERT INTO objectAC (substance, ac) VALUES ('Cloth', 11);
 INSERT INTO objectAC (substance, ac) VALUES ('paper', 11);
 INSERT INTO objectAC (substance, ac) VALUES ('rope', 11);
@@ -43,7 +51,9 @@ INSERT INTO objectAC (substance, ac) VALUES ('steel', 19);
 INSERT INTO objectAC (substance, ac) VALUES ('Mithral', 21);
 INSERT INTO objectAC (substance, ac) VALUES ('Adamantine', 23);
 
-INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (1, '1d4', '2d4');
-INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (2, '1d6', '3d6');
-INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (3, '1d8', '4d8');
-INSERT INTO objectHP (sizeID, ragile, resilient) VALUES (4, '1d10', '5d10');
+DELETE FROM objectHP;
+DELETE FROM sqlite_sequence where name='objectHP';
+INSERT INTO objectHP (sizeID, fragile, resilient) VALUES (1, '1d4', '2d4');
+INSERT INTO objectHP (sizeID, fragile, resilient) VALUES (2, '1d6', '3d6');
+INSERT INTO objectHP (sizeID, fragile, resilient) VALUES (3, '1d8', '4d8');
+INSERT INTO objectHP (sizeID, fragile, resilient) VALUES (4, '1d10', '5d10');

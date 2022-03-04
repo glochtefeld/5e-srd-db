@@ -1,4 +1,9 @@
 use v6;
+use DBIish;
+
+my $db = DBIish.connect("SQLite", :database<../../OUT/SRD5.db>);
+my %types = $db.execute("select name, id from monsterType").allrows().map({@_[0] => @_[1]}).hash;
+
 constant @sizes = <Tiny Small Medium Large Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
 constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
@@ -7,6 +12,7 @@ constant @languages = 'Any', 'Common', 'Dwarvish', 'Elvish', 'Giant', 'Gnomish',
 constant @skills = 'Any', 'Athletics', 'Acrobatics', 'Sleight of Hand', 'Stealth', 'Arcana', 'History', 'Investigation', 'Nature', 'Religion', 'Animal Handling', 'Insight', 'Medicine', 'Perception', 'Survival', 'Deception', 'Intimidation', 'Performance', 'Persuasion';
 constant @senses = <blindsight darkvision tremorsense truesight>;
 constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>;
+
 
 my &get-pair = -> @arr { -> $s {
     (my $predicate, my $val) = $s.trim.split(' ');
@@ -27,11 +33,11 @@ sub idx-from-list($line, @list, :$idx, :$split=',') {
 subset AbilityPair of Pair where {$_.key ~~ Int:D && $_.value ~~ Int:D};
 
 class Monster {
-    has $.id is rw;
+    has Int $.id is rw;
     has $.name is rw;
-    has $.size is rw;
-    has $.monsterType is rw;
-    has $.alignment is rw;
+    has Int $.size is rw;
+    has Int $.monsterType is rw;
+    has Int $.alignment is rw;
     has $.ac is rw;
     has $.hp is rw;
     has $.hpFormula is rw;
@@ -59,12 +65,12 @@ sub MAIN($file) {
         $m.id = $i + 1;
         $m.name = @lines[0];
         ($m.size, my $type, my $law-chaos, my $good-evil) = @lines[1].split(' ');
-        $m.alignment = $law-chaos ~ ' ' ~ $good-evil;
-        $m.monsterType = $type.chop();
+        $m.alignment = idx-from-list($law-chaos ~ ' ' ~ $good-evil, @alignment, :idx<0>);
+        $m.monsterType = %types{$type.chop().tclc()};
         ($m.ac, my $ac-source) = @lines[2].substr(11..*).split(' ('); # Not using AC SOURCE
         ($m.hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
         $m.speeds = @lines[4].substr(5..*).split(', ');
-        $m.scores = @lines[5].split(/\((\+|\-)\d\)/) .map({Int($_) if $_})
+        $m.scores = @lines[5].split(/\((\+|\-)\d\)/).map({Int($_) if $_})
             .pairs.map({$_.key + 1 => $_.value});
         my $j = 6;
         repeat {

@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS background;
 CREATE TABLE background (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL,
@@ -8,24 +9,28 @@ CREATE TABLE background (
     anyLangauge BOOLEAN DEFAULT 0
 );
 
+DROP TABLE IF EXISTS backgroundLanguage;
 CREATE TABLE backgroundLanguage (
     backgroundID REFERENCES background (id),
     languageID REFERENCES language (id),
     PRIMARY KEY (backgroundID, languageID)
 );
 
+DROP TABLE IF EXISTS backgroundSkill;
 CREATE TABLE backgroundSkill (
     backgroundID REFERENCES background (id),
     skillID REFERENCES skill (id),
     PRIMARY KEY (backgroundID, skillID)
 );
 
+DROP TABLE IF EXISTS backgroundTool;
 CREATE TABLE backgroundTool (
     backgroundID REFERENCES background (id),
     itemID REFERENCES item (id),
     PRIMARY KEY (backgroundID, itemID)
 );
 
+DROP TABLE IF EXISTS backgroundToolType;
 CREATE TABLE backgroundToolType (
     backgroundID REFERENCES background (id),
     toolTypeID REFERENCES itemType (id),
@@ -33,6 +38,7 @@ CREATE TABLE backgroundToolType (
     PRIMARY KEY (backgroundID, toolTypeID)
 );
 
+DROP TABLE IF EXISTS backgroundEquipment;
 CREATE TABLE backgroundEquipment (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     backgroundID REFERENCES background (id),
@@ -41,6 +47,7 @@ CREATE TABLE backgroundEquipment (
     special VARCHAR (50) DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS backgroundMoney;
 CREATE TABLE backgroundMoney (
     backgroundID REFERENCES background (id),
     coinID REFERENCES coin (id),
@@ -48,12 +55,14 @@ CREATE TABLE backgroundMoney (
     PRIMARY KEY (backgroundID, coinID)
 );
 
+DROP TABLE IF EXISTS backgroundCharacteristicType;
 CREATE TABLE backgroundCharacteristicType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (30) NOT NULL,
     backgroundID REFERENCES background (id) DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS backgroundCharacteristic;
 CREATE TABLE backgroundCharacteristic (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     backgroundID REFERENCES background (id),

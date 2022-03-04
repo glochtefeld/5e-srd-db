@@ -1,3 +1,5 @@
+DELETE FROM cantripProgression;
+DELETE FROM sqlite_sequence where name='cantripProgression';
 INSERT INTO cantripProgression (classID, levelID, amount) VALUES (2, 1, 2);
 INSERT INTO cantripProgression (classID, levelID, amount) VALUES (2, 4, 3);
 INSERT INTO cantripProgression (classID, levelID, amount) VALUES (2, 10, 4);
@@ -17,6 +19,8 @@ INSERT INTO cantripProgression (classID, levelID, amount) VALUES (12, 1, 3);
 INSERT INTO cantripProgression (classID, levelID, amount) VALUES (12, 4, 4);
 INSERT INTO cantripProgression (classID, levelID, amount) VALUES (12, 10, 5);
 
+DELETE FROM spellSlot;
+DELETE FROM sqlite_sequence where name='spellSlot';
 INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (1, 1, 2);
 INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (2, 1, 3);
 INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (3, 1, 4);
@@ -36,6 +40,8 @@ INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (20, 7, 2);
 INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (15, 8, 1);
 INSERT INTO spellSlot (levelID, slotLevel, amount) VALUES (17, 9, 1);
 
+DELETE FROM pactSpellSlot;
+DELETE FROM sqlite_sequence where name='pactSpellSlot';
 INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (1, 1, 1);
 INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (2, 1, 2);
 INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (3, 2, 2);
@@ -45,6 +51,8 @@ INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (9, 5, 2);
 INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (11, 5, 3);
 INSERT INTO pactSpellSlot (levelID, slotLevel, amount) VALUES (17, 5, 4);
 
+DELETE FROM innateSpellsKnown;
+DELETE FROM sqlite_sequence where name='innateSpellsKnown';
 INSERT INTO innateSpellsKnown (classID, levelID, amount) VALUES (2, 1, 4);
 INSERT INTO innateSpellsKnown (classID, levelID, amount) VALUES (2, 2, 5);
 INSERT INTO innateSpellsKnown (classID, levelID, amount) VALUES (2, 3, 6);

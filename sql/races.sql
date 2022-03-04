@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS race;
 CREATE TABLE race (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL,
@@ -9,6 +10,7 @@ CREATE TABLE race (
     darkvision BOOLEAN NOT NULL DEFAULT FALSE
 );
 
+DROP TABLE IF EXISTS raceFeature;
 CREATE TABLE raceFeature (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     raceID REFERENCES race (id),
@@ -17,6 +19,7 @@ CREATE TABLE raceFeature (
     bc BLOB DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS raceLanguage;
 CREATE TABLE raceLanguage (
     raceID REFERENCES race (id),
     languageID REFERENCES language (id),
@@ -24,6 +27,7 @@ CREATE TABLE raceLanguage (
     PRIMARY KEY (raceID, languageID)
 );
 
+DROP TABLE IF EXISTS raceASI;
 CREATE TABLE raceASI (
     raceID REFERENCES race (id),
     abilityID REFERENCES ability (id),
@@ -31,6 +35,7 @@ CREATE TABLE raceASI (
     PRIMARY KEY (raceID, abilityID)
 );
 
+DROP TABLE IF EXISTS subrace;
 CREATE TABLE subrace (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     parentID REFERENCES race (id),
@@ -38,6 +43,7 @@ CREATE TABLE subrace (
     description VARCHAR (500) DEFAULT ''
 );
 
+DROP TABLE IF EXISTS subraceASI;
 CREATE TABLE subraceASI (
     subraceID REFERENCES subrace (id),
     abilityID REFERENCES ability (id),
@@ -45,6 +51,7 @@ CREATE TABLE subraceASI (
     PRIMARY KEY (subraceID, abilityID)
 );
 
+DROP TABLE IF EXISTS subraceFeature;
 CREATE TABLE subraceFeature (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     subraceID REFERENCES subrace (id),
@@ -53,6 +60,7 @@ CREATE TABLE subraceFeature (
     bc BLOB DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS draconicAncestry;
 CREATE TABLE draconicAncestry (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(15) NOT NULL,
@@ -60,6 +68,7 @@ CREATE TABLE draconicAncestry (
     breathWeapon REFERENCES spell (id)
 );
 
+DROP TABLE IF EXISTS rockGnomeTinkerOption;
 CREATE TABLE rockGnomeTinkerOption (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL,

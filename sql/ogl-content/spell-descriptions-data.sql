@@ -1,3 +1,5 @@
+DELETE FROM spell;
+DELETE FROM sqlite_sequence where name='spell';
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Acid Arrow',2, FALSE, 5, 1, 1, '', 3, 90, NULL, 7, '(powdered rhubarb leaf and an adder’s stomach)', 4, 1, FALSE, 'A shimmering green arrow streaks toward a target within range and bursts in a spray of acid. Make a ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn. ', 'When you cast this spell using a spell slot of 3rd level or higher, the damage (both initial and later) increases by 1d4 for each slot level above 2nd.', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Acid Splash',0, FALSE, 2, 1, 1, '', 3, 60, NULL, 3, '', 4, 1, FALSE, 'You hurl a bubble of acid. Choose one creature within range, or choose two creatures within range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage. This spell’s damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).', '', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Aid',2, FALSE, 1, 1, 1, '', 3, 30, NULL, 7, '(a tiny strip of white cloth)', 7, 8, FALSE, 'Your spell bolsters your allies with toughness and resolve. Choose up to three creatures within range. Each target’s hit point maximum and current hit points increase by 5 for the duration. ', 'When you cast this spell using a spell slot of 3rd level or higher, a target’s hit points increase by an additional 5 for each slot level above 2nd.', NULL, NULL, NULL);
@@ -332,6 +334,8 @@ INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigge
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn Silver Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of chilled death.  When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', NULL, NULL, NULL);
 INSERT INTO spell (name, level, isRitual, schoolID, timeID, time, reactionTrigger, distanceID, range, areaID, componentBits, specialMaterial, durationID, durationTime, concentration, description, higherLevels, bcArgs, bcConstants, bcFn) VALUES ('Dragonborn White Dragon Breath', 1, FALSE, 5, 1, 1, '', 3, 15, 1, 0, NULL, 4, 1, FALSE, 'You can use your action to exhale destructive energy. You exhale a 15 foot cone of chilled death.  When you use your breath weapon, each creature in the area of the exhalation must make a Constitution saving throw. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. After you use your breath weapon, you can’t use it again until you complete a short or long rest.', 'The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.', NULL, NULL, NULL);
 
+DELETE FROM damageType;
+DELETE FROM sqlite_sequence where name='damageType';
 INSERT INTO damageType (name) VALUES ('Acid');
 INSERT INTO damageType (name) VALUES ('Bludgeoning');
 INSERT INTO damageType (name) VALUES ('Cold');
@@ -347,10 +351,14 @@ INSERT INTO damageType (name) VALUES ('Slashing');
 INSERT INTO damageType (name) VALUES ('Thunder');
 INSERT INTO damageType (name) VALUES ('None');
 
+DELETE FROM componentType;
+DELETE FROM sqlite_sequence where name='componentType';
 INSERT INTO componentType (bit, name, abbreviation) VALUES (1,'Verbal','V');
 INSERT INTO componentType (bit, name, abbreviation) VALUES (2,'Somatic','S');
 INSERT INTO componentType (bit, name, abbreviation) VALUES (4,'Material','M');
 
+DELETE FROM magicSchool;
+DELETE FROM sqlite_sequence where name='magicSchool';
 INSERT INTO magicSchool (name) VALUES ('Abjuration');
 INSERT INTO magicSchool (name) VALUES ('Conjuration');
 INSERT INTO magicSchool (name) VALUES ('Divination');
@@ -360,6 +368,8 @@ INSERT INTO magicSchool (name) VALUES ('Illusion');
 INSERT INTO magicSchool (name) VALUES ('Necromancy');
 INSERT INTO magicSchool (name) VALUES ('Transmutation');
 
+DELETE FROM time;
+DELETE FROM sqlite_sequence where name='time';
 INSERT INTO time (measure) VALUES ('Action');
 INSERT INTO time (measure) VALUES ('Bonus Action');
 INSERT INTO time (measure) VALUES ('Reaction');
@@ -373,6 +383,8 @@ INSERT INTO time (measure) VALUES ('Year');
 INSERT INTO time (measure) VALUES ('Until dispelled');
 INSERT INTO time (measure) VALUES ('Special');
 
+DELETE FROM distance;
+DELETE FROM sqlite_sequence where name='distance';
 INSERT INTO distance (measure) VALUES ('Self');
 INSERT INTO distance (measure) VALUES ('Touch');
 INSERT INTO distance (measure) VALUES ('Feet');
@@ -381,7 +393,8 @@ INSERT INTO distance (measure) VALUES ('Special');
 INSERT INTO distance (measure) VALUES ('Sight');
 INSERT INTO distance (measure) VALUES ('Unlimited');
 
-
+DELETE FROM castArea;
+DELETE FROM sqlite_sequence where name='castArea';
 INSERT INTO castArea (measure) VALUES ('Cone');
 INSERT INTO castArea (measure) VALUES ('Cube');
 INSERT INTO castArea (measure) VALUES ('Cylinder');

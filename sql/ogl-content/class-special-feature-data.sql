@@ -1,3 +1,5 @@
+DELETE FROM fightingStyle;
+DELETE FROM sqlite_sequence where name='fightingStyle';
 INSERT INTO fightingStyle (name, description) VALUES ('Archery', 'You gain a +2 bonus to attack rolls you make with ranged weapons.');
 INSERT INTO fightingStyle (name, description) VALUES ('Defense', 'While you are wearing armor, you gain a +1 bonus to AC.');
 INSERT INTO fightingStyle (name, description) VALUES ('Dueling', 'When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.');
@@ -5,6 +7,8 @@ INSERT INTO fightingStyle (name, description) VALUES ('Great Weapon Fighting', '
 INSERT INTO fightingStyle (name, description) VALUES ('Protection', 'When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.');
 INSERT INTO fightingStyle (name, description) VALUES ('Two-Weapon Fighting', 'When you engage in two-­‐‑weapon fighting, you can add your ability modifier to the damage of the second attack.');
 
+DELETE FROM classFightingStyle;
+DELETE FROM sqlite_sequence where name='classFightingStyle';
 INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (5, 1);
 INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (5, 2);
 INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (5, 3);
@@ -20,6 +24,8 @@ INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (8, 2);
 INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (8, 3);
 INSERT INTO classFightingStyle (classID, fightingStyleID) VALUES (8, 6);
 
+DELETE FROM metamagicOption;
+DELETE FROM sqlite_sequence where name='metamagicOption';
 INSERT INTO metamagicOption (name, description) VALUES ('Careful Spell', 'When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell’s full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.');
 INSERT INTO metamagicOption (name, description) VALUES ('Distant Spell', 'When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.  When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.');
 INSERT INTO metamagicOption (name, description) VALUES ('Empowered Spell', 'When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one).  You must use the new rolls.  You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.');
@@ -29,10 +35,14 @@ INSERT INTO metamagicOption (name, description) VALUES ('Quickened Spell', 'When
 INSERT INTO metamagicOption (name, description) VALUES ('Subtle Spell', 'When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.');
 INSERT INTO metamagicOption (name, description) VALUES ('Twinned Spell', 'When you cast a spell that targets only one creature and doesn’t have a range of self, you can spend a number of sorcery points equal to the spell’s level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).  To be eligible, a spell must be incapable of targeting more than one creature at the spell’s current level. For example, magic missile and scorching ray aren’t eligible, but ray of frost is.');
 
+DELETE FROM pactBoon;
+DELETE FROM sqlite_sequence where name='pactBoon';
 INSERT INTO pactBoon (name, description) VALUES ('Pact of the Chain', 'You learn the find familiar spell and can cast it as a ritual. The spell doesn’t count against your number of spells known.  When you cast the spell, you can choose one of the normal forms for your familiar or one of the following special forms: imp, pseudodragon, quasit, or sprite.  Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its reaction.');
 INSERT INTO pactBoon (name, description) VALUES ('Pact of the Blade', 'You can use your action to create a pact weapon in your empty hand. You can choose the form that this melee weapon takes each time you create it. You are proficient with it while you wield it. This weapon counts as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.  Your pact weapon disappears if it is more than 5 feet away from you for 1 minute or more. It also disappears if you use this feature again, if you dismiss the weapon (no action required), or if you die.  You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can’t affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-­‐‑hour ritual on a different weapon, or if you use a 1-­‐‑hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.');
 INSERT INTO pactBoon (name, description) VALUES ('Pact of the Tome', 'Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class’s spell list (the three needn’t be from the same list). While the book is on your person, you can cast those cantrips at will. They don’t count against your number of cantrips known.  If they don’t appear on the warlock spell list, they are nonetheless warlock spells for you.  If you lose your Book of Shadows, you can perform a 1-­‐‑hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.');
 
+DELETE FROM warlockInvocation;
+DELETE FROM sqlite_sequence where name='warlockInvocation';
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Agonizing Blast', NULL, 'eldritch blast cantrip', 'When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.');
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Armor of Shadows', NULL, NULL, 'You can cast mage armor on yourself at will, without expending a spell slot or material components.');
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Ascendant Step', 9, NULL, 'You can cast levitate on yourself at will, without expending a spell slot or material components.');
@@ -64,6 +74,8 @@ INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALU
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Whispers of the Grave', 9, NULL, 'You can cast speak with dead at will, without expending a spell slot.');
 INSERT INTO warlockInvocation (name, levelPrereq, otherPrereq, description) VALUES ('Witch Sight', 15, NULL, 'You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.');
 
+DELETE FROM rageProgression;
+DELETE FROM sqlite_sequence where name='rageProgression';
 INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (1, 2, 2);
 INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (3, 3, 2);
 INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (6, 4, 2);
@@ -73,11 +85,15 @@ INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (16, 5, 4);
 INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (17, 6, 4);
 INSERT INTO rageProgression (levelID, amount, damageBonus) VALUES (20, 999, 4);
 
+DELETE FROM martialDamage;
+DELETE FROM sqlite_sequence where name='martialDamage';
 INSERT INTO martialDamage (levelID, dieSize) VALUES (1, 4);
 INSERT INTO martialDamage (levelID, dieSize) VALUES (5, 6);
 INSERT INTO martialDamage (levelID, dieSize) VALUES (11, 8);
 INSERT INTO martialDamage (levelID, dieSize) VALUES (17, 10);
 
+DELETE FROM movementBonus;
+DELETE FROM sqlite_sequence where name='movementBonus';
 INSERT INTO movementBonus (levelID, amount) VALUES (1, 0);
 INSERT INTO movementBonus (levelID, amount) VALUES (2, 10);
 INSERT INTO movementBonus (levelID, amount) VALUES (6, 15);
@@ -85,6 +101,8 @@ INSERT INTO movementBonus (levelID, amount) VALUES (10, 20);
 INSERT INTO movementBonus (levelID, amount) VALUES (14, 25);
 INSERT INTO movementBonus (levelID, amount) VALUES (18, 30);
 
+DELETE FROM invocationsKnown;
+DELETE FROM sqlite_sequence where name='invocationsKnown';
 INSERT INTO invocationsKnown (levelID, amount) VALUES (1, 0);
 INSERT INTO invocationsKnown (levelID, amount) VALUES (2, 2);
 INSERT INTO invocationsKnown (levelID, amount) VALUES (5, 3);

@@ -25,12 +25,17 @@ class DB:
     def close(self):
         self.conn.close()
 
+PREVIOUS = dict()
+
 def read_sql_in_dir(path):
     commands = []
     with os.scandir(path) as directory:
         for script in directory:
-            if script.path.endswith(".sql") and script.is_file():
+            if script.path.endswith(".sql") \
+                and script.is_file() \
+                and script.stat().st_mtime > PREVIOUS.get(script.name, 0):
                 commands += read_sql_file(script.path)
+                PREVIOUS[script.name] = script.stat().st_mtime
     return commands
 
 def read_sql_file(path):
@@ -45,7 +50,12 @@ if __name__ == '__main__':
     parser.add_argument("-o","--output", help="specify output database path")
     parser.add_argument("-q","--quiet", help="suppress all output", action="store_true")
     parser.add_argument("-v","--verbose", help="display all output", action="store_true")
+    parser.add_argument("-c","--cleanBuild", help="delete the old database and build a fresh one", action="store_true")
     args = parser.parse_args()
+
+    if os.path.exists('.srd5-built'):
+        with open('.srd5-built', 'r') as inf:
+            PREVIOUS = {l.split('=')[0]:float(l.split('=')[1]) for l in inf.readlines()}
 
     def cout(string, cend="\n"):
         if not args.quiet and args.verbose:
@@ -60,17 +70,9 @@ if __name__ == '__main__':
             outpath += '/'
         outpath += "SRD5.db"
 
-    if os.path.exists(outpath):
-        if args.quiet:
-            os.remove(outpath)
-        else:
-            print("Warning: about to overwrite file at " + outpath + ".")
-            choice = input("Continue? [Y/n]: ")
-            if choice != "" and (choice[0] == 'N' or choice[0] == 'n'):
-                sys.exit("Cancelling operation.")
-            cout("Deleting " + outpath + "...", cend="")
-            os.remove(outpath)
-            cout("DONE")
+    if os.path.exists(outpath) and args.cleanBuild:
+        os.remove(outpath)
+        PREVIOUS=[]
 
     cout("Building database " + outpath + "...")
     os.makedirs(outpath[:outpath.rfind('/')],exist_ok=True)
@@ -91,6 +93,10 @@ if __name__ == '__main__':
             db.close()
             sys.exit("Aborting.")
     db.close()
+
+    with open('.srd5-built', 'w') as of:
+        for k,v in PREVIOUS.items():
+            of.write(k + '=' + str(v) + '\n')
 
 """
 Copyright 2022 Gavin Lochtefeld

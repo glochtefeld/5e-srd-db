@@ -1,8 +1,10 @@
+DROP TABLE IF EXISTS itemType;
 CREATE TABLE itemType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL
 );
 
+DROP TABLE IF EXISTS item;
 CREATE TABLE item (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     itemType REFERENCES itemType (id),
@@ -14,6 +16,7 @@ CREATE TABLE item (
     bcUseAction BLOB DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS equipmentPack;
 CREATE TABLE equipmentPack (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,
@@ -21,6 +24,7 @@ CREATE TABLE equipmentPack (
     cost INTEGER NOT NULL
 );
 
+DROP TABLE IF EXISTS packItem;
 CREATE TABLE packItem (
     packID REFERENCES equipmentPack (id),
     itemID REFERENCES item (id),

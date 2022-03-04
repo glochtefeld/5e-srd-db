@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS trapDanger;
 CREATE TABLE trapDanger (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     dangerLevel VARCHAR (15) NOT NULL,
@@ -7,6 +8,7 @@ CREATE TABLE trapDanger (
     attackBonusUpper INTEGER NOT NULL
 );
 
+DROP TABLE IF EXISTS trapSeverity;
 CREATE TABLE trapSeverity (
     upperLevel REFERENCES level (id),
     trapDangerID REFERENCES trapDanger (id),
@@ -14,11 +16,13 @@ CREATE TABLE trapSeverity (
     PRIMARY KEY (upperLevel, trapDangerID)
 );
 
+DROP TABLE IF EXISTS trapType;
 CREATE TABLE trapType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL
 );
 
+DROP TABLE IF EXISTS trap;
 CREATE TABLE trap (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
@@ -28,8 +32,9 @@ CREATE TABLE trap (
     bc BLOB DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS trapByType;
 CREATE TABLE trapByType (
     trapID REFERENCES trap (id),
-    trapTypeID REFERENCES trapType (id)
+    trapTypeID REFERENCES trapType (id),
     PRIMARY KEY (trapID, trapTypeID)
 );

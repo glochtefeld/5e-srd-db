@@ -1,3 +1,5 @@
+DELETE FROM item;
+DELETE FROM sqlite_sequence where name='item';
 INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction) VALUES (1, 'Abacus', '', 1, 2, 2, NULL);
 INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction) VALUES (4, 'Acid (vial)', 'As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon.  On a hit, the target takes 2d6 acid damage.', 1, 25, 1, NULL);
 INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction) VALUES (4, 'Alchemist’s Fire (flask)', 'This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist’s fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames.', 1, 50, 1, NULL);
@@ -140,6 +142,8 @@ INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction
 INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction) VALUES (10, 'Poisoner’s kit', 'A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons.', 1, 50, 2, NULL);
 INSERT INTO item (itemType, name, description, coinID, cost, weight, bcUseAction) VALUES (10, 'Thieves’ tools', 'This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow-­‐‑bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks.', 1, 25, 1 , NULL);
 
+DELETE FROM itemType;
+DELETE FROM sqlite_sequence where name='itemType';
 INSERT INTO itemType (name) VALUES ('None');
 INSERT INTO itemType (name) VALUES ('Ammunition');
 INSERT INTO itemType (name) VALUES ('Arcane focus');
@@ -151,6 +155,8 @@ INSERT INTO itemType (name) VALUES ('Gaming set');
 INSERT INTO itemType (name) VALUES ('Musical instrument');
 INSERT INTO itemType (name) VALUES ('Specialty tools');
 
+DELETE FROM equipmentPack;
+DELETE FROM sqlite_sequence where name='equipmentPack';
 INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Burglar’s Pack', 1, 16);
 INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Diplomat’s Pack', 1, 39);
 INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Dungeoneer’s Pack', 1, 12);
@@ -159,6 +165,8 @@ INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Explorer’s Pack', 1, 1
 INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Priest’s Pack', 1, 19);
 INSERT INTO equipmentPack (name, coinID, cost) VALUES ('Scholar’s Pack', 1, 40);
 
+DELETE FROM packItem;
+DELETE FROM sqlite_sequence where name='packItem';
 INSERT INTO packItem (packID, itemID, quantity) VALUES (1, 14, 1);
 INSERT INTO packItem (packID, itemID, quantity) VALUES (1, 15, 1);
 INSERT INTO packItem (packID, itemID, quantity) VALUES (1, 99, 1);

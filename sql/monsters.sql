@@ -1,10 +1,12 @@
+DROP TABLE IF EXISTS monsterType;
 CREATE TABLE monsterType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,
     description VARCHAR(500) NOT NULL
 );
 
-CREATE TABLE challegeRating (
+DROP TABLE IF EXISTS challengeRating;
+CREATE TABLE challengeRating (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     cr DECIMAL NOT NULL,
     xp INTEGER NOT NULL,

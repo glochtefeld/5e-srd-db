@@ -1,3 +1,5 @@
+DELETE FROM script;
+DELETE FROM sqlite_sequence where name='script';
 INSERT INTO script (name) VALUES ('None');
 INSERT INTO script (name) VALUES ('Common');
 INSERT INTO script (name) VALUES ('Dwarvish');
@@ -6,6 +8,8 @@ INSERT INTO script (name) VALUES ('Infernal');
 INSERT INTO script (name) VALUES ('Celestial');
 INSERT INTO script (name) VALUES ('Draconic');
 
+DELETE FROM language;
+DELETE FROM sqlite_sequence where name='language';
 INSERT INTO language (name, scriptID, exotic) VALUES ('Any', 1, 0);
 INSERT INTO language (name, scriptID, exotic) VALUES ('Common', 2, 0);
 INSERT INTO language (name, scriptID, exotic) VALUES ('Dwarvish', 3, 0);

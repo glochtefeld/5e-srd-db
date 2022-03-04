@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS madnessType;
 CREATE TABLE madnessType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
@@ -5,6 +6,7 @@ CREATE TABLE madnessType (
     durationLength VARCHAR(5) NOT NULL
 );
 
+DROP TABLE IF EXISTS madnessEffect;
 CREATE TABLE madnessEffect (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     higherRoll INTEGER NOT NULL,

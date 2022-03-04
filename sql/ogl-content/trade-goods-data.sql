@@ -1,3 +1,5 @@
+DELETE FROM tradeGood;
+DELETE FROM sqlite_sequence where name='tradeGood';
 INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('wheat', 2, 1, 'lb.');
 INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('flour', 2, 2, 'lb.');
 INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('chicken', 2, 2, '');
@@ -22,6 +24,8 @@ INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('ox', 1, 15, '');
 INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('gold', 1, 50, 'lb.');
 INSERT INTO tradeGood (name, coinID, cost, measure) VALUES ('platinum', 1, 500, 'lb.');
 
+DELETE FROM livingExpense;
+DELETE FROM sqlite_sequence where name='livingExpense';
 INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('Wretched', 'You live in inhumane conditions. With no place to call home, you shelter wherever you can, sneaking into barns, huddling in old crates, and relying on the good graces of people better off than you. A wretched lifestyle presents abundant dangers.  Violence, disease, and hunger follow you wherever you go. Other wretched people covet your armor, weapons, and adventuring gear, which represent a fortune by their standards. You are beneath the notice of most people.', 2, 0);
 INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('Squalid', 'You live in a leaky stable, a mud-­‐‑floored hut just outside town, or a vermin-­‐‑infested boarding house in the worst part of town. You have shelter from the elements, but you live in a desperate and often violent environment, in places rife with disease, hunger, and misfortune. You are beneath the notice of most people, and you have few legal protections.  Most people at this lifestyle level have suffered some terrible setback. They might be disturbed, marked as exiles, or suffer from disease.', 3, 1);
 INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('Poor', 'A poor lifestyle means going without the comforts available in a stable community. Simple food and lodgings, threadbare clothing, and unpredictable conditions result in a sufficient, though probably unpleasant, experience. Your accommodations might be a room in a flophouse or in the common room above a tavern. You benefit from some legal protections, but you still have to contend with violence, crime, and disease. People at this lifestyle level tend to be unskilled laborers, costermongers, peddlers, thieves, mercenaries, and other disreputable types.', 3, 2);
@@ -30,6 +34,8 @@ INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('C
 INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('Wealthy', 'Choosing a wealthy lifestyle means living a life of luxury, though you might not have achieved the social status associated with the old money of nobility or royalty. You live a lifestyle comparable to that of a highly successful merchant, a favored servant of the royalty, or the owner of a few small businesses. You have respectable lodgings, usually a spacious home in a good part of town or a comfortable suite at a fine inn. You likely have a small staff of servants.', 1, 4);
 INSERT INTO livingExpense (lifestyle, description, coinID, dailyCost) VALUES ('Aristocratic', 'You live a life of plenty and comfort.  You move in circles populated by the most powerful people in the community. You have excellent lodgings, perhaps a townhouse in the nicest part of town or rooms in the finest inn. You dine at the best restaurants, retain the most skilled and fashionable tailor, and have servants attending to your every need. You receive invitations to the social gatherings of the rich and powerful, and spend evenings in the company of politicians, guild leaders, high priests, and nobility. You must also contend with the highest levels of deceit and treachery. The wealthier you are, the greater the chance you will be drawn into political intrigue as a pawn or participant.', 1, 10);
 
+DELETE FROM mount;
+DELETE FROM sqlite_sequence where name='mount';
 INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Camel', 1, 50, 50, 480);
 INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Donkey', 1, 8, 40, 420);
 INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Mule', 1, 8, 40, 420);
@@ -40,6 +46,8 @@ INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Mastiff', 
 INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Pony', 1, 30, 40, 225);
 INSERT INTO mount (name, coinID, cost, speed, carryCapacity) VALUES ('Warhorse', 1, 400, 60, 540);
 
+DELETE FROM drawnVehicle;
+DELETE FROM sqlite_sequence where name='drawnVehicle';
 INSERT INTO drawnVehicle (name, coinID, cost, acBonus, weight) VALUES ('Barding, Padded', 1, 20, 1, 16);
 INSERT INTO drawnVehicle (name, coinID, cost, acBonus, weight) VALUES ('Barding, Leather', 1, 40, 1, 20);
 INSERT INTO drawnVehicle (name, coinID, cost, acBonus, weight) VALUES ('Barding, Studded leather', 1, 180, 2, 26);
@@ -67,6 +75,8 @@ INSERT INTO drawnVehicle (name, coinID, cost, weight) VALUES ('Sled', 1, 20, 300
 INSERT INTO drawnVehicle (name, coinID, cost, weight) VALUES ('Stabling (per day)', 3, 5, 0);
 INSERT INTO drawnVehicle (name, coinID, cost, weight) VALUES ('Wagon', 1, 35, 400);
 
+DELETE FROM waterVehicle;
+DELETE FROM sqlite_sequence where name='waterVehicle';
 INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Galley', 1, 30000, 4);
 INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Keelboat', 1, 3000, 1);
 INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Longship', 1, 10000, 3);
@@ -74,6 +84,8 @@ INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Rowboat', 1, 50, 1
 INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Sailing ship', 1, 10000, 2);
 INSERT INTO waterVehicle (name, coinID, cost, speed) VALUES ('Warship', 1, 25000, 2.5);
 
+DELETE FROM food;
+DELETE FROM sqlite_sequence where name='food';
 INSERT INTO food (name, coinID, cost) VALUES ('Ale, gallon', 3, 2);
 INSERT INTO food (name, coinID, cost) VALUES ('Ale, mug', 2, 4);
 INSERT INTO food (name, coinID, cost) VALUES ('Banquet (per person)', 1, 10);
@@ -87,6 +99,8 @@ INSERT INTO food (name, coinID, cost) VALUES ('Meal, comfortable', 3, 8);
 INSERT INTO food (name, coinID, cost) VALUES ('Meal, wealthy', 3, 8);
 INSERT INTO food (name, coinID, cost) VALUES ('Meal, aristocratic', 1, 2);
 
+DELETE FROM lodging;
+DELETE FROM sqlite_sequence where name='lodging';
 INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, squalid', 2, 7);
 INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, poor', 3, 1);
 INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, modest', 3, 5);
@@ -94,9 +108,13 @@ INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, comfortable', 3, 5);
 INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, wealthy', 3, 8);
 INSERT INTO lodging (name, coinID, cost) VALUES ('Inn stay, aristocratic', 1, 2);
 
+DELETE FROM drink;
+DELETE FROM sqlite_sequence where name='drink';
 INSERT INTO drink (name, coinID, cost) VALUES ('Wine, common (pitcher)', 3, 2);
 INSERT INTO drink (name, coinID, cost) VALUES ('Wine, fine (bottle)', 1, 10);
 
+DELETE FROM service;
+DELETE FROM sqlite_sequence where name='service';
 INSERT INTO service (name, coinID, cost) VALUES ('Coach cab, between towns (per mile)', 2, 3);
 INSERT INTO service (name, coinID, cost) VALUES ('Coach cab, within city', 2, 1);
 INSERT INTO service (name, coinID, cost) VALUES ('Hireling, skillled (daily wage)', 1, 2);

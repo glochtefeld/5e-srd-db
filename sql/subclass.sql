@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS subclass;
 CREATE TABLE subclass (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     classID REFERENCES class (id),
@@ -5,6 +6,7 @@ CREATE TABLE subclass (
     description VARCHAR(500) NOT NULL
 );
 
+DROP TABLE IF EXISTS subclassFeature;
 CREATE TABLE subclassFeature (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     levelID REFERENCES level (id),

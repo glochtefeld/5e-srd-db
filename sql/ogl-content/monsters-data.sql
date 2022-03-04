@@ -1,3 +1,5 @@
+DELETE FROM monsterType;
+DELETE FROM sqlite_sequence where name='monsterType';
 INSERT INTO monsterType (name, description) VALUES ('Abberation', 'Aberrations are utterly alien beings. Many of them have innate magical abilities drawn from the creature’s alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, beholders, mind flayers, and slaadi.');
 INSERT INTO monsterType (name, description) VALUES ('Beast', 'Beasts are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.');
 INSERT INTO monsterType (name, description) VALUES ('Celestials', 'Celestials are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity.  Celestials include angels, couatls, and pegasi.');
@@ -12,6 +14,8 @@ INSERT INTO monsterType (name, description) VALUES ('Monstrosity', 'Monstrositie
 INSERT INTO monsterType (name, description) VALUES ('Ooze', 'Oozes are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way.  Black puddings and gelatinous cubes are among the most recognizable oozes.  Plants in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.');
 INSERT INTO monsterType (name, description) VALUES ('Undead', 'Undead are once-­‐‑living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters. ');
 
+DELETE FROM challengeRating;
+DELETE FROM sqlite_sequence where name='challengeRating';
 INSERT INTO challengeRating (cr, xp, proficiencyBonus) VALUES (0, 0, 2);
 INSERT INTO challengeRating (cr, xp, proficiencyBonus) VALUES (0.125, 25, 2);
 INSERT INTO challengeRating (cr, xp, proficiencyBonus) VALUES (0.25, 50, 2);

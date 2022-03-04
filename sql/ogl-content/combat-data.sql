@@ -1,3 +1,5 @@
+DELETE FROM creatureSize;
+DELETE FROM sqlite_sequence where name='creatureSize';
 INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Tiny', 3, 2.5);
 INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Small', 3, 5);
 INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Medium', 3, 5);
@@ -5,7 +7,8 @@ INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Large', 3, 10);
 INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Huge', 3, 15);
 INSERT INTO creatureSize (size, measure, areaSquare) VALUES ('Gargantuan', 3, 20);
 
-
+DELETE FROM combatAction;
+DELETE FROM sqlite_sequence where name='combatAction';
 INSERT INTO combatAction (name, description, bc) VALUES ('Attack', ' The most common action to take in combat is the Attack action, whether you are swinging a sword, firing an arrow from a bow, or brawling with your fists.  With this action, you make one melee or ranged attack. See the “Making an Attack” section for the rules that govern attacks.  Certain features, such as the Extra Attack feature of the fighter, allow you to make more than one attack with this action.', NULL);
 INSERT INTO combatAction (name, description, bc) VALUES ('Cast a Spell', ' Spellcasters such as wizards and clerics, as well as many monsters, have access to spells and can use them to great effect in combat. Each spell has a casting time, which specifies whether the caster must use an action, a reaction, minutes, or even hours to cast the spell. Casting a spell is, therefore, not necessarily an action. Most spells do have a casting time of 1 action, so a spellcaster often uses his or her action in combat to cast such a spell.', NULL);
 INSERT INTO combatAction (name, description, bc) VALUES ('Dash', ' When you take the Dash action, you gain extra movement for the current turn. The increase equals your speed, after applying any modifiers. With a speed of 30 feet, for example, you can move up to 60 feet on your turn if you dash.  Any increase or decrease to your speed changes this additional movement by the same amount. If your speed of 30 feet is reduced to 15 feet, for instance, you can move up to 30 feet this turn if you dash.', NULL);

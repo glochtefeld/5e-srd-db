@@ -4,11 +4,13 @@
 /* The simplest solution is to just store everything as text, but that's barely a solution. */
 /* The best solution I can think of is these four tables and punting the problem forward to software. */
 /* I'm not the biggest fan of the idea but I want to avoid duplicating data. */
+DROP TABLE IF EXISTS startEquipTbl;
 CREATE TABLE startEquipTbl (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(64) NOT NULL
 );
 
+DROP TABLE IF EXISTS startEquipItem;
 CREATE TABLE startEquipItem (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     /* PK (tableID, itemID) could be possible, but that adds a lot more nullable columns in the other tables. */
@@ -18,6 +20,7 @@ CREATE TABLE startEquipItem (
 );
 
 /* note: Any items from the weaponProperty table should be intersected with each other. e.g. 'Martial', 'Ranged' becomes 'Martial Ranged' */
+DROP TABLE IF EXISTS startEquipBundle;
 CREATE TABLE startEquipBundle (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     item1ID REFERENCES startEquipItem (id),
@@ -25,6 +28,7 @@ CREATE TABLE startEquipBundle (
     item3ID REFERENCES startEquipItem (id) DEFAULT NULL
 );
 
+DROP TABLE IF EXISTS classBundleOption;
 CREATE TABLE classBundleOption (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     classID REFERENCES class (id),

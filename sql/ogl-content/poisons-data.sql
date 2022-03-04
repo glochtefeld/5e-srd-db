@@ -1,8 +1,12 @@
+DELETE FROM poisonType;
+DELETE FROM sqlite_sequence where name='poisonType';
 INSERT INTO poisonType (name) VALUES ('Contact');
 INSERT INTO poisonType (name) VALUES ('Ingested');
 INSERT INTO poisonType (name) VALUES ('Inhaled');
 INSERT INTO poisonType (name) VALUES ('Injury');
 
+DELETE FROM poison;
+DELETE FROM sqlite_sequence where name='poison';
 INSERT INTO poison (name, description, poisonTypeID, coinID, price) VALUES ('Assassin’s blood', 'A creature subjected to this poison must make a DC 10 Constitution saving throw. On a failed save, it takes 6 (1d12) poison damage and is poisoned for 24 hours. On a successful save, the creature takes half damage and isn’t poisoned.', 2, 1, 150);
 INSERT INTO poison (name, description, poisonTypeID, coinID, price) VALUES ('Burnt othur fumes', 'A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or take 10 (3d6) poison damage, and must repeat the saving throw at the start of each of its turns. On each successive failed save, the character takes 3 (1d6) poison damage.  After three successful saves, the poison ends.', 3, 1, 500);
 INSERT INTO poison (name, description, poisonTypeID, coinID, price) VALUES ('Crawler mucus', 'This poison must be harvested from a dead or incapacitated crawler. A creature subjected to this poison must succeed on a DC 13 Constitution saving throw or be poisoned for 1 minute. The poisoned creature is paralyzed. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.', 1, 1, 200);
