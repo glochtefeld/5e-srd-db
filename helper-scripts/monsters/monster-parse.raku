@@ -1,7 +1,7 @@
 use v6;
 use DBIish;
 
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/gll/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -42,7 +42,7 @@ sub pair-from-hash($line, %list, :$idx, :$split=',') {
     $line.substr($idx..*).split($split).map(&check);
 }
 
-subset AbilityPair of Pair where {$_.key ~~ Int:D && $_.value ~~ Int:D};
+subset IntPair of Pair where {$_.key ~~ Int:D && $_.value ~~ Int:D};
 
 class Monster {
     has Int $.id is rw;
@@ -50,13 +50,14 @@ class Monster {
     has Int $.size is rw;
     has Int $.monsterType is rw;
     has Int $.alignment is rw;
-    has $.ac is rw;
-    has $.hp is rw;
-    has $.hpFormula is rw;
+    has Int $.ac is rw;
+    has Int $.hp is rw;
+    has Str $.hpFormula is rw;
     has @.speeds is rw;
-    has AbilityPair @.scores is rw;
-    has AbilityPair @.saves is rw;
-    has @.skills is rw;
+    has IntPair @.scores is rw;
+    has IntPair @.saves is rw;
+    has IntPair @.skills is rw;
+    has Int $.passivePerception is rw;
     has @.senses is rw;
     has @.languages is rw;
     has $.telepathy is rw;
@@ -80,15 +81,16 @@ sub MAIN($file) {
         $m.size = get-idx(@sizes)($size);
         $m.alignment = idx-from-list($law-chaos ~ ' ' ~ $good-evil, @alignments, :idx<0>).flat[0];
         $m.monsterType = %types{$type.chop().tclc()};
-        ($m.ac, my $ac-source) = @lines[2].substr(11..*).split(' ('); # Not using AC SOURCE
-        ($m.hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
+        (my $ac, my $ac-source) = @lines[2].substr(11..*).split(' ('); # Not using AC SOURCE
+        $m.ac = $ac.trim.Int;
+        (my $hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
+        $m.hp = $hp.trim.Int;
         $m.speeds = @lines[4].substr(5..*).split(', ');
         $m.scores = @lines[5].split(/\((\+|\-)\d\)/).map({Int($_) if $_})
             .pairs.map({$_.key + 1 => $_.value});
         my $j = 6;
-        repeat {
+        repeat { # Header
             my $line = @lines[$j++];
-            $line.raku.say;
 
             if $line.match(/^Saving\sThrow/) {
                 $m.saves = pair-from-list($line, @abilities, :idx<14>);
@@ -126,13 +128,35 @@ sub MAIN($file) {
             }
             elsif $line.match(/^Condition\sImmunities/) {
                 $m.condition-immunities = $line.substr(21..*).split(',').map({%conditions{$_.trim.tclc}});
-                $m.condition-immunities.say;
             }
             else {
                 $line.say;
                 die "Unknown property found";
             }
         } until @lines[$j] eq 'Traits';
+        $m.passivePerception = $m.skills.grep({$_.key == 14})[0].value;
+        $j++; # Consume Traits
+
+        repeat { # Traits
+            my $line = @lines[$j++];
+            $line.say;
+        } until @lines[$j] eq 'Actions';
+
+        repeat { # Actions
+            my $line = @lines[$j++];
+            $line.say;
+        } until @lines[$j] eq 'Legendary Actions' 
+            || @lines[$j] eq 'Reactions' 
+            || @lines[$j] eq 'END';
+
+        my $rest = @lines[$j..*].join(' ');
+
+        if $rest ~~ /\nReactions\n/ {}
+        if $rest ~~ /\nLegendary Actions\n/ {}
+
+
+
+
     }
 }
 #`{
