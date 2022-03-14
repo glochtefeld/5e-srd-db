@@ -350,6 +350,7 @@ INSERT INTO damageType (name) VALUES ('Radiant');
 INSERT INTO damageType (name) VALUES ('Slashing');
 INSERT INTO damageType (name) VALUES ('Thunder');
 INSERT INTO damageType (name) VALUES ('None');
+INSERT INTO damageType (name) VALUES ('Mundane');
 
 DELETE FROM componentType;
 DELETE FROM sqlite_sequence where name='componentType';

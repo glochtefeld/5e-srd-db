@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS condition;
+CREATE TABLE condition (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(15) NOT NULL,
+    description VARCHAR(500) NOT NULL
+);
