@@ -7,7 +7,7 @@ Speed 30 ft.
 8 (−1)
 7 (−2)
 8 (−1)
-Senses darkvision 60 ft., passive Perception 8
+Senses darkvision 60 ft.
 Languages Common 1, Draconic 1
 Challenge 1/8 (25 XP)
 Traits
@@ -27,7 +27,7 @@ Speed 20 ft., swim 60 ft.
 Saving Throws Str +17, Dex +7, Con +14, Int +13, Wis +11
 Damage Immunities lightning; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities frightened, paralyzed
-Senses truesight 120 ft., passive Perception 14
+Senses truesight 120 ft.
 Languages Abyssal 0, Celestial 0, Infernal 0, Primordial 0
 Telepathy 120 ft.
 Challenge 23 (50,000 XP)

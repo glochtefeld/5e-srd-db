@@ -7,7 +7,7 @@ Speed 40 ft.
 Skills Deception +10, Insight +8
 Damage Vulnerabilities piercing from magic weapons wielded by good creatures
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks
-Senses darkvision 60 ft., passive Perception 13
+Senses darkvision 60 ft.
 Languages Common 1, Infernal 1
 Challenge 13 (10,000 XP)
 Traits
@@ -43,7 +43,6 @@ Speed 20 ft., fly 120 ft.
 28 (+9) 10 (+0) 20 (+5) 3 (−4) 10 (+0) 9 (−1)
 Saving Throws Dex +4, Con +9, Wis +4, Cha +3
 Skills Perception +4
-Senses passive Perception 14
 Challenge 11 (7,200 XP)
 Traits
 Keen Sight. The roc has advantage on Wisdom (Perception) checks that rely on sight.
@@ -61,7 +60,7 @@ Hit Points 93 (11d10+33)
 Speed 10 ft., climb 10 ft.
 18 (+4) 8 (−1) 17 (+3) 7 (−2) 16 (+3) 6 (−2)
 Skills Perception +6, Stealth +5
-Senses darkvision 60 ft., passive Perception 16
+Senses darkvision 60 ft.
 Challenge 5 (1,800 XP)
 Traits
 False Appearance. While the roper remains motionless, it is indistinguishable from a normal cave formation, such as a stalagmite.
@@ -80,7 +79,7 @@ Armor Class 14 (natural armor)
 Hit Points 27 (5d8+5)
 Speed 40 ft.
 13 (+1) 12 (+1) 13 (+1) 2 (−4) 13 (+1) 6 (−2)
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Challenge 1/2 (100 XP)
 Traits
 Iron Scent. The rust monster can pinpoint, by scent, the location of ferrous metal within 30 feet of it.

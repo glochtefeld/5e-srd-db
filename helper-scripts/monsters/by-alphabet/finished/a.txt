@@ -6,7 +6,7 @@ Speed 10 ft., swim 40 ft.
 21 (+5) 9 (−1) 15 (+2) 18 (+4) 15 (+2) 18 (+4)
 Saving Throws Con +6, Int +8, Wis +6
 Skills History +12, Perception +10
-Senses darkvision 120 ft., passive Perception 20
+Senses darkvision 120 ft.
 Languages Deep Speech 1
 Telepathy 120 ft.
 Challenge 10 (5,900 XP)
@@ -34,7 +34,7 @@ Saving Throws Wis +9, Cha +9
 Skills Insight +9, Perception +9
 Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened
-Senses darkvision 120 ft., passive Perception 19
+Senses darkvision 120 ft.
 Languages Any 1
 Challenge 10 (5,900 XP)
 Traits
@@ -57,7 +57,7 @@ Saving Throws Con +12, Wis +11, Cha +12
 Skills Perception +11
 Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened
-Senses truesight 120 ft., passive Perception 21
+Senses truesight 120 ft.
 Languages Any 1
 Challenge 16 (15,000 XP)
 Traits
@@ -82,7 +82,7 @@ Skills Perception +14
 Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities necrotic, poison
 Condition Immunities charmed, exhaustion, frightened, poisoned
-Senses truesight 120 ft., passive Perception 24
+Senses truesight 120 ft.
 Languages Any 1
 Challenge 21 (33,000 XP)
 Traits
@@ -112,7 +112,7 @@ Speed 25 ft.
 1 (−5)
 Damage Immunities poison, psychic
 Condition Immunities blinded, charmed, deafened, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses blindsight 60 ft. (blind beyond this radius), passive Perception 6
+Senses blindsight 60 ft. (blind beyond this radius)
 Challenge 1 (200 XP)
 Traits
 Antimagic Susceptibility. The armor is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the armor must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
@@ -131,7 +131,7 @@ Speed 0 ft., fly 50 ft. (hover)
 Saving Throws Dex +4
 Damage Immunities poison, psychic
 Condition Immunities blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
-Senses blindsight 60 ft. (blind beyond this radius), passive Perception 7
+Senses blindsight 60 ft. (blind beyond this radius)
 Challenge 1/4 (50 XP)
 Traits
 Antimagic Susceptibility. The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
@@ -148,7 +148,7 @@ Speed 10 ft.
 17 (+3) 14 (+2) 10 (+0) 1 (−5) 3 (−4) 1 (−5)
 Damage Immunities poison, psychic
 Condition Immunities blinded, charmed, deafened, frightened, paralyzed, petrified, poisoned
-Senses blindsight 60 ft. (blind beyond this radius), passive Perception 6
+Senses blindsight 60 ft. (blind beyond this radius)
 Challenge 2 (450 XP)
 Traits
 Antimagic Susceptibility. The rug is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the rug must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
@@ -164,7 +164,7 @@ Armor Class 14 (natural armor), 11 while prone
 Hit Points 39 (6d10+6)
 Speed 30 ft., burrow 10 ft.
 17 (+3) 11 (+0) 13 (+1) 1 (−5) 13 (+1) 6 (−2)
-Senses darkvision 60 ft., tremorsense 60 ft., passive Perception 11
+Senses darkvision 60 ft., tremorsense 60 ft.
 Challenge 2 (450 XP)
 Traits
 Actions
@@ -181,7 +181,6 @@ Speed 30 ft.
 Saving Throws Con +4
 Damage Immunities fire, poison
 Condition Immunities poisoned
-Senses passive Perception 11
 Languages Ignan 1
 Challenge 2 (450 XP)
 Traits

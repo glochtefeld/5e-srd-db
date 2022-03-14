@@ -5,7 +5,6 @@ Hit Points 45 (6d10+12)
 Speed 50 ft.
 18 (+4) 14 (+2) 14 (+2) 9 (−1) 13 (+1) 11 (+0)
 Skills Athletics +6, Perception +3, Survival +3
-Senses passive Perception 13
 Languages Elvish 1, Sylvan 1
 Challenge 2 (450 XP)
 Traits
@@ -24,7 +23,7 @@ Hit Points 114 (12d10+48)
 Speed 30 ft., fly 60 ft.
 19 (+4) 11 (+0) 19 (+4) 3 (−4) 14 (+2) 10 (+0)
 Skills Perception +8
-Senses darkvision 60 ft., passive Perception 18
+Senses darkvision 60 ft.
 Languages Draconic 0
 Challenge 6 (2,300 XP)
 Traits
@@ -45,7 +44,7 @@ Speed 30 ft., swim 30 ft.
 Skills Perception +4
 Damage Immunities poison
 Condition Immunities poisoned
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Deep Speech 0
 Challenge 4 (1,100 XP)
 Traits
@@ -64,7 +63,7 @@ Hit Points 78 (12d10+12)
 Speed 10 ft., fly 40 ft.
 17 (+3) 15 (+2) 12 (+1) 13 (+1) 12 (+1) 14 (+2)
 Skills Stealth +5
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Languages Deep Speech 1, Undercommon 1
 Challenge 8 (3,900 XP)
 Traits
@@ -85,7 +84,7 @@ Armor Class 11
 Hit Points 27 (6d6+6)
 Speed 20 ft., fly 40 ft.
 6 (−2) 12 (+1) 12 (+1) 2 (−4) 13 (+1) 5 (−3)
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Challenge 1/2 (100 XP)
 Traits
 Actions
@@ -101,7 +100,7 @@ Speed 30 ft., fly 90 ft.
 Saving Throws Con +5, Wis +7, Cha +6
 Damage Resistances radiant
 Damage Immunities psychic; bludgeoning, piercing, and slashing from nonmagical attacks
-Senses truesight 120 ft., passive Perception 15
+Senses truesight 120 ft.
 Languages Any 1
 Telepathy 120 ft.
 Challenge 4 (1,100 XP)

@@ -6,7 +6,7 @@ Speed 50 ft.
 18 (+4) 14 (+2) 15 (+2) 11 (+0) 17 (+3) 16 (+3)
 Damage Immunities poison
 Condition Immunities charmed, paralyzed, poisoned
-Senses darkvision 60 ft., passive Perception 13
+Senses darkvision 60 ft.
 Languages Celestial 1, Elvish 1, Sylvan 1 
 Telepathy 60 ft.
 Challenge 5 (1,800 XP)

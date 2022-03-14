@@ -7,7 +7,7 @@ Speed 40 ft.
 Saving Throws Dex +8, Con +7, Int +7, Wis +8, Cha +8
 Damage Immunities poison
 Condition Immunities charmed, poisoned
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Celestial 1, Common 1
 Challenge 10 (5,900 XP)
 Traits
@@ -27,7 +27,7 @@ Speed 40 ft.
 Saving Throws Dex +6, Con +5, Wis +5, Cha +6
 Damage Immunities poison
 Condition Immunities charmed, poisoned
-Senses darkvision 60 ft., passive Perception 12
+Senses darkvision 60 ft.
 Languages Abyssal 1, Common 1
 Challenge 8 (3,900 XP)
 Traits
@@ -44,7 +44,6 @@ Hit Points 68 (8d10+24)
 Speed 60 ft., fly 90 ft.
 18 (+4) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 15 (+2)
 Damage Immunities fire
-Senses passive Perception 11
 Languages Abyssal 0, Common 0, Infernal 0
 Challenge 3 (700 XP)
 Traits

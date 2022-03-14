@@ -5,7 +5,6 @@ Hit Points 68 (8d10+24)
 Speed 20 ft., swim 40 ft.
 18 (+4) 15 (+2) 16 (+3) 2 (−4) 12 (+1) 5 (−3)
 Skills Perception +3, Stealth +4
-Senses passive Perception 13
 Challenge 2 (450 XP)
 Traits
 Hold Breath. The plesiosaurus can hold its breath for 1 hour.
@@ -19,7 +18,6 @@ Armor Class 13 (natural armor)
 Hit Points 95 (10d12+30)
 Speed 50 ft.
 22 (+6) 9 (−1) 17 (+3) 2 (−4) 11 (+0) 5 (−3)
-Senses passive Perception 10
 Challenge 5 (1,800 XP)
 Traits
 Trampling Charge. If the triceratops moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.  If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
@@ -35,7 +33,6 @@ Hit Points 136 (13d12+52)
 Speed 50 ft.
 25 (+7) 10 (+0) 19 (+4) 2 (−4) 12 (+1) 9 (−1)
 Skills Perception +4
-Senses passive Perception 14
 Challenge 8 (3,900 XP)
 Traits
 Actions
@@ -52,7 +49,7 @@ Speed 30 ft.
 11 (+0) 18 (+4) 14 (+2) 11 (+0) 12 (+1) 14 (+2)
 Skills Deception +6, Insight +3
 Condition Immunities charmed
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Languages Common 1
 Challenge 3 (700 XP)
 Traits

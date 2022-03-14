@@ -8,7 +8,7 @@ Saving Throws Int +5, Wis +9, Cha +9
 Damage Immunities fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, frightened, paralyzed,
 poisoned
-Senses blindsight 120 ft., passive Perception 10
+Senses blindsight 120 ft.
 Challenge 30 (155,000 XP)
 Traits
 Legendary Resistance (3/Day). If the tarrasque fails a saving throw, it can choose to succeed instead.
@@ -37,7 +37,6 @@ Speed 30 ft.
 23 (+6) 8 (−1) 21 (+5) 12 (+1) 16 (+3) 12 (+1)
 Damage Resistances bludgeoning, piercing
 Damage Vulnerabilities fire
-Senses passive Perception 13
 Languages Common 1, Druidic 1, Elvish 1, Sylvan 1
 Challenge 9 (5,000 XP)
 Traits
@@ -57,7 +56,7 @@ Hit Points 84 (8d10+40)
 Speed 30 ft.
 18 (+4) 13 (+1) 20 (+5) 7 (−2) 9 (−1) 7 (−2)
 Skills Perception +2
-Senses darkvision 60 ft., passive Perception 12
+Senses darkvision 60 ft.
 Languages Giant 1
 Challenge 5 (1,800 XP)
 Traits

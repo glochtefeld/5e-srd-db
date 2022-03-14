@@ -7,7 +7,7 @@ Speed 30 ft.
 Saving Throws Dex +9, Wis +7, Cha +9
 Skills Perception +7, Stealth +9
 Damage Resistances necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
-Senses darkvision 120 ft., passive Perception 17
+Senses darkvision 120 ft.
 Languages Any 1
 Challenge 13 (10,000 XP)
 Traits
@@ -39,7 +39,7 @@ Speed 30 ft.
 Saving Throws Dex +6, Wis +3
 Skills Perception +3, Stealth +6
 Damage Resistances necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
-Senses darkvision 60 ft., passive Perception 13
+Senses darkvision 60 ft.
 Languages Any 1
 Challenge 5 (1,800 XP)
 Traits

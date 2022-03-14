@@ -5,7 +5,7 @@ Hit Points 97 (13d10+26)
 Speed 30 ft.
 16 (+3) 13 (+1) 15 (+2) 14 (+2) 15 (+2) 16 (+3)
 Skills Deception +7, Insight +4, Stealth +3
-Senses darkvision 60 ft., passive Perception 12
+Senses darkvision 60 ft.
 Languages Abyssal 1, Common 1
 Challenge 4 (1,100 XP)
 Traits
@@ -28,7 +28,7 @@ Skills Arcana +18, History +12, Insight +9, Perception +9
 Damage Resistances cold, lightning, necrotic
 Damage Immunities poison; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened, paralyzed, poisoned
-Senses truesight 120 ft., passive Perception 19
+Senses truesight 120 ft.
 Languages Common 1, Any 1
 Challenge 21 (33,000 XP)
 Traits
@@ -53,7 +53,6 @@ Hit Points 22 (4d8+4)
 Speed 30 ft., swim 30 ft.
 15 (+2) 10 (+0) 13 (+1) 7 (−2) 12 (+1) 7 (−2)
 Skills Perception +3, Stealth +4, Survival +5
-Senses passive Perception 13
 Languages Draconic 1
 Challenge 1/2 (100 XP)
 Traits
@@ -73,7 +72,6 @@ Speed 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)
 19 (+4) 10 (+0) 17 (+3) 11 (+0) 12 (+1) 12 (+1)
 Skills Perception +7
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses passive Perception 17
 Languages Common 2
 Challenge 5 (1,800 XP)
 Traits
@@ -94,7 +92,7 @@ Hit Points 78 (12d8+24)
 Speed 30 ft. (40 ft. in boar form)
 17 (+3) 10 (+0) 15 (+2) 10 (+0) 11 (+0) 8 (−1)
 Skills Perception +2
-Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons Senses passive Perception 12
+Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
 Languages Common 2
 Challenge 4 (1,100 XP)
 Traits
@@ -115,7 +113,7 @@ Speed 30 ft.
 10 (+0) 15 (+2) 12 (+1) 11 (+0) 10 (+0) 8 (−1)
 Skills Perception +2, Stealth +4
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses darkvision 60 ft. (rat form only), passive Perception 12
+Senses darkvision 60 ft. (rat form only)
 Languages Common 2
 Challenge 2 (450 XP)
 Traits
@@ -136,7 +134,7 @@ Speed 30 ft. (40 ft. in tiger form)
 17 (+3) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 11 (+0)
 Skills Perception +5, Stealth +4
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses darkvision 60 ft., passive Perception 15
+Senses darkvision 60 ft.
 Languages Common 2
 Challenge 4 (1,100 XP)
 Traits
@@ -158,7 +156,6 @@ Speed 30 ft. (40 ft. in wolf form)
 15 (+2) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)
 Skills Perception +4, Stealth +3
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses passive Perception 14
 Languages Common 2
 Challenge 3 (700 XP)
 Traits

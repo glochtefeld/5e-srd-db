@@ -8,7 +8,7 @@ Skills Perception +8, Stealth +10
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-Senses darkvision 60 ft., passive Perception 18
+Senses darkvision 60 ft.
 Languages Auran 1, Common 0
 Challenge 6 (2,300 XP)
 Traits

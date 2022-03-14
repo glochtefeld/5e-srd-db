@@ -6,7 +6,6 @@ Speed 60 ft., fly 90 ft.
 18 (+4) 15 (+2) 16 (+3) 10 (+0) 15 (+2) 13 (+1)
 Saving Throws Dex +4, Wis +4, Cha +3
 Skills Perception +6
-Senses passive Perception 16
 Languages Celestial 0, Common 0, Elvish 0, Sylvan 0
 Challenge 2 (450 XP)
 Traits
@@ -21,7 +20,7 @@ Hit Points 7 (2d4+2)
 Speed 15 ft., fly 60 ft.
 6 (−2) 15 (+2) 13 (+1) 10 (+0) 12 (+1) 10 (+0)
 Skills Perception +3, Stealth +4
-Senses blindsight 10 ft., darkvision 60 ft., passive Perception 13
+Senses blindsight 10 ft., darkvision 60 ft.
 Languages Common 0, Draconic 0
 Challenge 1/4 (50 XP)
 Traits
@@ -40,7 +39,7 @@ Hit Points 247 (15d20+90)
 Speed 50 ft., burrow 30 ft.
 28 (+9) 7 (−2) 22 (+6) 1 (−5) 8 (−1) 4 (−3)
 Saving Throws Con +11, Wis +4
-Senses blindsight 30 ft., tremorsense 60 ft., passive Perception 9
+Senses blindsight 30 ft., tremorsense 60 ft.
 Challenge 15 (13,000 XP)
 Traits
 Tunneler. The worm can burrow through solid rock at half its burrow speed and leaves a 10-­‐foot-­‐diameter tunnel in its wake.

@@ -5,7 +5,7 @@ Hit Points 13 (3d8)
 Speed 30 ft.
 10 (+0) 14 (+2) 10 (+0) 11 (+0) 11 (+0) 12 (+1)
 Skills Perception +2, Stealth +4
-Senses darkvision 120 ft., passive Perception 12
+Senses darkvision 120 ft.
 Languages Elvish 1, Undercommon 1
 Challenge 1/4 (50 XP)
 Traits
@@ -24,7 +24,7 @@ Hit Points 44 (8d8+8)
 Speed 30 ft., climb 30 ft.
 14 (+2) 15 (+2) 13 (+1) 7 (−2) 12 (+1) 8 (−1)
 Skills Perception +3, Stealth +4, Survival +3
-Senses darkvision 60 ft., passive Perception 13
+Senses darkvision 60 ft.
 Challenge 2 (450 XP)
 Traits
 Spider Climb. The ettercap can climb difficult surfaces, including upside down on ceilings, without needing to make an ability check.
@@ -44,7 +44,7 @@ Hit Points 85 (10d10+30)
 Speed 40 ft.
 21 (+5) 8 (−1) 17 (+3) 6 (−2) 10 (+0) 8 (−1)
 Skills Perception +4
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Giant 1, Orc 1
 Challenge 4 (1,100 XP)
 Traits

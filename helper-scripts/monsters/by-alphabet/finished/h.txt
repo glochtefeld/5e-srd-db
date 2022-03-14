@@ -5,7 +5,7 @@ Hit Points 82 (11d8+33)
 Speed 30 ft.
 18 (+4) 12 (+1) 16 (+3) 13 (+1) 14 (+2) 14 (+2)
 Skills Arcana +3, Deception +4, Perception +4, Stealth +3
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Common 1, Draconic 1, Sylvan 1
 Challenge 3 (700 XP)
 Traits
@@ -27,7 +27,7 @@ Speed 30 ft.
 Skills Deception +7, Insight +6, Perception +6, Stealth +6
 Damage Resistances cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
 Condition Immunities charmed
-Senses darkvision 120 ft., passive Perception 16
+Senses darkvision 120 ft.
 Languages Abyssal 1, Common 1, Infernal 1, Primordial 1
 Challenge 5 (1,800 XP)
 Traits
@@ -46,7 +46,7 @@ Armor Class 14 (natural armor)
 Hit Points 52 (7d8+21)
 Speed 30 ft., swim 40 ft.
 16 (+3) 13 (+1) 16 (+3) 12 (+1) 12 (+1) 13 (+1)
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Languages Aquan 1, Common 1, Giant 1
 Challenge 2 (450 XP)
 Traits
@@ -66,7 +66,7 @@ Speed 30 ft.
 16 (+3) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)
 Skills Athletics +5, Perception +2
 Damage Resistances fire
-Senses blindsight 10 ft., darkvision 60 ft., passive Perception 12
+Senses blindsight 10 ft., darkvision 60 ft.
 Languages Common 1, Draconic 1
 Challenge 5 (1,800 XP)
 Traits
@@ -84,7 +84,6 @@ Armor Class 11
 Hit Points 38 (7d8+7)
 Speed 20 ft., fly 40 ft.
 12 (+1) 13 (+1) 12 (+1) 7 (−2) 10 (+0) 13 (+1)
-Senses passive Perception 10
 Languages Common 1
 Challenge 1 (200 XP)
 Traits
@@ -103,7 +102,7 @@ Speed 50 ft.
 17 (+3) 12 (+1) 14 (+2) 6 (−2) 13 (+1) 6 (−2)
 Skills Perception +5
 Damage Immunities fire
-Senses darkvision 60 ft., passive Perception 15
+Senses darkvision 60 ft.
 Languages Infernal 0
 Challenge 3 (700 XP)
 Traits
@@ -121,7 +120,6 @@ Hit Points 19 (3d10+3)
 Speed 40 ft., fly 60 ft.
 17 (+3) 13 (+1) 13 (+1) 2 (−4) 12 (+1) 8 (−1)
 Skills Perception +5
-Senses passive Perception 15
 Challenge 1 (200 XP)
 Traits
 Keen Sight. The hippogriff has advantage on Wisdom (Perception) checks that rely on sight.
@@ -137,7 +135,7 @@ Armor Class 18 (chain mail, shield)
 Hit Points 11 (2d8+2)
 Speed 30 ft.
 13 (+1) 12 (+1) 12 (+1) 10 (+0) 10 (+0) 9 (−1)
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Common 1, Goblin 1
 Challenge 1/2 (100 XP)
 Traits
@@ -155,7 +153,7 @@ Speed 20 ft., fly 40 ft.
 4 (−3) 15 (+2) 11 (+0) 10 (+0) 10 (+0) 7 (−2)
 Damage Immunities poison
 Condition Immunities charmed, poisoned
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Any 0
 Challenge 0 (10 XP)
 Traits
@@ -171,7 +169,7 @@ Hit Points 172 (15d12+75)
 Speed 30 ft., swim 30 ft.
 20 (+5) 12 (+1) 20 (+5) 2 (−4) 10 (+0) 7 (−2)
 Skills Perception +6
-Senses darkvision 60 ft., passive Perception 16
+Senses darkvision 60 ft.
 Challenge 8 (3,900 XP)
 Traits
 Hold Breath. The hydra can hold its breath for 1 hour.

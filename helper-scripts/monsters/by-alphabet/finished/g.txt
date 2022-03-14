@@ -7,7 +7,7 @@ Speed 30 ft., fly 60 ft.
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
 Damage Immunities poison
 Condition Immunities exhaustion, petrified, poisoned
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Terran 1
 Challenge 2 (450 XP)
 Traits
@@ -26,7 +26,7 @@ Speed 30 ft., fly 90 ft.
 21 (+5) 15 (+2) 22 (+6) 15 (+2) 16 (+3) 20 (+5)
 Saving Throws Dex +6, Wis +7, Cha +9
 Damage Immunities lightning, thunder
-Senses darkvision 120 ft., passive Perception 13
+Senses darkvision 120 ft.
 Languages Auran 1
 Challenge 11 (7,200 XP)
 Traits
@@ -46,7 +46,7 @@ Speed 40 ft., fly 60 ft.
 22 (+6) 12 (+1) 24 (+7) 16 (+3) 15 (+2) 16 (+3)
 Saving Throws Int +7, Wis +6, Cha +7
 Damage Immunities fire
-Senses darkvision 120 ft., passive Perception 12
+Senses darkvision 120 ft.
 Languages Ignan 1
 Challenge 11 (7,200 XP)
 Traits
@@ -67,7 +67,7 @@ Speed 0 ft., fly 40 ft. (hover)
 Damage Resistances acid, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities cold, necrotic, poison
 Condition Immunities charmed, exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
-Senses darkvision 60 ft., passive Perception 11
+Senses darkvision 60 ft.
 Languages Any 1
 Challenge 4 (1,100 XP)
 Traits
@@ -89,7 +89,7 @@ Speed 30 ft.
 Damage Resistances necrotic
 Damage Immunities poison
 Condition Immunities charmed, exhaustion, poisoned
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Common 1
 Challenge 2 (450 XP)
 Traits
@@ -108,7 +108,7 @@ Speed 30 ft.
 13 (+1) 15 (+2) 10 (+0) 7 (−2) 10 (+0) 6 (−2)
 Damage Immunities poison
 Condition Immunities charmed, exhaustion, poisoned
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Common 1
 Challenge 1 (200 XP)
 Traits
@@ -125,7 +125,6 @@ Speed 40 ft.
 27 (+8) 10 (+0) 22 (+6) 12 (+1) 16 (+3) 16 (+3)
 Saving Throws Con +10, Wis +7, Cha +7
 Skills Insight +7, Perception +7
-Senses passive Perception 17
 Languages Common 1, Giant 1
 Challenge 9 (5,000 XP)
 Traits
@@ -146,7 +145,6 @@ Speed 30 ft.
 Saving Throws Dex +3, Con +10, Cha +5
 Skills Athletics +11, Perception +6
 Damage Immunities fire
-Senses passive Perception 16
 Languages Giant 1
 Challenge 9 (5,000 XP)
 Traits
@@ -165,7 +163,6 @@ Speed 40 ft.
 Saving Throws Con +8, Wis +3, Cha +4
 Skills Athletics +9, Perception +3
 Damage Immunities cold
-Senses passive Perception 13
 Languages Giant 1
 Challenge 8 (3,900 XP)
 Traits
@@ -182,7 +179,6 @@ Hit Points 105 (10d12+40)
 Speed 40 ft.
 21 (+5) 8 (−1) 19 (+4) 5 (−3) 9 (−1) 6 (−2)
 Skills Perception +2
-Senses passive Perception 12
 Languages Giant 1
 Challenge 5 (1,800 XP)
 Traits
@@ -200,7 +196,7 @@ Speed 40 ft.
 23 (+6) 15 (+2) 20 (+5) 10 (+0) 12 (+1) 9 (−1)
 Saving Throws Dex +5, Con +8, Wis +4
 Skills Athletics +12, Perception +4
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Giant 1
 Challenge 7 (2,900 XP)
 Traits
@@ -223,7 +219,6 @@ Saving Throws Str +14, Con +10, Wis +9, Cha +9
 Skills Arcana +8, Athletics +14, History +8, Perception +9
 Damage Resistances cold
 Damage Immunities lightning, thunder
-Senses passive Perception 19
 Languages Common 1, Giant 1
 Challenge 13 (10,000 XP)
 Traits
@@ -242,7 +237,7 @@ Hit Points 67 (9d8+27)
 Speed 10 ft., swim 10 ft.
 10 (+0) 8 (−1) 16 (+3) 3 (−4) 10 (+0) 6 (−2)
 Condition Immunities prone
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Challenge 2 (450 XP)
 Traits
 Aberrant Ground. The ground in a 10-­‐foot radius around the mouther is doughlike difficult terrain. Each creature that starts its turn in that area must succeed on a DC 10 Strength saving throw or have its speed reduced to 0 until the start of its next turn.
@@ -259,7 +254,7 @@ Armor Class 15 (hide armor, shield)
 Hit Points 22 (5d8)
 Speed 30 ft.
 14 (+2) 12 (+1) 11 (+0) 6 (−2) 10 (+0) 7 (−2)
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Gnoll 1
 Challenge 1/2 (100 XP)
 Traits
@@ -277,7 +272,7 @@ Hit Points 16 (3d6+6)
 Speed 20 ft.
 15 (+2) 14 (+2) 14 (+2) 12 (+1) 10 (+0) 9 (−1)
 Skills Investigation +3, Perception +2, Stealth +4
-Senses darkvision 120 ft., passive Perception 12
+Senses darkvision 120 ft.
 Languages Gnomish 1, Terran 1, Undercommon 1
 Challenge 1/2 (100 XP)
 Traits
@@ -296,7 +291,7 @@ Hit Points 7 (2d6)
 Speed 30 ft.
 8 (−1) 14 (+2) 10 (+0) 10 (+0) 8 (−1) 8 (−1)
 Skills Stealth +6
-Senses darkvision 60 ft., passive Perception 9
+Senses darkvision 60 ft.
 Languages Common 1, Goblin 1
 Challenge 1/4 (50 XP)
 Traits
@@ -314,7 +309,7 @@ Speed 20 ft.
 20 (+5) 9 (−1) 18 (+4) 3 (−4) 8 (−1) 1 (−5)
 Damage Immunities acid, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses darkvision 60 ft., passive Perception 9
+Senses darkvision 60 ft.
 Languages Any 0
 Challenge 9 (5,000 XP)
 Traits
@@ -337,7 +332,7 @@ Speed 30 ft.
 19 (+4) 9 (−1) 18 (+4) 6 (−2) 10 (+0) 5 (−3)
 Damage Immunities lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Any 0
 Challenge 5 (1,800 XP)
 Traits
@@ -360,7 +355,7 @@ Speed 30 ft.
 24 (+7) 9 (−1) 20 (+5) 3 (−4) 11 (+0) 1 (−5)
 Damage Immunities fire, poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses darkvision 120 ft., passive Perception 10
+Senses darkvision 120 ft.
 Languages Any 0
 Challenge 16 (15,000 XP)
 Traits
@@ -382,7 +377,7 @@ Speed 30 ft.
 22 (+6) 9 (−1) 20 (+5) 3 (−4) 11 (+0) 1 (−5)
 Damage Immunities poison, psychic; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t adamantine
 Condition Immunities charmed, exhaustion, frightened, paralyzed, petrified, poisoned
-Senses darkvision 120 ft., passive Perception 10
+Senses darkvision 120 ft.
 Languages Any 0
 Challenge 10 (5,900 XP)
 Traits
@@ -403,7 +398,7 @@ Speed 40 ft.
 20 (+5) 11 (+0) 18 (+4) 2 (−4) 12 (+1) 7 (−2)
 Skills Perception +4
 Condition Immunities petrified
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Challenge 5 (1,800 XP)
 Traits
 Trampling Charge. If the gorgon moves at least 20 feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 16 Strength saving throw or be knocked prone. If the target is prone, the gorgon can make one attack with its hooves against it as a bonus action.
@@ -420,7 +415,7 @@ Hit Points 27 (6d8)
 Speed 30 ft., climb 30 ft.
 14 (+2) 14 (+2) 11 (+0) 3 (−4) 14 (+2) 5 (−3)
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
-Senses darkvision 60 ft., passive Perception 12
+Senses darkvision 60 ft.
 Challenge 2 (450 XP)
 Traits
 Stone Camouflage. The grick has advantage on Dexterity (Stealth) checks made to hide in rocky terrain.
@@ -437,7 +432,7 @@ Hit Points 59 (7d10+21)
 Speed 30 ft., fly 80 ft.
 18 (+4) 15 (+2) 16 (+3) 2 (−4) 13 (+1) 8 (−1)
 Skills Perception +5
-Senses darkvision 60 ft., passive Perception 15
+Senses darkvision 60 ft.
 Challenge 2 (450 XP)
 Traits
 Keen Sight. The griffon has advantage on Wisdom (Perception) checks that rely on sight.
@@ -455,7 +450,7 @@ Speed 30 ft.
 16 (+3) 12 (+1) 12 (+1) 9 (−1) 8 (−1) 6 (−2)
 Skills Athletics +5, Perception +3, Stealth +3
 Condition Immunities blinded
-Senses blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius), passive Perception 13
+Senses blindsight 30 ft. or 10 ft. while deafened (blind beyond this radius)
 Languages Undercommon 1
 Challenge 1/4 (50 XP)
 Traits

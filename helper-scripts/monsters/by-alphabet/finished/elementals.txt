@@ -7,7 +7,7 @@ Speed 0 ft., fly 90 ft. (hover)
 Damage Resistances lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Auran 1
 Challenge 5 (1,800 XP)
 Traits
@@ -49,7 +49,7 @@ Speed 50 ft.
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities fire, poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Ignan 1
 Challenge 5 (1,800 XP)
 Traits
@@ -71,7 +71,7 @@ Speed 30 ft., swim 90 ft.
 Damage Resistances acid; bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
-Senses darkvision 60 ft., passive Perception 10
+Senses darkvision 60 ft.
 Languages Aquan 1
 Challenge 5 (1,800 XP)
 Traits

@@ -5,7 +5,7 @@ Hit Points 123 (13d10+52)
 Speed 30 ft., climb 30 ft.
 16 (+3) 16 (+3) 18 (+4) 13 (+1) 14 (+2) 12 (+1)
 Skills Perception +5, Stealth +9
-Senses darkvision 120 ft., passive Perception 15
+Senses darkvision 120 ft.
 Languages Elvish 1, Undercommon 1
 Challenge 6 (2,300 XP)
 Traits
@@ -28,7 +28,7 @@ Hit Points 22 (5d8)
 Speed 30 ft.
 10 (+0) 12 (+1) 11 (+0) 14 (+2) 15 (+2) 18 (+4)
 Skills Perception +4, Stealth +5
-Senses darkvision 60 ft., passive Perception 14
+Senses darkvision 60 ft.
 Languages Elvish 1, Sylvan 1
 Challenge 1 (200 XP)
 Traits
@@ -48,7 +48,7 @@ Hit Points 26 (4d8+8)
 Speed 25 ft.
 14 (+2) 11 (+0) 14 (+2) 11 (+0) 10 (+0) 9 (−1)
 Damage Resistances poison
-Senses darkvision 120 ft., passive Perception 10
+Senses darkvision 120 ft.
 Languages Dwarvish 1, Undercommon 1
 Challenge 1 (200 XP)
 Traits
