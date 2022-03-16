@@ -1,7 +1,8 @@
 use v6;
 use DBIish;
 
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/gll/SRD5.db>);
+# other path: /mnt/c/Users/gll/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -65,6 +66,19 @@ class Monster {
     has @.damage-resistances is rw;
     has @.damage-immunities is rw;
     has @.condition-immunities is rw;
+    has @.traits is rw;
+    has $.multiattack is rw;
+}
+
+class Attack {
+    has $.name is rw;
+    has $.toHitBonus is rw;
+    has $.range is rw;
+    has $.melee is rw;
+    has $.target is rw;
+    has $.avgDamage is rw;
+    has $.damageFormula is rw;
+    has $.damageType is rw;
 }
 
 sub MAIN($file) {
@@ -139,20 +153,34 @@ sub MAIN($file) {
 
         repeat { # Traits
             my $line = @lines[$j++];
-            $line.say;
+            (my $name, my $desc) = $line.split('.', 2);
+            $m.traits.push($name=>$desc);
         } until @lines[$j] eq 'Actions';
+        $m.traits.raku.say;
 
         repeat { # Actions
             my $line = @lines[$j++];
-            $line.say;
+
+            if $line ~~ /^Multiattack/ { $m.multiattack = True; }
+            else {
+                my $a = Attack.new;
+                (my $title, my $targeting, my $hit, my $effect) = $line.split('.', 4);
+                my $melee, my $weapon;
+                $melee = ($targeting ~~ /Melee/) ~~ Any:D;
+                $weapon = ($targeting ~~ /Weapon/) ~~ Any:D;
+                        
+                }
+            }
+
         } until @lines[$j] eq 'Legendary Actions' 
             || @lines[$j] eq 'Reactions' 
             || @lines[$j] eq 'END';
+        ++$j;
 
         my $rest = @lines[$j..*].join(' ');
 
         if $rest ~~ /\nReactions\n/ {}
-        if $rest ~~ /\nLegendary Actions\n/ {}
+        if $rest ~~ /\nLegendary\sActions\n/ {}
 
 
 
