@@ -11,7 +11,7 @@ Traits
 Echolocation. The darkmantle can’t use its blindsight while deafened.
 False Appearance. While the darkmantle remains motionless, it is indistinguishable from a cave formation such as a stalactite or stalagmite.
 Actions
-Crush. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) bludgeoning damage, and the darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target’s head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way.  While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle’s speed also becomes 0, it can’t benefit from any bonus to its speed, and it moves with the target.  A creature can detach the darkmantle by making a successful DC 13 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement.
+Crush. MWA. +5 to hit, reach 5 ft., one creature. Hit: 6 (1d6+3) bludgeoning damage, and the darkmantle attaches to the target. If the target is Medium or smaller and the darkmantle has advantage on the attack roll, it attaches by engulfing the target’s head, and the target is also blinded and unable to breathe while the darkmantle is attached in this way.  While attached to the target, the darkmantle can attack no other creature except the target but has advantage on its attack rolls. The darkmantle’s speed also becomes 0, it can’t benefit from any bonus to its speed, and it moves with the target.  A creature can detach the darkmantle by making a successful DC 13 Strength check as an action. On its turn, the darkmantle can detach itself from the target by using 5 feet of movement.
 Darkness Aura (1/Day). A 15-­‐foot radius of magical darkness extends out from the darkmantle, moves with it, and spreads around corners. The darkness lasts as long as the darkmantle maintains concentration, up to 10 minutes (as if concentrating on a spell). Darkvision can’t penetrate this darkness, and no natural light can illuminate it. If any of the darkness overlaps with an area of light created by a spell of 2nd level or lower, the spell creating the light is dispelled.
 END
 
@@ -36,8 +36,8 @@ Magic Resistance. The balor has advantage on saving throws against spells and ot
 Magic Weapons. The balor’s weapon attacks are magical.
 Actions
 Multiattack. The balor makes two attacks: one with its longsword and one with its whip.
-Longsword. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 21 (3d8+8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice.
-Whip. Melee Weapon Attack: +14 to hit, reach 30 ft., one target. Hit: 15 (2d6+8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor.
+Longsword. MWA. +14 to hit, reach 10 ft., one target. Hit: 21 (3d8+8) slashing damage plus 13 (3d8) lightning damage. If the balor scores a critical hit, it rolls damage dice three times, instead of twice.
+Whip. MWA. +14 to hit, reach 30 ft., one target. Hit: 15 (2d6+8) slashing damage plus 10 (3d6) fire damage, and the target must succeed on a DC 20 Strength saving throw or be pulled up to 25 feet toward the balor.
 Teleport. The balor magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
 END
 
@@ -57,8 +57,8 @@ Challenge 1/4 (50 XP)
 Traits
 Actions
 Multiattack. The dretch makes two attacks: one with its bite and one with its claws.
-Bite. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.
-Claws. Melee Weapon Attack: +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.
+Bite. MWA. +2 to hit, reach 5 ft., one target. Hit: 3 (1d6) piercing damage.
+Claws. MWA. +2 to hit, reach 5 ft., one target. Hit: 5 (2d4) slashing damage.
 Fetid Cloud (1/Day). A 10-­‐foot radius of disgusting green gas extends out from the dretch. The gas spreads around corners, and its area is lightly obscured. It lasts for 1 minute or until a strong wind disperses it. Any creature that starts its turn in that area must succeed on a DC 11 Constitution saving throw or be poisoned until the start of its next turn. While poisoned in this way, the target can take either an action or a bonus action on its turn, not both, and can’t take reactions.
 END
 
@@ -80,8 +80,8 @@ Traits
 Innate Spellcasting. The glabrezu’s spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic 1/day each: confusion, fly, power word stun
 Magic Resistance. The glabrezu has advantage on saving throws against spells and other magical effects.  Actions
 Multiattack. The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.
-Pincer. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.
-Fist. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) bludgeoning damage.
+Pincer. MWA. +9 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only one target.
+Fist. MWA. +9 to hit, reach 5 ft., one target. Hit: 7 (2d4+2) bludgeoning damage.
 END
 
 Hezrou
@@ -103,8 +103,8 @@ Magic Resistance. The hezrou has advantage on saving throws against spells and o
 Stench. Any creature that starts its turn within 10 feet of the hezrou must succeed on a DC 14 Constitution saving throw or be poisoned until the start of its next turn. On a successful saving throw, the creature is immune to the hezrou’s stench for 24 hours.
 Actions
 Multiattack. The hezrou makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 15 (2d10+4) piercing damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 5 ft., one target. Hit: 15 (2d10+4) piercing damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 END
 
 Marilith
@@ -127,8 +127,8 @@ Magic Weapons. The marilith’s weapon attacks are magical.
 Reactive. The marilith can take one reaction on every turn in a combat.
 Actions
 Multiattack. The marilith makes seven attacks: six with its longswords and one with its tail.
-Longsword. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.
-Tail. Melee Weapon Attack: +9 to hit, reach 10 ft., one creature. Hit: 15 (2d10+4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can’t make tail attacks against other targets.
+Longsword. MWA. +9 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.
+Tail. MWA. +9 to hit, reach 10 ft., one creature. Hit: 15 (2d10+4) bludgeoning damage. If the target is Medium or smaller, it is grappled (escape DC 19). Until this grapple ends, the target is restrained, the marilith can automatically hit the target with its tail, and the marilith can’t make tail attacks against other targets.
 Teleport. The marilith magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
 Reactions
 Parry. The marilith adds 5 to its AC against one melee attack that would hit it. To do so, the marilith must see the attacker and be wielding a melee weapon.
@@ -152,8 +152,8 @@ Traits
 Magic Resistance. The nalfeshnee has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The nalfeshnee uses Horror Nimbus if it can. It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 32 (5d10+5) piercing damage.
-Claw. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (3d6+5) slashing damage.
+Bite. MWA. +10 to hit, reach 5 ft., one target. Hit: 32 (5d10+5) piercing damage.
+Claw. MWA. +10 to hit, reach 10 ft., one target. Hit: 15 (3d6+5) slashing damage.
 Horror Nimbus (Recharge 5–6). The nalfeshnee magically emits scintillating, multicolored light. Each creature within 15 feet of the nalfeshnee that can see the light must succeed on a DC 15 Wisdom saving throw or be frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the nalfeshnee’s Horror Nimbus for the next 24 hours.
 Teleport. The nalfeshnee magically teleports, along with any equipment it is wearing or carrying, up to 120 feet to an unoccupied space it can see.
 END
@@ -175,7 +175,7 @@ Traits
 Shapechanger. The quasit can use its action to polymorph into a beast form that resembles a bat (speed 10 ft. fly 40 ft.), a centipede (40 ft., climb 40 ft.), or a toad (40 ft., swim 40 ft.), or back into its true form.  Its statistics are the same in each form, except for the speed changes noted. Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
 Magic Resistance. The quasit has advantage on saving throws against spells and other magical effects.
 Actions
-Claws (Bite in Beast Form). Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Claws (Bite in Beast Form). MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must succeed on a DC 10 Constitution saving throw or take 5 (2d4) poison damage and become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 Scare (1/Day). One creature of the quasit’s choice within 20 feet of it must succeed on a DC 10 Wisdom saving throw or be frightened for 1 minute. The target can repeat the saving throw at the end of each of its turns, with disadvantage if the quasit is within line of sight, ending the effect on itself on a success.
 Invisibility. The quasit magically turns invisible until it attacks or uses Scare, or until its concentration ends (as if concentrating on a spell). Any equipment the quasit wears or carries is invisible with it.
 END
@@ -198,8 +198,8 @@ Traits
 Magic Resistance. The vrock has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The vrock makes two attacks: one with its beak and one with its talons.
-Beak. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.
-Talons. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 14 (2d10+3) slashing damage.
+Beak. MWA. +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.
+Talons. MWA. +6 to hit, reach 5 ft., one target. Hit: 14 (2d10+3) slashing damage.
 Spores (Recharge 6). A 15-­‐foot-­‐radius cloud of toxic spores extends out from the vrock. The spores spread around corners. Each creature in that area must succeed on a DC 14 Constitution saving throw or become poisoned. While poisoned in this way, a target takes 5 (1d10) poison damage at the start of each of its turns. A target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. Emptying a vial of holy water on the target also ends the effect on it.
 Stunning Screech (1/Day). The vrock emits a horrific screech. Each creature within 20 feet of it that can hear it and that isn’t a demon must succeed on a DC 14 Constitution saving throw or be stunned until the end of the vrock’s next turn.
 END
@@ -225,9 +225,9 @@ Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision.
 Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three melee attacks: one with its tail and two with its claws. Alternatively, it can use Hurl Flame twice.
-Claw. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.
-Tail. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.
-Hurl Flame. Ranged Spell Attack: +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
+Claw. MWA. +6 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) piercing damage.
+Tail. MWA. +6 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) piercing damage.
+Hurl Flame. RSA. +5 to hit, range 150 ft., one target. Hit: 10 (3d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
 END
 
 Bearded Devil
@@ -250,8 +250,8 @@ Magic Resistance. The devil has advantage on saving throws against spells and ot
 Steadfast. The devil can’t be frightened while it can see an allied creature within 30 feet of it.
 Actions
 Multiattack. The devil makes two attacks: one with its beard and one with its glaive.
-Beard. Melee Weapon Attack: +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can’t regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-Glaive. Melee Weapon Attack: +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
+Beard. MWA. +5 to hit, reach 5 ft., one creature. Hit: 6 (1d8+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute. While poisoned in this way, the target can’t regain hit points. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Glaive. MWA. +5 to hit, reach 10 ft., one target. Hit: 8 (1d10+3) slashing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 12 Constitution saving throw or lose 5 (1d10) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 5 (1d10). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
 END
 
 Bone Devil
@@ -274,8 +274,8 @@ Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision.
 Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three attacks: two with its claws and one with its sting.
-Claw. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 8 (1d8+4) slashing damage.
-Sting. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 13 (2d8+4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Claw. MWA. +8 to hit, reach 10 ft., one target. Hit: 8 (1d8+4) slashing damage.
+Sting. MWA. +8 to hit, reach 10 ft., one target. Hit: 13 (2d8+4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become poisoned for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 END
 
 Chain Devil
@@ -300,7 +300,7 @@ Magic Resistance. The devil has advantage on saving throws against spells and ot
 Actions
 Multiattack. The devil makes two attacks with its
 chains.
-Chain. Melee Weapon Attack: +8 to hit, reach 10 ft.,
+Chain. MWA. +8 to hit, reach 10 ft.,
 one target. Hit: 11 (2d6+4) slashing damage. The
 target is grappled (escape DC 14) if the devil isn’t
 already grappling a creature. Until this grapple ends,
@@ -343,8 +343,8 @@ Hellish Weapons. The erinyes’s weapon attacks are magical and deal an extra 13
 Magic Resistance. The erinyes has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The erinyes makes three attacks.
-Longsword. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage, or 9 (1d10+4) slashing damage if used with two hands, plus 13 (3d8) poison damage.
-Longbow. Ranged Weapon Attack: +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8+3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.
+Longsword. MWA. +8 to hit, reach 5 ft., one target. Hit: 8 (1d8+4) slashing damage, or 9 (1d10+4) slashing damage if used with two hands, plus 13 (3d8) poison damage.
+Longbow. RWA. +7 to hit, range 150/600 ft., one target. Hit: 7 (1d8+3) piercing damage plus 13 (3d8) poison damage, and the target must succeed on a DC 14 Constitution saving throw or be poisoned. The poison lasts until it is removed by the lesser restoration spell or similar magic.
 Reactions
 Parry. The erinyes adds 4 to its AC against one melee attack that would hit it. To do so, the erinyes must see the attacker and be wielding a melee weapon.
 END
@@ -368,9 +368,9 @@ Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision.
 Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three melee attacks: two with its fork and one with its tail. It can use Hurl Flame in place of any melee attack.
-Fork. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) piercing damage.
-Tail. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 10 (1d8+6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
-Hurl Flame. Ranged Spell Attack: +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
+Fork. MWA. +10 to hit, reach 10 ft., one target. Hit: 15 (2d8+6) piercing damage.
+Tail. MWA. +10 to hit, reach 10 ft., one target. Hit: 10 (1d8+6) piercing damage. If the target is a creature other than an undead or a construct, it must succeed on a DC 17 Constitution saving throw or lose 10 (3d6) hit points at the start of each of its turns due to an infernal wound. Each time the devil hits the wounded target with this attack, the damage dealt by the wound increases by 10 (3d6). Any creature can take an action to stanch the wound with a successful DC 12 Wisdom (Medicine) check. The wound also closes if the target receives magical healing.
+Hurl Flame. RSA. +7 to hit, range 150 ft., one target. Hit: 14 (4d6) fire damage. If the target is a flammable object that isn’t being worn or carried, it also catches fire.
 END
 
 Ice Devil
@@ -392,9 +392,9 @@ Devil’s Sight. Magical darkness doesn’t impede the devil’s darkvision.
 Magic Resistance. The devil has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The devil makes three attacks: one with its bite, one with its claws, and one with its tail.
-Bite. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) piercing damage plus 10 (3d6) cold damage.
-Claws. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) slashing damage plus 10 (3d6) cold damage.
-Tail. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage plus 10 (3d6) cold damage.
+Bite. MWA. +10 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) piercing damage plus 10 (3d6) cold damage.
+Claws. MWA. +10 to hit, reach 5 ft., one target. Hit: 10 (2d4+5) slashing damage plus 10 (3d6) cold damage.
+Tail. MWA. +10 to hit, reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage plus 10 (3d6) cold damage.
 Wall of Ice (Recharge 6). The devil magically forms an opaque wall of ice on a solid surface it can see within 60 feet of it. The wall is 1 foot thick and up to 30 feet long and 10 feet high, or it’s a hemispherical dome up to 20 feet in diameter.  When the wall appears, each creature in its space is pushed out of it by the shortest route. The creature chooses which side of the wall to end up on, unless the creature is incapacitated. The creature then makes a DC 17 Dexterity saving throw, taking 35 (10d6) cold damage on a failed save, or half as much damage on a successful one.  The wall lasts for 1 minute or until the devil is incapacitated or dies. The wall can be damaged and breached; each 10-­‐foot section has AC 5, 30 hit points, vulnerability to fire damage, and immunity to acid, cold, necrotic, poison, and psychic damage. If a section is destroyed, it leaves behind a sheet of frigid air in the space the wall occupied. Whenever a creature finishes moving through the frigid air on a turn, willingly or otherwise, the creature must make a DC 17 Constitution saving throw, taking 17 (5d6) cold damage on a failed save, or half as much damage on a successful one. The frigid air dissipates when the rest of the wall vanishes.
 END
 
@@ -416,7 +416,7 @@ Shapechanger. The imp can use its action to polymorph into a beast form that res
 Devil’s Sight. Magical darkness doesn’t impede the imp’s darkvision.
 Magic Resistance. The imp has advantage on saving throws against spells and other magical effects.
 Actions
-Sting (Bite in Beast Form). Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
+Sting (Bite in Beast Form). MWA. +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage, and the target must make on a DC 11 Constitution saving throw, taking 10 (3d6) poison damage on a failed save, or half as much damage on a successful one.
 Invisibility. The imp magically turns invisible until it attacks or until its concentration ends (as if concentrating on a spell). Any equipment the imp wears or carries is invisible with it.
 END
 
@@ -436,7 +436,7 @@ Traits
 Devil’s Sight. Magical darkness doesn’t impede the lemure’s darkvision.
 Hellish Rejuvenation. A lemure that dies in the Nine Hells comes back to life with all its hit points in 1d10 days unless it is killed by a good-­‐aligned creature with a bless spell cast on that creature or its remains are sprinkled with holy water.
 Actions
-Fist. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
+Fist. MWA. +3 to hit, reach 5 ft., one target. Hit: 2 (1d4) bludgeoning damage.
 END
 
 Pit Fiend
@@ -460,8 +460,8 @@ Magic Weapons. The pit fiend’s weapon attacks are magical.
 Innate Spellcasting. The pit fiend’s spellcasting ability is Charisma (spell save DC 21). The pit fiend can innately cast the following spells, requiring no material components: At will: detect magic, fireball 3/day each: hold monster, wall of fire
 Actions
 Multiattack. The pit fiend makes four attacks: one with its bite, one with its claw, one with its mace, and one with its tail.
-Bite. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can’t regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 17 (2d8+8) slashing damage.
-Mace. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) bludgeoning damage plus 21 (6d6) fire damage.
-Tail. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 24 (3d10+8) bludgeoning damage.
+Bite. MWA. +14 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) piercing damage. The target must succeed on a DC 21 Constitution saving throw or become poisoned. While poisoned in this way, the target can’t regain hit points, and it takes 21 (6d6) poison damage at the start of each of its turns. The poisoned target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Claw. MWA. +14 to hit, reach 10 ft., one target. Hit: 17 (2d8+8) slashing damage.
+Mace. MWA. +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) bludgeoning damage plus 21 (6d6) fire damage.
+Tail. MWA. +14 to hit, reach 10 ft., one target. Hit: 24 (3d10+8) bludgeoning damage.
 END

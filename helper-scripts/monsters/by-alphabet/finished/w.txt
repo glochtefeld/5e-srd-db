@@ -15,9 +15,9 @@ Traits
 Sunlight Sensitivity. While in sunlight, the wight has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 Actions
 Multiattack. The wight makes two longsword attacks or two longbow attacks. It can use its Life Drain in place of one longsword attack.
-Life Drain. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.  A humanoid slain by this attack rises 24 hours later as a zombie under the wight’s control, unless the humanoid is restored to life or its body is destroyed.  The wight can have no more than twelve zombies under its control at one time.
-Longsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage, or 7 (1d10+2) slashing damage if used with two hands.
-Longbow. Ranged Weapon Attack: +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8+2) piercing damage.
+Life Drain. MWA. +4 to hit, reach 5 ft., one creature. Hit: 5 (1d6+2) necrotic damage. The target must succeed on a DC 13 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.  A humanoid slain by this attack rises 24 hours later as a zombie under the wight’s control, unless the humanoid is restored to life or its body is destroyed.  The wight can have no more than twelve zombies under its control at one time.
+Longsword. MWA. +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) slashing damage, or 7 (1d10+2) slashing damage if used with two hands.
+Longbow. RWA. +4 to hit, range 150/600 ft., one target. Hit: 6 (1d8+2) piercing damage.
 END
 
 Will-­‐o’-­‐Wisp
@@ -38,7 +38,7 @@ Ephemeral. The will-­‐o’-­‐wisp can’t wear or carry anything.
 Incorporeal Movement. The will-­‐o’-­‐wisp can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
 Variable Illumination. The will-­‐o’-­‐wisp sheds bright light in a 5-­‐ to 20-­‐foot radius and dim light for an additional number of feet equal to the chosen radius.  The will-­‐o’-­‐wisp can alter the radius as a bonus action.
 Actions
-Shock. Melee Spell Attack: +4 to hit, reach 5 ft., one creature. Hit: 9 (2d8) lightning damage.
+Shock. MSA. +4 to hit, reach 5 ft., one creature. Hit: 9 (2d8) lightning damage.
 Invisibility. The will-­‐o’-­‐wisp and its light magically become invisible until it attacks or uses its Consume Life, or until its concentration ends (as if concentrating on a spell).
 END
 
@@ -58,7 +58,7 @@ Traits
 Incorporeal Movement. The wraith can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
 Sunlight Sensitivity. While in sunlight, the wraith has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 Actions
-Life Drain. Melee Weapon Attack: +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8+3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
+Life Drain. MWA. +6 to hit, reach 5 ft., one creature. Hit: 21 (4d8+3) necrotic damage. The target must succeed on a DC 14 Constitution saving throw or its hit point maximum is reduced by an amount equal to the damage taken. This reduction lasts until the target finishes a long rest. The target dies if this effect reduces its hit point maximum to 0.
 Create Specter. The wraith targets a humanoid within 10 feet of it that has been dead for no longer than 1 minute and died violently. The target’s spirit rises as a specter in the space of its corpse or in the nearest unoccupied space. The specter is under the wraith’s control. The wraith can have no more than seven specters under its control at one time.
 END
 
@@ -74,7 +74,7 @@ Challenge 6 (2,300 XP)
 Traits
 Actions
 Multiattack. The wyvern makes two attacks: one with its bite and one with its stinger. While flying, it can use its claws in place of one other attack.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6+4) piercing damage.
-Claws. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.
-Stinger. Melee Weapon Attack: +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6+4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
+Bite. MWA. +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6+4) piercing damage.
+Claws. MWA. +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.
+Stinger. MWA. +7 to hit, reach 10 ft., one creature. Hit: 11 (2d6+4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
 END

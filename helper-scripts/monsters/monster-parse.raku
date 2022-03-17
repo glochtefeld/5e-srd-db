@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/Users/gll/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
+# other path:  /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -14,7 +14,6 @@ constant @sizes = <Tiny Small Medium Large Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
 constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
 constant @abilities = <Str Dex Con Int Wis Cha>; # Used for saves
-# constant @skills = 'Any', 'Athletics', 'Acrobatics', 'Sleight of Hand', 'Stealth', 'Arcana', 'History', 'Investigation', 'Nature', 'Religion', 'Animal Handling', 'Insight', 'Medicine', 'Perception', 'Survival', 'Deception', 'Intimidation', 'Performance', 'Persuasion';
 constant @senses = <blindsight darkvision tremorsense truesight>;
 constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>;
 
@@ -148,7 +147,7 @@ sub MAIN($file) {
                 die "Unknown property found";
             }
         } until @lines[$j] eq 'Traits';
-        $m.passivePerception = $m.skills.grep({$_.key == 14})[0].value;
+        $m.passivePerception = $m.skills.grep({$_.key == 14})[0].value + 10;
         $j++; # Consume Traits
 
         repeat { # Traits
@@ -165,11 +164,11 @@ sub MAIN($file) {
             else {
                 my $a = Attack.new;
                 (my $title, my $targeting, my $hit, my $effect) = $line.split('.', 4);
-                my $melee, my $weapon;
-                $melee = ($targeting ~~ /Melee/) ~~ Any:D;
-                $weapon = ($targeting ~~ /Weapon/) ~~ Any:D;
-                        
-                }
+                my $melee, my $ranged, my $weapon;
+                $melee = ($targeting ~~ /Melee/) ~~ Any:D; 
+                $ranged = ($targeting ~~ /Ranged/) ~~ Any:D; 
+                $weapon = ($targeting ~~ /Weapon/) ~~ Any:D; # False means spell
+                my @targeting = $targeting.split(/[\:\,]/)[1..*];
             }
 
         } until @lines[$j] eq 'Legendary Actions' 

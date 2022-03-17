@@ -16,9 +16,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 9 (2d8) acid damage.
-Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 9 (2d8) acid damage.
+Claw. MWA. +15 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Acid Breath (Recharge 5–6). The dragon exhales acid in a 90-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 67 (15d8) acid damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -46,9 +46,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 4 (1d8) acid damage.
-Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
-Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
+Bite. MWA. +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 4 (1d8) acid damage.
+Claw. MWA. +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Tail. MWA. +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Acid Breath (Recharge 5–6). The dragon exhales acid in a 60-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -75,8 +75,8 @@ Traits
 Amphibious. The dragon can breathe air and water.
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 4 (1d8) acid damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 4 (1d8) acid damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 Acid Breath (Recharge 5–6). The dragon exhales acid in a 30-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 49 (11d8) acid damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -96,7 +96,7 @@ Challenge 2 (450 XP)
 Traits
 Amphibious. The dragon can breathe air and water.
 Actions
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 2 (1d4) acid damage.
+Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 2 (1d4) acid damage.
 Acid Breath (Recharge 5–6). The dragon exhales acid in a 15-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -117,9 +117,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10+9) piercing damage plus 11 (2d10) lightning damage.
-Claw. Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6+9) slashing damage.
-Tail. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8+9) bludgeoning damage.
+Bite. MWA. +16 to hit, reach 15 ft., one target. Hit: 20 (2d10+9) piercing damage plus 11 (2d10) lightning damage.
+Claw. MWA. +16 to hit, reach 10 ft., one target. Hit: 16 (2d6+9) slashing damage.
+Tail. MWA. +16 to hit, reach 20 ft., one target. Hit: 18 (2d8+9) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 120-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -146,9 +146,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10+7) piercing damage plus 5 (1d10) lightning damage.
-Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) slashing damage.
-Tail. Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8+7) bludgeoning damage.
+Bite. MWA. +12 to hit, reach 10 ft., one target. Hit: 18 (2d10+7) piercing damage plus 5 (1d10) lightning damage.
+Claw. MWA. +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) slashing damage.
+Tail. MWA. +12 to hit, reach 15 ft., one target. Hit: 16 (2d8+7) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 90-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -174,8 +174,8 @@ Challenge 9 (5,000 XP)
 Traits
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) piercing damage plus 5 (1d10) lightning damage.
-Claw. Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.
+Bite. MWA. +9 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) piercing damage plus 5 (1d10) lightning damage.
+Claw. MWA. +9 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.
 Lightning Breath (Recharge 5–6). The dragon exhales lightning in an 60-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 16 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -194,7 +194,7 @@ Languages Draconic 1
 Challenge 3 (700 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage plus 3 (1d6) lightning damage.
+Bite. MWA. +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage plus 3 (1d6) lightning damage.
 Lightning Breath (Recharge 5–6). The dragon exhales lightning in a 30-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -217,9 +217,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 10 (3d6) poison damage.
-Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 22 (4d6+8) slashing damage.
-Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 10 (3d6) poison damage.
+Claw. MWA. +15 to hit, reach 10 ft., one target. Hit: 22 (4d6+8) slashing damage.
+Tail. MWA. +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 90-­‐foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 77 (22d6) poison damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -247,9 +247,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence. It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 7 (2d6) poison damage.
-Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
-Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
+Bite. MWA. +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 7 (2d6) poison damage.
+Claw. MWA. +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Tail. MWA. +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 60-­‐foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 56 (16d6) poison damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -277,8 +277,8 @@ Traits
 Amphibious. The dragon can breathe air and water.
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 7 (2d6) poison damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 7 (2d6) poison damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 30-­‐foot cone. Each creature in that area must make a DC 14 Constitution saving throw, taking 42 (12d6) poison damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -299,7 +299,7 @@ Challenge 2 (450 XP)
 Traits
 Amphibious. The dragon can breathe air and water.
 Actions
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 3 (1d6) poison damage.
+Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 3 (1d6) poison damage.
 Poison Breath (Recharge 5–6). The dragon exhales poisonous gas in a 15-­‐foot cone. Each creature in that area must make a DC 11 Constitution saving throw, taking 21 (6d6) poison damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -319,9 +319,9 @@ Challenge 24 (62,000 XP)
 Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.  Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage plus 14 (4d6) fire damage.
-Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
-Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
+Bite. MWA. +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage plus 14 (4d6) fire damage.
+Claw. MWA. +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
+Tail. MWA. +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Fire Breath (Recharge 5–6). The dragon exhales fire in a 90-­‐foot cone. Each creature in that area must make a DC 24 Dexterity saving throw, taking 91 (26d6) fire damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -348,9 +348,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage plus 7 (2d6) fire damage.
-Claw. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +14 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage plus 7 (2d6) fire damage.
+Claw. MWA. +14 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +14 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Fire Breath (Recharge 5–6). The dragon exhales fire in a 60-­‐foot cone. Each creature in that area must make a DC 21 Dexterity saving throw, taking 63 (18d6) fire damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -376,8 +376,8 @@ Challenge 10 (5,900 XP)
 Traits
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 3 (1d6) fire damage.
-Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Bite. MWA. +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 3 (1d6) fire damage.
+Claw. MWA. +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
 Fire Breath (Recharge 5–6). The dragon exhales fire in a 30-­‐foot cone. Each creature in that area must make a DC 17 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -395,7 +395,7 @@ Languages Draconic 1
 Challenge 4 (1,100 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage plus 3 (1d6) fire damage.
+Bite. MWA. +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage plus 3 (1d6) fire damage.
 Fire Breath (Recharge 5–6). The dragon exhales fire in a 15-­‐foot cone. Each creature in that area must make a DC 13 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -417,9 +417,9 @@ Ice Walk. The dragon can move across and climb icy surfaces without needing to m
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 9 (2d8) cold damage.
-Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +14 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage plus 9 (2d8) cold damage.
+Claw. MWA. +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +14 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 90-­‐foot cone. Each creature in that area must make a DC 22 Constitution saving throw, taking 72 (16d8) cold damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -447,9 +447,9 @@ Ice Walk. The dragon can move across and climb icy surfaces without needing to m
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 4 (1d8) cold damage.
-Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
-Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
+Bite. MWA. +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage plus 4 (1d8) cold damage.
+Claw. MWA. +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Tail. MWA. +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 14 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 60-­‐foot cone. Each creature in that area must make a DC 19 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
@@ -475,8 +475,8 @@ Traits
 Ice Walk. The dragon can move across and climb icy surfaces without needing to make an ability check.  Additionally, difficult terrain composed of ice or snow doesn’t cost it extra moment.
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 4 (1d8) cold damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage plus 4 (1d8) cold damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 Cold Breath (Recharge 5–6). The dragon exhales an icy blast in a 30-­‐foot cone. Each creature in that area must make a DC 15 Constitution saving throw, taking 45 (10d8) cold damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -495,7 +495,7 @@ Languages Draconic 1
 Challenge 2 (450 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 2 (1d4) cold damage.
+Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage plus 2 (1d4) cold damage.
 Cold Breath (Recharge 5–6). The dragon exhales an icy blast of hail in a 15-­‐foot cone. Each creature in that area must make a DC 12 Constitution saving throw, taking 22 (5d8) cold damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -516,9 +516,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage.
-Claw. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +14 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +14 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage.
+Claw. MWA. +14 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +14 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons:
 Fire Breath. The dragon exhales fire in an 90-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 21 Dexterity saving throw, taking 56 (16d6) fire damage on a failed save, or half as much damage on a successful one.
@@ -547,9 +547,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
-Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
-Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
+Bite. MWA. +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
+Claw. MWA. +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Tail. MWA. +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in an 60-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 45 (13d6) fire damage on a failed save, or half as much damage on a successful one.
@@ -576,8 +576,8 @@ Challenge 6 (2,300 XP)
 Traits
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in a 40-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 42 (12d6) fire damage on a failed save, or half as much damage on a successful one.
 Sleep Breath. The dragon exhales sleep gas in a 30-­‐foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw or fall unconscious for 5 minutes. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
@@ -597,7 +597,7 @@ Languages Draconic 1
 Challenge 1 (200 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage.
+Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in an 20-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 14 (4d6) fire damage on a failed save, or half as much damage on a successful one.
 Sleep Breath. The dragon exhales sleep gas in a 15-­‐foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw or fall unconscious for 1 minute. This effect ends for a creature if the creature takes damage or someone uses an action to wake it.
@@ -621,9 +621,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +16 to hit, reach 15 ft., one target. Hit: 20 (2d10+9) piercing damage.
-Claw. Melee Weapon Attack: +16 to hit, reach 10 ft., one target. Hit: 16 (2d6+9) slashing damage.
-Tail. Melee Weapon Attack: +16 to hit, reach 20 ft., one target. Hit: 18 (2d8+9) bludgeoning damage.
+Bite. MWA. +16 to hit, reach 15 ft., one target. Hit: 20 (2d10+9) piercing damage.
+Claw. MWA. +16 to hit, reach 10 ft., one target. Hit: 16 (2d6+9) slashing damage.
+Tail. MWA. +16 to hit, reach 20 ft., one target. Hit: 18 (2d8+9) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 20 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Lightning Breath. The dragon exhales lightning in a 120-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 23 Dexterity saving throw, taking 88 (16d10) lightning damage on a failed save, or half as much damage on a successful one.
@@ -653,9 +653,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +12 to hit, reach 10 ft., one target. Hit: 18 (2d10+7) piercing damage.
-Claw. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) slashing damage.
-Tail. Melee Weapon Attack: +12 to hit, reach 15 ft., one target. Hit: 16 (2d8+7) bludgeoning damage.
+Bite. MWA. +12 to hit, reach 10 ft., one target. Hit: 18 (2d10+7) piercing damage.
+Claw. MWA. +12 to hit, reach 5 ft., one target. Hit: 14 (2d6+7) slashing damage.
+Tail. MWA. +12 to hit, reach 15 ft., one target. Hit: 16 (2d8+7) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 17 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Lightning Breath. The dragon exhales lightning in a 90-­‐ foot line that is 5 feet wide. Each creature in that line must make a DC 19 Dexterity saving throw, taking 66 (12d10) lightning damage on a failed save, or half as much damage on a successful one.
@@ -684,8 +684,8 @@ Traits
 Amphibious. The dragon can breathe air and water.
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +8 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) piercing damage.
-Claw. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.
+Bite. MWA. +8 to hit, reach 10 ft., one target. Hit: 16 (2d10+5) piercing damage.
+Claw. MWA. +8 to hit, reach 5 ft., one target. Hit: 12 (2d6+5) slashing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Lightning Breath. The dragon exhales lightning in a 60-­‐ foot line that is 5 feet wide. Each creature in that line must make a DC 15 Dexterity saving throw, taking 55 (10d10) lightning damage on a failed save, or half as much damage on a successful one.
 Repulsion Breath. The dragon exhales repulsion energy in a 30-­‐foot cone. Each creature in that area must succeed on a DC 15 Strength saving throw. On a failed save, the creature is pushed 40 feet away from the dragon.
@@ -706,7 +706,7 @@ Challenge 2 (450 XP)
 Traits
 Amphibious. The dragon can breathe air and water.
 Actions
-Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.
+Bite. MWA. +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Lightning Breath. The dragon exhales lightning in a 40-­‐ foot line that is 5 feet wide. Each creature in that line must make a DC 12 Dexterity saving throw, taking 16 (3d10) lightning damage on a failed save, or half as much damage on a successful one.
 Repulsion Breath. The dragon exhales repulsion energy in a 30-­‐foot cone. Each creature in that area must succeed on a DC 12 Strength saving throw. On a failed save, the creature is pushed 30 feet away from the dragon.
@@ -728,9 +728,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage.
-Claw. Melee Weapon Attack: +15 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +15 to hit, reach 15 ft., one target. Hit: 19 (2d10+8) piercing damage.
+Claw. MWA. +15 to hit, reach 10 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +15 to hit, reach 20 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 19 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Acid Breath. The dragon exhales acid in an 90-­‐foot line that is 10 feet wide. Each creature in that line must make a DC 22 Dexterity saving throw, taking 63 (14d8) acid damage on a failed save, or half as much damage on a successful one.
@@ -759,9 +759,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
-Claw. Melee Weapon Attack: +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
-Tail. Melee Weapon Attack: +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
+Bite. MWA. +11 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
+Claw. MWA. +11 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Tail. MWA. +11 to hit, reach 15 ft., one target. Hit: 15 (2d8+6) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 16 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Acid Breath. The dragon exhales acid in an 60-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 18 Dexterity saving throw, taking 54 (12d8) acid damage on a failed save, or half as much damage on a successful one.
@@ -787,8 +787,8 @@ Challenge 7 (2,900 XP)
 Traits
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage.
-Claw. Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
+Bite. MWA. +7 to hit, reach 10 ft., one target. Hit: 15 (2d10+4) piercing damage.
+Claw. MWA. +7 to hit, reach 5 ft., one target. Hit: 11 (2d6+4) slashing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Acid Breath. The dragon exhales acid in an 40-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 14 Dexterity saving throw, taking 40 (9d8) acid damage on a failed save, or half as much damage on a successful one.
 Slowing Breath. The dragon exhales gas in a 30-­‐foot cone. Each creature in that area must succeed on a DC 14 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn.  In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.
@@ -808,7 +808,7 @@ Languages Draconic 1
 Challenge 1 (200 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage.
+Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 7 (1d10+2) piercing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Acid Breath. The dragon exhales acid in an 20-­‐foot line that is 5 feet wide. Each creature in that line must make a DC 11 Dexterity saving throw, taking 18 (4d8) acid damage on a failed save, or half as much damage on a successful one.
 Slowing Breath. The dragon exhales gas in a 15-­‐foot cone. Each creature in that area must succeed on a DC 11 Constitution saving throw. On a failed save, the creature can’t use reactions, its speed is halved, and it can’t make more than one attack on its turn.  In addition, the creature can use either an action or a bonus action on its turn, but not both. These effects last for 1 minute. The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself with a successful save.
@@ -831,9 +831,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage.
-Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
-Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
+Bite. MWA. +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage.
+Claw. MWA. +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
+Tail. MWA. +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 24 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in a 90-­‐foot cone.  Each creature in that area must make a DC 24 Dexterity saving throw, taking 71 (13d10) fire damage on a failed save, or half as much damage on a successful one.
@@ -862,9 +862,9 @@ Amphibious. The dragon can breathe air and water.
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +14 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage.
-Claw. Melee Weapon Attack: +14 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +14 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +14 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage.
+Claw. MWA. +14 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +14 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in a 60-­‐foot cone.  Each creature in that area must make a DC 21 Dexterity saving throw, taking 66 (12d10) fire damage on a failed save, or half as much damage on a successful one.
@@ -893,8 +893,8 @@ Traits
 Amphibious. The dragon can breathe air and water.
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
-Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Bite. MWA. +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
+Claw. MWA. +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in a 30-­‐foot cone.  Each creature in that area must make a DC 17 Dexterity saving throw, taking 55 (10d10) fire damage on a failed save, or half as much damage on a successful one.
 Weakening Breath. The dragon exhales gas in a 30-­‐foot cone. Each creature in that area must succeed on a DC 17 Strength saving throw or have disadvantage on Strength-­‐based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
@@ -916,7 +916,7 @@ Challenge 3 (700 XP)
 Traits
 Amphibious. The dragon can breathe air and water.
 Actions
-Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage.
+Bite. MWA. +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Fire Breath. The dragon exhales fire in a 15-­‐foot cone.  Each creature in that area must make a DC 13 Dexterity saving throw, taking 22 (4d10) fire damage on a failed save, or half as much damage on a successful one.
 Weakening Breath. The dragon exhales gas in a 15-­‐foot cone. Each creature in that area must succeed on a DC 13 Strength saving throw or have disadvantage on Strength-­‐based attack rolls, Strength checks, and Strength saving throws for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
@@ -938,9 +938,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage.
-Claw. Melee Weapon Attack: +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
-Tail. Melee Weapon Attack: +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
+Bite. MWA. +17 to hit, reach 15 ft., one target. Hit: 21 (2d10+10) piercing damage.
+Claw. MWA. +17 to hit, reach 10 ft., one target. Hit: 17 (2d6+10) slashing damage.
+Tail. MWA. +17 to hit, reach 20 ft., one target. Hit: 19 (2d8+10) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 21 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Cold Breath. The dragon exhales an icy blast in a 90-­‐ foot cone. Each creature in that area must make a DC 24 Constitution saving throw, taking 67 (15d8) cold damage on a failed save, or half as much damage on a successful one.
@@ -969,9 +969,9 @@ Traits
 Legendary Resistance (3/Day). If the dragon fails a saving throw, it can choose to succeed instead.
 Actions
 Multiattack. The dragon can use its Frightful Presence.  It then makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage.
-Claw. Melee Weapon Attack: +13 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
-Tail. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
+Bite. MWA. +13 to hit, reach 10 ft., one target. Hit: 19 (2d10+8) piercing damage.
+Claw. MWA. +13 to hit, reach 5 ft., one target. Hit: 15 (2d6+8) slashing damage.
+Tail. MWA. +13 to hit, reach 15 ft., one target. Hit: 17 (2d8+8) bludgeoning damage.
 Frightful Presence. Each creature of the dragon’s choice that is within 120 feet of the dragon and aware of it must succeed on a DC 18 Wisdom saving throw or become frightened for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a creature’s saving throw is successful or the effect ends for it, the creature is immune to the dragon’s Frightful Presence for the next 24 hours.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Cold Breath. The dragon exhales an icy blast in a 60-­‐ foot cone. Each creature in that area must make a DC 20 Constitution saving throw, taking 58 (13d8) cold damage on a failed save, or half as much damage on a successful one.
@@ -999,8 +999,8 @@ Challenge 9 (5,000 XP)
 Traits
 Actions
 Multiattack. The dragon makes three attacks: one with its bite and two with its claws.
-Bite. Melee Weapon Attack: +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
-Claw. Melee Weapon Attack: +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
+Bite. MWA. +10 to hit, reach 10 ft., one target. Hit: 17 (2d10+6) piercing damage.
+Claw. MWA. +10 to hit, reach 5 ft., one target. Hit: 13 (2d6+6) slashing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Cold Breath. The dragon exhales an icy blast in a 30-­‐ foot cone. Each creature in that area must make a DC 17 Constitution saving throw, taking 54 (12d8) cold damage on a failed save, or half as much damage on a successful one.
 Paralyzing Breath. The dragon exhales paralyzing gas in a 30-­‐foot cone. Each creature in that area must succeed on a DC 17 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
@@ -1020,7 +1020,7 @@ Languages Draconic 1
 Challenge 2 (450 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage.
+Bite. MWA. +6 to hit, reach 5 ft., one target. Hit: 9 (1d10+4) piercing damage.
 Breath Weapons (Recharge 5–6). The dragon uses one of the following breath weapons.
 Cold Breath. The dragon exhales an icy blast in a 15-­‐ foot cone. Each creature in that area must make a DC 13 Constitution saving throw, taking 18 (4d8) cold damage on a failed save, or half as much damage on a successful one.
 Paralyzing Breath. The dragon exhales paralyzing gas in a 15-­‐foot cone. Each creature in that area must succeed on a DC 13 Constitution saving throw or be paralyzed for 1 minute. A creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
@@ -1041,8 +1041,8 @@ Traits
 Amphibious. The dragon turtle can breathe air and water.
 Actions
 Multiattack. The dragon turtle makes three attacks: one with its bite and two with its claws. It can make one tail attack in place of its two claw attacks.
-Bite. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12+7) piercing damage.
-Claw. Melee Weapon Attack: +13 to hit, reach 10 ft., one target. Hit: 16 (2d8+7) slashing damage.
-Tail. Melee Weapon Attack: +13 to hit, reach 15 ft., one target. Hit: 26 (3d12+7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.
+Bite. MWA. +13 to hit, reach 15 ft., one target. Hit: 26 (3d12+7) piercing damage.
+Claw. MWA. +13 to hit, reach 10 ft., one target. Hit: 16 (2d8+7) slashing damage.
+Tail. MWA. +13 to hit, reach 15 ft., one target. Hit: 26 (3d12+7) bludgeoning damage. If the target is a creature, it must succeed on a DC 20 Strength saving throw or be pushed up to 10 feet away from the dragon turtle and knocked prone.
 Steam Breath (Recharge 5–6). The dragon turtle exhales scalding steam in a 60-­‐foot cone. Each creature in that area must make a DC 18 Constitution saving throw, taking 52 (15d6) fire damage on a failed save, or half as much damage on a successful one. Being underwater doesn’t grant resistance against this damage.
 END

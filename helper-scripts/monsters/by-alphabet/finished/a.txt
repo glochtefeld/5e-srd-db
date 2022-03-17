@@ -16,8 +16,8 @@ Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucu
 Probing Telepathy. If a creature communicates telepathically with the aboleth, the aboleth learns the creature’s greatest desires if the aboleth can see the creature.
 Actions
 Multiattack. The aboleth makes three tentacle attacks.
-Tentacle. Melee Weapon Attack: +9 to hit, reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-­‐curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
-Tail. Melee Weapon Attack: +9 to hit, reach 10 ft. one target. Hit: 15 (3d6+5) bludgeoning damage.
+Tentacle. MWA. +9 to hit, reach 10 ft., one target. Hit: 12 (2d6+5) bludgeoning damage. If the target is a creature, it must succeed on a DC 14 Constitution saving throw or become diseased. The disease has no effect for 1 minute and can be removed by any magic that cures disease. After 1 minute, the diseased creature’s skin becomes translucent and slimy, the creature can’t regain hit points unless it is underwater, and the disease can be removed only by heal or another disease-­‐curing spell of 6th level or higher. When the creature is outside a body of water, it takes 6 (1d12) acid damage every 10 minutes unless moisture is applied to the skin before 10 minutes have passed.
+Tail. MWA. +9 to hit, reach 10 ft. one target. Hit: 15 (3d6+5) bludgeoning damage.
 Enslave (3/Day). The aboleth targets one creature it can see within 30 feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.  Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
 Legendary Actions
 The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.  Detect. The aboleth makes a Wisdom (Perception) check.
@@ -42,7 +42,7 @@ Angelic Weapons. The deva’s weapon attacks are magical. When the deva hits wit
 Innate Spellcasting. The deva’s spellcasting ability is Charisma (spell save DC 17). The deva can innately cast the following spells, requiring only verbal components: At will: detect evil and good 1/day each: commune, raise dead Magic Resistance. The deva has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The deva makes two melee attacks.
-Mace. Melee Weapon Attack: +8 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage plus 18 (4d8) radiant damage.
+Mace. MWA. +8 to hit, reach 5 ft., one target. Hit: 7 (1d6+4) bludgeoning damage plus 18 (4d8) radiant damage.
 Healing Touch (3/Day). The deva touches another creature. The target magically regains 20 (4d8+2) hit points and is freed from any curse, disease, poison, blindness, or deafness.
 Change Shape. The deva magically polymorphs into a humanoid or beast that has a challenge rating equal to or less than its own, or back into its true form. It reverts to its true form if it dies. Any equipment it is wearing or carrying is absorbed or borne by the new form (the deva’s choice).  In a new form, the deva retains its game statistics and ability to speak, but its AC, movement modes, Strength, Dexterity, and special senses are replaced by those of the new form, and it gains any statistics and capabilities (except class features, legendary actions, and lair actions) that the new form has but that it lacks.
 END
@@ -67,7 +67,7 @@ Innate Spellcasting. The planetar’s spellcasting ability is Charisma (spell sa
 Magic Resistance. The planetar has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The planetar makes two melee attacks.
-Greatsword. Melee Weapon Attack: +12 to hit, reach 5 ft., one target. Hit: 21 (4d6+7) slashing damage plus 22 (5d8) radiant damage.
+Greatsword. MWA. +12 to hit, reach 5 ft., one target. Hit: 21 (4d6+7) slashing damage plus 22 (5d8) radiant damage.
 Healing Touch (4/Day). The planetar touches another creature. The target magically regains 30 (6d8+3) hit points and is freed from any curse, disease, poison, blindness, or deafness.
 END
 
@@ -91,8 +91,8 @@ Divine Awareness. The solar knows if it hears a lie.
 Innate Spellcasting. The solar’s spellcasting ability is Charisma (spell save DC 25). It can innately cast the following spells, requiring no material components: At will: detect evil and good, invisibility (self only) 3/day each: blade barrier, dispel evil and good, resurrection 1/day each: commune, control weather Magic Resistance. The solar has advantage on saving throws against spells and other magical effects.
 Actions
 Multiattack. The solar makes two greatsword attacks.
-Greatsword. Melee Weapon Attack: +15 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) slashing damage plus 27 (6d8) radiant damage.
-Slaying Longbow. Ranged Weapon Attack: +13 to hit, range 150/600 ft., one target. Hit: 15 (2d8+6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.
+Greatsword. MWA. +15 to hit, reach 5 ft., one target. Hit: 22 (4d6+8) slashing damage plus 27 (6d8) radiant damage.
+Slaying Longbow. RWA. +13 to hit, range 150/600 ft., one target. Hit: 15 (2d8+6) piercing damage plus 27 (6d8) radiant damage. If the target is a creature that has 100 hit points or fewer, it must succeed on a DC 15 Constitution saving throw or die.
 Flying Sword. The solar releases its greatsword to hover magically in an unoccupied space within 5 feet of it. If the solar can see the sword, the solar can mentally command it as a bonus action to fly up to 50 feet and either make one attack against a target or return to the solar’s hands. If the hovering sword is targeted by any effect, the solar is considered to be holding it. The hovering sword falls if the solar dies.
 Healing Touch (4/Day). The solar touches another creature. The target magically regains 40 (8d8+4) hit points and is freed from any curse, disease, poison, blindness, or deafness.
 Legendary Actions
@@ -119,7 +119,7 @@ Antimagic Susceptibility. The armor is incapacitated while in the area of an ant
 False Appearance. While the armor remains motionless, it is indistinguishable from a normal suit of armor.
 Actions
 Multiattack. The armor makes two melee attacks.
-Slam. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
+Slam. MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
 END
 
 Flying Sword
@@ -137,7 +137,7 @@ Traits
 Antimagic Susceptibility. The sword is incapacitated while in the area of an antimagic field. If targeted by dispel magic, the sword must succeed on a Constitution saving throw against the caster’s spell save DC or fall unconscious for 1 minute.
 False Appearance. While the sword remains motionless and isn’t flying, it is indistinguishable from a normal sword.
 Actions
-Longsword. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) slashing damage.
+Longsword. MWA. +3 to hit, reach 5 ft., one target. Hit: 5 (1d8+1) slashing damage.
 END
 
 Rug of Smothering
@@ -155,7 +155,7 @@ Antimagic Susceptibility. The rug is incapacitated while in the area of an antim
 Damage Transfer. While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half.
 False Appearance. While the rug remains motionless, it is indistinguishable from a normal rug.
 Actions
-Smother. Melee Weapon Attack: +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes 10 (2d6+3) bludgeoning damage.
+Smother. MWA. +5 to hit, reach 5 ft., one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes 10 (2d6+3) bludgeoning damage.
 END
 
 Ankheg
@@ -168,7 +168,7 @@ Senses darkvision 60 ft., tremorsense 60 ft.
 Challenge 2 (450 XP)
 Traits
 Actions
-Bite. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.
+Bite. MWA. +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage plus 3 (1d6) acid damage. If the target is a Large or smaller creature, it is grappled (escape DC 13). Until this grapple ends, the ankheg can bite only the grappled creature and has advantage on attack rolls to do so.
 Acid Spray (Recharge 6). The ankheg spits acid in a line that is 30 feet long and 5 feet wide, provided that it has no creature grappled. Each creature in that line must make a DC 13 Dexterity saving throw, taking 10 (3d6) acid damage on a failed save, or half as much damage on a successful one.
 END
 
@@ -188,5 +188,5 @@ Heated Body. A creature that touches the azer or hits it with a melee attack whi
 Heated Weapons. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).
 Illumination. The azer sheds bright light in a 10-­‐foot radius and dim light for an additional 10 feet.
 Actions
-Warhammer. Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage, or 8 (1d10+3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.
+Warhammer. MWA. +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) bludgeoning damage, or 8 (1d10+3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.
 END
