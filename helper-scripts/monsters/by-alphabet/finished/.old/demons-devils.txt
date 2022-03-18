@@ -78,8 +78,7 @@ Telepathy 120 Feet
 Challenge 9 (5,000 XP)
 Traits
 Innate Spellcasting. The glabrezu’s spellcasting ability is Intelligence (spell save DC 16). The glabrezu can innately cast the following spells, requiring no material components: At will: darkness, detect magic, dispel magic 1/day each: confusion, fly, power word stun
-Magic Resistance. The glabrezu has advantage on saving throws against spells and other magical effects.
-Actions
+Magic Resistance. The glabrezu has advantage on saving throws against spells and other magical effects.  Actions
 Multiattack. The glabrezu makes four attacks: two with its pincers and two with its fists. Alternatively, it makes two attacks with its pincers and casts one spell.
 Pincer. MWA. +9 to hit, reach 10 Feet, 1 target. Hit: 16 (2d10+5) bludgeoning damage. If the target is a Medium or smaller creature, it is grappled (escape DC 15). The glabrezu has two pincers, each of which can grapple only 1 target.
 Fist. MWA. +9 to hit, reach 5 Feet, 1 target. Hit: 7 (2d4+2) bludgeoning damage.
@@ -286,7 +285,8 @@ Hit Points 85 (10d8+40)
 Speed 30 Feet
 18 (+4) 15 (+2) 18 (+4) 11 (+0) 12 (+1) 14 (+2)
 Saving Throws Con +7, Wis +4, Cha +5
-Damage Resistances cold; bludgeoning, piercing, and slashing from nonmagical attacks that aren’t silvered
+Damage Resistances cold; bludgeoning, piercing, and
+slashing from nonmagical attacks that aren’t silvered
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 120 Feet
@@ -300,8 +300,26 @@ Magic Resistance. The devil has advantage on saving throws against spells and ot
 Actions
 Multiattack. The devil makes two attacks with its
 chains.
-Chain. MWA. +8 to hit, reach 10 Feet, 1 target. Hit: 11 (2d6+4) slashing damage. The target is grappled (escape DC 14) if the devil isn’t already grappling a creature. Until this grapple ends, the target is restrained and takes 7 (2d6) piercing damage at the start of each of its turns.
-Animate Chains (Recharges after a Short or Long Rest).  Up to four chains the devil can see within 60 Feet of it magically sprout razor-­‐edged barbs and animate under the devil’s control, provided that the chains aren’t being worn or carried.  Each animated chain is an object with AC 20, 20 hit points, resistance to piercing damage & immunity to psychic and thunder damage. When the devil uses Multiattack on its turn, it can use each animated chain to make one additional chain attack. An animated chain can grapple 1 creature of its own but can’t make attacks while grappling. An animated chain reverts to its inanimate state if reduced to 0 hit points or if the devil is incapacitated or dies.
+Chain. MWA. +8 to hit, reach 10 Feet,
+1 target. Hit: 11 (2d6+4) slashing damage. The
+target is grappled (escape DC 14) if the devil isn’t
+already grappling a creature. Until this grapple ends,
+the target is restrained and takes 7 (2d6) piercing
+damage at the start of each of its turns.
+Animate Chains (Recharges after a Short or Long Rest).
+Up to four chains the devil can see within 60 Feet of it
+magically sprout razor-­‐edged barbs and animate under
+the devil’s control, provided that the chains aren’t
+being worn or carried.
+Each animated chain is an object with AC 20, 20 hit
+points, resistance to piercing damage & immunity to
+psychic and thunder damage. When the devil uses
+Multiattack on its turn, it can use each animated chain
+to make one additional chain attack. An animated
+chain can grapple 1 creature of its own but can’t
+make attacks while grappling. An animated chain
+reverts to its inanimate state if reduced to 0 hit points
+or if the devil is incapacitated or dies.
 Reactions
 Unnerving Mask. When a creature the devil can see starts its turn within 30 Feet of the devil, the devil can create the illusion that it looks like one of the creature’s departed loved ones or bitter enemies. If the creature can see the devil, it must succeed on a DC 14 Wisdom saving throw or be frightened until the end of its turn.
 END

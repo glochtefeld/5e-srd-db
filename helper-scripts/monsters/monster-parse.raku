@@ -11,7 +11,7 @@ my %damage = as-hash('select name, id from damageType');
 my %conditions = as-hash('select name, id from condition');
 my %distance = as-hash('select measure, id from distance');
 
-constant @sizes = <Tiny Small Medium Large Gargantuan>;
+constant @sizes = <Tiny Small Medium Large Huge Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
 constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
 constant @abilities = <Str Dex Con Int Wis Cha>; # Used for saves
@@ -50,12 +50,13 @@ class Monster {
     has $.name is rw;
     has Int $.size is rw;
     has Int $.monsterType is rw;
+    has $.extra-types is rw;
     has Int $.alignment is rw;
     has Int $.ac is rw;
     has Int $.hp is rw;
     has Str $.hpFormula is rw;
     has @.speeds is rw;
-    has IntPair @.scores is rw;
+    has @.scores is rw;
     has IntPair @.saves is rw;
     has IntPair @.skills is rw;
     has Int $.passivePerception is rw;
@@ -81,10 +82,15 @@ class Attack {
     has $.spell is rw;
     has $.weapon is rw;
     has $.target is rw;
-    has @.avgDamage is rw;
-    has @.damageFormula is rw;
-    has @.damageType is rw;
+    has @.damage is rw;
     has $.hitEffect is rw;
+}
+
+class AtkDamage {
+    has $.average;
+    has $.formula;
+    has $.type;
+    has $.prereq;
 }
 
 sub MAIN($file) {
@@ -97,17 +103,26 @@ sub MAIN($file) {
 
         $m.id = $i + 1;
         $m.name = @lines[0];
-        (my $size, my $type, my $law-chaos, my $good-evil) = @lines[1].split(' ');
+        $m.name.say;
+        # (my $size, my $type, my $law-chaos, my $good-evil) = @lines[1].split(' ');
+        #$m.alignment = idx-from-list($law-chaos ~ ' ' ~ $good-evil, @alignments, :idx<0>).flat[0];
+
+        (my $size, my $type, my $type-align) = @lines[1].split(' ', 3);
         $m.size = get-idx(@sizes)($size);
-        $m.alignment = idx-from-list($law-chaos ~ ' ' ~ $good-evil, @alignments, :idx<0>).flat[0];
-        $m.monsterType = %types{$type.chop().tclc()};
+        $type = $type.chop() if $type.substr(*-1) eq ',';
+        $m.monsterType = %types{$type.tclc()};
+        my @type-align = $type-align.split('),');
+        ($m.extra-types, $m.alignment) = @type-align.elems > 1 
+            ?? (@type-align[0].substr(1..*), idx-from-list(@type-align[1].trim, @alignments, :idx<0>)[0])
+            !! ('', idx-from-list(@type-align[0].trim, @alignments, :idx<0>)[0]);
+
+
         (my $ac, my $ac-source) = @lines[2].substr(11..*).split(' ('); # Not using AC SOURCE
         $m.ac = $ac.trim.Int;
         (my $hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
         $m.hp = $hp.trim.Int;
         $m.speeds = @lines[4].substr(5..*).split(', ');
-        $m.scores = @lines[5].split(/\((\+|\-)\d\)/).map({Int($_) if $_})
-            .pairs.map({$_.key + 1 => $_.value});
+        $m.scores = @lines[5].split(/\(.\d\)/).map({Int($_) if $_});
         my $j = 6;
         repeat { # Header
             my $line = @lines[$j++];
@@ -154,14 +169,18 @@ sub MAIN($file) {
                 die "Unknown property found";
             }
         } until @lines[$j] eq 'Traits';
-        $m.passivePerception = $m.skills.grep({$_.key == 14})[0].value + 10;
+        $m.passivePerception = ($m.skills.grep({$_.key == 14})[0].value 
+            || $m.scores[4] div 2 - 5 ) 
+            + 10;
         $j++; # Consume Traits
 
-        repeat { # Traits
-            my $line = @lines[$j++];
-            (my $name, my $desc) = $line.split('.', 2);
-            $m.traits.push($name=>$desc);
-        } until @lines[$j] eq 'Actions';
+        if @lines[$j] ne 'Actions' {
+            repeat { # Traits
+                my $line = @lines[$j++];
+                (my $name, my $desc) = $line.split('.', 2);
+                $m.traits.push($name=>$desc);
+            } until @lines[$j] eq 'Actions';
+        }
         ++$j;
 
         repeat { # Actions
@@ -201,12 +220,21 @@ sub MAIN($file) {
                     ($a.ranged-std, $a.ranged-upper) = @range.map({@_[0]=>%distance{@_[1]}});
                 }
 
-                # target
                 $a.target = $target.split(' ')[0].Int;
 
-                # damage
-                
-                # details
+                (my $dmg, my $hiteff) = $hit.split('&');
+                $a.hitEffect = ($hiteff && $effect)
+                    ?? $hiteff ~ '.' ~ $effect      # take both
+                    !! ($hiteff || $effect || '');  # take whichever exists, or empty if neither
+
+                $a.damage = $dmg.substr(6..*).split('|').map({ my @a = $_.split(' ', 5); 
+                    AtkDamage.new(average=>@a[0],
+                        formula=>@a[1],
+                        type=>@a[2],
+                        prereq=>(@a[5]|| ''));});
+
+            }
+            else { # Some other action
             }
 
         } until @lines[$j] eq 'Legendary Actions' 
