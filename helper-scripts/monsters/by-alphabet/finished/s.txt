@@ -16,7 +16,7 @@ Actions
 Multiattack. The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.
 Bite. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 3 (1d4+1) piercing damage.
 Claws. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 3 (1d4+1) slashing damage.
-Spear. MRWA. +3 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 4 (1d6+1) piercing damage, or 5 (1d8+1) piercing damage if used with two hands to make a melee attack.
+Spear. MRWA. +3 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 4 (1d6+1) piercing damage | 5 (1d8+1) piercing damage if used with two hands to make a melee attack.
 END
 
 Salamander
@@ -36,8 +36,8 @@ Heated Body. A creature that touches the salamander or hits it with a melee atta
 Heated Weapons. Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).
 Actions
 Multiattack. The salamander makes two attacks: one with its spear and one with its tail.
-Spear. MRWA. +7 to hit, reach 5 Feet or range 20 Feet/60 Feet, 1 target. Hit: 11 (2d6+4) piercing damage, or 13 (2d8+4) piercing damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.
-Tail. MWA. +7 to hit, reach 10 Feet, 1 target. Hit: 11 (2d6+4) bludgeoning damage plus 7 (2d6) fire damage, and the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets.
+Spear. MRWA. +7 to hit, reach 5 Feet or range 20 Feet/60 Feet, 1 target. Hit: 11 (2d6+4) piercing damage plus 3 (1d6) fire damage | 13 (2d8+4) piercing damage plus 3 (1d6) fire damage if used with two hands to make a melee attack.
+Tail. MWA. +7 to hit, reach 10 Feet, 1 target. Hit: 11 (2d6+4) bludgeoning damage plus 7 (2d6) fire damage & the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets.
 END
 
 Satyr
@@ -75,7 +75,7 @@ Amorphous. The shadow can move through a space as narrow as 1 inch wide without 
 Shadow Stealth. While in dim light or darkness, the shadow can take the Hide action as a bonus action.
 Sunlight Weakness. While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.
 Actions
-Strength Drain. MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 9 (2d6+2) necrotic damage, and the target’s Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.  If a non-­‐evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.
+Strength Drain. MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 9 (2d6+2) necrotic damage & the target’s Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.  If a non-­‐evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.
 END
 
 Shambling Mound
@@ -262,7 +262,7 @@ Challenge 1/4 (50 XP)
 Traits
 Actions
 Longsword. MWA. +2 to hit, reach 5 Feet, 1 target. Hit: 1 slashing damage.
-Shortbow. RWA. +6 to hit, range 40/160 Feet, 1 target. Hit: 1 piercing damage, and the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.
+Shortbow. RWA. +6 to hit, range 40/160 Feet, 1 target. Hit: 1 piercing damage & the target must succeed on a DC 10 Constitution saving throw or become poisoned for 1 minute. If its saving throw result is 5 or lower, the poisoned target falls unconscious for the same duration, or until it takes damage or another creature takes an action to shake it awake.
 Heart Sight. The sprite touches a creature and magically knows the creature’s current emotional state.  If the target fails a DC 10 Charisma saving throw, the sprite also knows the creature’s alignment. Celestials, fiends, and undead automatically fail the saving throw.
 Invisibility. The sprite magically turns invisible until it attacks or casts a spell, or until its concentration ends (as if concentrating on a spell). Any equipment the sprite wears or carries is invisible with it.
 END
@@ -277,7 +277,7 @@ Senses darkvision 60 Feet
 Challenge 1/8 (25 XP)
 Traits
 Actions
-Blood Drain. MWA. +5 to hit, reach 5 Feet, 1 creature. Hit: 5 (1d4+3) piercing damage, and the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4+3) hit points due to blood loss.  The stirge can detach itself by spending 5 Feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.
+Blood Drain. MWA. +5 to hit, reach 5 Feet, 1 creature. Hit: 5 (1d4+3) piercing damage & the stirge attaches to the target. While attached, the stirge doesn’t attack. Instead, at the start of each of the stirge’s turns, the target loses 5 (1d4+3) hit points due to blood loss.  The stirge can detach itself by spending 5 Feet of its movement. It does so after it drains 10 hit points of blood from the target or the target dies. A creature, including the target, can use its action to detach the stirge.
 END
 
 Succubus/Incubus

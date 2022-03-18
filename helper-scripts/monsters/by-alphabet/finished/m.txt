@@ -150,7 +150,7 @@ Challenge 1/8 (25 XP)
 Traits
 Amphibious. The merfolk can breathe air and water.
 Actions
-Spear. MRWA. +2 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 3 (1d6) piercing damage, or 4 (1d8) piercing damage if used with two hands to make a melee attack.
+Spear. MRWA. +2 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 3 (1d6) piercing damage | 4 (1d8) piercing damage if used with two hands to make a melee attack.
 END
 
 Merrow
@@ -258,5 +258,5 @@ Attack. The mummy lord makes one attack with its rotting fist or uses its Dreadf
 Blinding Dust. Blinding dust and sand swirls magically around the mummy lord. Each creature within 5 Feet of the mummy lord must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature’s next turn.
 Blasphemous Word (Costs 2 Actions). The mummy lord utters a blasphemous word. Each non-­‐undead creature within 10 Feet of the mummy lord that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the mummy lord’s next turn.
 Channel Negative Energy (Costs 2 Actions). The mummy lord magically unleashes negative energy.  Creatures within 60 Feet of the mummy lord, including ones behind barriers and around corners, can’t regain hit points until the end of the mummy lord’s next turn.
-Whirlwind of Sand (Costs 2 Actions). The mummy lord magically transforms into a whirlwind of sand, moves up to 60 Feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage, and it can’t be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.
+Whirlwind of Sand (Costs 2 Actions). The mummy lord magically transforms into a whirlwind of sand, moves up to 60 Feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage & it can’t be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.
 END

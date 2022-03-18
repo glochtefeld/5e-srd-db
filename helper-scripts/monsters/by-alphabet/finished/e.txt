@@ -14,7 +14,7 @@ Innate Spellcasting. The drow’s spellcasting ability is Charisma (spell save D
 Sunlight Sensitivity. While in sunlight, the drow has disadvantage on attack rolls, as well as on Wisdom (Perception) checks that rely on sight.
 Actions
 Shortsword. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
-Hand Crossbow. RWA. +4 to hit, range 30/120 Feet, 1 target. Hit: 5 (1d6+2) piercing damage, and the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
+Hand Crossbow. RWA. +4 to hit, range 30/120 Feet, 1 target. Hit: 5 (1d6+2) piercing damage & the target must succeed on a DC 13 Constitution saving throw or be poisoned for 1 hour. If the saving throw fails by 5 or more, the target is also unconscious while poisoned in this way. The target wakes up if it takes damage or if another creature takes an action to shake it awake.
 END
 
 Ettercap
@@ -34,7 +34,7 @@ Actions
 Multiattack. The ettercap makes two attacks: one with its bite and one with its claws.
 Bite. MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 6 (1d8+2) piercing damage plus 4 (1d8) poison damage. The target must succeed on a DC 11 Constitution saving throw or be poisoned for 1 minute.  The creature can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 Claws. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 7 (2d4+2) slashing damage.
-Web (Recharge 5–6). RWA. +4 to hit, range 30/60 Feet, one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, vulnerability to fire damage, and immunity to bludgeoning, poison, and psychic damage.
+Web (Recharge 5–6). RWA. +4 to hit, range 30/60 Feet, one Large or smaller creature. Hit: The creature is restrained by webbing. As an action, the restrained creature can make a DC 11 Strength check, escaping from the webbing on a success. The effect also ends if the webbing is destroyed. The webbing has AC 10, 5 hit points, vulnerability to fire damage & immunity to bludgeoning, poison, and psychic damage.
 END
 
 Ettin

@@ -21,7 +21,7 @@ Tail. MWA. +9 to hit, reach 10 Feet 1 target. Hit: 15 (3d6+5) bludgeoning damage
 Enslave (3/Day). The aboleth targets 1 creature it can see within 30 Feet of it. The target must succeed on a DC 14 Wisdom saving throw or be magically charmed by the aboleth until the aboleth dies or until it is on a different plane of existence from the target. The charmed target is under the aboleth’s control and can’t take reactions, and the aboleth and the target can communicate telepathically with each other over any distance.  Whenever the charmed target takes damage, the target can repeat the saving throw. On a success, the effect ends. No more than once every 24 hours, the target can also repeat the saving throw when it is at least 1 mile away from the aboleth.
 Legendary Actions
 The aboleth can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The aboleth regains spent legendary actions at the start of its turn.  Detect. The aboleth makes a Wisdom (Perception) check.
-Tail Swipe. The aboleth makes one tail attack.  Psychic Drain (Costs 2 Actions). One creature charmed by the aboleth takes 10 (3d6) psychic damage, and the aboleth regains hit points equal to the damage the creature takes.
+Tail Swipe. The aboleth makes one tail attack.  Psychic Drain (Costs 2 Actions). One creature charmed by the aboleth takes 10 (3d6) psychic damage & the aboleth regains hit points equal to the damage the creature takes.
 END
 
 Deva
@@ -188,5 +188,5 @@ Heated Body. A creature that touches the azer or hits it with a melee attack whi
 Heated Weapons. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).
 Illumination. The azer sheds bright light in a 10-­‐foot radius and dim light for an additional 10 Feet.
 Actions
-Warhammer. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) bludgeoning damage, or 8 (1d10+3) bludgeoning damage if used with two hands to make a melee attack, plus 3 (1d6) fire damage.
+Warhammer. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) bludgeoning damage plus 3 (1d6) fire damage | 8 (1d10+3) bludgeoning damage plus 3 (1d6) fire damage if used with two hands to make a melee attack.
 END

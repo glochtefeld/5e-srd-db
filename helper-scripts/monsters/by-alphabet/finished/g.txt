@@ -261,7 +261,7 @@ Traits
 Rampage. When the gnoll reduces a creature to 0 hit points with a melee attack on its turn, the gnoll can take a bonus action to move up to half its speed and make a bite attack.
 Actions
 Bite. MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 4 (1d4+2) piercing damage.
-Spear. MRWA. +4 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 5 (1d6+2) piercing damage, or 6 (1d8+2) piercing damage if used with two hands to make a melee attack.
+Spear. MRWA. +4 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 5 (1d6+2) piercing damage | 6 (1d8+2) piercing damage if used with two hands to make a melee attack.
 Longbow. RWA. +3 to hit, range 150/600 Feet, 1 target. Hit: 5 (1d8+1) piercing damage.
 END
 
@@ -281,7 +281,7 @@ Gnome Cunning. The gnome has advantage on Intelligence, Wisdom, and Charisma sav
 Innate Spellcasting. The gnome’s innate spellcasting ability is Intelligence (spell save DC 11). It can innately cast the following spells, requiring no material components: At will: nondetection (self only) 1/day each: blindness/deafness, blur, disguise self
 Actions
 War Pick. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 6 (1d8+2) piercing damage.
-Poisoned Dart. RWA. +4 to hit, range 30/120 Feet, 1 creature. Hit: 4 (1d4+2) piercing damage, and the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute.  The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Poisoned Dart. RWA. +4 to hit, range 30/120 Feet, 1 creature. Hit: 4 (1d4+2) piercing damage & the target must succeed on a DC 12 Constitution saving throw or be poisoned for 1 minute.  The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 END
 
 Goblin

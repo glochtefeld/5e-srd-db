@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/Users/gll/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
+# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -81,9 +81,10 @@ class Attack {
     has $.spell is rw;
     has $.weapon is rw;
     has $.target is rw;
-    has $.avgDamage is rw;
-    has $.damageFormula is rw;
-    has $.damageType is rw;
+    has @.avgDamage is rw;
+    has @.damageFormula is rw;
+    has @.damageType is rw;
+    has $.hitEffect is rw;
 }
 
 sub MAIN($file) {
@@ -201,10 +202,10 @@ sub MAIN($file) {
                 }
 
                 # target
-
+                $a.target = $target.split(' ')[0].Int;
 
                 # damage
-
+                
                 # details
             }
 
@@ -232,6 +233,9 @@ sub MAIN($file) {
         Replaced all instances of (xdx + x) with (xdx+x).
         Appended an int to the end of each language known to represent the ability to speak
         Changed every trait and ability to fit on a single line
+        Changed Melee/Ranged Weapon/Spell Attack to (M|R)(W|S)A, and occasionally MRWA for spears
+        Changed "one target" to "1 target"
+        Changed "ft." to "Feet"
         
     Copyright 2022 Gavin Lochtefeld
 
