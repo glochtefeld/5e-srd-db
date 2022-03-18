@@ -2,55 +2,55 @@ Lamia
 Large monstrosity, chaotic evil
 Armor Class 13 (natural armor)
 Hit Points 97 (13d10+26)
-Speed 30 ft.
+Speed 30 Feet
 16 (+3) 13 (+1) 15 (+2) 14 (+2) 15 (+2) 16 (+3)
 Skills Deception +7, Insight +4, Stealth +3
-Senses darkvision 60 ft.
+Senses darkvision 60 Feet
 Languages Abyssal 1, Common 1
 Challenge 4 (1,100 XP)
 Traits
 Innate Spellcasting. The lamia’s innate spellcasting ability is Charisma (spell save DC 13). It can innately cast the following spells, requiring no material components.  At will: disguise self (any humanoid form), major image 3/day each: charm person, mirror image, scrying, suggestion 1/day: geas
 Actions
 Multiattack. The lamia makes two attacks: one with its claws and one with its dagger or Intoxicating Touch.
-Claws. MWA. +5 to hit, reach 5 ft., one target. Hit: 14 (2d10+3) slashing damage.
-Dagger. MWA. +5 to hit, reach 5 ft., one target. Hit: 5 (1d4+3) piercing damage.
-Intoxicating Touch. MSA. +5 to hit, reach 5 ft., one creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
+Claws. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 14 (2d10+3) slashing damage.
+Dagger. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 5 (1d4+3) piercing damage.
+Intoxicating Touch. MSA. +5 to hit, reach 5 Feet, 1 creature. Hit: The target is magically cursed for 1 hour. Until the curse ends, the target has disadvantage on Wisdom saving throws and all ability checks.
 END
 
 Lich
 Medium undead, any evil alignment
 Armor Class 17 (natural armor)
 Hit Points 135 (18d8+54)
-Speed 30 ft.
+Speed 30 Feet
 11 (+0) 16 (+3) 16 (+3) 20 (+5) 14 (+2) 16 (+3)
 Saving Throws Con +10, Int +12, Wis +9
 Skills Arcana +18, History +12, Insight +9, Perception +9
 Damage Resistances cold, lightning, necrotic
 Damage Immunities poison; bludgeoning, piercing, and slashing from nonmagical attacks
 Condition Immunities charmed, exhaustion, frightened, paralyzed, poisoned
-Senses truesight 120 ft.
+Senses truesight 120 Feet
 Languages Common 1, Any 1
 Challenge 21 (33,000 XP)
 Traits
 Legendary Resistance (3/Day). If the lich fails a saving throw, it can choose to succeed instead.
-Rejuvenation. If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 feet of the phylactery.
+Rejuvenation. If it has a phylactery, a destroyed lich gains a new body in 1d10 days, regaining all its hit points and becoming active again. The new body appears within 5 Feet of the phylactery.
 Spellcasting. The lich is an 18th-­‐level spellcaster. Its spellcasting ability is Intelligence (spell save DC 20, +12 to hit with spell attacks). The lich has the following wizard spells prepared: Cantrips (at will): mage hand, prestidigitation, ray of frost 1st level (4 slots): detect magic, magic missile, shield, thunderwave 2nd level (3 slots): acid arrow, detect thoughts, invisibility, mirror image 3rd level (3 slots): animate dead, counterspell, dispel magic, fireball 4th level (3 slots): blight, dimension door 5th level (3 slots): cloudkill, scrying 6th level (1 slot): disintegrate, globe of invulnerability 7th level (1 slot): finger of death, plane shift 8th level (1 slot): dominate monster, power word stun 9th level (1 slot): power word kill
 Turn Resistance. The lich has advantage on saving throws against any effect that turns undead.
 Actions
-Paralyzing Touch. MSA. +12 to hit, reach 5 ft., one creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
+Paralyzing Touch. MSA. +12 to hit, reach 5 Feet, 1 creature. Hit: 10 (3d6) cold damage. The target must succeed on a DC 18 Constitution saving throw or be paralyzed for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
 Legendary Actions
 The lich can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The lich regains spent legendary actions at the start of its turn.
 Cantrip. The lich casts a cantrip.
 Paralyzing Touch (Costs 2 Actions). The lich uses its Paralyzing Touch.
-Frightening Gaze (Costs 2 Actions). The lich fixes its gaze on one creature it can see within 10 feet of it.  The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to the lich’s gaze for the next 24 hours.
-Disrupt Life (Costs 3 Actions). Each non-­‐undead creature within 20 feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.
+Frightening Gaze (Costs 2 Actions). The lich fixes its gaze on 1 creature it can see within 10 Feet of it.  The target must succeed on a DC 18 Wisdom saving throw against this magic or become frightened for 1 minute. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success. If a target’s saving throw is successful or the effect ends for it, the target is immune to the lich’s gaze for the next 24 hours.
+Disrupt Life (Costs 3 Actions). Each non-­‐undead creature within 20 Feet of the lich must make a DC 18 Constitution saving throw against this magic, taking 21 (6d6) necrotic damage on a failed save, or half as much damage on a successful one.
 END
 
 Lizardfolk
 Medium humanoid (lizardfolk), neutral
 Armor Class 15 (natural armor, shield)
 Hit Points 22 (4d8+4)
-Speed 30 ft., swim 30 ft.
+Speed 30 Feet, swim 30 Feet
 15 (+2) 10 (+0) 13 (+1) 7 (−2) 12 (+1) 7 (−2)
 Skills Perception +3, Stealth +4, Survival +5
 Languages Draconic 1
@@ -59,16 +59,16 @@ Traits
 Hold Breath. The lizardfolk can hold its breath for 15 minutes.
 Actions
 Multiattack. The lizardfolk makes two melee attacks, each one with a different weapon.
-Bite. MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
-Heavy Club. MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) bludgeoning damage.
-Javelin. Melee or RWA. +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage.
-Spiked Shield. MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
+Bite. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
+Heavy Club. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) bludgeoning damage.
+Javelin. MRWA. +4 to hit, reach 5 Feet or range 30/120 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
+Spiked Shield. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
 
 Werebear
 Medium humanoid (human, shapechanger), neutral good
 Armor Class 10 in humanoid form, 11 (natural armor) in bear and hybrid form
 Hit Points 135 (18d8+54)
-Speed 30 ft. (40 ft., climb 30 ft. in bear or hybrid form)
+Speed 30 Feet (40 Feet, climb 30 Feet in bear or hybrid form)
 19 (+4) 10 (+0) 17 (+3) 11 (+0) 12 (+1) 12 (+1)
 Skills Perception +7
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
@@ -80,16 +80,16 @@ humanoid. Its statistics, other than its size and AC, are the same in each form.
 Keen Smell. The werebear has advantage on Wisdom (Perception) checks that rely on smell.
 Actions
 Multiattack. In bear form, the werebear makes two claw attacks. In humanoid form, it makes two greataxe attacks. In hybrid form, it can attack like a bear or a humanoid.
-Bite (Bear or Hybrid Form Only). MWA. +7 to hit, reach 5 ft., one target. Hit: 15 (2d10+4) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.
-Claw (Bear or Hybrid Form Only). MWA. +7 to hit, reach 5 ft., one target. Hit: 13 (2d8+4) slashing damage.
-Greataxe (Humanoid or Hybrid Form Only). MWA. +7 to hit, reach 5 ft., one target. Hit: 10 (1d12+4) slashing damage.
+Bite (Bear or Hybrid Form Only). MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 15 (2d10+4) piercing damage. If the target is a humanoid, it must succeed on a DC 14 Constitution saving throw or be cursed with werebear lycanthropy.
+Claw (Bear or Hybrid Form Only). MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 13 (2d8+4) slashing damage.
+Greataxe (Humanoid or Hybrid Form Only). MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 10 (1d12+4) slashing damage.
 END
 
 Wereboar
 Medium humanoid (human, shapechanger), neutral evil
 Armor Class 10 in humanoid form, 11 (natural armor) in boar or hybrid form
 Hit Points 78 (12d8+24)
-Speed 30 ft. (40 ft. in boar form)
+Speed 30 Feet (40 Feet in boar form)
 17 (+3) 10 (+0) 15 (+2) 10 (+0) 11 (+0) 8 (−1)
 Skills Perception +2
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
@@ -97,23 +97,23 @@ Languages Common 2
 Challenge 4 (1,100 XP)
 Traits
 Shapechanger. The wereboar can use its action to polymorph into a boar-­‐humanoid hybrid or into a boar, or back into its true form, which is humanoid. Its statistics, other than its AC, are the same in each form.  Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
-Charge (Boar or Hybrid Form Only). If the wereboar moves at least 15 feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
+Charge (Boar or Hybrid Form Only). If the wereboar moves at least 15 Feet straight toward a target and then hits it with its tusks on the same turn, the target takes an extra 7 (2d6) slashing damage. If the target is a creature, it must succeed on a DC 13 Strength saving throw or be knocked prone.
 Relentless (Recharges after a Short or Long Rest). If the wereboar takes 14 damage or less that would reduce it to 0 hit points, it is reduced to 1 hit point instead.
 Actions
 Multiattack (Humanoid or Hybrid Form Only). The wereboar makes two attacks, only one of which can be with its tusks.
-Maul (Humanoid or Hybrid Form Only). MWA. +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) bludgeoning damage.
-Tusks (Boar or Hybrid Form Only). MWA. +5 to hit, reach 5 ft., one target. Hit: 10 (2d6+3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.
+Maul (Humanoid or Hybrid Form Only). MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 10 (2d6+3) bludgeoning damage.
+Tusks (Boar or Hybrid Form Only). MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 10 (2d6+3) slashing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with wereboar lycanthropy.
 END
 
 Wererat
 Medium humanoid (human, shapechanger), lawful evil
 Armor Class 12
 Hit Points 33 (6d8+6)
-Speed 30 ft.
+Speed 30 Feet
 10 (+0) 15 (+2) 12 (+1) 11 (+0) 10 (+0) 8 (−1)
 Skills Perception +2, Stealth +4
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses darkvision 60 ft. (rat form only)
+Senses darkvision 60 Feet (rat form only)
 Languages Common 2
 Challenge 2 (450 XP)
 Traits
@@ -121,38 +121,38 @@ Shapechanger. The wererat can use its action to polymorph into a rat-­‐humano
 Keen Smell. The wererat has advantage on Wisdom (Perception) checks that rely on smell.
 Actions
 Multiattack (Humanoid or Hybrid Form Only). The wererat makes two attacks, only one of which can be a bite.
-Bite (Rat or Hybrid Form Only). MWA. +4 to hit, reach 5 ft., one target. Hit: 4 (1d4+2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
-Shortsword (Humanoid or Hybrid Form Only). MWA. +4 to hit, reach 5 ft., one target. Hit: 5 (1d6+2) piercing damage.
-Hand Crossbow (Humanoid or Hybrid Form Only).  RWA. +4 to hit, range 30/120 ft., one target. Hit: 5 (1d6+2) piercing damage.
+Bite (Rat or Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 4 (1d4+2) piercing damage. If the target is a humanoid, it must succeed on a DC 11 Constitution saving throw or be cursed with wererat lycanthropy.
+Shortsword (Humanoid or Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
+Hand Crossbow (Humanoid or Hybrid Form Only).  RWA. +4 to hit, range 30/120 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
 END
 
 Weretiger
 Medium humanoid (human, shapechanger), neutral neutral
 Armor Class 12
 Hit Points 120 (16d8+48)
-Speed 30 ft. (40 ft. in tiger form)
+Speed 30 Feet (40 Feet in tiger form)
 17 (+3) 15 (+2) 16 (+3) 10 (+0) 13 (+1) 11 (+0)
 Skills Perception +5, Stealth +4
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
-Senses darkvision 60 ft.
+Senses darkvision 60 Feet
 Languages Common 2
 Challenge 4 (1,100 XP)
 Traits
 Shapechanger. The weretiger can use its action to polymorph into a tiger-­‐humanoid hybrid or into a tiger, or back into its true form, which is humanoid. Its statistics, other than its size, are the same in each form.  Any equipment it is wearing or carrying isn’t transformed. It reverts to its true form if it dies.
 Keen Hearing and Smell. The weretiger has advantage on Wisdom (Perception) checks that rely on hearing or smell.
-Pounce (Tiger or Hybrid Form Only). If the weretiger moves at least 15 feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action.
+Pounce (Tiger or Hybrid Form Only). If the weretiger moves at least 15 Feet straight toward a creature and then hits it with a claw attack on the same turn, that target must succeed on a DC 14 Strength saving throw or be knocked prone. If the target is prone, the weretiger can make one bite attack against it as a bonus action.
 Actions
 Multiattack (Humanoid or Hybrid Form Only). In humanoid form, the weretiger makes two scimitar attacks or two longbow attacks. In hybrid form, it can attack like a humanoid or make two claw attacks.
-Bite (Tiger or Hybrid Form Only). MWA. +5 to hit, reach 5 ft., one target. Hit: 8 (1d10+3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy.
-Claw (Tiger or Hybrid Form Only). MWA. +5 to hit, reach 5 ft., one target. Hit: 7 (1d8+3) slashing damage.
-Scimitar (Humanoid or Hybrid Form Only). MWA. +5 to hit, reach 5 ft., one target. Hit: 6 (1d6+3) slashing damage.
-Longbow (Humanoid or Hybrid Form Only). RWA. +4 to hit, range 150/600 ft., one target.  Hit: 6 (1d8+2) piercing damage.
+Bite (Tiger or Hybrid Form Only). MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 8 (1d10+3) piercing damage. If the target is a humanoid, it must succeed on a DC 13 Constitution saving throw or be cursed with weretiger lycanthropy.
+Claw (Tiger or Hybrid Form Only). MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) slashing damage.
+Scimitar (Humanoid or Hybrid Form Only). MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 6 (1d6+3) slashing damage.
+Longbow (Humanoid or Hybrid Form Only). RWA. +4 to hit, range 150/600 Feet, 1 target.  Hit: 6 (1d8+2) piercing damage.
 
 Werewolf
 Medium humanoid (human, shapechanger), chaotic evil
 Armor Class 11 in humanoid form, 12 (natural armor) in wolf or hybrid form
 Hit Points 58 (9d8+18)
-Speed 30 ft. (40 ft. in wolf form)
+Speed 30 Feet (40 Feet in wolf form)
 15 (+2) 13 (+1) 14 (+2) 10 (+0) 11 (+0) 10 (+0)
 Skills Perception +4, Stealth +3
 Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
@@ -163,7 +163,7 @@ Shapechanger. The werewolf can use its action to polymorph into a wolf-­‐huma
 Keen Hearing and Smell. The werewolf has advantage on Wisdom (Perception) checks that rely on hearing or smell.
 Actions
 Multiattack (Humanoid or Hybrid Form Only). The werewolf makes two attacks: one with its bite and one with its claws or spear.
-Bite (Wolf or Hybrid Form Only). MWA. +4 to hit, reach 5 ft., one target. Hit: 6 (1d8+2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
-Claws (Hybrid Form Only). MWA. +4 to hit, reach 5 ft., one creature. Hit: 7 (2d4+2) slashing damage.
-Spear (Humanoid Form Only). Melee or RWA. +4 to hit, reach 5 ft. or range 20/60 ft., one creature. Hit: 5 (1d6+2) piercing damage, or 6 (1d8+2) piercing damage if used with two hands to make a melee attack.
+Bite (Wolf or Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 6 (1d8+2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
+Claws (Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 7 (2d4+2) slashing damage.
+Spear (Humanoid Form Only). MRWA. +4 to hit, reach 5 Feet or range 20/60 Feet, 1 creature. Hit: 5 (1d6+2) piercing damage, or 6 (1d8+2) piercing damage if used with two hands to make a melee attack.
 END

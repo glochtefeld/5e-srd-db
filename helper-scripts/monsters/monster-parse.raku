@@ -1,14 +1,15 @@
 use v6;
 use DBIish;
 
-# other path:  /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
+# other path: /mnt/c/Users/gll/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
 my %skills = as-hash('select name, id from skill');
 my %damage = as-hash('select name, id from damageType');
 my %conditions = as-hash('select name, id from condition');
+my %distance = as-hash('select measure, id from distance');
 
 constant @sizes = <Tiny Small Medium Large Gargantuan>;
 constant @speedTypes = <Normal Burrow Climb Fly Swim>;
@@ -72,8 +73,13 @@ class Monster {
 class Attack {
     has $.name is rw;
     has $.toHitBonus is rw;
-    has $.range is rw;
+    has $.melee-range is rw; # length => distID
+    has $.ranged-std is rw; # length => distID
+    has $.ranged-upper is rw; #length => distID
     has $.melee is rw;
+    has $.range is rw;
+    has $.spell is rw;
+    has $.weapon is rw;
     has $.target is rw;
     has $.avgDamage is rw;
     has $.damageFormula is rw;
@@ -155,20 +161,51 @@ sub MAIN($file) {
             (my $name, my $desc) = $line.split('.', 2);
             $m.traits.push($name=>$desc);
         } until @lines[$j] eq 'Actions';
-        $m.traits.raku.say;
+        ++$j;
 
         repeat { # Actions
             my $line = @lines[$j++];
 
             if $line ~~ /^Multiattack/ { $m.multiattack = True; }
-            else {
+            elsif $line ~~ /(M|R)+(S|W)A\./ {
                 my $a = Attack.new;
-                (my $title, my $targeting, my $hit, my $effect) = $line.split('.', 4);
-                my $melee, my $ranged, my $weapon;
-                $melee = ($targeting ~~ /Melee/) ~~ Any:D; 
-                $ranged = ($targeting ~~ /Ranged/) ~~ Any:D; 
-                $weapon = ($targeting ~~ /Weapon/) ~~ Any:D; # False means spell
-                my @targeting = $targeting.split(/[\:\,]/)[1..*];
+                (my $title, my $atkType, my $targeting, my $hit, my $effect) = $line.split('.', 5);
+                $a.name = $title;
+                ($a.range, $a.melee, $a.spell, $a.weapon) = (False, False, False, False);
+                given $atkType.trim {
+                    when 'MSA' { $a.melee = True; $a.spell = True; }
+                    when 'MWA' { $a.melee = True; $a.weapon = True; }
+                    when 'RSA' { $a.range = True; $a.spell = True;}
+                    when 'RWA' { $a.range = True; $a.weapon = True; }
+                    when 'MRWA' { $a.melee = True; $a.range = True; $a.weapon = True; }
+                    default { die "Unknown attack type: $atkType"; }
+                }
+
+                (my $hitBonus, my $range, my $target)  = $targeting.split(',').map({$_.trim});
+                $a.toHitBonus = $hitBonus.split(' ')[0].Int;
+                my @melee;
+                my @range;
+                if $range ~~ /reach/ && $range ~~ /range/ {
+                    @melee = $range.split(' or ')[0].split(' ')[1..2];
+                    @range = $range.split(' or ')[1].trim.substr(6..*).split('/').map({$_.split(' ')});
+                    $a.melee-range = @melee[0]=>%distance{@melee[1]};
+                    ($a.ranged-std, $a.ranged-upper) = @range.map({@_[0]=>%distance{@_[1]}});
+                }
+                elsif $range ~~ /reach/ {
+                    @melee = $range.split(' ')[1..2];
+                    $a.melee-range = @melee[0]=>%distance{@melee[1]};
+                }
+                elsif $range ~~ /range/ {
+                    @range = $range.trim.substr(6..*).split('/').map({$_.split(' ')});
+                    ($a.ranged-std, $a.ranged-upper) = @range.map({@_[0]=>%distance{@_[1]}});
+                }
+
+                # target
+
+
+                # damage
+
+                # details
             }
 
         } until @lines[$j] eq 'Legendary Actions' 
@@ -180,10 +217,6 @@ sub MAIN($file) {
 
         if $rest ~~ /\nReactions\n/ {}
         if $rest ~~ /\nLegendary\sActions\n/ {}
-
-
-
-
     }
 }
 #`{
