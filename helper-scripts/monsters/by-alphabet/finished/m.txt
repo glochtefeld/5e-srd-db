@@ -7,7 +7,7 @@ Speed 30 Feet
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities fire
 Senses darkvision 60 Feet
-Languages Ignan 1
+Languages Primordial 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 Feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren’t being worn or carried in that area are ignited.
@@ -108,7 +108,7 @@ Damage Vulnerabilities cold
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Ignan 1, Terran 1
+Languages Primordial 1, Terran 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a burst of lava. Each creature within 5 Feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
@@ -128,7 +128,7 @@ Speed 30 Feet, fly 30 Feet
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Aquan 1, Ignan 1
+Languages Aquan 1, Primordial 1
 Challenge 1/4 (50 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a cloud of steam. Each creature within 5 Feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.

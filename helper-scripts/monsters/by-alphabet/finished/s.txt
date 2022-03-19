@@ -29,7 +29,7 @@ Damage Vulnerabilities cold
 Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
 Damage Immunities fire
 Senses darkvision 60 Feet
-Languages Ignan 1
+Languages Primordial 1
 Challenge 5 (1,800 XP)
 Traits
 Heated Body. A creature that touches the salamander or hits it with a melee attack while within 5 Feet of it takes 7 (2d6) fire damage.

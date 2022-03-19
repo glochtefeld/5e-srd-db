@@ -1,5 +1,6 @@
 use v6;
 use DBIish;
+use PrettyDump;
 
 # other path: /mnt/c/Users/gll/SRD5.db
 my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
@@ -17,6 +18,7 @@ constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral 
 constant @abilities = <Str Dex Con Int Wis Cha>; # Used for saves
 constant @senses = <blindsight darkvision tremorsense truesight>;
 constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>;
+constant @numbers = <one two three four five>; # dumb.
 
 
 my &get-pair = -> @arr { -> $s {
@@ -76,6 +78,20 @@ class Monster {
     has @.reactions is rw;
 }
 
+class Speed {
+    has $.type;
+    has $.speed;
+    has $.measure;
+
+    submethod BUILD(:@arr) {
+        given @arr.elems {
+            when 3 { $!type = @arr[0]; $!speed= @arr[2]; $!measure = @arr[2]; }
+            when 2 { $!type = ''; $!speed = @arr[0]; $!measure = @arr[1]; }
+            default { die "Unknown speed: {@arr.raku.say}"; }
+        }
+    }
+}
+
 class Attack {
     has $.name is rw;
     has $.toHitBonus is rw;
@@ -126,7 +142,7 @@ sub MAIN($file) {
         $m.ac = $ac.trim.Int;
         (my $hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
         $m.hp = $hp.trim.Int;
-        $m.speeds = @lines[4].substr(5..*).split(', ');
+        $m.speeds = @lines[4].substr(5..*).split(', ').map({Speed.new(arr=>$_.trim.split(' '))});
         $m.scores = @lines[5].split(/\(.\d\)/).map({Int($_) if $_});
         my $j = 6;
         repeat { # Header
@@ -177,6 +193,7 @@ sub MAIN($file) {
         $m.passivePerception = ($m.skills.grep({$_.key == 14})[0].value 
             || $m.scores[4] div 2 - 5 ) 
             + 10;
+        $m.telepathy = $m.telepathy || False;
         $j++; # Consume Traits
 
         if @lines[$j] ne 'Actions' {
@@ -191,7 +208,9 @@ sub MAIN($file) {
         repeat { # Actions
             my $line = @lines[$j++];
 
-            if $line ~~ /^Multiattack/ { $m.multiattack = True; }
+            if $line ~~ /^Multiattack/ { 
+                $m.multiattack = get-idx(@numbers)(($line ~~/\(one|two|three|four|five\)/).Str) || 0;
+            }
             elsif $line ~~ /(M|R)+(S|W)A\./ {
                 my $a = Attack.new;
                 (my $title, my $atkType, my $targeting, my $hit, my $effect) = $line.split('.', 5);
@@ -225,7 +244,6 @@ sub MAIN($file) {
                     my @rnge = @range[0..*-1];
                     ($a.ranged-std, $a.ranged-upper) = @rnge.map({@_[0]=>%distance{@rnge[*-1]}});
                 }
-
                 $a.target = $target.split(' ')[0].Int;
 
                 (my $dmg, my $hiteff) = $hit.split('&');
@@ -249,6 +267,8 @@ sub MAIN($file) {
             || @lines[$j] eq 'Reactions' 
             || @lines[$j] eq 'END';
 
+        $m.multiattack = 0 unless $m.multiattack ~~ Any:D;
+
         while @lines[$j] ne 'END' && $j < @lines.elems {
             if @lines[$j] eq 'Reactions' {
                 $j++;
@@ -267,11 +287,14 @@ sub MAIN($file) {
                     (my $k, my $v) = $line.split('.', 2);
                     (my $name, my $costprt) = $k.split(' (Costs ');
                     $costprt = $costprt.chop(9).Int;
-                    $m.actions.push($name=>($costprt, $v));
+                    $m.legendary-actions.push($name=>($costprt, $v));
                 } until @lines[$j] eq 'Reactions'
                     || @lines[$j] eq 'END';
             }
         }
+        $m.legendary-action-ct = 0 unless $m.legendary-action-ct ~~ Any:D;
+        # Monster has been finished
+        
         $m.raku.say;
     }
 }

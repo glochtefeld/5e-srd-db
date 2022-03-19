@@ -47,7 +47,7 @@ Speed 40 Feet, fly 60 Feet
 Saving Throws Int +7, Wis +6, Cha +7
 Damage Immunities fire
 Senses darkvision 120 Feet
-Languages Ignan 1
+Languages Primordial 1
 Challenge 11 (7,200 XP)
 Traits
 Elemental Demise. If the efreeti dies, its body disintegrates in a flash of fire and puff of smoke, leaving behind only equipment the efreeti was wearing or carrying.
