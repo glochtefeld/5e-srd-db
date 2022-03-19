@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
+# other path: /mnt/c/Users/gll/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -69,6 +69,11 @@ class Monster {
     has @.condition-immunities is rw;
     has @.traits is rw;
     has $.multiattack is rw;
+    has @.attacks is rw;
+    has @.actions is rw;
+    has $.legendary-action-ct is rw;
+    has @.legendary-actions is rw;
+    has @.reactions is rw;
 }
 
 class Attack {
@@ -141,8 +146,8 @@ sub MAIN($file) {
             }
             elsif $line.match(/^Telepathy/) { $m.telepathy = True; }
             elsif $line.match(/^Challenge/) {
-                my $challenge = $line.split(' ')[2];
-                $m.challenge = pair-from-list($challenge, @challenges, :idx<0>);
+                my $challenge = $line.split(' ')[1];
+                $m.challenge = idx-from-list($challenge, @challenges, :idx<0>);
             }
             elsif $line.match(/^Damage\sResistances/) {
                 # damageTypeID | monsterID | mundane | silvered | adamantine | immune
@@ -216,8 +221,9 @@ sub MAIN($file) {
                     $a.melee-range = @melee[0]=>%distance{@melee[1]};
                 }
                 elsif $range ~~ /range/ {
-                    @range = $range.trim.substr(6..*).split('/').map({$_.split(' ')});
-                    ($a.ranged-std, $a.ranged-upper) = @range.map({@_[0]=>%distance{@_[1]}});
+                    @range = $range.trim.substr(6..*).split(/(\/|\s)/);
+                    my @rnge = @range[0..*-1];
+                    ($a.ranged-std, $a.ranged-upper) = @rnge.map({@_[0]=>%distance{@rnge[*-1]}});
                 }
 
                 $a.target = $target.split(' ')[0].Int;
@@ -233,19 +239,40 @@ sub MAIN($file) {
                         type=>@a[2],
                         prereq=>(@a[5]|| ''));});
 
+                $m.attacks.push($a);
             }
             else { # Some other action
+                (my $k, my $v) = $line.split('.', 2);
+                $m.actions.push($k=>$v);
             }
-
         } until @lines[$j] eq 'Legendary Actions' 
             || @lines[$j] eq 'Reactions' 
             || @lines[$j] eq 'END';
-        ++$j;
 
-        my $rest = @lines[$j..*].join(' ');
-
-        if $rest ~~ /\nReactions\n/ {}
-        if $rest ~~ /\nLegendary\sActions\n/ {}
+        while @lines[$j] ne 'END' && $j < @lines.elems {
+            if @lines[$j] eq 'Reactions' {
+                $j++;
+                repeat {
+                    my $line = @lines[$j++];
+                    (my $k, my $v) = $line.split('.', 2);
+                    $m.actions.push($k=>$v);
+                } until @lines[$j] eq 'Legendary Actions'
+                    || @lines[$j] eq 'END';
+            }
+            if @lines[$j] eq 'Legendary Actions' {
+                $j++;
+                $m.legendary-action-ct = (@lines[$j++] ~~ /\d+\slegendary\sactions/).Str.split(' ', 2)[0].Int;
+                repeat {
+                    my $line = @lines[$j++];
+                    (my $k, my $v) = $line.split('.', 2);
+                    (my $name, my $costprt) = $k.split(' (Costs ');
+                    $costprt = $costprt.chop(9).Int;
+                    $m.actions.push($name=>($costprt, $v));
+                } until @lines[$j] eq 'Reactions'
+                    || @lines[$j] eq 'END';
+            }
+        }
+        $m.raku.say;
     }
 }
 #`{
