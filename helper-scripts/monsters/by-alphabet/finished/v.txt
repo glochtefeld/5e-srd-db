@@ -6,7 +6,7 @@ Speed 30 Feet
 18 (+4) 18 (+4) 18 (+4) 17 (+3) 15 (+2) 18 (+4)
 Saving Throws Dex +9, Wis +7, Cha +9
 Skills Perception +7, Stealth +9
-Damage Resistances necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances necrotic; bludgeoning nm, piercing nm, slashing nm
 Senses darkvision 120 Feet
 Languages Any 1
 Challenge 13 (10,000 XP)
@@ -25,8 +25,8 @@ Charm. The vampire targets one humanoid it can see within 30 Feet of it. If the 
 Children of the Night (1/Day). The vampire magically calls 2d4 swarms of bats or rats, provided that the sun isn’t up. While outdoors, the vampire can call 3d6 wolves instead. The called creatures arrive in 1d4 rounds, acting as allies of the vampire and obeying its spoken commands. The beasts remain for 1 hour, until the vampire dies, or until the vampire dismisses them as a bonus action.
 Legendary Actions
 The vampire can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The vampire regains spent legendary actions at the start of its turn.
-Move. The vampire moves up to its speed without provoking opportunity attacks.
-Unarmed Strike. The vampire makes one unarmed strike.
+Move (Costs 1 Action). The vampire moves up to its speed without provoking opportunity attacks.
+Unarmed Strike (Costs 1 Action). The vampire makes one unarmed strike.
 Bite (Costs 2 Actions). The vampire makes one bite attack.
 END
 
@@ -38,7 +38,7 @@ Speed 30 Feet
 16 (+3) 16 (+3) 16 (+3) 11 (+0) 10 (+0) 12 (+1)
 Saving Throws Dex +6, Wis +3
 Skills Perception +3, Stealth +6
-Damage Resistances necrotic; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances necrotic; bludgeoning nm, piercing nm, slashing nm
 Senses darkvision 60 Feet
 Languages Any 1
 Challenge 5 (1,800 XP)

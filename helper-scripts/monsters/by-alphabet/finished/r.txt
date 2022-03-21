@@ -6,7 +6,7 @@ Speed 40 Feet
 14 (+2) 17 (+3) 18 (+4) 13 (+1) 16 (+3) 20 (+5)
 Skills Deception +10, Insight +8
 Damage Vulnerabilities piercing from magic weapons wielded by good creatures
-Damage Immunities bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Immunities bludgeoning nm, piercing nm, slashing nm
 Senses darkvision 60 Feet
 Languages Common 1, Infernal 1
 Challenge 13 (10,000 XP)
@@ -25,8 +25,7 @@ Hit Points 195 (17d12+85)
 Speed 30 Feet, burrow 20 Feet
 24 (+7) 13 (+1) 21 (+5) 4 (−3) 10 (+0) 5 (−3)
 Damage Immunities cold, fire
-Senses darkvision 60 Feet, tremorsense 60 Feet, passive
-Perception 10
+Senses darkvision 60 Feet, tremorsense 60 Feet
 Challenge 11 (7,200 XP)
 Traits
 Heated Body. A creature that touches the remorhaz or hits it with a melee attack while within 5 Feet of it takes 10 (3d6) fire damage.

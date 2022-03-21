@@ -47,7 +47,7 @@ Brute. A melee weapon deals one extra die of its damage when the bugbear hits wi
 Surprise Attack. If the bugbear surprises a creature and hits it with an attack during the first round of combat, the target takes an extra 7 (2d6) damage from the attack.
 Actions
 Morningstar. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 11 (2d8+2) piercing damage.
-Javelin. MRWA. +4 to hit, reach 5 Feet or range 30/120 Feet, 1 target. Hit: 9 (2d6+2) piercing damage in melee | 5 (1d6+2) piercing damage at range.
+Javelin. MRWA. +4 to hit, reach 5 Feet or range 30/120 Feet, 1 target. Hit: 9 (2d6+2) piercing damage ? in melee | 5 (1d6+2) piercing damage ? at range.
 END
 
 Bulette
@@ -57,8 +57,7 @@ Hit Points 94 (9d10+45)
 Speed 40 Feet, burrow 40 Feet
 19 (+4) 11 (+0) 21 (+5) 2 (−4) 10 (+0) 5 (−3)
 Skills Perception +6
-Senses darkvision 60 Feet, tremorsense 60 Feet, passive
-Perception 16
+Senses darkvision 60 Feet, tremorsense 60 Feet
 Challenge 5 (1,800 XP)
 Traits
 Standing Leap. The bulette’s long jump is up to 30 Feet and its high jump is up to 15 Feet, with or without a running start.
@@ -66,4 +65,3 @@ Actions
 Bite. MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 30 (4d12+4) piercing damage.
 Deadly Leap. If the bulette jumps at least 15 Feet as part of its movement, it can then use this action to land on its Feet in a space that contains one or more other creatures. Each of those creatures must succeed on a DC 16 Strength or Dexterity saving throw (target’s choice) or be knocked prone and take 14 (3d6+4) bludgeoning damage plus 14 (3d6+4) slashing damage. On a successful save, the creature takes only half the damage, isn’t knocked prone, and is pushed 5 Feet out of the bulette’s space into an unoccupied space of the creature’s choice. If no unoccupied space is within range, the creature instead falls prone in the bulette’s space.
 END
-

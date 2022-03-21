@@ -16,6 +16,7 @@ INSERT INTO alignment (abbreviation, name) VALUES ('NE', 'Neutral Evil');
 INSERT INTO alignment (abbreviation, name) VALUES ('CG', 'Chaotic Good');
 INSERT INTO alignment (abbreviation, name) VALUES ('CN', 'Chaotic Neutral');
 INSERT INTO alignment (abbreviation, name) VALUES ('CE', 'Chaotic Evil');
+INSERT INTO alignment (abbreviation, name) VALUES ('AA', 'Any Alignment');
 
 DELETE FROM domain;
 DELETE FROM sqlite_sequence where name='domain';

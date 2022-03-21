@@ -25,7 +25,7 @@ Hit Points 112 (15d8+45)
 Speed 30 Feet
 18 (+4) 15 (+2) 16 (+3) 16 (+3) 14 (+2) 16 (+3)
 Skills Deception +7, Insight +6, Perception +6, Stealth +6
-Damage Resistances cold, fire; bludgeoning, piercing, and slashing from nonmagical attacks not made with silvered weapons
+Damage Resistances cold, fire; bludgeoning ns, piercing ns, slashing ns
 Condition Immunities charmed
 Senses darkvision 120 Feet
 Languages Abyssal 1, Common 1, Infernal 1, Primordial 1
@@ -47,7 +47,7 @@ Hit Points 52 (7d8+21)
 Speed 30 Feet, swim 40 Feet
 16 (+3) 13 (+1) 16 (+3) 12 (+1) 12 (+1) 13 (+1)
 Senses darkvision 60 Feet
-Languages Aquan 1, Common 1, Giant 1
+Languages Primordial Aquan 1, Common 1, Giant 1
 Challenge 2 (450 XP)
 Traits
 Amphibious. The hag can breathe air and water.
@@ -72,7 +72,7 @@ Challenge 5 (1,800 XP)
 Traits
 Actions
 Multiattack. The veteran makes two longsword attacks.  If it has a shortsword drawn, it can also make a shortsword attack.
-Longsword. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) slashing damage | 8 (1d10+3) slashing damage if used with two hands.
+Longsword. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) slashing damage | 8 (1d10+3) slashing damage ? if used with two hands.
 Shortsword. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 6 (1d6+3) piercing damage.
 Heavy Crossbow. RWA. +3 to hit, range 100/400 Feet, 1 target. Hit: 6 (1d10+1) piercing damage.
 Fire Breath (Recharge 5–6). The veteran exhales fire in a 15-­‐foot cone. Each creature in that area must make a DC 15 Dexterity saving throw, taking 24 (7d6) fire damage on a failed save, or half as much damage on a successful one.
@@ -141,12 +141,12 @@ Challenge 1/2 (100 XP)
 Traits
 Martial Advantage. Once per turn, the hobgoblin can deal an extra 7 (2d6) damage to a creature it hits with a weapon attack if that creature is within 5 Feet of an ally of the hobgoblin that isn’t incapacitated.
 Actions
-Longsword. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 5 (1d8+1) slashing damage | 6 (1d10+1) slashing damage if used with two hands.
+Longsword. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 5 (1d8+1) slashing damage | 6 (1d10+1) slashing damage ? if used with two hands.
 Longbow. RWA. +3 to hit, range 150/600 Feet, 1 target. Hit: 5 (1d8+1) piercing damage.
 END
 
 Homunculus
-Tiny construct, neutral
+Tiny construct, neutral neutral
 Armor Class 13 (natural armor)
 Hit Points 5 (2d4)
 Speed 20 Feet, fly 40 Feet
@@ -177,6 +177,6 @@ Multiple Heads. The hydra has five heads. While it has more than one head, the h
 Reactive Heads. For each head the hydra has beyond one, it gets an extra reaction that can be used only for opportunity attacks.
 Wakeful. While the hydra sleeps, at least one of its heads is awake.
 Actions
-Multiattack. The hydra makes as many bite attacks as it has heads.
+Multiattack. The hydra makes as many bite attacks as it has heads, up to thirty-five.
 Bite. MWA. +8 to hit, reach 10 Feet, 1 target. Hit: 10 (1d10+5) piercing damage.
 END

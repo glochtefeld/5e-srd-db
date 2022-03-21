@@ -1,14 +1,14 @@
 Air Elemental
-Large elemental, neutral
+Large elemental, neutral neutral
 Armor Class 15
 Hit Points 90 (12d10+24)
 Speed 0 Feet, fly 90 Feet (hover)
 14 (+2) 20 (+5) 14 (+2) 6 (−2) 10 (+0) 6 (−2)
-Damage Resistances lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances lightning, thunder; bludgeoning nm, piercing nm, slashing nm
 Damage Immunities poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 Senses darkvision 60 Feet
-Languages Auran 1
+Languages Primordial Auran 1
 Challenge 5 (1,800 XP)
 Traits
 Air Form. The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.
@@ -19,18 +19,17 @@ Whirlwind (Recharge 4–6). Each creature in the elemental’s space must make a
 END
 
 Earth Elemental
-Large elemental, neutral
+Large elemental, neutral neutral
 Armor Class 17 (natural armor)
 Hit Points 126 (12d10+60)
 Speed 30 Feet, burrow 30 Feet
 20 (+5) 8 (−1) 20 (+5) 5 (−3) 10 (+0) 5 (−3)
 Damage Vulnerabilities thunder
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities poison
 Condition Immunities exhaustion, paralyzed, petrified, poisoned, unconscious
-Senses darkvision 60 Feet, tremorsense 60 Feet, passive
-Perception 10
-Languages Terran 1
+Senses darkvision 60 Feet, tremorsense 60 Feet
+Languages Primordial Terran 1
 Challenge 5 (1,800 XP)
 Traits
 Earth Glide. The elemental can burrow through nonmagical, unworked earth and stone. While doing so, the elemental doesn’t disturb the material it moves through.
@@ -41,16 +40,16 @@ Slam. MWA. +8 to hit, reach 10 Feet, 1 target. Hit: 14 (2d8+5) bludgeoning damag
 END
 
 Fire Elemental
-Large elemental, neutral
+Large elemental, neutral neutral
 Armor Class 13
 Hit Points 102 (12d10+36)
 Speed 50 Feet
 10 (+0) 17 (+3) 16 (+3) 6 (−2) 10 (+0) 7 (−2)
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities fire, poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 Senses darkvision 60 Feet
-Languages Primordial 1
+Languages Primordial Ignan 1
 Challenge 5 (1,800 XP)
 Traits
 Fire Form. The elemental can move through a space as narrow as 1 inch wide without squeezing. A creature that touches the elemental or hits it with a melee attack while within 5 Feet of it takes 5 (1d10) fire damage. In addition, the elemental can enter a hostile creature’s space and stop there. The first time it enters a creature’s space on a turn, that creature takes 5 (1d10) fire damage and catches fire; until someone takes an action to douse the fire, the creature takes 5 (1d10) fire damage at the start of each of its turns.
@@ -58,21 +57,20 @@ Illumination. The elemental sheds bright light in a 30-­‐ foot radius and dim
 Water Susceptibility. For every 5 Feet the elemental moves in water, or for every gallon of water splashed on it, it takes 1 cold damage.
 Actions
 Multiattack. The elemental makes two touch attacks.
-Touch. MWA. +6 to hit, reach 5 Feet, 1 target. Hit: 10 (2d6+3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its
-turns.
+Touch. MWA. +6 to hit, reach 5 Feet, 1 target. Hit: 10 (2d6+3) fire damage. If the target is a creature or a flammable object, it ignites. Until a creature takes an action to douse the fire, the target takes 5 (1d10) fire damage at the start of each of its turns.
 END
 
 Water Elemental
-Large elemental, neutral
+Large elemental, neutral neutral
 Armor Class 14 (natural armor)
 Hit Points 114 (12d10+48)
 Speed 30 Feet, swim 90 Feet
 18 (+4) 14 (+2) 18 (+4) 5 (−3) 10 (+0) 8 (−1)
-Damage Resistances acid; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances acid; bludgeoning nm, piercing nm, slashing nm
 Damage Immunities poison
 Condition Immunities exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 Senses darkvision 60 Feet
-Languages Aquan 1
+Languages Primordial Aquan 1
 Challenge 5 (1,800 XP)
 Traits
 Water Form. The elemental can enter a hostile creature’s space and stop there. It can move through a space as narrow as 1 inch wide without squeezing.

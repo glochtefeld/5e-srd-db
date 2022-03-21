@@ -31,7 +31,7 @@ Regeneration. The oni regains 10 hit points at the start of its turn if it has a
 Actions
 Multiattack. The oni makes two attacks, either with its claws or its glaive.
 Claw (Oni Form Only). MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 8 (1d8+4) slashing damage.  
-Glaive. MWA. +7 to hit, reach 10 Feet, 1 target. Hit: 15 (2d10+4) slashing damage | 9 (1d10+4) slashing damage in Small or Medium form.
+Glaive. MWA. +7 to hit, reach 10 Feet, 1 target. Hit: 15 (2d10+4) slashing damage | 9 (1d10+4) slashing damage ? in Small or Medium form.
 Change Shape. The oni magically polymorphs into a Small or Medium humanoid, into a Large giant, or back into its true form. Other than its size, its statistics are the same in each form. The only equipment that is transformed is its glaive, which shrinks so that it can be wielded in humanoid form. If the oni dies, it reverts to its true form, and its glaive reverts to its normal size.
 END
 
@@ -41,7 +41,8 @@ Armor Class 7
 Hit Points 85 (10d10+30)
 Speed 20 Feet, climb 20 Feet
 16 (+3) 5 (−3) 16 (+3) 1 (−5) 6 (−2) 1 (−5)
-Damage Immunities acid, cold, lightning, slashing Condition Immunities blinded, charmed, deafened, exhaustion, frightened, prone
+Damage Immunities acid, cold, lightning, slashing 
+Condition Immunities blinded, charmed, deafened, exhaustion, frightened, prone
 Senses blindsight 60 Feet (blind beyond this radius)
 Challenge 4 (1,100 XP)
 Traits
@@ -96,7 +97,8 @@ Hit Points 45 (6d10+12)
 Speed 10 Feet, climb 10 Feet
 15 (+2) 6 (−2) 14 (+2) 2 (−4) 6 (−2) 1 (−5)
 Damage Resistances acid
-Damage Immunities lightning, slashing Condition Immunities blinded, charmed, deafened, exhaustion, frightened, prone
+Damage Immunities lightning, slashing
+Condition Immunities blinded, charmed, deafened, exhaustion, frightened, prone
 Senses blindsight 60 Feet (blind beyond this radius)
 Challenge 2 (450 XP)
 Traits
@@ -126,7 +128,7 @@ Javelin. MRWA. +5 to hit, reach 5 Feet or range 30/120 Feet, 1 target. Hit: 6 (1
 END
 
 Otyugh
-Large aberration, neutral
+Large aberration, neutral neutral
 Armor Class 14 (natural armor)
 Hit Points 114 (12d10+48)
 Speed 30 Feet

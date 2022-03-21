@@ -16,7 +16,7 @@ Actions
 Multiattack. The sahuagin makes two melee attacks: one with its bite and one with its claws or spear.
 Bite. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 3 (1d4+1) piercing damage.
 Claws. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 3 (1d4+1) slashing damage.
-Spear. MRWA. +3 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 4 (1d6+1) piercing damage | 5 (1d8+1) piercing damage if used with two hands to make a melee attack.
+Spear. MRWA. +3 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 4 (1d6+1) piercing damage | 5 (1d8+1) piercing damage ? if used with two hands to make a melee attack.
 END
 
 Salamander
@@ -26,17 +26,17 @@ Hit Points 90 (12d10+24)
 Speed 30 Feet
 18 (+4) 14 (+2) 15 (+2) 11 (+0) 10 (+0) 12 (+1)
 Damage Vulnerabilities cold
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities fire
 Senses darkvision 60 Feet
-Languages Primordial 1
+Languages Primordial Ignan 1
 Challenge 5 (1,800 XP)
 Traits
 Heated Body. A creature that touches the salamander or hits it with a melee attack while within 5 Feet of it takes 7 (2d6) fire damage.
 Heated Weapons. Any metal melee weapon the salamander wields deals an extra 3 (1d6) fire damage on a hit (included in the attack).
 Actions
 Multiattack. The salamander makes two attacks: one with its spear and one with its tail.
-Spear. MRWA. +7 to hit, reach 5 Feet or range 20 Feet/60 Feet, 1 target. Hit: 11 (2d6+4) piercing damage plus 3 (1d6) fire damage | 13 (2d8+4) piercing damage plus 3 (1d6) fire damage if used with two hands to make a melee attack.
+Spear. MRWA. +7 to hit, reach 5 Feet or range 20 Feet/60 Feet, 1 target. Hit: 11 (2d6+4) piercing damage plus 3 (1d6) fire damage | 13 (2d8+4) piercing damage plus 3 (1d6) fire damage ? if used with two hands to make a melee attack.
 Tail. MWA. +7 to hit, reach 10 Feet, 1 target. Hit: 11 (2d6+4) bludgeoning damage plus 7 (2d6) fire damage & the target is grappled (escape DC 14). Until this grapple ends, the target is restrained, the salamander can automatically hit the target with its tail, and the salamander can’t make tail attacks against other targets.
 END
 
@@ -63,9 +63,9 @@ Armor Class 12
 Hit Points 16 (3d8+3)
 Speed 40 Feet
 6 (−2) 14 (+2) 13 (+1) 6 (−2) 10 (+0) 8 (−1)
-Skills Stealth +4 (+6 in dim light or darkness)
+Skills Stealth +4
 Damage Vulnerabilities radiant
-Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning nm, piercing nm, slashing nm
 Damage Immunities necrotic, poison
 Condition Immunities exhaustion, frightened, grappled, paralyzed, petrified, poisoned, prone, restrained
 Senses darkvision 60 Feet
@@ -74,6 +74,7 @@ Traits
 Amorphous. The shadow can move through a space as narrow as 1 inch wide without squeezing.
 Shadow Stealth. While in dim light or darkness, the shadow can take the Hide action as a bonus action.
 Sunlight Weakness. While in sunlight, the shadow has disadvantage on attack rolls, ability checks, and saving throws.
+Dark Camouflage. The shadow’s stealth bonus raises to +6 in dim light or darkness.
 Actions
 Strength Drain. MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 9 (2d6+2) necrotic damage & the target’s Strength score is reduced by 1d4. The target dies if this reduces its Strength to 0. Otherwise, the reduction lasts until the target finishes a short or long rest.  If a non-­‐evil humanoid dies from this attack, a new shadow rises from the corpse 1d4 hours later.
 END
@@ -179,7 +180,7 @@ Armor Class 12
 Hit Points 22 (5d8)
 Speed 0 Feet, fly 50 Feet (hover)
 1 (−5) 14 (+2) 11 (+0) 10 (+0) 10 (+0) 11 (+0)
-Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances acid, cold, fire, lightning, thunder; bludgeoning nm, piercing nm, slashing nm
 Damage Immunities necrotic, poison
 Condition Immunities charmed, exhaustion, grappled, paralyzed, petrified, poisoned, prone, restrained, unconscious
 Senses darkvision 60 Feet
@@ -200,7 +201,7 @@ Speed 40 Feet, fly 60 Feet
 22 (+6) 10 (+0) 20 (+5) 16 (+3) 18 (+4) 23 (+6)
 Saving Throws Dex +6, Con +11, Int +9, Wis +10
 Skills Arcana +9, Perception +10, Religion +15
-Damage Immunities psychic; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Immunities psychic; bludgeoning nm, piercing nm, slashing nm
 Condition Immunities charmed, frightened
 Senses truesight 120 Feet
 Languages Common 1, Sphinx 1
@@ -218,7 +219,7 @@ Second Roar. Each creature that fails a DC 18 Wisdom saving throw is deafened an
 Third Roar. Each creature makes a DC 18 Constitution saving throw. On a failed save, a creature takes 44 (8d10) thunder damage and is knocked prone. On a successful save, the creature takes half as much damage and isn’t knocked prone.
 Legendary Actions
 The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn.
-Claw Attack. The sphinx makes one claw attack.
+Claw Attack (Costs 1 Action). The sphinx makes one claw attack.
 Teleport (Costs 2 Actions). The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 Feet to an unoccupied space it can see.
 Cast a Spell (Costs 3 Actions). The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.
 END
@@ -230,7 +231,7 @@ Hit Points 136 (16d10+48)
 Speed 40 Feet, fly 60 Feet
 18 (+4) 15 (+2) 16 (+3) 18 (+4) 18 (+4) 18 (+4)
 Skills Arcana +12, History +12, Perception +8, Religion +8
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities psychic
 Condition Immunities charmed, frightened
 Senses truesight 120 Feet
@@ -245,7 +246,7 @@ Multiattack. The sphinx makes two claw attacks.
 Claw. MWA. +8 to hit, reach 5 Feet, 1 target. Hit: 13 (2d8+4) slashing damage.
 Legendary Actions
 The sphinx can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The sphinx regains spent legendary actions at the start of its turn.
-Claw Attack. The sphinx makes one claw attack.
+Claw Attack (Costs 1 Action). The sphinx makes one claw attack.
 Teleport (Costs 2 Actions). The sphinx magically teleports, along with any equipment it is wearing or carrying, up to 120 Feet to an unoccupied space it can see.
 Cast a Spell (Costs 3 Actions). The sphinx casts a spell from its list of prepared spells, using a spell slot as normal.
 END
@@ -287,7 +288,7 @@ Hit Points 66 (12d8+12)
 Speed 30 Feet, fly 60 Feet
 8 (−1) 17 (+3) 13 (+1) 15 (+2) 12 (+1) 20 (+5)
 Skills Deception +9, Insight +5, Perception +5, Persuasion +9, Stealth +7
-Damage Resistances cold, fire, lightning, poison; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances cold, fire, lightning, poison; bludgeoning nm, piercing nm, slashing nm
 Senses darkvision 60 Feet
 Languages Abyssal 1, Common 1, Infernal 1
 Telepathy 60 Feet

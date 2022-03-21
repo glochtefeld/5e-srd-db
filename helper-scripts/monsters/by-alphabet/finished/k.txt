@@ -22,7 +22,7 @@ Hit Points 472 (27d20+189)
 Speed 20 Feet, swim 60 Feet
 30 (+10) 11 (+0) 25 (+7) 22 (+6) 18 (+4) 20 (+5)
 Saving Throws Str +17, Dex +7, Con +14, Int +13, Wis +11
-Damage Immunities lightning; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Immunities lightning; bludgeoning nm, piercing nm, slashing nm
 Condition Immunities frightened, paralyzed
 Senses truesight 120 Feet
 Languages Abyssal 0, Celestial 0, Infernal 0, Primordial 0
@@ -40,7 +40,8 @@ Fling. One Large or smaller object held or creature grappled by the kraken is th
 Lightning Storm. The kraken magically creates three bolts of lightning, each of which can strike a target the kraken can see within 120 Feet of it. A target must make a DC 23 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.
 Legendary Actions
 The kraken can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The kraken regains spent legendary actions at the start of its turn.
-Tentacle Attack or Fling. The kraken makes one tentacle attack or uses its Fling.
+Tentacle Attack or Fling (Costs 1 Action). The kraken uses its Fling.
+Tentacle Attack (Costs 1 Action). The kraken makes one tentacle attack.
 Lightning Storm (Costs 2 Actions). The kraken uses Lightning Storm.
 Ink Cloud (Costs 3 Actions). While underwater, the kraken expels an ink cloud in a 60-­‐foot radius. The cloud spreads around corners, and that area is heavily obscured to creatures other than the kraken.  Each creature other than the kraken that ends its turn there must succeed on a DC 23 Constitution saving throw, taking 16 (3d10) poison damage on a failed save, or half as much damage on a successful one. A strong current disperses the cloud, which otherwise disappears at the end of the kraken’s next turn.
 END

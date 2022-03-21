@@ -5,9 +5,8 @@ Hit Points 676 (33d20+330)
 Speed 40 Feet
 30 (+10) 11 (+0) 30 (+10) 3 (−4) 11 (+0) 11 (+0)
 Saving Throws Int +5, Wis +9, Cha +9
-Damage Immunities fire, poison; bludgeoning, piercing, and slashing from nonmagical attacks
-Condition Immunities charmed, frightened, paralyzed,
-poisoned
+Damage Immunities fire, poison; bludgeoning nm, piercing nm, slashing nm
+Condition Immunities charmed, frightened, paralyzed, poisoned
 Senses blindsight 120 Feet
 Challenge 30 (155,000 XP)
 Traits
@@ -25,8 +24,8 @@ Frightful Presence. Each creature of the tarrasque’s choice within 120 Feet of
 Swallow. The tarrasque makes one bite attack against a Large or smaller creature it is grappling. If the attack hits, the target takes the bite’s damage, the target is swallowed, and the grapple ends. While swallowed, the creature is blinded and restrained, it has total cover against attacks and other effects outside the tarrasque, and it takes 56 (16d6) acid damage at the start of each of the tarrasque’s turns.  If the tarrasque takes 60 damage or more on a single turn from a creature inside it, the tarrasque must succeed on a DC 20 Constitution saving throw at the end of that turn or regurgitate all swallowed creatures, which fall prone in a space within 10 Feet of the tarrasque. If the tarrasque dies, a swallowed creature is no longer restrained by it and can escape from the corpse by using 30 Feet of movement, exiting prone.
 Legendary Actions
 The tarrasque can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The tarrasque regains spent legendary actions at the start of its turn.
-Attack. The tarrasque makes one claw attack or tail attack.
-Move. The tarrasque moves up to half its speed.  Chomp (Costs 2 Actions). The tarrasque makes one bite attack or uses its Swallow.
+Attack (Costs 1 Action). The tarrasque makes one claw attack or tail attack.
+Move (Costs 1 Action). The tarrasque moves up to half its speed.  Chomp (Costs 2 Actions). The tarrasque makes one bite attack or uses its Swallow.
 END
 
 Treant

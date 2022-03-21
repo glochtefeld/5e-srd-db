@@ -12,13 +12,13 @@ my %damage = as-hash('select name, id from damageType');
 my %conditions = as-hash('select name, id from condition');
 my %distance = as-hash('select measure, id from distance');
 
-constant @sizes = <Tiny Small Medium Large Huge Gargantuan>;
-constant @speedTypes = <Normal Burrow Climb Fly Swim>;
-constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil';
-constant @abilities = <Str Dex Con Int Wis Cha>; # Used for saves
-constant @senses = <blindsight darkvision tremorsense truesight>;
-constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>;
-constant @numbers = <one two three four five>; # dumb.
+constant @sizes = <Tiny Small Medium Large Huge Gargantuan>; # creatureSize
+constant @speedTypes = <normal burrow climb fly swim>; # movementType
+constant @alignments = 'lawful good', 'lawful neutral', 'lawful evil', 'neutral good', 'neutral neutral', 'neutral evil', 'chaotic good', 'chaotic neutral', 'chaotic evil', 'any alignment'; # alignment
+constant @abilities = <Str Dex Con Int Wis Cha>; # ability
+constant @senses = <blindsight darkvision tremorsense truesight>; # sense
+constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>; # challengeRating
+constant @numbers = <one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twenty-one twenty-two twenty-three twenty-four twenty-five twenty-six twenty-seven twenty-eight twenty-nine thirty thirty-one thirty-two thirty-three thirty-four thirty-five>; # dumb.
 
 
 my &get-pair = -> @arr { -> $s {
@@ -27,7 +27,9 @@ my &get-pair = -> @arr { -> $s {
     $key => Int($val);
 } };
 my &get-hash-pair = -> %hash { -> $s {
-    (my $key, my $val) = $s.trim.split(' ');
+    (my $key, my $val, my $other) = $s.trim.split(' ');
+    $key = $key ~ ' ' ~ $val if $other ~~ Any:D;
+    $val = $other if $other ~~ Any:D;
     %hash{$key} => Int($val);
 } };
 my &get-idx = -> @arr { -> $s { @arr.grep({$_ eq $s}, :k)[0] + 1; } };
@@ -59,15 +61,14 @@ class Monster {
     has Str $.hpFormula is rw;
     has @.speeds is rw;
     has @.scores is rw;
-    has IntPair @.saves is rw;
+    has @.saves is rw;
     has IntPair @.skills is rw;
     has Int $.passivePerception is rw;
     has @.senses is rw;
     has @.languages is rw;
     has $.telepathy is rw;
     has $.challenge is rw;
-    has @.damage-resistances is rw;
-    has @.damage-immunities is rw;
+    has @.damage-modifiers is rw;
     has @.condition-immunities is rw;
     has @.traits is rw;
     has $.multiattack is rw;
@@ -82,13 +83,16 @@ class Speed {
     has $.type;
     has $.speed;
     has $.measure;
+    has $.qualifier;
 
     submethod BUILD(:@arr) {
         given @arr.elems {
-            when 3 { $!type = @arr[0]; $!speed= @arr[2]; $!measure = @arr[2]; }
-            when 2 { $!type = ''; $!speed = @arr[0]; $!measure = @arr[1]; }
+            when 4 { $!qualifier = @arr[3]; proceed }
+            when * >= 3 { $!type = get-idx(@speedTypes)(@arr[0]); $!speed= @arr[1].Int; $!measure = %distance{@arr[2];} }
+            when 2 { $!type = 1; $!speed = @arr[0].Int; $!measure = %distance{@arr[1]}; }
             default { die "Unknown speed: {@arr.raku.say}"; }
         }
+        $!qualifier = '' unless $!qualifier ~~ Any:D;
     }
 }
 
@@ -117,6 +121,22 @@ class AtkDamage {
 sub MAIN($file) {
     my $contents = $file.IO.slurp;
     my @monsters = $contents.split(/\n\n/);
+
+    my @monster-sql;
+    my @speeds-sql;
+    my @scores-sql;
+    my @saves-sql;
+    my @skills-sql;
+    my @senses-sql;
+    my @languages-sql;
+    my @damage-modifiers-sql;
+    my @condition-immunities-sql;
+    my @traits-sql;
+    my @attacks-sql;
+    my @damages-sql;
+    my @actions-sql;
+    my @legendary-actions-sql;
+    my @reactions-sql;
     
     loop (my $i = 0; $i < @monsters.elems; $i++) {
         my @lines = @monsters[$i].split(/\n/);
@@ -124,9 +144,6 @@ sub MAIN($file) {
 
         $m.id = $i + 1;
         $m.name = @lines[0];
-        $m.name.say;
-        # (my $size, my $type, my $law-chaos, my $good-evil) = @lines[1].split(' ');
-        #$m.alignment = idx-from-list($law-chaos ~ ' ' ~ $good-evil, @alignments, :idx<0>).flat[0];
 
         (my $size, my $type, my $type-align) = @lines[1].split(' ', 3);
         $m.size = get-idx(@sizes)($size);
@@ -143,9 +160,11 @@ sub MAIN($file) {
         (my $hp, $m.hpFormula) = @lines[3].split(' ')[2..3];
         $m.hp = $hp.trim.Int;
         $m.speeds = @lines[4].substr(5..*).split(', ').map({Speed.new(arr=>$_.trim.split(' '))});
-        $m.scores = @lines[5].split(/\(.\d\)/).map({Int($_) if $_});
+        $m.scores = @lines[5].split(/\(.\d+\)/).map({Int($_) if $_});
         my $j = 6;
-        repeat { # Header
+
+        $m.damage-modifiers = Array.new;
+        until @lines[$j] eq 'Traits' { # Header
             my $line = @lines[$j++];
 
             if $line.match(/^Saving\sThrow/) {
@@ -158,29 +177,58 @@ sub MAIN($file) {
                 $m.senses = pair-from-list($line, @senses, :idx<6>);
             }
             elsif $line.match(/^Languages/) {
-                $m.languages = pair-from-hash($line, %languages, :idx<9>);
+                $m.languages = pair-from-hash($line, %languages, :idx<10>);
             }
             elsif $line.match(/^Telepathy/) { $m.telepathy = True; }
             elsif $line.match(/^Challenge/) {
                 my $challenge = $line.split(' ')[1];
-                $m.challenge = idx-from-list($challenge, @challenges, :idx<0>);
+                $m.challenge = idx-from-list($challenge, @challenges, :idx<0>)[0];
             }
             elsif $line.match(/^Damage\sResistances/) {
-                # damageTypeID | monsterID | mundane | silvered | adamantine | immune
-                my $adamantine = $line ~~ /adamantine/;
-                my $silver = $line ~~ /silver/;
-                my $mundane = $line ~~ /nonmagical/;
-                $line = $line.substr(18..*)
-                .subst(/(and|silver|adamantine|from\snonmagical\sattacks|that|aren.t)/, :g);
-                $m.damage-resistances = $line.split(/\,|\;/).map({%damage{$_.trim.tclc}=>($mundane ~~Any:D, $silver ~~ Any:D, $adamantine ~~ Any:D, False)});
+                # damageTypeID | monsterID | nonmagical | silvered | adamantine | dmg mult
+                $line = $line.substr(19..*);
+                $m.damage-modifiers.append($line.split(/\,|\;/).map({
+                    my @res = $_.trim.split(' ');
+                    if @res.elems > 1 {
+                        %damage{@res[0].trim.tclc}=>(
+                            (@res[1]~~/n./) ~~ Any:D, 
+                            (@res[1]~~/ns/)~~Any:D,
+                            (@res[1]~~/na/)~~Any:D,
+                            0.5
+                        );
+                    }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, 0.5); }
+                }));
             }
             elsif $line.match(/^Damage\sImmunities/) {
-                my $adamantine = $line ~~ /adamantine/;
-                my $silver = $line ~~ /silver/;
-                my $mundane = $line ~~ /nonmagical/;
-                $line = $line.substr(18..*)
-                .subst(/(and|silver|adamantine|from\snonmagical\sattacks|that|aren.t)/, :g);
-                $m.damage-resistances = $line.split(/\,|\;/).map({%damage{$_.trim.tclc}=>($mundane ~~Any:D, $silver ~~ Any:D, $adamantine ~~ Any:D, True)});
+                $line = $line.substr(18..*);
+                $m.damage-modifiers.append($line.split(/\,|\;/).map({
+                    my @res = $_.trim.split(' ');
+                    if @res.elems > 1 {
+                        %damage{@res[0].trim.tclc}=>(
+                            (@res[1]~~/n./) ~~ Any:D, 
+                            (@res[1]~~/ns/)~~Any:D,
+                            (@res[1]~~/na/)~~Any:D,
+                            0
+                        );
+                    }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, 0); }
+                }));
+            }
+            elsif $line.match(/^Damage\sVulnerabilities/) {
+                $line = $line.substr(23..*);
+                $m.damage-modifiers.append($line.split(/\,|\;/).map({
+                    my @res = $_.trim.split(' ');
+                    if @res.elems > 1 {
+                        %damage{@res[0].trim.tclc}=>(
+                            (@res[1]~~/n./) ~~ Any:D, 
+                            (@res[1]~~/ns/)~~Any:D,
+                            (@res[1]~~/na/)~~Any:D,
+                            2
+                        );
+                    }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, 2); }
+                }));
             }
             elsif $line.match(/^Condition\sImmunities/) {
                 $m.condition-immunities = $line.substr(21..*).split(',').map({%conditions{$_.trim.tclc}});
@@ -189,27 +237,34 @@ sub MAIN($file) {
                 $line.say;
                 die "Unknown property found";
             }
-        } until @lines[$j] eq 'Traits';
+        }
+
+        my %default-saves = $m.scores.pairs.map({($_.key + 1)=>($_.value div 2 - 5)}).hash;
+        for $m.saves { %default-saves{$_.key} = $_.value; }
+        $m.saves = %default-saves.Array.map({$_.key.Int=>$_.value});
+
         $m.passivePerception = ($m.skills.grep({$_.key == 14})[0].value 
             || $m.scores[4] div 2 - 5 ) 
             + 10;
+
         $m.telepathy = $m.telepathy || False;
+
         $j++; # Consume Traits
 
-        if @lines[$j] ne 'Actions' {
-            repeat { # Traits
-                my $line = @lines[$j++];
-                (my $name, my $desc) = $line.split('.', 2);
-                $m.traits.push($name=>$desc);
-            } until @lines[$j] eq 'Actions';
+        until @lines[$j] eq 'Actions' { # Traits
+            my $line = @lines[$j++];
+            (my $name, my $desc) = $line.split('.', 2);
+            $m.traits.push($name=>$desc);
         }
         ++$j;
 
-        repeat { # Actions
+        until @lines[$j] eq 'Legendary Actions' || @lines[$j] eq 'Reactions' || @lines[$j] eq 'END' { # Actions
             my $line = @lines[$j++];
 
             if $line ~~ /^Multiattack/ { 
-                $m.multiattack = get-idx(@numbers)(($line ~~/\(one|two|three|four|five\)/).Str) || 0;
+                my $match = ($line ~~/(one|two|three|four|five|six|seven|thirty\-five|1d4)/).Str;
+                if $match eq '1d4' { $m.multiattack = 4; }
+                else { $m.multiattack = get-idx(@numbers)($match) || 0; } # hydra goes hard
             }
             elsif $line ~~ /(M|R)+(S|W)A\./ {
                 my $a = Attack.new;
@@ -230,10 +285,10 @@ sub MAIN($file) {
                 my @melee;
                 my @range;
                 if $range ~~ /reach/ && $range ~~ /range/ {
-                    @melee = $range.split(' or ')[0].split(' ')[1..2];
-                    @range = $range.split(' or ')[1].trim.substr(6..*).split('/').map({$_.split(' ')});
+                    @melee = $range.split(' or ')[0].trim.split(' ')[1..2];
+                    @range = $range.split(' or ')[1].trim.substr(6..*).split(/\/|\s/);
                     $a.melee-range = @melee[0]=>%distance{@melee[1]};
-                    ($a.ranged-std, $a.ranged-upper) = @range.map({@_[0]=>%distance{@_[1]}});
+                    ($a.ranged-std, $a.ranged-upper) = (@range[0]=>%distance{@range[2]}, @range[0]=>%distance{@range[2]});
                 }
                 elsif $range ~~ /reach/ {
                     @melee = $range.split(' ')[1..2];
@@ -245,17 +300,22 @@ sub MAIN($file) {
                     ($a.ranged-std, $a.ranged-upper) = @rnge.map({@_[0]=>%distance{@rnge[*-1]}});
                 }
                 $a.target = $target.split(' ')[0].Int;
+                $a.ranged-std = '' unless $a.ranged-std ~~ Any:D;
+                $a.ranged-upper = '' unless $a.ranged-upper ~~ Any:D;
+                $a.melee-range = '' unless $a.melee-range ~~ Any:D;
 
                 (my $dmg, my $hiteff) = $hit.split('&');
                 $a.hitEffect = ($hiteff && $effect)
                     ?? $hiteff ~ '.' ~ $effect      # take both
                     !! ($hiteff || $effect || '');  # take whichever exists, or empty if neither
 
-                $a.damage = $dmg.substr(6..*).split('|').map({ my @a = $_.split(' ', 5); 
+                $a.damage = $dmg.substr(6..*).split('|').map({ # TODO: Fit in multiple damage types
+                    my @a = $_.split(' ', 5); 
                     AtkDamage.new(average=>@a[0],
                         formula=>@a[1],
-                        type=>@a[2],
-                        prereq=>(@a[5]|| ''));});
+                        type=>%damage{@a[2].tclc},
+                        prereq=>(@a[5]|| ''));
+                    });
 
                 $m.attacks.push($a);
             }
@@ -263,10 +323,7 @@ sub MAIN($file) {
                 (my $k, my $v) = $line.split('.', 2);
                 $m.actions.push($k=>$v);
             }
-        } until @lines[$j] eq 'Legendary Actions' 
-            || @lines[$j] eq 'Reactions' 
-            || @lines[$j] eq 'END';
-
+        }
         $m.multiattack = 0 unless $m.multiattack ~~ Any:D;
 
         while @lines[$j] ne 'END' && $j < @lines.elems {
@@ -286,16 +343,82 @@ sub MAIN($file) {
                     my $line = @lines[$j++];
                     (my $k, my $v) = $line.split('.', 2);
                     (my $name, my $costprt) = $k.split(' (Costs ');
-                    $costprt = $costprt.chop(9).Int;
+                    $costprt = $costprt.split(' ')[0].Int;
                     $m.legendary-actions.push($name=>($costprt, $v));
                 } until @lines[$j] eq 'Reactions'
                     || @lines[$j] eq 'END';
             }
         }
         $m.legendary-action-ct = 0 unless $m.legendary-action-ct ~~ Any:D;
-        # Monster has been finished
         
-        $m.raku.say;
+        # echo SQL
+        #`{ my @monster-sql;
+            my @speeds-sql;
+            my @scores-sql;
+            my @saves-sql;
+            my @skills-sql;
+            my @senses-sql;
+            my @languages-sql;
+            my @damage-modifiers-sql;
+            my @condition-immunities-sql;
+            my @traits-sql;
+            my @attacks-sql;
+            my @actions-sql;
+            my @legendary-actions-sql;
+            my @reactions-sql; }
+
+        my $monster-sql = "INSERT INTO monster ( name, sizeID, monsterTypeID, otherTypes, alignmentID, ac, hp, hpFormula, passivePerception, telepathy, challengeID, multiattack, legendaryActionsCount) VALUES ({$m.name}, {$m.size}, {$m.monsterType}, {$m.extra-types}, {$m.alignment}, {$m.ac}, {$m.hp}, {$m.hpFormula}, {$m.passivePerception}, {$m.telepathy}, {$m.challenge}, {$m.multiattack}, {$m.legendary-action-ct}); ";
+
+        @monster-sql.push($monster-sql);
+
+        for $m.speeds -> $s {
+            my $spd = "INSERT INTO monsterSpeed (monsterID, speedTypeID, amount, measureID, qualifier) VALUES ({$m.id}, {$s.type}, {$s.speed}, {$s.measure}, '{$s.qualifier}');";
+            @speeds-sql.push($spd);
+        }
+        for $m.scores.pairs {
+            @scores-sql.push("INSERT INTO monsterAbility (monsterID, abilityID, score) VALUES ({$m.id}, {$_.key + 1}, {$_.value});");
+        }
+        for $m.saves {
+            @saves-sql.push("INSERT INTO monsterSave (monsterID, abilityID, saveBonus) VALUES ({$m.id}, {$_.key}, {$_.value});");
+        }
+        for $m.skills {
+            @skills-sql.push("INSERT INTO monsterSkill (monsterID, skillID, bonus) VALUES ({$m.id}, {$_.key}, {$_.value});");
+        }
+        for $m.senses {
+            @senses-sql.push("INSERT INTO monsterSense (monsterID, senseID, range, measureID) VALUES ({$m.id}, {$_.key}, {$_.value}, 3);");
+        }
+        for $m.languages {
+            @languages-sql.push("INSERT INTO monsterLanguage (monsterID, languageID, canSpeak) VALUES ({$m.id}, {$_.key}, {$_.value});");
+        }
+        for $m.damage-modifiers {
+            my @vals = $_.value;
+            @damage-modifiers-sql.push("INSERT INTO monsterDamageModifier (monsterID, damageTypeID, onlyNonmagical, exceptNMSilver, exceptNMAdamantine, dmgMultiplier) VALUES ({$m.id}, {$_.key}, {@vals[0].Int}, {@vals[1].Int}, {@vals[2].Int}, {@vals[3]});"); 
+        }
+        for $m.condition-immunities {
+            @condition-immunities-sql.push("INSERT INTO monsterConditionImmunity (monsterID, conditionID) VALUES ({$m.id}, $_)");
+        }
+        for $m.traits {
+            @traits-sql.push("INSERT INTO monsterTrait (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
+        }
+        $m.attacks.raku.say;
+        for $m.attacks {
+            @attacks-sql.push("INSERT INTO monsterAttack (monsterID, name, toHitBonus, isMelee, isRanged, isSpell, isWeapon, meleeRange, meleeRangeDistID, stdRange, stdRangeDistID, maxRange, maxRangeDistID, targetCount, hitEffect) VALUES ({$m.id}, '{$_.name}', {$_.toHitBonus}, {$_.melee.Int}, {$_.range.Int}, {$_.spell.Int}, {$_.weapon.Int}, {$_.melee-range || 0}, 3, {$_.ranged-std || 0}, 3, {$_.ranged-upper || 0}, 3, {$_.target}, '{$_.hitEffect}');"); 
+            for $_.damage { 
+                # Tricky bit: the attackID is going to be @attacks-sql.elems.
+                @damages-sql.push("INSERT INTO monsterAttackDmg (attackID, average, formula, damageTypeID, prereq) VALUES ({@attacks-sql.elems}, {$_.average}, '{$_.formula}', {$_.type}, '{$_.prereq}');");
+            }
+        }
+        for $m.actions {
+            @actions-sql.push("INSERT INTO monsterAction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
+        }
+        $m.legendary-actions.raku.say;
+        for $m.legendary-actions {
+            @legendary-actions-sql.push("INSERT INTO monsterLegendaryAction (monsterID, name, description, cost) VALUES ({$m.id}, '{$_.key}', '{$_.value[1]}', {$_.value[0]});");
+        }
+        # $m.reactions.raku.say;
+        for $m.reactions {
+            @reactions-sql.push("INSERT INTO monsterReaction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
+        }
     }
 }
 #`{

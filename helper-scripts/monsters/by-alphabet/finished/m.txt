@@ -4,10 +4,10 @@ Armor Class 14 (natural armor)
 Hit Points 9 (2d6+2)
 Speed 30 Feet
 7 (−2) 15 (+2) 12 (+1) 8 (−1) 11 (+0) 10 (+0)
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities fire
 Senses darkvision 60 Feet
-Languages Primordial 1
+Languages Primordial Ignan 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the magmin dies, it explodes in a burst of fire and magma. Each creature within 10 Feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one. Flammable objects that aren’t being worn or carried in that area are ignited.
@@ -40,8 +40,7 @@ Armor Class 15 (natural armor)
 Hit Points 127 (17d8+51)
 Speed 30 Feet
 10 (+0) 15 (+2) 16 (+3) 12 (+1) 13 (+1) 15 (+2)
-Skills Deception +5, Insight +4, Perception +4, Stealth
-+5
+Skills Deception +5, Insight +4, Perception +4, Stealth +5
 Senses darkvision 60 Feet
 Languages Common 1
 Challenge 6 (2,300 XP)
@@ -65,7 +64,7 @@ Damage Vulnerabilities fire
 Damage Immunities poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Auran 1, Terran 1
+Languages Primordial Auran 1, Primordial Terran 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a burst of dust. Each creature within 5 Feet of it must then succeed on a DC 10 Constitution saving throw or be blinded for 1 minute. A blinded creature can repeat the saving throw on each of its turns, ending the effect on itself on a success.
@@ -86,7 +85,7 @@ Damage Vulnerabilities bludgeoning, fire
 Damage Immunities cold, poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Aquan 1, Auran 1
+Languages Primordial Aquan 1, Primordial Auran 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a burst of jagged ice. Each creature within 5 Feet of it must make a DC 10 Dexterity saving throw, taking 4 (1d8) slashing damage on a failed save, or half as much damage on a successful one.
@@ -108,7 +107,7 @@ Damage Vulnerabilities cold
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Primordial 1, Terran 1
+Languages Primordial Ignan 1, Primordial Terran 1
 Challenge 1/2 (100 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a burst of lava. Each creature within 5 Feet of it must make a DC 11 Dexterity saving throw, taking 7 (2d6) fire damage on a failed save, or half as much damage on a successful one.
@@ -128,7 +127,7 @@ Speed 30 Feet, fly 30 Feet
 Damage Immunities fire, poison
 Condition Immunities poisoned
 Senses darkvision 60 Feet
-Languages Aquan 1, Primordial 1
+Languages Primordial Aquan 1, Primordial Ignan 1
 Challenge 1/4 (50 XP)
 Traits
 Death Burst. When the mephit dies, it explodes in a cloud of steam. Each creature within 5 Feet of the mephit must succeed on a DC 10 Dexterity saving throw or take 4 (1d8) fire damage.
@@ -139,18 +138,18 @@ Steam Breath (Recharge 6). The mephit exhales a 15-­‐ foot cone of scalding s
 END
 
 Merfolk
-Medium humanoid (merfolk), neutral
+Medium humanoid (merfolk), neutral neutral
 Armor Class 11
 Hit Points 11 (2d8+2)
 Speed 10 Feet, swim 40 Feet
 10 (+0) 13 (+1) 12 (+1) 11 (+0) 11 (+0) 12 (+1)
 Skills Perception +2
-Languages Aquan 1, Common 1
+Languages Primordial Aquan 1, Common 1
 Challenge 1/8 (25 XP)
 Traits
 Amphibious. The merfolk can breathe air and water.
 Actions
-Spear. MRWA. +2 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 3 (1d6) piercing damage | 4 (1d8) piercing damage if used with two hands to make a melee attack.
+Spear. MRWA. +2 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 3 (1d6) piercing damage | 4 (1d8) piercing damage ? if used with two hands to make a melee attack.
 END
 
 Merrow
@@ -160,7 +159,7 @@ Hit Points 45 (6d10+12)
 Speed 10 Feet, swim 40 Feet
 18 (+4) 10 (+0) 15 (+2) 8 (−1) 10 (+0) 9 (−1)
 Senses darkvision 60 Feet
-Languages Abyssal 1, Aquan 1
+Languages Abyssal 1, Primordial Aquan 1
 Challenge 2 (450 XP)
 Traits
 Amphibious. The merrow can breathe air and water.
@@ -172,7 +171,7 @@ Harpoon. MRWA. +6 to hit, reach 5 Feet or range 20/60 Feet, 1 target. Hit: 11 (2
 END
 
 Mimic
-Medium monstrosity (shapechanger), neutral
+Medium monstrosity (shapechanger), neutral neutral
 Armor Class 12 (natural armor)
 Hit Points 58 (9d8+18)
 Speed 15 Feet
@@ -217,7 +216,7 @@ Speed 20 Feet
 16 (+3) 8 (−1) 15 (+2) 6 (−2) 10 (+0) 12 (+1)
 Saving Throws Wis +2
 Damage Vulnerabilities fire
-Damage Resistances bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances bludgeoning nm, piercing nm, slashing nm
 Damage Immunities necrotic, poison
 Condition Immunities charmed, exhaustion, frightened, paralyzed, poisoned
 Senses darkvision 60 Feet
@@ -239,7 +238,7 @@ Speed 20 Feet
 Saving Throws Con +8, Int +5, Wis +9, Cha +8
 Skills History +5, Religion +5
 Damage Vulnerabilities fire
-Damage Immunities necrotic, poison; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Immunities necrotic, poison; bludgeoning nm, piercing nm, slashing nm
 Condition Immunities charmed, exhaustion, frightened, paralyzed, poisoned
 Senses darkvision 60 Feet
 Languages Any 1
@@ -254,8 +253,8 @@ Rotting Fist. MWA. +9 to hit, reach 5 Feet, 1 target. Hit: 14 (3d6+4) bludgeonin
 Dreadful Glare. The mummy lord targets 1 creature it can see within 60 Feet of it. If the target can see the mummy lord, it must succeed on a DC 16 Wisdom saving throw against this magic or become frightened until the end of the mummy’s next turn. If the target fails the saving throw by 5 or more, it is also paralyzed for the same duration. A target that succeeds on the saving throw is immune to the Dreadful Glare of all mummies and mummy lords for the next 24 hours.
 Legendary Actions
 The mummy lord can take 3 legendary actions, choosing from the options below. Only one legendary action option can be used at a time and only at the end of another creature’s turn. The mummy lord regains spent legendary actions at the start of its turn.
-Attack. The mummy lord makes one attack with its rotting fist or uses its Dreadful Glare.
-Blinding Dust. Blinding dust and sand swirls magically around the mummy lord. Each creature within 5 Feet of the mummy lord must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature’s next turn.
+Attack (Costs 1 Action). The mummy lord makes one attack with its rotting fist or uses its Dreadful Glare.
+Blinding Dust (Costs 1 Action). Blinding dust and sand swirls magically around the mummy lord. Each creature within 5 Feet of the mummy lord must succeed on a DC 16 Constitution saving throw or be blinded until the end of the creature’s next turn.
 Blasphemous Word (Costs 2 Actions). The mummy lord utters a blasphemous word. Each non-­‐undead creature within 10 Feet of the mummy lord that can hear the magical utterance must succeed on a DC 16 Constitution saving throw or be stunned until the end of the mummy lord’s next turn.
 Channel Negative Energy (Costs 2 Actions). The mummy lord magically unleashes negative energy.  Creatures within 60 Feet of the mummy lord, including ones behind barriers and around corners, can’t regain hit points until the end of the mummy lord’s next turn.
 Whirlwind of Sand (Costs 2 Actions). The mummy lord magically transforms into a whirlwind of sand, moves up to 60 Feet, and reverts to its normal form. While in whirlwind form, the mummy lord is immune to all damage & it can’t be grappled, petrified, knocked prone, restrained, or stunned. Equipment worn or carried by the mummy lord remain in its possession.

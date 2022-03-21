@@ -34,7 +34,7 @@ Speed 30 Feet, fly 90 Feet
 18 (+4) 18 (+4) 18 (+4) 17 (+3) 20 (+5) 20 (+5)
 Saving Throws Wis +9, Cha +9
 Skills Insight +9, Perception +9
-Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances radiant; bludgeoning nm, piercing nm, slashing nm
 Condition Immunities charmed, exhaustion, frightened
 Senses darkvision 120 Feet
 Languages Any 1
@@ -57,7 +57,7 @@ Speed 40 Feet, fly 120 Feet
 24 (+7) 20 (+5) 24 (+7) 19 (+4) 22 (+6) 25 (+7)
 Saving Throws Con +12, Wis +11, Cha +12
 Skills Perception +11
-Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances radiant; bludgeoning nm, piercing nm, slashing nm
 Condition Immunities charmed, exhaustion, frightened
 Senses truesight 120 Feet
 Languages Any 1
@@ -81,7 +81,7 @@ Speed 50 Feet, fly 150 Feet
 26 (+8) 22 (+6) 26 (+8) 25 (+7) 25 (+7) 30 (+10)
 Saving Throws Int +14, Wis +14, Cha +17
 Skills Perception +14
-Damage Resistances radiant; bludgeoning, piercing, and slashing from nonmagical attacks
+Damage Resistances radiant; bludgeoning nm, piercing nm, slashing nm
 Damage Immunities necrotic, poison
 Condition Immunities charmed, exhaustion, frightened, poisoned
 Senses truesight 120 Feet
@@ -155,7 +155,7 @@ Antimagic Susceptibility. The rug is incapacitated while in the area of an antim
 Damage Transfer. While it is grappling a creature, the rug takes only half the damage dealt to it, and the creature grappled by the rug takes the other half.
 False Appearance. While the rug remains motionless, it is indistinguishable from a normal rug.
 Actions
-Smother. MWA. +5 to hit, reach 5 Feet, one Medium or smaller creature. Hit: The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes 10 (2d6+3) bludgeoning damage.
+Smother. MWA. +5 to hit, reach 5 Feet, 1 creature. Hit: 0 0d0 none damage. The creature is grappled (escape DC 13). Until this grapple ends, the target is restrained, blinded, and at risk of suffocating, and the rug can’t smother another target. In addition, at the start of each of the target’s turns, the target takes 10 (2d6+3) bludgeoning damage.
 END
 
 Ankheg
@@ -181,12 +181,12 @@ Speed 30 Feet
 Saving Throws Con +4
 Damage Immunities fire, poison
 Condition Immunities poisoned
-Languages Primordial 1
+Languages Primordial Ignan 1
 Challenge 2 (450 XP)
 Traits
 Heated Body. A creature that touches the azer or hits it with a melee attack while within 5 Feet of it takes 5 (1d10) fire damage.
 Heated Weapons. When the azer hits with a metal melee weapon, it deals an extra 3 (1d6) fire damage (included in the attack).
 Illumination. The azer sheds bright light in a 10-­‐foot radius and dim light for an additional 10 Feet.
 Actions
-Warhammer. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) bludgeoning damage plus 3 (1d6) fire damage | 8 (1d10+3) bludgeoning damage plus 3 (1d6) fire damage if used with two hands to make a melee attack.
+Warhammer. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) bludgeoning damage plus 3 (1d6) fire damage | 8 (1d10+3) bludgeoning damage plus 3 (1d6) fire damage ? if used with two hands to make a melee attack.
 END

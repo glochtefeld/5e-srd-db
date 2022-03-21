@@ -42,7 +42,7 @@ Tail. MWA. +10 to hit, reach 10 Feet, 1 target. Hit: 20 (3d8+7) bludgeoning dama
 END
 
 Doppelganger
-Medium monstrosity (shapechanger), neutral
+Medium monstrosity (shapechanger), neutral neutral
 Armor Class 14
 Hit Points 52 (8d8+16)
 Speed 30 Feet
