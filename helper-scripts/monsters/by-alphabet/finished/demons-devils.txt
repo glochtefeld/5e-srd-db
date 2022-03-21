@@ -447,3 +447,4 @@ Claw. MWA. +14 to hit, reach 10 Feet, 1 target. Hit: 17 (2d8+8) slashing damage.
 Mace. MWA. +14 to hit, reach 10 Feet, 1 target. Hit: 15 (2d6+8) bludgeoning damage plus 21 (6d6) fire damage.
 Tail. MWA. +14 to hit, reach 10 Feet, 1 target. Hit: 24 (3d10+8) bludgeoning damage.
 END
+

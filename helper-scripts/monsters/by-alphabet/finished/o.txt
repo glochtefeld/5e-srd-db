@@ -162,3 +162,4 @@ Multiattack. The owlbear makes two attacks: one with its beak and one with its c
 Beak. MWA. +7 to hit, reach 5 Feet, 1 creature. Hit: 10 (1d10+5) piercing damage.
 Claws. MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 14 (2d8+5) slashing damage.
 END
+

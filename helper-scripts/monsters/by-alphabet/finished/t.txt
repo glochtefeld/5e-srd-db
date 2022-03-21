@@ -66,3 +66,4 @@ Multiattack. The troll makes three attacks: one with its bite and two with its c
 Bite. MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 7 (1d6+4) piercing damage.
 Claw. MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 11 (2d6+4) slashing damage.
 END
+

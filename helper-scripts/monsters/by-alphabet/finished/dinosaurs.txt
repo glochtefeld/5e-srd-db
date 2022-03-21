@@ -23,7 +23,7 @@ Traits
 Trampling Charge. If the triceratops moves at least 20 Feet straight toward a creature and then hits it with a gore attack on the same turn, that target must succeed on a DC 13 Strength saving throw or be knocked prone.  If the target is prone, the triceratops can make one stomp attack against it as a bonus action.
 Actions
 Gore. MWA. +9 to hit, reach 5 Feet, 1 target. Hit: 24 (4d8+6) piercing damage.
-Stomp. MWA. +9 to hit, reach 5 Feet, one pr1 creature. Hit: 22 (3d10+6) bludgeoning damage.
+Stomp. MWA. +9 to hit, reach 5 Feet, 1 prone creature. Hit: 22 (3d10+6) bludgeoning damage.
 END
 
 Tyrannosaurus Rex
@@ -61,3 +61,4 @@ Multiattack. The doppelganger makes two melee attacks.
 Slam. MWA. +6 to hit, reach 5 Feet, 1 target. Hit: 7 (1d6+4) bludgeoning damage.
 Read Thoughts. The doppelganger magically reads the surface thoughts of 1 creature within 60 Feet of it.  The effect can penetrate barriers, but 3 Feet of wood or dirt, 2 Feet of stone, 2 inches of metal, or a thin sheet of lead blocks it. While the target is in range, the doppelganger can continue reading its thoughts, as long as the doppelganger’s concentration isn’t broken (as if concentrating on a spell). While reading the target’s mind, the doppelganger has advantage on Wisdom (Insight) and Charisma (Deception, Intimidation, and Persuasion) checks against the target.
 END
+

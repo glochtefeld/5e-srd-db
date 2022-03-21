@@ -190,3 +190,4 @@ Illumination. The azer sheds bright light in a 10-­‐foot radius and dim light
 Actions
 Warhammer. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) bludgeoning damage plus 3 (1d6) fire damage | 8 (1d10+3) bludgeoning damage plus 3 (1d6) fire damage ? if used with two hands to make a melee attack.
 END
+

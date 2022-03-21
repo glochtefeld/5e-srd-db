@@ -1,9 +1,8 @@
 use v6;
 use DBIish;
-use PrettyDump;
 
-# other path: /mnt/c/Users/gll/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
+# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -111,12 +110,18 @@ class Attack {
     has $.hitEffect is rw;
 }
 
-class AtkDamage {
-    has $.average;
-    has $.formula;
-    has $.type;
-    has $.prereq;
-}
+#`[
+    class AtkDamage {
+        has @.rolls;
+        has $.prereq;
+    }
+
+    class AtkDmgPart {
+        has $.average;
+        has $.formula;
+        has $.type;
+    }
+]
 
 sub MAIN($file) {
     my $contents = $file.IO.slurp;
@@ -300,22 +305,25 @@ sub MAIN($file) {
                     ($a.ranged-std, $a.ranged-upper) = @rnge.map({@_[0]=>%distance{@rnge[*-1]}});
                 }
                 $a.target = $target.split(' ')[0].Int;
-                $a.ranged-std = '' unless $a.ranged-std ~~ Any:D;
-                $a.ranged-upper = '' unless $a.ranged-upper ~~ Any:D;
-                $a.melee-range = '' unless $a.melee-range ~~ Any:D;
+                $a.ranged-std = 0=>0 unless $a.ranged-std ~~ Any:D;
+                $a.ranged-upper = 0=>0 unless $a.ranged-upper ~~ Any:D;
+                $a.melee-range = 0=>0 unless $a.melee-range ~~ Any:D;
 
                 (my $dmg, my $hiteff) = $hit.split('&');
                 $a.hitEffect = ($hiteff && $effect)
                     ?? $hiteff ~ '.' ~ $effect      # take both
                     !! ($hiteff || $effect || '');  # take whichever exists, or empty if neither
 
-                $a.damage = $dmg.substr(6..*).split('|').map({ # TODO: Fit in multiple damage types
-                    my @a = $_.split(' ', 5); 
-                    AtkDamage.new(average=>@a[0],
-                        formula=>@a[1],
-                        type=>%damage{@a[2].tclc},
-                        prereq=>(@a[5]|| ''));
+                $a.damage = $dmg.substr(6..*).split('|');
+                #`[.map({
+                    (my $rolls, my $prereq) = $_.split('?');
+                    $prereq = $prereq.trim if $prereq ~~ Any:D;
+
+                    my @rolls = $rolls.split(' plus ').map({
+                        my @r = $_.trim.split(' ');
+                        AtkDmgPart.new(average=>@r[0].Int, formula=>@r[1], type=>%damage{@r[2]});
                     });
+                });]
 
                 $m.attacks.push($a);
             }
@@ -332,7 +340,7 @@ sub MAIN($file) {
                 repeat {
                     my $line = @lines[$j++];
                     (my $k, my $v) = $line.split('.', 2);
-                    $m.actions.push($k=>$v);
+                    $m.reactions.push($k=>$v);
                 } until @lines[$j] eq 'Legendary Actions'
                     || @lines[$j] eq 'END';
             }
@@ -372,7 +380,7 @@ sub MAIN($file) {
         @monster-sql.push($monster-sql);
 
         for $m.speeds -> $s {
-            my $spd = "INSERT INTO monsterSpeed (monsterID, speedTypeID, amount, measureID, qualifier) VALUES ({$m.id}, {$s.type}, {$s.speed}, {$s.measure}, '{$s.qualifier}');";
+            my $spd = "INSERT INTO monsterSpeed (monsterID, movementTypeID, amount, measureID, qualifier) VALUES ({$m.id}, {$s.type}, {$s.speed}, {$s.measure}, '{$s.qualifier}');";
             @speeds-sql.push($spd);
         }
         for $m.scores.pairs {
@@ -400,26 +408,54 @@ sub MAIN($file) {
         for $m.traits {
             @traits-sql.push("INSERT INTO monsterTrait (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
         }
-        $m.attacks.raku.say;
         for $m.attacks {
-            @attacks-sql.push("INSERT INTO monsterAttack (monsterID, name, toHitBonus, isMelee, isRanged, isSpell, isWeapon, meleeRange, meleeRangeDistID, stdRange, stdRangeDistID, maxRange, maxRangeDistID, targetCount, hitEffect) VALUES ({$m.id}, '{$_.name}', {$_.toHitBonus}, {$_.melee.Int}, {$_.range.Int}, {$_.spell.Int}, {$_.weapon.Int}, {$_.melee-range || 0}, 3, {$_.ranged-std || 0}, 3, {$_.ranged-upper || 0}, 3, {$_.target}, '{$_.hitEffect}');"); 
+            @attacks-sql.push("INSERT INTO monsterAttack (monsterID, name, toHitBonus, isMelee, isRanged, isSpell, isWeapon, meleeRange, meleeRangeDistID, stdRange, stdRangeDistID, maxRange, maxRangeDistID, targetCount, hitEffect) VALUES ({$m.id}, '{$_.name}', {$_.toHitBonus}, {$_.melee.Int}, {$_.range.Int}, {$_.spell.Int}, {$_.weapon.Int}, {$_.melee-range.key}, 3, {$_.ranged-std.key}, 3, {$_.ranged-upper.key}, 3, {$_.target}, '{$_.hitEffect}');"); 
             for $_.damage { 
                 # Tricky bit: the attackID is going to be @attacks-sql.elems.
-                @damages-sql.push("INSERT INTO monsterAttackDmg (attackID, average, formula, damageTypeID, prereq) VALUES ({@attacks-sql.elems}, {$_.average}, '{$_.formula}', {$_.type}, '{$_.prereq}');");
+                @damages-sql.push("INSERT INTO monsterAttackDmg (attackID, roll) VALUES ({@attacks-sql.elems}, '$_');");
             }
         }
         for $m.actions {
             @actions-sql.push("INSERT INTO monsterAction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
         }
-        $m.legendary-actions.raku.say;
         for $m.legendary-actions {
             @legendary-actions-sql.push("INSERT INTO monsterLegendaryAction (monsterID, name, description, cost) VALUES ({$m.id}, '{$_.key}', '{$_.value[1]}', {$_.value[0]});");
         }
-        # $m.reactions.raku.say;
         for $m.reactions {
             @reactions-sql.push("INSERT INTO monsterReaction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
         }
     }
+
+    "DELETE FROM monster;\nDELETE FROM sqlite_sequence WHERE name='monster';".say;
+    for @monster-sql { $_.say; }
+    "\nDELETE FROM monsterSpeed;\nDELETE FROM sqlite_sequence WHERE name='monsterSpeed';".say;
+    for @speeds-sql { $_.say; }
+    "\nDELETE FROM monsterAbility;\nDELETE FROM sqlite_sequence WHERE name='monsterAbility';".say;
+    for @scores-sql { $_.say; }
+    "\nDELETE FROM monsterSave;\nDELETE FROM sqlite_sequence WHERE name='monsterSave';".say;
+    for @saves-sql { $_.say; }
+    "\nDELETE FROM monsterSkill;\nDELETE FROM sqlite_sequence WHERE name='monsterSkill';".say;
+    for @skills-sql { $_.say; }
+    "\nDELETE FROM monsterSense;\nDELETE FROM sqlite_sequence WHERE name='monsterSense';".say;
+    for @senses-sql { $_.say; }
+    "\nDELETE FROM monsterLanguage;\nDELETE FROM sqlite_sequence WHERE name='monsterLanguage';".say;
+    for @languages-sql { $_.say; }
+    "\nDELETE FROM monsterDamageModifier;\nDELETE FROM sqlite_sequence WHERE name='monsterDamageModifier';".say;
+    for @damage-modifiers-sql { $_.say; }
+    "\nDELETE FROM monsterConditionImmunity;\nDELETE FROM sqlite_sequence WHERE name='monsterConditionImmunity';".say;
+    for @condition-immunities-sql { $_.say; }
+    "\nDELETE FROM monsterTrait;\nDELETE FROM sqlite_sequence WHERE name='monsterTrait';".say;
+    for @traits-sql { $_.say; }
+    "\nDELETE FROM monsterAttack;\nDELETE FROM sqlite_sequence WHERE name='monsterAttack';".say;
+    for @attacks-sql { $_.say; }
+    "\nDELETE FROM monsterAttackDmg;\nDELETE FROM sqlite_sequence WHERE name='monsterAttackDmg';".say;
+    for @damages-sql { $_.say; }
+    "\nDELETE FROM monsterAction;\nDELETE FROM sqlite_sequence WHERE name='monsterAction';".say;
+    for @actions-sql { $_.say; }
+    "\nDELETE FROM monsterLegendaryAction;\nDELETE FROM sqlite_sequence WHERE name='monsterLegendaryAction';".say;
+    for @legendary-actions-sql { $_.say; }
+    "\nDELETE FROM monsterReaction;\nDELETE FROM sqlite_sequence WHERE name='monsterReaction';".say;
+    for @reactions-sql { $_.say; }
 }
 #`{
     A warning:

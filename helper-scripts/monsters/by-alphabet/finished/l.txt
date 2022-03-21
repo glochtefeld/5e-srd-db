@@ -348,3 +348,4 @@ Multiattack (Humanoid or Hybrid Form Only). The werewolf makes two attacks: one 
 Bite (Wolf or Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 6 (1d8+2) piercing damage. If the target is a humanoid, it must succeed on a DC 12 Constitution saving throw or be cursed with werewolf lycanthropy.
 Claws (Hybrid Form Only). MWA. +4 to hit, reach 5 Feet, 1 creature. Hit: 7 (2d4+2) slashing damage.
 END
+

@@ -78,3 +78,4 @@ Bite. MWA. +7 to hit, reach 10 Feet, 1 creature. Hit: 11 (2d6+4) piercing damage
 Claws. MWA. +7 to hit, reach 5 Feet, 1 target. Hit: 13 (2d8+4) slashing damage.
 Stinger. MWA. +7 to hit, reach 10 Feet, 1 creature. Hit: 11 (2d6+4) piercing damage. The target must make a DC 15 Constitution saving throw, taking 24 (7d6) poison damage on a failed save, or half as much damage on a successful one.
 END
+

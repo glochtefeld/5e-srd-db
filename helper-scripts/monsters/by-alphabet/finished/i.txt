@@ -18,3 +18,4 @@ Actions
 Multiattack. The stalker makes two slam attacks.
 Slam. MWA. +6 to hit, reach 5 Feet, 1 target. Hit: 10 (2d6+3) bludgeoning damage.
 END
+

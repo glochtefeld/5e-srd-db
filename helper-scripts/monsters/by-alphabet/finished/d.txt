@@ -60,3 +60,4 @@ War Pick. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 6 (1d8+2) piercing damage
 Javelin. MRWA. +4 to hit, reach 5 Feet or range 30/120 Feet, 1 target. Hit: 5 (1d6+2) piercing damage | 9 (2d6+2) piercing damage ? while enlarged.
 Invisibility (Recharges after a Short or Long Rest). The duergar magically turns invisible until it attacks, casts a spell, or uses its Enlarge, or until its concentration is broken, up to 1 hour (as if concentrating on a spell).  Any equipment the duergar wears or carries is invisible with it.
 END
+

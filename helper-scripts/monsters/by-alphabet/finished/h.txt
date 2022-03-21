@@ -180,3 +180,4 @@ Actions
 Multiattack. The hydra makes as many bite attacks as it has heads, up to thirty-five.
 Bite. MWA. +8 to hit, reach 10 Feet, 1 target. Hit: 10 (1d10+5) piercing damage.
 END
+

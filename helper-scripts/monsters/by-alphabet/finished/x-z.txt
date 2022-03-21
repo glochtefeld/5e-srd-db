@@ -53,3 +53,4 @@ Undead Fortitude. If damage reduces the zombie to 0 hit points, it must make a C
 Actions
 Morningstar. MWA. +6 to hit, reach 5 Feet, 1 target. Hit: 13 (2d8+4) bludgeoning damage.
 END
+
