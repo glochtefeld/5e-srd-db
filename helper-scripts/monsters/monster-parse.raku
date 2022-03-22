@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/Users/gll/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
+# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -19,6 +19,18 @@ constant @senses = <blindsight darkvision tremorsense truesight>; # sense
 constant @challenges = <0 1/8 1/4 1/2 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30>; # challengeRating
 constant @numbers = <one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen twenty twenty-one twenty-two twenty-three twenty-four twenty-five twenty-six twenty-seven twenty-eight twenty-nine thirty thirty-one thirty-two thirty-three thirty-four thirty-five>; # dumb.
 
+sub rsplit(Str:D $delim, Str:D $in, $count=999) {
+    my @res-idx = $in.indices($delim)[*-($count == 999 ?? 0 !! $count-1)..*];
+
+    my @res = Array.new;
+    my $start = 0;
+    loop (my $i = 0; $i < @res-idx.elems; $i++) {
+        @res.push($in.substr($start..@res-idx[$i] - 1));
+        $start = @res-idx[$i] + 1;
+    }
+    @res.push($in.substr(@res-idx[*-1] + 1..*));
+}
+    
 
 my &get-pair = -> @arr { -> $s {
     (my $predicate, my $val) = $s.trim.split(' ');
@@ -26,9 +38,10 @@ my &get-pair = -> @arr { -> $s {
     $key => Int($val);
 } };
 my &get-hash-pair = -> %hash { -> $s {
-    (my $key, my $val, my $other) = $s.trim.split(' ');
-    $key = $key ~ ' ' ~ $val if $other ~~ Any:D;
-    $val = $other if $other ~~ Any:D;
+    (my $key, my $val) = rsplit(' ', $s.trim, 2);
+    # (my $key, my $val, my $other) = $s.trim.split(' ');
+    # $key = $key ~ ' ' ~ $val if $other ~~ Any:D;
+    # $val = $other if $other ~~ Any:D;
     %hash{$key} => Int($val);
 } };
 my &get-idx = -> @arr { -> $s { @arr.grep({$_ eq $s}, :k)[0] + 1; } };
@@ -200,10 +213,11 @@ sub MAIN($file) {
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
                             (@res[1]~~/mg/)~~Any:D,
+                            (@res[1]~~/fs/)~~Any:D,
                             0.5
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 0.5); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, False, 0.5); }
                 }));
             }
             elsif $line.match(/^Damage\sImmunities/) {
@@ -216,10 +230,11 @@ sub MAIN($file) {
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
                             (@res[1]~~/mg/)~~Any:D,
+                            (@res[1]~~/fs/)~~Any:D,
                             0
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 0); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, False, 0); }
                 }));
             }
             elsif $line.match(/^Damage\sVulnerabilities/) {
@@ -232,10 +247,11 @@ sub MAIN($file) {
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
                             (@res[1]~~/mg/)~~Any:D,
+                            (@res[1]~~/fs/)~~Any:D,
                             2
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 2); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, False, 2); }
                 }));
             }
             elsif $line.match(/^Condition\sImmunities/) {
@@ -419,7 +435,7 @@ sub MAIN($file) {
             @reactions-sql.push("INSERT INTO monsterReaction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
         }
     }
-
+    #`[
     "DELETE FROM monster;\nDELETE FROM sqlite_sequence WHERE name='monster';".say;
     for @monster-sql { $_.say; }
     "\nDELETE FROM monsterSpeed;\nDELETE FROM sqlite_sequence WHERE name='monsterSpeed';".say;
@@ -450,6 +466,7 @@ sub MAIN($file) {
     for @legendary-actions-sql { $_.say; }
     "\nDELETE FROM monsterReaction;\nDELETE FROM sqlite_sequence WHERE name='monsterReaction';".say;
     for @reactions-sql { $_.say; }
+]
 }
 #`{
     A warning:

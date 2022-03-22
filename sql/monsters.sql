@@ -105,6 +105,7 @@ CREATE TABLE monsterDamageModifier (
     exceptNMSilver BOOLEAN NOT NULL DEFAULT 0,
     exceptNMAdamantine BOOLEAN NOT NULL DEFAULT 0,
     magicalGood BOOLEAN NOT NULL DEFAULT 0,
+    fromSpell BOOLEAN NOT NULL DEFAULT 0,
     dmgMultiplier DECIMAL(18,2) NOT NULL
 );
 
