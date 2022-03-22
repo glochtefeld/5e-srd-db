@@ -16,8 +16,8 @@ This is a small file that I use to keep track of what sections still need relati
 - [x] Diseases
 - [x] Poisons
 - [ ] Magic Items
-- [ ] Monsters
-- [ ] Appendix PH-A
+- [x] Monsters
+- [x] Appendix PH-A
 - [x] Appendix PH-B (nice)
 - [x] Appendix PH-C
 - [ ] Appendix MM-A

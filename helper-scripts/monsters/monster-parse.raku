@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
+# other path: /mnt/c/Users/gll/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -190,7 +190,7 @@ sub MAIN($file) {
                 $m.challenge = idx-from-list($challenge, @challenges, :idx<0>)[0];
             }
             elsif $line.match(/^Damage\sResistances/) {
-                # damageTypeID | monsterID | nonmagical | silvered | adamantine | dmg mult
+                # damageTypeID | monsterID | nonmagical | silvered | adamantine | magicalGood | dmg mult
                 $line = $line.substr(19..*);
                 $m.damage-modifiers.append($line.split(/\,|\;/).map({
                     my @res = $_.trim.split(' ');
@@ -199,10 +199,11 @@ sub MAIN($file) {
                             (@res[1]~~/n./) ~~ Any:D, 
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
+                            (@res[1]~~/mg/)~~Any:D,
                             0.5
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, 0.5); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 0.5); }
                 }));
             }
             elsif $line.match(/^Damage\sImmunities/) {
@@ -214,10 +215,11 @@ sub MAIN($file) {
                             (@res[1]~~/n./) ~~ Any:D, 
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
+                            (@res[1]~~/mg/)~~Any:D,
                             0
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, 0); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 0); }
                 }));
             }
             elsif $line.match(/^Damage\sVulnerabilities/) {
@@ -226,13 +228,14 @@ sub MAIN($file) {
                     my @res = $_.trim.split(' ');
                     if @res.elems > 1 {
                         %damage{@res[0].trim.tclc}=>(
-                            (@res[1]~~/n./) ~~ Any:D, 
+                            (@res[1]~~/n./)~~Any:D, 
                             (@res[1]~~/ns/)~~Any:D,
                             (@res[1]~~/na/)~~Any:D,
+                            (@res[1]~~/mg/)~~Any:D,
                             2
                         );
                     }
-                    else { %damage{$_.trim.tclc}=>(False, False, False, 2); }
+                    else { %damage{$_.trim.tclc}=>(False, False, False, False, 2); }
                 }));
             }
             elsif $line.match(/^Condition\sImmunities/) {
@@ -302,7 +305,14 @@ sub MAIN($file) {
                 elsif $range ~~ /range/ {
                     @range = $range.trim.substr(6..*).split(/(\/|\s)/);
                     my @rnge = @range[0..*-1];
-                    ($a.ranged-std, $a.ranged-upper) = @rnge.map({@_[0]=>%distance{@rnge[*-1]}});
+                    if $a.weapon {
+                        ($a.ranged-std, $a.ranged-upper) = @rnge.map({
+                            @_[0]=>%distance{@rnge[*-1]}});
+                    }
+                    else {
+                        ($a.ranged-std, $a.ranged-upper) = (@rnge[0]=>%distance{@rnge[1]},
+                            @rnge[0]=>%distance{@rnge[1]});
+                    }
                 }
                 $a.target = $target.split(' ')[0].Int;
                 $a.ranged-std = 0=>0 unless $a.ranged-std ~~ Any:D;
@@ -359,23 +369,7 @@ sub MAIN($file) {
         }
         $m.legendary-action-ct = 0 unless $m.legendary-action-ct ~~ Any:D;
         
-        # echo SQL
-        #`{ my @monster-sql;
-            my @speeds-sql;
-            my @scores-sql;
-            my @saves-sql;
-            my @skills-sql;
-            my @senses-sql;
-            my @languages-sql;
-            my @damage-modifiers-sql;
-            my @condition-immunities-sql;
-            my @traits-sql;
-            my @attacks-sql;
-            my @actions-sql;
-            my @legendary-actions-sql;
-            my @reactions-sql; }
-
-        my $monster-sql = "INSERT INTO monster ( name, sizeID, monsterTypeID, otherTypes, alignmentID, ac, hp, hpFormula, passivePerception, telepathy, challengeID, multiattack, legendaryActionsCount) VALUES ({$m.name}, {$m.size}, {$m.monsterType}, {$m.extra-types}, {$m.alignment}, {$m.ac}, {$m.hp}, {$m.hpFormula}, {$m.passivePerception}, {$m.telepathy}, {$m.challenge}, {$m.multiattack}, {$m.legendary-action-ct}); ";
+        my $monster-sql = "INSERT INTO monster (name, sizeID, monsterTypeID, otherTypes, alignmentID, ac, hp, hpFormula, passivePerception, telepathy, challengeID, multiattack, legendaryActionsCount) VALUES ('{$m.name}', {$m.size}, {$m.monsterType}, '{$m.extra-types}', {$m.alignment}, {$m.ac}, {$m.hp}, '{$m.hpFormula}', {$m.passivePerception}, {$m.telepathy}, {$m.challenge}, {$m.multiattack}, {$m.legendary-action-ct});";
 
         @monster-sql.push($monster-sql);
 
@@ -400,10 +394,10 @@ sub MAIN($file) {
         }
         for $m.damage-modifiers {
             my @vals = $_.value;
-            @damage-modifiers-sql.push("INSERT INTO monsterDamageModifier (monsterID, damageTypeID, onlyNonmagical, exceptNMSilver, exceptNMAdamantine, dmgMultiplier) VALUES ({$m.id}, {$_.key}, {@vals[0].Int}, {@vals[1].Int}, {@vals[2].Int}, {@vals[3]});"); 
+            @damage-modifiers-sql.push("INSERT INTO monsterDamageModifier (monsterID, damageTypeID, onlyNonmagical, exceptNMSilver, exceptNMAdamantine, magicalGood, dmgMultiplier) VALUES ({$m.id}, {$_.key}, {@vals[0].Int}, {@vals[1].Int}, {@vals[2].Int}, {@vals[3]}, {@vals[4]});"); 
         }
         for $m.condition-immunities {
-            @condition-immunities-sql.push("INSERT INTO monsterConditionImmunity (monsterID, conditionID) VALUES ({$m.id}, $_)");
+            @condition-immunities-sql.push("INSERT INTO monsterConditionImmunity (monsterID, conditionID) VALUES ({$m.id}, $_);");
         }
         for $m.traits {
             @traits-sql.push("INSERT INTO monsterTrait (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");

@@ -29,6 +29,7 @@ CREATE TABLE sense (
 DROP TABLE IF EXISTS monster;
 CREATE TABLE monster (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
+    name VARCHAR(50) NOT NULL,
     sizeID INTEGER REFERENCES creatureSize (id),
     monsterTypeID REFERENCES monsterType (id),
     otherTypes VARCHAR(30) NOT NULL DEFAULT '',
@@ -97,13 +98,14 @@ CREATE TABLE monsterLanguage (
 
 DROP TABLE IF EXISTS monsterDamageModifier;
 CREATE TABLE monsterDamageModifier (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     monsterID INTEGER REFERENCES monster (id),
     damageTypeID INTEGER REFERENCES damageType (id),
     onlyNonmagical BOOLEAN NOT NULL DEFAULT 0,
     exceptNMSilver BOOLEAN NOT NULL DEFAULT 0,
     exceptNMAdamantine BOOLEAN NOT NULL DEFAULT 0,
-    dmgMultiplier DECIMAL(18,2) NOT NULL,
-    PRIMARY KEY (monsterID, damageTypeID)
+    magicalGood BOOLEAN NOT NULL DEFAULT 0,
+    dmgMultiplier DECIMAL(18,2) NOT NULL
 );
 
 DROP TABLE IF EXISTS monsterConditionImmunity;
@@ -161,7 +163,8 @@ CREATE TABLE monsterLegendaryAction (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     monsterID INTEGER REFERENCES monster (id),
     name VARCHAR(30) NOT NULL DEFAULT '',
-    description VARCHAR(1000) NOT NULL DEFAULT ''
+    description VARCHAR(1000) NOT NULL DEFAULT '',
+    cost INTEGER NOT NULL DEFAULT 1
 );
 
 DROP TABLE IF EXISTS monsterReaction;
