@@ -5,9 +5,22 @@ one of the hardest substances in existence. While
 you’re wearing it, any critical hit against you
 becomes a normal hit.
 
-Ammunition, +1, +2, or +3
-Weapon (any ammunition), uncommon (+1), rare
-(+2), or very rare (+3)
+Ammunition, +1
+Weapon (any ammunition), uncommon
+You have a bonus to attack and damage rolls made
+with this piece of magic ammunition. The bonus is
+determined by the rarity of the ammunition. Once it
+hits a target, the ammunition is no longer magical.
+
+Ammunition, +2
+Weapon (any ammunition), rare
+You have a bonus to attack and damage rolls made
+with this piece of magic ammunition. The bonus is
+determined by the rarity of the ammunition. Once it
+hits a target, the ammunition is no longer magical.
+
+Ammunition, +3
+Weapon (any ammunition), very rare
 You have a bonus to attack and damage rolls made
 with this piece of magic ammunition. The bonus is
 determined by the rarity of the ammunition. Once it
@@ -62,15 +75,6 @@ inside. Ten levers are set in a row at the far end, each
 in a neutral position, able to move either up or down.
 When certain levers are used, the apparatus
 transforms to resemble a giant lobster.
-
-The apparatus of the Crab is a Large object with
-the following statistics:
-Armor Class: 20
-Hit Points: 200
-Speed: 30 ft., swim 30 ft. (or 0 ft. for both if the legs
-and tail aren’t extended)
-Damage Immunities: poison, psychic
-
 To be used as a vehicle, the apparatus requires one
 pilot. While the apparatus’s hatch is closed, the
 compartment is airtight and watertight. The
@@ -88,77 +92,18 @@ neutral position. Each lever, from left to right,
 functions as shown in the Apparatus of the Crab
 Levers table.
 
-Apparatus of the Crab Levers
-Lever
-Up
-Down
-1
-Legs and tail extend,
-Legs and tail retract,
-allowing the apparatus
-to walk and swim.
-reducing the apparatus’s
-speed to 0 and making it
-unable to benefit from
-bonuses to speed.
-2
-Forward window shutter
-opens.
-Forward window shutter
-closes.
-3
-Side window shutters
-open (two per side).
-Side window shutters
-close (two per side).
-4
-Two claws extend from
-the front sides of the
-apparatus.
-The claws retract.
-5
-Each extended claw
-makes the following
-melee weapon attack:
-+8 to hit, reach 5 ft., one
-target. Hit: 7 (2d6)
-bludgeoning damage.
-Each extended claw
-makes the following
-melee weapon attack: +8
-to hit, reach 5 ft., one
-target. Hit: The target is
-grappled (escape DC 15).
-6
-The apparatus walks or
-swims forward.
-The apparatus walks or
-swims backward.
-7
-The apparatus turns 90
-degrees left.
-The apparatus turns 90
-degrees right.
-8
-Eyelike fixtures emit
-bright light in a 30-­‐foot
-radius and dim light for
-an additional 30 feet.
-The light turns off.
-9
-The apparatus sinks as
-much as 20 feet in
-liquid.
-The apparatus rises up
-to 20 feet in liquid.
-10
-The rear hatch unseals
-and opens.
-The rear hatch closes
-and seals.
+Armor, +1
+Armor (light, medium, or heavy), rare
+You have a bonus to AC while wearing this armor.
+The bonus is determined by its rarity.
 
-Armor, +1, +2, or +3
-Armor (light, medium, or heavy), rare (+1), very rare (+2), or legendary (+3)
+Armor, +2
+Armor (light, medium, or heavy), very rare
+You have a bonus to AC while wearing this armor.
+The bonus is determined by its rarity.
+
+Armor, +3
+Armor (light, medium, or heavy), legendary
 You have a bonus to AC while wearing this armor.
 The bonus is determined by its rarity.
 
@@ -172,36 +117,10 @@ wearing the armor. Once this special action is used,
 it can’t be used again until the next dawn.
 
 Armor of Resistance
-Armor (light, medium, or heavy), rare (requires
-attunement)
+Armor (light, medium, or heavy), rare (requires attunement)
 You have resistance to one type of damage while you
 wear this armor. The GM chooses the type or
 determines it randomly from the options below.
-
-d10
-Damage Type
-d10
-Damage Type
-1
-Acid
-6
-Necrotic
-2
-Cold
-7
-Poison
-3
-Fire
-8
-Psychic
-4
-Force
-9
-Radiant
-5
-Lightning
-10
-Thunder
 
 Armor of Vulnerability
 Armor (plate), rare (requires attunement)
@@ -263,71 +182,6 @@ effect 1 minute later from the ground where it was
 planted. The GM can choose an effect from the
 following table, determine it randomly, or create an
 effect.
-
-d100
-Effect
-01
-5d4 toadstools sprout. If a creature eats a
-toadstool, roll any die. On an odd roll, the eater
-must succeed on a DC 15 Constitution saving
-throw or take 5d6 poison damage and become
-poisoned for 1 hour. On an even roll, the eater
-gains 5d6 temporary hit points for 1 hour.
-02–10
-A geyser erupts and spouts water, beer, berry
-juice, tea, vinegar, wine, or oil (GM’s choice) 30
-feet into the air for 1d12 rounds.
-11–20
-A treant sprouts. There’s a 50 percent chance
-that the treant is chaotic evil and attacks.
-21–30
-An animate, immobile stone statue in your
-likeness rises. It makes verbal threats against
-you. If you leave it and others come near, it
-describes you as the most heinous of villains and
-directs the newcomers to find and attack you. If
-you are on the same plane of existence as the
-statue, it knows where you are. The statue
-becomes inanimate after 24 hours.
-31–40
-A campfire with blue flames springs forth and
-burns for 24 hours (or until it is extinguished).
-41–50
-1d6 + 6 shriekers sprout
-51–60
-1d4 + 8 bright pink toads crawl forth. Whenever
-a toad is touched, it transforms into a Large or
-smaller monster of the GM’s choice. The
-monster remains for 1 minute, then disappears
-in a puff of bright pink smoke.
-61–70
-A hungry bulette burrows up and attacks.
-71–80
-A fruit tree grows. It has 1d10 + 20 fruit, 1d8 of
-which act as randomly determined magic
-potions, while one acts as an ingested poison of
-the GM’s choice. The tree vanishes after 1 hour.
-Picked fruit remains, retaining any magic for 30
-days.
-81–90
-A nest of 1d4 + 3 eggs springs up. Any creature
-that eats an egg must make a DC 20 Constitution
-saving throw. On a successful save, a creature
-permanently increases its lowest ability score by
-1, randomly choosing among equally low scores.
-On a failed save, the creature takes 10d6 force
-damage from an internal magical explosion.
-91–99
-A pyramid with a 60-­‐foot-­‐square base bursts
-upward. Inside is a sarcophagus containing a
-mummy lord. The pyramid is treated as the
-mummy lord’s lair, and its sarcophagus contains
-treasure of the GM’s choice.
-00
-A giant beanstalk sprouts, growing to a height of
-the GM’s choice. The top leads where the GM
-chooses, such as to a great view, a cloud giant’s
-castle, or a different plane of existence.
 
 Bag of Devouring
 Wondrous item, very rare
@@ -410,66 +264,6 @@ Once three fuzzy objects have been pulled from
 the bag, the bag can’t be used again until the next
 dawn.
 
-Gray Bag of Tricks
-d8
-Creature
-1
-Weasel
-2
-Giant rat
-3
-Badger
-4
-Boar
-5
-Panther
-6
-Giant badger
-7
-Dire wolf
-8
-Giant elk
-
-Rust Bag of Tricks
-d8
-Creature
-1
-Rat
-2
-Owl
-3
-Mastiff
-4
-Goat
-5
-Giant goat
-6
-Giant boar
-7
-Lion
-8
-Brown bear
-
-Tan Bag of Tricks
-d8
-Creature
-1
-Jackal
-2
-Ape
-3
-Baboon
-4
-Axe beak
-5
-Black bear
-6
-Giant weasel
-7
-Giant hyena
-8
-Tiger
-
 Bead of Force
 Wondrous item, rare
 This small black sphere measures 3/4 of an inch in
@@ -514,36 +308,47 @@ damage.
 • You have darkvision out to a range of 60 feet.
 • You can speak, read, and write Dwarvish.
 
-Belt of Giant Strength
-Wondrous item, rarity varies (requires attunement)
+Belt of Hill Giant Strength
+Wondrous item, rare (requires attunement)
 While wearing this belt, your Strength score changes
-to a score granted by the belt. If your Strength is
+to 21. If your Strength is
 already equal to or greater than the belt’s score, the
 item has no effect on you.
-Six varieties of this belt exist, corresponding with
-and having rarity according to the six kinds of true
-giants. The belt of stone giant strength and the belt of
-frost giant strength look different, but they have the
-same effect.
 
-Type
-Strength
-Rarity
-Hill giant
-21
-Rare
-Stone/frost giant
-23
-Very rare
-Fire giant
-25
-Very rare
-Cloud giant
-27
-Legendary
-Storm giant
-29
-Legendary
+Belt of Stone Giant Strength
+Wondrous item, very rare (requires attunement)
+While wearing this belt, your Strength score changes
+to 23. If your Strength is
+already equal to or greater than the belt’s score, the
+item has no effect on you.
+
+Belt of Frost Giant Strength
+Wondrous item, very rare (requires attunement)
+While wearing this belt, your Strength score changes
+to 23. If your Strength is
+already equal to or greater than the belt’s score, the
+item has no effect on you.
+
+Belt of Fire Giant Strength
+Wondrous item, very rare (requires attunement)
+While wearing this belt, your Strength score changes
+to 25. If your Strength is
+already equal to or greater than the belt’s score, the
+item has no effect on you.
+
+Belt of Cloud Giant Strength
+Wondrous item, legendary (requires attunement)
+While wearing this belt, your Strength score changes
+to 27. If your Strength is
+already equal to or greater than the belt’s score, the
+item has no effect on you.
+
+Belt of Storm Giant Strength
+Wondrous item, legendary (requires attunement)
+While wearing this belt, your Strength score changes
+to 29. If your Strength is
+already equal to or greater than the belt’s score, the
+item has no effect on you.
 
 Berserker Axe
 Weapon (any axe), rare (requires attunement)
@@ -679,28 +484,6 @@ that deity’s alignment. The candle’s alignment can be
 detected with the detect evil and good spell. The GM
 chooses the god and associated alignment or
 determines the alignment randomly.
-
-d20
-Alignment
-1–2
-Chaotic evil
-3–4
-Chaotic neutral
-5–7
-Chaotic good
-8–9
-Neutral evil
-10–11
-Neutral
-12–13
-Neutral good
-14–15
-Lawful evil
-16–17
-Lawful neutral
-18–20
-Lawful good
-
 The candle’s magic is activated when the candle is
 lit, which requires an action. After burning for 4
 hours, the candle is destroyed. You can snuff it out
@@ -741,28 +524,6 @@ according to your spoken directions, provided that
 you are within 30 feet of it.
 Four sizes of carpet of flying exist. The GM chooses
 the size of a given carpet or determines it randomly.
-
-d100
-Size
-Capacity
-Flying Speed
-01–20
-3 ft. × 5 ft.
-200 lb.
-80 feet
-21–55
-4 ft. × 6 ft.
-400 lb.
-60 feet
-56–80
-5 ft. × 7 ft.
-600 lb.
-40 feet
-81–100
-6 ft. × 9 ft.
-800 lb.
-30 feet
-
 A carpet can carry up to twice the weight shown
 on the table, but it flies at half speed if it carries
 more than its normal capacity.
@@ -864,24 +625,25 @@ speed of 60 feet. Pulling the hood up or down
 requires an action.
 
 Crystal Ball
-Wondrous item, very rare or legendary (requires
-attunement)
+Wondrous item, very rare (requires attunement)
 The typical crystal ball, a very rare item, is about 6
 inches in diameter. While touching it, you can cast
 the scrying spell (save DC 17) with it.
 The following crystal ball variants are legendary
 items and have additional properties.
 
-Crystal Ball of Mind Reading. You can use an
-action to cast the detect thoughts spell (save DC 17)
+Crystal Ball of Mind Reading
+Wondrous item, legendary (requires attunement)
+You can use an action to cast the detect thoughts spell (save DC 17)
 while you are scrying with the crystal ball, targeting
 creatures you can see within 30 feet of the spell’s
 sensor. You don’t need to concentrate on this detect
 thoughts to maintain it during its duration, but it
 ends if scrying ends.
 
-Crystal Ball of Telepathy. While scrying with the
-crystal ball, you can communicate telepathically with
+Crystal Ball of Telepathy
+Wondrous item, legendary (requires attunement)
+While scrying with the crystal ball, you can communicate telepathically with
 creatures you can see within 30 feet of the spell’s
 sensor. You can also use an action to cast the
 suggestion spell (save DC 17) through the sensor on
@@ -891,8 +653,9 @@ its duration, but it ends if scrying ends. Once used,
 the suggestion power of the crystal ball can’t be used
 again until the next dawn.
 
-Crystal Ball of True Seeing. While scrying with
-the crystal ball, you have truesight with a radius of
+Crystal Ball of True Seeing
+Wondrous item, legendary (requires attunement)
+While scrying with the crystal ball, you have truesight with a radius of
 120 feet centered on the spell’s sensor.
 
 Cube of Force
@@ -918,53 +681,10 @@ If your movement causes the barrier to come into
 contact with a solid object that can’t pass through
 the cube, you can’t move any closer to that object as
 long as the barrier remains.
-
-Cube of Force Faces
-Face
-Charges
-Effect
-1
-1
-Gases, wind, and fog can’t pass through
-the barrier.
-2
-2
-Nonliving matter can’t pass through the
-barrier. Walls, floors, and ceilings can pass
-through at your discretion.
-3
-3
-Living matter can’t pass through the
-barrier.
-4
-4
-Spell effects can’t pass through the barrier.
-5
-5
-Nothing can pass through the barrier.
-Walls, floors, and ceilings can pass through
-at your discretion.
-6
-0
-The barrier deactivates.
-
 The cube loses charges when the barrier is
 targeted by certain spells or comes into contact with
 certain spell or magic item effects, as shown in the
 table below.
-
-Spell or Item
-Charges Lost
-Disintegrate
-1d12
-Horn of blasting
-1d10
-Passwall
-1d6
-Prismatic spray
-1d20
-Wall of fire
-1d4
 
 Cubic Gate
 Wondrous item, legendary
@@ -1069,75 +789,6 @@ illusion is dispelled. When the illusion ends, the
 image on its card disappears, and that card can’t be
 used again.
 
-Playing Card
-Illusion
-Ace of hearts
-Red dragon
-King of hearts
-Knight and four guards
-Queen of hearts
-Succubus or incubus
-Jack of hearts
-Druid
-Ten of hearts
-Cloud giant
-Nine of hearts
-Ettin
-Eight of hearts
-Bugbear
-Two of hearts
-Goblin
-Ace of diamonds
-Beholder
-King of diamonds
-Archmage and mage apprentice
-Queen of diamonds
-Night hag
-Jack of diamonds
-Assassin
-Ten of diamonds
-Fire giant
-Nine of diamonds
-Ogre mage
-Eight of diamonds
-Gnoll
-Two of diamonds
-Kobold
-Ace of spades
-Lich
-King of spades
-Priest and two acolytes
-Queen of spades
-Medusa
-Jack of spades
-Veteran
-Ten of spades
-Frost giant
-Nine of spades
-Troll
-Eight of spades
-Hobgoblin
-Two of spades
-Goblin
-Ace of clubs
-Iron golem
-King of clubs
-Bandit captain and three bandits
-Queen of clubs
-Erinyes
-Jack of clubs
-Berserker
-Ten of clubs
-Hill giant
-Nine of clubs
-Ogre
-Eight of clubs
-Orc
-Two of clubs
-Kobold
-Jokers (2)
-You (the deck’s owner)
-
 Deck of Many Things
 Wondrous item, legendary
 Usually found in a box or pouch, this deck contains a
@@ -1160,197 +811,8 @@ Unless the card is the Fool or the Jester, the card
 reappears in the deck, making it possible to draw the
 same card twice.
 
-Playing Card
-Card
-Ace of diamonds
-Vizier*
-King of diamonds
-Sun
-Queen of diamonds
-Moon
-Jack of diamonds
-Star
-Two of diamonds
-Comet*
-Ace of hearts
-The Fates*
-King of hearts
-Throne
-Queen of hearts
-Key
-Jack of hearts
-Knight
-Two of hearts
-Gem*
-Ace of clubs
-Talons*
-King of clubs
-The Void
-Queen of clubs
-Flames
-Jack of clubs
-Skull
-Two of clubs
-Idiot*
-Ace of spades
-Donjon*
-King of spades
-Ruin
-Queen of spades
-Euryale
-Jack of spades
-Rogue
-Two of spades
-Balance*
-Joker (with TM)
-Fool*
-Joker (without TM)
-Jester
-*Found only in a deck with twenty-­‐two cards
-
-Balance. Your mind suffers a wrenching alteration,
-causing your alignment to change. Lawful becomes
-chaotic, good becomes evil, and vice versa. If you are
-true neutral or unaligned, this card has no effect on
-you.
-Comet. If you single-­‐‑handedly defeat the next
-hostile monster or group of monsters you encounter,
-you gain experience points enough to gain one level.
-Otherwise, this card has no effect.
-Donjon. You disappear and become entombed in a
-state of suspended animation in an extradimensional
-sphere. Everything you were wearing and carrying
-stays behind in the space you occupied when you
-disappeared. You remain imprisoned until you are
-found and removed from the sphere. You can’t be
-located by any divination magic, but a wish spell can
-reveal the location of your prison. You draw no more
-cards.
-Euryale. The card’s medusa-­‐‑like visage curses you.
-You take a −2 penalty on saving throws while cursed
-in this way. Only a god or the magic of The Fates
-card can end this curse.
-The Fates. Reality’s fabric unravels and spins
-anew, allowing you to avoid or erase one event as if
-it never happened. You can use the card’s magic as
-soon as you draw the card or at any other time
-before you die.
-Flames. A powerful devil becomes your enemy.
-The devil seeks your ruin and plagues your life,
-savoring your suffering before attempting to slay
-you. This enmity lasts until either you or the devil
-dies.
-Fool. You lose 10,000 XP, discard this card, and
-draw from the deck again, counting both draws as
-one of your declared draws. If losing that much XP
-would cause you to lose a level, you instead lose an
-amount that leaves you with just enough XP to keep
-your level.
-Gem. Twenty-­‐‑five pieces of jewelry worth 2,000
-gp each or fifty gems worth 1,000 gp each appear at
-your feet.
-Idiot. Permanently reduce your Intelligence by
-1d4 + 1 (to a minimum score of 1). You can draw one
-additional card beyond your declared draws.
-Jester. You gain 10,000 XP, or you can draw two
-additional cards beyond your declared draws.
-Key. A rare or rarer magic weapon with which you
-are proficient appears in your hands. The GM
-chooses the weapon.
-Knight. You gain the service of a 4th-­‐‑level fighter
-who appears in a space you choose within 30 feet of
-you. The fighter is of the same race as you and serves
-you loyally until death, believing the fates have
-drawn him or her to you. You control this character.
-Moon. You are granted the ability to cast the wish
-spell 1d3 times.
-Rogue. A nonplayer character of the GM’s choice
-becomes hostile toward you. The identity of your
-new enemy isn’t known until the NPC or someone
-else reveals it. Nothing less than a wish spell or
-divine intervention can end the NPC’s hostility
-toward you.
-Ruin. All forms of wealth that you carry or own,
-other than magic items, are lost to you. Portable
-property vanishes. Businesses, buildings, and land
-you own are lost in a way that alters reality the least.
-Any documentation that proves you should own
-something lost to this card also disappears.
-Skull. You summon an avatar of death—a ghostly
-humanoid skeleton clad in a tattered black robe and
-carrying a spectral scythe. It appears in a space of
-the GM’s choice within 10 feet of you and attacks you,
-warning all others that you must win the battle alone.
-The avatar fights until you die or it drops to 0 hit
-points, whereupon it disappears. If anyone tries to
-help you, the helper summons its own avatar of
-death. A creature slain by an avatar of death can’t be
-restored to life.
-
-Avatar of Death
-Medium undead, neutral evil
-Armor Class 20
-Hit Points half the hit point maximum of its summoner
-Speed 60 ft., fly 60 ft. (hover)
-STR
-DEX
-CON
-INT
-WIS
-CHA
-16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3)
-Damage Immunities necrotic, poison
-Condition Immunities charmed, frightened, paralyzed,
-petrified, poisoned, unconscious
-Senses darkvision 60 ft., truesight 60 ft., passive
-Perception 13
-Languages all languages known to its summoner
-Challenge — (0 XP)
-Incorporeal Movement. The avatar can move through
-other creatures and objects as if they were difficult
-terrain. It takes 5 (1d10) force damage if it ends its turn
-inside an object.
-Turning Immunity. The avatar is immune to features
-that turn undead.
-Actions
-Reaping Scythe. The avatar sweeps its spectral scythe
-through a creature within 5 feet of it, dealing 7 (1d8 +
-3) slashing damage plus 4 (1d8) necrotic damage.
-
-Star. Increase one of your ability scores by 2. The
-score can exceed 20 but can’t exceed 24.
-Sun. You gain 50,000 XP, and a wondrous item
-(which the GM determines randomly) appears in
-your hands.
-Talons. Every magic item you wear or carry
-disintegrates. Artifacts in your possession aren’t
-destroyed but do vanish.
-Throne. You gain proficiency in the Persuasion
-skill, and you double your proficiency bonus on
-checks made with that skill. In addition, you gain
-rightful ownership of a small keep somewhere in the
-world. However, the keep is currently in the hands of
-monsters, which you must clear out before you can
-claim the keep as yours.
-Vizier. At any time you choose within one year of
-drawing this card, you can ask a question in
-meditation and mentally receive a truthful answer to
-that question. Besides information, the answer helps
-you solve a puzzling problem or other dilemma. In
-other words, the knowledge comes with wisdom on
-how to apply it.
-The Void. This black card spells disaster. Your soul
-is drawn from your body and contained in an object
-in a place of the GM’s choice. One or more powerful
-beings guard the place. While your soul is trapped in
-this way, your body is incapacitated. A wish spell
-can’t restore your soul, but the spell reveals the
-location of the object that holds it. You draw no more
-cards.
-
 Defender
-Weapon (any sword), legendary (requires
-attunement)
+Weapon (any sword), legendary (requires attunement)
 You gain a +3 bonus to attack and damage rolls
 made with this magic weapon.
 The first time you attack with the sword on each of
@@ -1415,31 +877,6 @@ direction to the closest dragon within 30 miles of
 you that is of the same type as the armor. This
 special action can’t be used again until the next
 dawn.
-
-Dragon
-Resistance
-Dragon
-Resistance
-Black
-Acid
-Gold
-Fire
-Blue
-Lightning
-Green
-Poison
-Brass
-Fire
-Red
-Fire
-Bronze
-Lightning
-Silver
-Cold
-Copper
-Acid
-White
-Cold
 
 Dragon Slayer
 Weapon (any sword), rare
@@ -1506,8 +943,7 @@ along the ground, you can use your reaction to
 reduce the distance you are moved by up to 10 feet.
 
 Dwarven Thrower
-Weapon (warhammer), very rare (requires
-attunement by a dwarf)
+Weapon (warhammer), very rare (requires attunement by a dwarf)
 You gain a +3 bonus to attack and damage rolls
 made with this magic weapon. It has the thrown
 property with a normal range of 20 feet and a long
@@ -1541,26 +977,6 @@ within 30 feet of you.
 The first time the bottle is opened, the GM rolls to
 determine what happens.
 
-d100
-Effect
-01–10
-The efreeti attacks you. After fighting for 5
-rounds, the efreeti disappears, and the bottle
-loses its magic.
-11–90
-The efreeti serves you for 1 hour, doing as you
-command. Then the efreeti returns to the bottle,
-and a new stopper contains it. The stopper can’t
-be removed for 24 hours. The next two times the
-bottle is opened, the same effect occurs. If the
-bottle is opened a fourth time, the efreeti
-escapes and disappears, and the bottle loses its
-magic.
-91–00
-The efreeti can cast the wish spell three times for
-you. It disappears when it grants the final wish or
-after 1 hour, and the bottle loses its magic.
-
 Elemental Gem
 Wondrous item, uncommon
 This gem contains a mote of elemental energy. When
@@ -1568,17 +984,6 @@ you use an action to break the gem, an elemental is
 summoned as if you had cast the conjure elemental
 spell, and the gem’s magic is lost. The type of gem
 determines the elemental summoned by the spell.
-
-Gem
-Summoned Elemental
-Blue sapphire
-Air elemental
-Yellow diamond
-Earth elemental
-Red corundum
-Fire elemental
-Emerald
-Water elemental
 
 Elven Chain
 Armor (chain shirt), rare
@@ -1639,82 +1044,8 @@ of feather tokens exist, each with a different single-­‐‑
 use effect. The GM chooses the kind of token or
 determines it randomly.
 
-d100
-Feather Token
-d100
-Feather Token
-01–20
-Anchor
-51–65
-Swan boat
-21–35
-Bird
-66–90
-Tree
-36–50
-Fan
-91–00
-Whip
-
-Anchor. You can use an action to touch the token
-to a boat or ship. For the next 24 hours, the vessel
-can’t be moved by any means. Touching the token to
-the vessel again ends the effect. When the effect ends,
-the token disappears.
-Bird. You can use an action to toss the token 5 feet
-into the air. The token disappears and an enormous,
-multicolored bird takes its place. The bird has the
-statistics of a roc, but it obeys your simple
-commands and can’t attack. It can carry up to 500
-pounds while flying at its maximum speed (16 miles
-an hour for a maximum of 144 miles per day, with a
-one-­‐‑hour rest for every 3 hours of flying), or 1,000
-pounds at half that speed. The bird disappears after
-flying its maximum distance for a day or if it drops to
-0 hit points. You can dismiss the bird as an action.
-Fan. If you are on a boat or ship, you can use an
-action to toss the token up to 10 feet in the air. The
-token disappears, and a giant flapping fan takes its
-place. The fan floats and creates a wind strong
-enough to fill the sails of one ship, increasing its
-speed by 5 miles per hour for 8 hours. You can
-dismiss the fan as an action.
-Swan Boat. You can use an action to touch the
-token to a body of water at least 60 feet in diameter.
-The token disappears, and a 50-­‐‑foot-­‐‑long, 20-­‐‑foot-­‐‑
-wide boat shaped like a swan takes its place. The
-boat is self-­‐‑propelled and moves across water at a
-speed of 6 miles per hour. You can use an action
-while on the boat to command it to move or to turn
-up to 90 degrees. The boat can carry up to thirty-­‐‑two
-Medium or smaller creatures. A Large creature
-counts as four Medium creatures, while a Huge
-creature counts as nine. The boat remains for 24
-hours and then disappears. You can dismiss the boat
-as an action.
-Tree. You must be outdoors to use this token. You
-can use an action to touch it to an unoccupied space
-on the ground. The token disappears, and in its place
-a nonmagical oak tree springs into existence. The
-tree is 60 feet tall and has a 5-­‐‑foot-­‐‑diameter trunk,
-and its branches at the top spread out in a 20-­‐‑foot
-radius.
-Whip. You can use an action to throw the token to
-a point within 10 feet of you. The token disappears,
-and a floating whip takes its place. You can then use
-a bonus action to make a melee spell attack against a
-creature within 10 feet of the whip, with an attack
-bonus of +9. On a hit, the target takes 1d6 + 5 force
-damage.
-
-As a bonus action on your turn, you can direct the
-whip to fly up to 20 feet and repeat the attack
-against a creature within 10 feet of it. The whip
-disappears after 1 hour, when you use an action to
-dismiss it, or when you are incapacitated or die.
-
-Figurine of Wondrous Power
-Wondrous item, rarity by figurine
+Wondrous Figurine of a Bronze Griffon
+Wondrous item, rare
 A figurine of wondrous power is a statuette of a beast
 small enough to fit in a pocket. If you use an action to
 speak the command word and throw the figurine to
@@ -1729,47 +1060,82 @@ companions. It understands your languages and
 obeys your spoken commands. If you issue no
 commands, the creature defends itself but takes no
 other actions.
-The creature exists for a duration specific to each
-figurine. At the end of the duration, the creature
-reverts to its figurine form. It reverts to a figurine
+This bronze statuette is of
+a griffon rampant. It can become a griffon for up to 6
+hours. At the end of this duration, it reverts to its figurine form.
+Once it has been used, it can’t be used again
+until 5 days have passed.
+It reverts to a figurine
 early if it drops to 0 hit points or if you use an action
 to speak the command word again while touching it.
-When the creature becomes a figurine again, its
-property can’t be used again until a certain amount
-of time has passed, as specified in the figurine’s
-description.
 
-Bronze Griffon (Rare). This bronze statuette is of
-a griffon rampant. It can become a griffon for up to 6
-hours. Once it has been used, it can’t be used again
-until 5 days have passed.
-Ebony Fly (Rare). This ebony statuette is carved
+Wondrous Figurine of an Ebony Fly
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This ebony statuette is carved
 in the likeness of a horsefly. It can become a giant fly
-for up to 12 hours and can be ridden as a mount.
+for up to 12 hours and can be ridden as a mount. At the end of this duration, it reverts to its figurine form.
 Once it has been used, it can’t be used again until 2
 days have passed.
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
 
-Giant Fly
-Large beast, unaligned
-Armor Class 11
-Hit Points 19 (3d10 + 3)
-Speed 30 ft., fly 60 ft.
-STR
-DEX
-CON
-INT
-WIS
-CHA
-14 (+2) 13 (+1) 13 (+1) 2 (−4) 10 (+0) 3 (−4)
-Senses darkvision 60 ft., passive Perception 10
-Languages —
-
-Golden Lions (Rare). These gold statuettes of
+Wondrous Figurines of Golden Lions
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+These gold statuettes of
 lions are always created in pairs. You can use one
 figurine or both simultaneously. Each can become a
-lion for up to 1 hour. Once a lion has been used, it
+lion for up to 1 hour. At the end of this duration, it reverts to its figurine form. Once a lion has been used, it
 can’t be used again until 7 days have passed.
-Ivory Goats (Rare). These ivory statuettes of
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurines of Ivory Goats
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+These ivory statuettes of
 goats are always created in sets of three. Each goat
 looks unique and functions differently from the
 others. Their properties are as follows:
@@ -1782,10 +1148,11 @@ it runs out of charges, it reverts to a figurine and
 can’t be used again until 7 days have passed, when
 it regains all its charges.
 • The goat of travail becomes a giant goat for up to 3
-hours. Once it has been used, it can’t be used again
+hours. At the end of this duration, it reverts to its figurine form. Once it has been used, it can’t be used again
 until 30 days have passed.
 • The goat of terror becomes a giant goat for up to 3
-hours. The goat can’t attack, but you can remove
+hours. At the end of this duration, it reverts to its figurine form. 
+The goat can’t attack, but you can remove
 its horns and use them as weapons. One horn
 becomes a +1 lance, and the other becomes a +2
 longsword. Removing a horn requires an action,
@@ -1803,13 +1170,52 @@ successfully saves against the effect, a creature is
 immune to the goat’s aura for the next 24 hours.
 Once the figurine has been used, it can’t be used
 again until 15 days have passed.
-Marble Elephant (Rare). This marble statuette is
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurine of a Marble Elephant
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This marble statuette is
 about 4 inches high and long. It can become an
-elephant for up to 24 hours. Once it has been used, it
+elephant for up to 24 hours. At the end of this duration, it reverts to its figurine form. Once it has been used, it
 can’t be used again until 7 days have passed.
-Obsidian Steed (Very Rare). This polished
-obsidian horse can become a nightmare for up to 24
-hours. The nightmare fights only to defend itself.
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurine of an Obsidian Steed
+Wondrous item, very rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This polished obsidian horse can become a nightmare for up to 24
+hours. At the end of this duration, it reverts to its figurine form. The nightmare fights only to defend itself.
 Once it has been used, it can’t be used again until 5
 days have passed.
 If you have a good alignment, the figurine has a 10
@@ -1819,24 +1225,87 @@ form. If you mount the nightmare while it is ignoring
 your orders, you and the nightmare are instantly
 transported to a random location on the plane of
 Hades, where the nightmare reverts to figurine form.
-Onyx Dog (Rare). This onyx statuette of a dog can
-become a mastiff for up to 6 hours. The mastiff has
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurine of an Onyx Dog
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This onyx statuette of a dog can
+become a mastiff for up to 6 hours. At the end of this duration, it reverts to its figurine form. The mastiff has
 an Intelligence of 8 and can speak Common. It also
 has darkvision out to a range of 60 feet and can see
 invisible creatures and objects within that range.
 Once it has been used, it can’t be used again until 7
 days have passed.
-Serpentine Owl (Rare). This serpentine statuette
-of an owl can become a giant owl for up to 8 hours.
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurine of a Serpentine Owl
+Wondrous item, rare
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This serpentine statuette
+of an owl can become a giant owl for up to 8 hours. At the end of this duration, it reverts to its figurine form.
 Once it has been used, it can’t be used again until 2
 days have passed. The owl can telepathically
 communicate with you at any range if you and it are
 on the same plane of existence.
-Silver Raven (Uncommon). This silver statuette of
-a raven can become a raven for up to 12 hours. Once
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
+
+Wondrous Figurine of a Silver Raven
+Wondrous item, uncommon
+A figurine of wondrous power is a statuette of a beast
+small enough to fit in a pocket. If you use an action to
+speak the command word and throw the figurine to
+a point on the ground within 60 feet of you, the
+figurine becomes a living creature. If the space
+where the creature would appear is occupied by
+other creatures or objects, or if there isn’t enough
+space for the creature, the figurine doesn’t become a
+creature.
+The creature is friendly to you and your
+companions. It understands your languages and
+obeys your spoken commands. If you issue no
+commands, the creature defends itself but takes no
+other actions.
+This silver statuette of
+a raven can become a raven for up to 12 hours. At the end of this duration, it reverts to its figurine form. Once
 it has been used, it can’t be used again until 2 days
 have passed. While in raven form, the figurine allows
 you to cast the animal messenger spell on it at will.
+It reverts to a figurine
+early if it drops to 0 hit points or if you use an action
+to speak the command word again while touching it.
 
 Flame Tongue
 Weapon (any sword), rare (requires attunement)
@@ -1987,8 +1456,11 @@ Weapon (maul), legendary
 You gain a +1 bonus to attack and damage rolls
 made with this magic weapon.
 
-Giant’s Bane (Requires Attunement). You must
-be wearing a belt of giant strength (any variety) and
+Giant’s Bane
+Weapon (maul), legendary (requires attunement)
+You gain a +1 bonus to attack and damage rolls
+made with this magic weapon.
+You must be wearing a belt of giant strength (any variety) and
 gauntlets of ogre power to attune to this weapon. The
 attunement ends if you take off either of those items.
 While you are attuned to this weapon and holding it,
@@ -2127,8 +1599,7 @@ teleport spell from it. The helm regains 1d3
 expended charges daily at dawn.
 
 Holy Avenger
-Weapon (any sword), legendary (requires attunement
-by a paladin)
+Weapon (any sword), legendary (requires attunement by a paladin)
 You gain a +3 bonus to attack and damage rolls
 made with this magic weapon. When you hit a fiend
 or an undead with it, that creature takes an extra
@@ -2158,45 +1629,53 @@ chance of causing the horn to explode. The explosion
 deals 10d6 fire damage to the blower and destroys
 the horn.
 
-Horn of Valhalla
-Wondrous item, rare (silver or brass), very rare
-(bronze), or legendary (iron)
+Silver Horn of Valhalla
+Wondrous item, rare 
 You can use an action to blow this horn. In response,
 warrior spirits from the Valhalla appear within 60
 feet of you. They use the statistics of a berserker.
 They return to Valhalla after 1 hour or when they
 drop to 0 hit points. Once you use the horn, it can’t
 be used again until 7 days have passed.
-Four types of horn of Valhalla are known to exist,
-each made of a different metal. The horn’s type
-determines how many berserkers answer its
-summons, as well as the requirement for its use. The
-GM chooses the horn’s type or determines it
-randomly.
+If you blow the horn without meeting its
+requirement, the summoned berserkers attack you.
+If you meet the requirement, they are friendly to you
+and your companions and follow your commands.
 
-d100
-Horn
-Type
-Berserkers
-Summoned
-Requirement
-01–40
-Silver
-2d4 + 2
-None
-41–75
-Brass
-3d4 + 3
-Proficiency with all simple weapons
-76–90
-Bronze
-4d4 + 4
-Proficiency with all medium armor
-91–00
-Iron
-5d4 + 5
-Proficiency with all martial weapons
+Brass Horn of Valhalla
+Wondrous item, rare 
+You can use an action to blow this horn. In response,
+warrior spirits from the Valhalla appear within 60
+feet of you. They use the statistics of a berserker.
+They return to Valhalla after 1 hour or when they
+drop to 0 hit points. Once you use the horn, it can’t
+be used again until 7 days have passed.
+If you blow the horn without meeting its
+requirement, the summoned berserkers attack you.
+If you meet the requirement, they are friendly to you
+and your companions and follow your commands.
 
+Bronze Horn of Valhalla
+Wondrous item, very rare
+You can use an action to blow this horn. In response,
+warrior spirits from the Valhalla appear within 60
+feet of you. They use the statistics of a berserker.
+They return to Valhalla after 1 hour or when they
+drop to 0 hit points. Once you use the horn, it can’t
+be used again until 7 days have passed.
+If you blow the horn without meeting its
+requirement, the summoned berserkers attack you.
+If you meet the requirement, they are friendly to you
+and your companions and follow your commands.
+
+Iron Horn of Valhalla
+Wondrous item, legendary
+You can use an action to blow this horn. In response,
+warrior spirits from the Valhalla appear within 60
+feet of you. They use the statistics of a berserker.
+They return to Valhalla after 1 hour or when they
+drop to 0 hit points. Once you use the horn, it can’t
+be used again until 7 days have passed.
 If you blow the horn without meeting its
 requirement, the summoned berserkers attack you.
 If you meet the requirement, they are friendly to you
@@ -2271,15 +1750,22 @@ damage. Only a wish spell can repair the fortress
 8th level or lower). Each casting of wish causes the
 roof, the door, or one wall to regain 50 hit points.
 
-Ioun Stone
-Wondrous item, rarity varies (requires attunement)
+Ioun Stone of Absorption
+Wondrous item, very rare (requires attunement)
 An Ioun stone is named after Ioun, a god of
 knowledge and prophecy revered on some worlds.
-Many types of Ioun stone exist, each type a distinct
-combination of shape and color.
-When you use an action to toss one of these stones
+While this pale lavender
+ellipsoid orbits your head, you can use your reaction
+to cancel a spell of 4th level or lower cast by a
+creature you can see and targeting only you.
+Once the stone has canceled 20 levels of spells, it
+burns out and turns dull gray, losing its magic. If you
+are targeted by a spell whose level is higher than the
+number of spell levels the stone has left, the stone
+can’t cancel it.
+When you use an action to toss the stone
 into the air, the stone orbits your head at a distance
-of 1d3 feet and confers a benefit to you. Thereafter,
+of 1d3 feet and confers its benefit to you. Thereafter,
 another creature must use an action to grasp or net
 the stone to separate it from you, either by making a
 successful attack roll against AC 24 or a successful
@@ -2289,25 +1775,67 @@ A stone has AC 24, 10 hit points, and resistance to
 all damage. It is considered to be an object that is
 being worn while it orbits your head.
 
-Absorption (Very Rare). While this pale lavender
-ellipsoid orbits your head, you can use your reaction
-to cancel a spell of 4th level or lower cast by a
-creature you can see and targeting only you.
-Once the stone has canceled 20 levels of spells, it
-burns out and turns dull gray, losing its magic. If you
-are targeted by a spell whose level is higher than the
-number of spell levels the stone has left, the stone
-can’t cancel it.
-Agility (Very Rare). Your Dexterity score
+Ioun Stone of Agility
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Dexterity score
 increases by 2, to a maximum of 20, while this deep
 red sphere orbits your head.
-Awareness (Rare). You can’t be surprised while
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Awareness
+Wondrous item, rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+You can’t be surprised while
 this dark blue rhomboid orbits your head.
-Fortitude (Very Rare). Your Constitution score
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Fortitude
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Constitution score
 increases by 2, to a maximum of 20, while this pink
 rhomboid orbits your head.
-Greater Absorption (Legendary). While this
-marbled lavender and green ellipsoid orbits your
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Greater Absorption
+Wondrous item, legendary (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+While this marbled lavender and green ellipsoid orbits your
 head, you can use your reaction to cancel a spell of
 8th level or lower cast by a creature you can see and
 targeting only you.
@@ -2316,25 +1844,135 @@ burns out and turns dull gray, losing its magic. If you
 are targeted by a spell whose level is higher than the
 number of spell levels the stone has left, the stone
 can’t cancel it.
-Insight (Very Rare). Your Wisdom score
-increases by 2, to a maximum of 20, while this
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Insight
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Wisdom score increases by 2, to a maximum of 20, while this
 incandescent blue sphere orbits your head.
-Intellect (Very Rare). Your Intelligence score
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Intellect
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Intelligence score
 increases by 2, to a maximum of 20, while this
 marbled scarlet and blue sphere orbits your head.
-Leadership (Very Rare). Your Charisma score
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Leadership
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Charisma score
 increases by 2, to a maximum of 20, while this
 marbled pink and green sphere orbits your head.
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Mastery
+Wondrous item, legendary (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
 Mastery (Legendary). Your proficiency bonus
 increases by 1 while this pale green prism orbits
 your head.
-Protection (Rare). You gain a +1 bonus to AC
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Protection
+Wondrous item, rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+You gain a +1 bonus to AC
 while this dusty rose prism orbits your head.
-Regeneration (Legendary). You regain 15 hit
-points at the end of each hour this pearly white
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Regeneration
+Wondrous item, legendary (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+You regain 15 hit points at the end of each hour this pearly white
 spindle orbits your head, provided that you have at
 least 1 hit point.
-Reserve (Rare). This vibrant purple prism stores
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Reserve
+Wondrous item, rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+This vibrant purple prism stores
 spells cast into it, holding them until you use them.
 The stone can store up to 3 levels worth of spells at a
 time. When found, it contains 1d4 − 1 levels of
@@ -2351,11 +1989,54 @@ save DC, spell attack bonus, and spellcasting ability
 of the original caster, but is otherwise treated as if
 you cast the spell. The spell cast from the stone is no
 longer stored in it, freeing up space.
-Strength (Very Rare). Your Strength score
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Strength
+Wondrous item, very rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+Your Strength score
 increases by 2, to a maximum of 20, while this pale
 blue rhomboid orbits your head.
-Sustenance (Rare). You don’t need to eat or drink
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
+
+Ioun Stone of Sustenance
+Wondrous item, rare (requires attunement)
+An Ioun stone is named after Ioun, a god of
+knowledge and prophecy revered on some worlds.
+You don’t need to eat or drink
 while this clear spindle orbits your head.
+When you use an action to toss the stone
+into the air, the stone orbits your head at a distance
+of 1d3 feet and confers its benefit to you. Thereafter,
+another creature must use an action to grasp or net
+the stone to separate it from you, either by making a
+successful attack roll against AC 24 or a successful
+DC 24 Dexterity (Acrobatics) check. You can use an
+action to seize and stow the stone, ending its effect.
+A stone has AC 24, 10 hit points, and resistance to
+all damage. It is considered to be an object that is
+being worn while it orbits your head.
 
 Iron Bands of Binding
 Wondrous item, rare
@@ -2410,49 +2091,6 @@ creature is to open the flask. A newly discovered
 bottle might already contain a creature chosen by
 the GM or determined randomly.
 
-d100
-Contents
-1‒50
-Empty
-51‒54
-Demon (type 1)
-55‒58
-Demon (type 2)
-59‒62
-Demon (type 3)
-63‒64
-Demon (type 4)
-65
-Demon (type 5)
-66
-Demon (type 6)
-67
-Deva
-68‒69
-Devil (greater)
-70‒73
-Devil (lesser)
-74‒75
-Djinni
-76‒77
-Efreeti
-78‒83
-Elemental (any)
-84‒86
-Invisible stalker
-87‒90
-Night hag
-91
-Planetar
-92‒95
-Salamander
-96
-Solar
-97‒99
-Succubus/incubus
-100
-Xorn
-
 Javelin of Lightning
 Weapon (javelin), uncommon
 This javelin is a magic weapon. When you hurl it and
@@ -2482,8 +2120,7 @@ lower the hood, reducing the light to dim light in a 5-­‐‑
 foot radius.
 
 Luck Blade
-Weapon (any sword), legendary (requires
-attunement)
+Weapon (any sword), legendary (requires attunement)
 You gain a +1 bonus to attack and damage rolls
 made with this magic weapon. While the sword is on
 your person, you also gain a +1 bonus to saving
@@ -2577,28 +2214,6 @@ decipher and use the manual, you must be a
 spellcaster with at least two 5th-­‐‑level spell slots. A
 creature that can’t use a manual of golems and
 attempts to read it takes 6d6 psychic damage.
-
-d20
-Golem
-Time
-Cost
-1–5
-Clay
-30 days
-65,000 gp
-6–17
-Flesh
-60 days
-50,000 gp
-18
-Iron
-120 days
-100,000 gp
-19–20
-Stone
-90 days
-80,000 gp
-
 To create a golem, you must spend the time shown
 on the table, working without interruption with the
 manual at hand and resting no more than 8 hours
@@ -2757,28 +2372,6 @@ DC if a save is necessary). Once a magic bead’s spell
 is cast, that bead can’t be used again until the next
 dawn.
 
-d20
-Bead of …
-Spell
-1–6
-Blessing
-Bless
-7–12
-Curing
-Cure wounds (2nd level) or lesser restoration
-13–16
-Favor
-Greater restoration
-17–18
-Smiting
-Branding smite
-19
-Summons
-Planar ally
-20
-Wind walking
-Wind walk
-
 Nine Lives Stealer
 Weapon (any sword), very rare (requires attunement)
 You gain a +2 bonus to attack and damage rolls
@@ -2849,8 +2442,7 @@ duplicating the effect of the grease spell in that area
 for 8 hours.
 
 Pearl of Power
-Wondrous item, uncommon (requires attunement by a
-spellcaster)
+Wondrous item, uncommon (requires attunement by a spellcaster)
 While this pearl is on your person, you can use an
 action to speak its command word and regain one
 expended spell slot. If the expended slot was of 4th
@@ -3038,39 +2630,54 @@ required) or until you end the effect as a bonus
 action. This potion’s container seems to hold fog that
 moves and pours like water.
 
-Potion of Giant Strength
-Potion, rarity varies
+Potion of Hill Giant Strength
+Potion, uncommon
 When you drink this potion, your Strength score
-changes for 1 hour. The type of giant determines the
-score (see the table below). The potion has no effect
+changes to 21 for 1 hour. The potion has no effect
 on you if your Strength is equal to or greater than
 that score.
+
+Potion of Frost Giant Strength
+Potion, rare
+When you drink this potion, your Strength score
+changes to 23 for 1 hour. The potion has no effect
+on you if your Strength is equal to or greater than
+that score.
+
+Potion of Stone Giant Strength
+Potion, rare
+When you drink this potion, your Strength score
+changes to 23 for 1 hour. The potion has no effect
+on you if your Strength is equal to or greater than
+that score.
+
+Potion of Fire Giant Strength
+Potion, rare
+When you drink this potion, your Strength score
+changes to 25 for 1 hour. The potion has no effect
+on you if your Strength is equal to or greater than
+that score.
+
+Potion of Cloud Giant Strength
+Potion, very rare
+When you drink this potion, your Strength score
+changes to 27 for 1 hour. The potion has no effect
+on you if your Strength is equal to or greater than
+that score.
+
+Potion of Storm Giant Strength
+Potion, legendary
+When you drink this potion, your Strength score
+changes to 29 for 1 hour. The potion has no effect
+on you if your Strength is equal to or greater than
+that score.
+
+Potion of Growth
+Potion, uncommon
 This potion’s transparent liquid has floating in it a
 sliver of fingernail from a giant of the appropriate
 type. The potion of frost giant strength and the potion
 of stone giant strength have the same effect.
-
-Type of Giant
-Strength
-Rarity
-Hill giant
-21
-Uncommon
-Frost/stone giant
-23
-Rare
-Fire giant
-25
-Rare
-Cloud giant
-27
-Very rare
-Storm giant
-29
-Legendary
-Potion of Growth
-Potion, uncommon
-
 When you drink this potion, you gain the “enlarge”
 effect of the enlarge/reduce spell for 1d4 hours (no
 concentration required). The red in the potion’s
@@ -3079,29 +2686,24 @@ color the clear liquid around it and then contracts.
 Shaking the bottle fails to interrupt this process.
 
 Potion of Healing
-Potion, rarity varies
-You regain hit points when you drink this potion.
-The number of hit points depends on the potion’s
-rarity, as shown in the Potions of Healing table.
-Whatever its potency, the potion’s red liquid
-glimmers when agitated.
+Potion, common
+You regain 2d4 + 2 hit points when you drink this potion.
+The potion’s red liquid glimmers when agitated.
 
-Potions of Healing
-Potion of …
-Rarity
-HP Regained
-Healing
-Common
-2d4 + 2
-Greater healing
-Uncommon
-4d4 + 4
-Superior healing
-Rare
-8d4 + 8
-Supreme healing
-Very rare
-10d4 + 20
+Potion of Greater Healing
+Potion, uncommon
+You regain 4d4 + 4 hit points when you drink this potion.
+The potion’s red liquid glimmers when agitated.
+
+Potion of Superior Healing
+Potion, rare
+You regain 8d4 + 8 hit points when you drink this potion.
+The potion’s red liquid glimmers when agitated.
+
+Potion of Supreme Healing
+Potion, very rare
+You regain 10d4 + 20 hit points when you drink this potion.
+The potion’s red liquid glimmers when agitated.
 
 Potion of Heroism
 Potion, rare
@@ -3148,31 +2750,6 @@ When you drink this potion, you gain resistance to
 one type of damage for 1 hour. The GM chooses the
 type or determines it randomly from the options
 below.
-
-d10
-Damage Type
-d10
-Damage Type
-1
-Acid
-6
-Necrotic
-2
-Cold
-7
-Poison
-3
-Fire
-8
-Psychic
-4
-Force
-9
-Radiant
-5
-Lightning
-10
-Thunder
 
 Potion of Speed
 Potion, very rare
@@ -3227,22 +2804,10 @@ After the djinni departs, it can’t be summoned
 again for 24 hours, and the ring becomes nonmagical
 if the djinni dies.
 
-Ring of Elemental Command
-Ring, legendary (requires attunement)
-This ring is linked to one of the four Elemental
-Planes. The GM chooses or randomly determines the
-linked plane.
-While wearing this ring, you have advantage on
-attack rolls against elementals from the linked plane,
-and they have disadvantage on attack rolls against
-you. In addition, you have access to properties based
-on the linked plane.
-The ring has 5 charges. It regains 1d4 + 1
-expended charges daily at dawn. Spells cast from the
-ring have a save DC of 17.
 
-Ring of Air Elemental Command. You can expend
-2 of the ring’s charges to cast dominate monster on
+Ring of Air Elemental Command
+Ring, legendary (requires attunement)
+You can expend 2 of the ring’s charges to cast dominate monster on
 an air elemental. In addition, when you fall, you
 descend 60 feet per round and take no damage from
 falling. You can also speak and understand Auran.
@@ -3256,9 +2821,18 @@ speed and can hover.
 expending the necessary number of charges: chain
 lightning (3 charges), gust of wind (2 charges), or
 wind wall (1 charge).
+While wearing this ring, you have advantage on
+attack rolls against elementals from the linked plane,
+and they have disadvantage on attack rolls against
+you. In addition, you have access to properties based
+on the linked plane.
+The ring has 5 charges. It regains 1d4 + 1
+expended charges daily at dawn. Spells cast from the
+ring have a save DC of 17.
 
-Ring of Earth Elemental Command. You can
-expend 2 of the ring’s charges to cast dominate
+Ring of Earth Elemental Command
+Ring, legendary (requires attunement)
+You can expend 2 of the ring’s charges to cast dominate
 monster on an earth elemental. In addition, you can
 move in difficult terrain that is composed of rubble,
 rocks, or dirt as if it were normal terrain. You can
@@ -3275,9 +2849,18 @@ unoccupied space you last occupied.
 expending the necessary number of charges: stone
 shape (2 charges), stoneskin (3 charges), or wall of
 stone (3 charges).
+While wearing this ring, you have advantage on
+attack rolls against elementals from the linked plane,
+and they have disadvantage on attack rolls against
+you. In addition, you have access to properties based
+on the linked plane.
+The ring has 5 charges. It regains 1d4 + 1
+expended charges daily at dawn. Spells cast from the
+ring have a save DC of 17.
 
-Ring of Fire Elemental Command. You can
-expend 2 of the ring’s charges to cast dominate
+Ring of Fire Elemental Command
+Ring, legendary (requires attunement)
+You can expend 2 of the ring’s charges to cast dominate
 monster on a fire elemental. In addition, you have
 resistance to fire damage. You can also speak and
 understand Ignan.
@@ -3289,9 +2872,18 @@ properties:
 expending the necessary number of charges:
 burning hands (1 charge), fireball (2 charges), and
 wall of fire (3 charges).
+While wearing this ring, you have advantage on
+attack rolls against elementals from the linked plane,
+and they have disadvantage on attack rolls against
+you. In addition, you have access to properties based
+on the linked plane.
+The ring has 5 charges. It regains 1d4 + 1
+expended charges daily at dawn. Spells cast from the
+ring have a save DC of 17.
 
-Ring of Water Elemental Command. You can
-expend 2 of the ring’s charges to cast dominate
+Ring of Water Elemental Command
+Ring, legendary (requires attunement)
+You can expend 2 of the ring’s charges to cast dominate
 monster on a water elemental. In addition, you can
 stand on and walk across liquid surfaces as if they
 were solid ground. You can also speak and
@@ -3306,6 +2898,14 @@ expending the necessary number of charges:
 create or destroy water (1 charge), control water (3
 charges), ice storm (2 charges), or wall of ice (3
 charges).
+While wearing this ring, you have advantage on
+attack rolls against elementals from the linked plane,
+and they have disadvantage on attack rolls against
+you. In addition, you have access to properties based
+on the linked plane.
+The ring has 5 charges. It regains 1d4 + 1
+expended charges daily at dawn. Spells cast from the
+ring have a save DC of 17.
 
 Ring of Evasion
 Ring, rare (requires attunement)
@@ -3379,43 +2979,8 @@ You have resistance to one damage type while
 wearing this ring. The gem in the ring indicates the
 type, which the GM chooses or determines randomly.
 
-d10
-Damage Type
-Gem
-1
-Acid
-Pearl
-2
-Cold
-Tourmaline
-3
-Fire
-Garnet
-4
-Force
-Sapphire
-5
-Lightning
-Citrine
-6
-Necrotic
-Jet
-7
-Poison
-Amethyst
-8
-Psychic
-Jade
-9
-Radiant
-Topaz
-10
-Thunder
-Spinel
-
 Ring of Shooting Stars
-Ring, very rare (requires attunement outdoors at
-night)
+Ring, very rare (requires attunement outdoors at night)
 While wearing this ring in dim light or darkness, you
 can cast dancing lights and light from the ring at will.
 Casting either spell from the ring requires an action.
@@ -3441,18 +3006,6 @@ creature and disappears. That creature must make a
 DC 15 Dexterity saving throw. On a failed save, the
 creature takes lightning damage based on the
 number of spheres you created.
-
-Spheres
-Lightning Damage
-4
-2d4
-3
-2d6
-2
-5d4
-1
-4d12
-
 Shooting Stars. You can expend 1 to 3 charges as
 an action. For every charge you expend, you launch a
 glowing mote of light from the ring at a point you
@@ -3609,8 +3162,7 @@ reappear in the last space you occupied, or if that
 space is occupied, the nearest unoccupied space.
 
 Robe of the Archmagi
-Wondrous item, legendary (requires attunement by a
-sorcerer, warlock, or wizard)
+Wondrous item, legendary (requires attunement by a sorcerer, warlock, or wizard)
 This elegant garment is made from exquisite cloth of
 white, gray, or black and adorned with silvery runes.
 The robe’s color corresponds to the alignment for
@@ -3644,44 +3196,6 @@ The robe has two of each of the following patches:
 In addition, the robe has 4d4 other patches. The
 GM chooses the patches or determines them
 randomly.
-
-d100
-Patch
-01–08
-Bag of 100 gp
-09–15
-Silver coffer (1 foot long, 6 inches wide and
-deep) worth 500 gp
-16–22
-Iron door (up to 10 feet wide and 10 feet high,
-barred on one side of your choice), which you
-can place in an opening you can reach; it
-conforms to fit the opening, attaching and
-hinging itself
-23–30
-10 gems worth 100 gp each
-31–44
-Wooden ladder (24 feet long)
-45–51
-A riding horse with saddle bags
-52–59
-Pit (a cube 10 feet on a side), which you can
-place on the ground within 10 feet of you
-60–68
-4 potions of healing
-69–75
-Rowboat (12 feet long)
-76–83
-Spell scroll containing one spell of 1st to 3rd
-level
-84–90
-2 mastiffs
-91–96
-Window (2 feet by 4 feet, up to 2 feet deep),
-which you can place on a vertical surface you
-can reach
-97–00
-Portable ram
 
 Rod of Absorption
 Rod, very rare (requires attunement)
@@ -3718,7 +3232,6 @@ Rod of Alertness
 Rod, very rare (requires attunement)
 This rod has a flanged head and the following
 properties.
-
 Alertness. While holding the rod, you have
 advantage on Wisdom (Perception) checks and on
 rolls for initiative.
@@ -3752,7 +3265,6 @@ buttons as a bonus action. A button’s effect lasts
 until you push a different button or until you push
 the same button again, which causes the rod to
 revert to its normal form.
-
 If you press button 1, the rod becomes a flame
 tongue, as a fiery blade sprouts from the end
 opposite the rod’s flanged head.
@@ -3785,7 +3297,6 @@ in its normal form and indicates magnetic north.
 in a location that has no magnetic north.) The rod
 also gives you knowledge of your approximate depth
 beneath the ground or your height above it.
-
 Drain Life. When you hit a creature with a melee
 attack using the rod, you can force the target to
 make a DC 17 Constitution saving throw. On a failure,
@@ -3915,9 +3426,20 @@ made with this magic weapon. In addition, you can
 make one attack with it as a bonus action on each of
 your turns.
 
-Shield, +1, +2, or +3
-Armor (shield), uncommon (+1), rare (+2), or very
-rare (+3)
+Shield, +1
+Armor (shield), uncommon
+While holding this shield, you have a bonus to AC
+determined by the shield’s rarity. This bonus is in
+addition to the shield’s normal bonus to AC.
+
+Shield, +2
+Armor (shield), rare
+While holding this shield, you have a bonus to AC
+determined by the shield’s rarity. This bonus is in
+addition to the shield’s normal bonus to AC.
+
+Shield, +3
+Armor (shield), very rare
 While holding this shield, you have a bonus to AC
 determined by the shield’s rarity. This bonus is in
 addition to the shield’s normal bonus to AC.
@@ -3957,7 +3479,7 @@ the application of universal solvent or oil of
 etherealness, or with a wish spell.
 
 Spell Scroll
-Scroll, varies
+Scroll, uncommon
 A spell scroll bears the words of a single spell,
 written in a mystical cipher. If the spell is on your
 class’s spell list, you can read the scroll and cast its
@@ -3976,53 +3498,6 @@ spell disappears from the scroll with no other effect.
 The level of the spell on the scroll determines the
 spell’s saving throw DC and attack bonus, as well as
 the scroll’s rarity, as shown in the Spell Scroll table.
-
-Spell Scroll
-Spell Level
-Rarity
-Save DC
-Attack Bonus
-Cantrip
-Common
-13
-+5
-1st
-Common
-13
-+5
-2nd
-Uncommon
-13
-+5
-3rd
-Uncommon
-15
-+7
-4th
-Rare
-15
-+7
-5th
-Rare
-17
-+9
-6th
-Very rare
-17
-+9
-7th
-Very rare
-18
-+10
-8th
-Very rare
-18
-+10
-9th
-Legendary
-19
-+11
-
 A wizard spell on a spell scroll can be copied just as
 spells in spellbooks can be copied. When a spell is
 copied from a spell scroll, the copier must succeed on
@@ -4072,21 +3547,8 @@ extradimensional space, such as that within a
 portable hole, the GM determines randomly what
 happens, using the following table.
 
-d100
-Result
-01–50
-The sphere is destroyed.
-51–85
-The sphere moves through the portal or into
-the extradimensional space.
-86–00
-A spatial rift sends each creature and object
-within 180 feet of the sphere, including the
-sphere, to a random plane of existence.
-
 Staff of Charming
-Staff, rare (requires attunement by a bard, cleric,
-druid, sorcerer, warlock, or wizard)
+Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)
 While holding this staff, you can use an action to
 expend 1 of its 10 charges to cast charm person,
 command, or comprehend languages from it using
@@ -4106,8 +3568,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff becomes a nonmagical quarterstaff.
 
 Staff of Fire
-Staff, very rare (requires attunement by a druid,
-sorcerer, warlock, or wizard)
+Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)
 You have resistance to fire damage while you hold
 this staff.
 The staff has 10 charges. While holding it, you can
@@ -4121,8 +3582,7 @@ a 1, the staff blackens, crumbles into cinders, and is
 destroyed.
 
 Staff of Frost
-Staff, very rare (requires attunement by a druid,
-sorcerer, warlock, or wizard)
+Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)
 You have resistance to cold damage while you hold
 this staff.
 The staff has 10 charges. While holding it, you can
@@ -4136,8 +3596,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff turns to water and is destroyed.
 
 Staff of Healing
-Staff, rare (requires attunement by a bard, cleric, or
-druid)
+Staff, rare (requires attunement by a bard, cleric, or druid)
 This staff has 10 charges. While holding it, you can
 use an action to expend 1 or more of its charges to
 cast one of the following spells from it, using your
@@ -4150,8 +3609,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff vanishes in a flash of light, lost forever.
 
 Staff of Power
-Staff, very rare (requires attunement by a sorcerer,
-warlock, or wizard)
+Staff, very rare (requires attunement by a sorcerer, warlock, or wizard)
 This staff can be wielded as a magic quarterstaff that
 grants a +2 bonus to attack and damage rolls made
 with it. While holding it, you gain a +2 bonus to
@@ -4191,15 +3649,6 @@ is from the point of origin, as shown in the following
 table. On a successful save, a creature takes half as
 much damage.
 
-Distance from Origin
-Damage
-10 ft. away or closer
-8 × the number of charges in the staff
-11 to 20 ft. away
-6 × the number of charges in the staff
-21 to 30 ft. away
-4 × the number of charges in the staff
-
 Staff of Striking
 Staff, very rare (requires attunement)
 This staff can be wielded as a magic quarterstaff that
@@ -4214,8 +3663,7 @@ expend the last charge, roll a d20. On a 1, the staff
 becomes a nonmagical quarterstaff.
 
 Staff of Swarming Insects
-Staff, rare (requires attunement by a bard, cleric,
-druid, sorcerer, warlock, or wizard)
+Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)
 This staff has 10 charges and regains 1d6 + 4
 expended charges daily at dawn. If you expend the
 last charge, roll a d20. On a 1, a swarm of insects
@@ -4235,8 +3683,7 @@ miles per hour disperses the swarm and ends the
 effect.
 
 Staff of the Magi
-Staff, legendary (requires attunement by a sorcerer,
-warlock, or wizard)
+Staff, legendary (requires attunement by a sorcerer, warlock, or wizard)
 This staff can be wielded as a magic quarterstaff that
 grants a +2 bonus to attack and damage rolls made
 with it. While you hold it, you gain a +2 bonus to
@@ -4287,18 +3734,8 @@ is from the point of origin, as shown in the following
 table. On a successful save, a creature takes half as
 much damage.
 
-Distance from Origin
-Damage
-10 ft. away or closer
-8 × the number of charges in the staff
-11 to 20 ft. away
-6 × the number of charges in the staff
-21 to 30 ft. away
-4 × the number of charges in the staff
-
 Staff of the Python
-Staff, uncommon (requires attunement by a cleric,
-druid, or warlock)
+Staff, uncommon (requires attunement by a cleric, druid, or warlock)
 You can use an action to speak this staff’s command
 word and throw the staff on the ground within 10
 feet of you. The staff becomes a giant constrictor
@@ -4385,8 +3822,7 @@ at the same time. Doing so doesn’t expend the daily
 use of those properties, only the use of this one.
 
 Staff of Withering
-Staff, rare (requires attunement by a cleric, druid, or
-warlock)
+Staff, rare (requires attunement by a cleric, druid, or warlock)
 This staff has 3 charges and regains 1d3 expended
 charges daily at dawn.
 The staff can be wielded as a magic quarterstaff.
@@ -4441,8 +3877,7 @@ isn’t a construct or an undead. You gain temporary
 hit points equal to the extra damage dealt.
 
 Sword of Sharpness
-Weapon (any sword that deals slashing damage), very
-rare (requires attunement)
+Weapon (any sword that deals slashing damage), very rare (requires attunement)
 When you attack an object with this magic sword
 and hit, maximize your weapon damage dice against
 the target.
@@ -4477,8 +3912,7 @@ can use an action to make a DC 15 Wisdom
 on it on a success.
 
 Talisman of Pure Good
-Wondrous item, legendary (requires attunement by a
-creature of good alignment)
+Wondrous item, legendary (requires attunement by a creature of good alignment)
 This talisman is a mighty symbol of goodness. A
 creature that is neither good nor evil in alignment
 takes 6d6 radiant damage upon touching the
@@ -4513,8 +3947,7 @@ of additional feet equal to 10 × your Intelligence
 modifier.
 
 Talisman of Ultimate Evil
-Wondrous item, legendary (requires attunement by a
-creature of evil alignment)
+Wondrous item, legendary (requires attunement by a creature of evil alignment)
 This item symbolizes unrepentant evil. A creature
 that is neither good nor evil in alignment takes 6d6
 necrotic damage upon touching the talisman. A good
@@ -4590,8 +4023,7 @@ magic weapon, your critical hit deals an extra 2d6
 damage of the weapon’s type.
 
 Vorpal Sword
-Weapon (any sword that deals slashing damage),
-legendary (requires attunement)
+Weapon (any sword that deals slashing damage), legendary (requires attunement)
 You gain a +3 bonus to attack and damage rolls
 made with this magic weapon. In addition, the
 weapon ignores resistance to slashing damage.
@@ -4727,8 +4159,7 @@ d20. On a 1, the wand crumbles into ashes and is
 destroyed.
 
 Wand of Polymorph
-Wand, very rare (requires attunement by a
-spellcaster)
+Wand, very rare (requires attunement by a spellcaster)
 This wand has 7 charges. While holding it, you can
 use an action to expend 1 of its charges to cast the
 polymorph spell (save DC 15) from it.
@@ -4745,17 +4176,29 @@ secret door or trap is within 30 feet of you, the wand
 pulses and points at the one nearest to you. The
 wand regains 1d3 expended charges daily at dawn.
 
-Wand of the War Mage, +1, +2, or +3
-Wand, uncommon (+1), rare (+2), or very rare (+3)
-(requires attunement by a spellcaster)
+Wand of the War Mage, +1
+Wand, uncommon (requires attunement by a spellcaster)
+While holding this wand, you gain a bonus to spell
+attack rolls determined by the wand’s rarity. In
+addition, you ignore half cover when making a spell
+attack.
+
+Wand of the War Mage, +2
+Wand, rare (requires attunement by a spellcaster)
+While holding this wand, you gain a bonus to spell
+attack rolls determined by the wand’s rarity. In
+addition, you ignore half cover when making a spell
+attack.
+
+Wand of the War Mage, +3
+Wand, very rare (requires attunement by a spellcaster)
 While holding this wand, you gain a bonus to spell
 attack rolls determined by the wand’s rarity. In
 addition, you ignore half cover when making a spell
 attack.
 
 Wand of Web
-Wand, uncommon (requires attunement by a
-spellcaster)
+Wand, uncommon (requires attunement by a spellcaster)
 This wand has 7 charges. While holding it, you can
 use an action to expend 1 of its charges to cast the
 web spell (save DC 15) from it.
@@ -4784,106 +4227,20 @@ at dawn. If you expend the wand’s last charge, roll a
 d20. On a 1, the wand crumbles into dust and is
 destroyed.
 
-d100
-Effect
-01–05
-You cast slow.
-06–10
-You cast faerie fire.
-11–15
-You are stunned until the start of your next turn,
-believing something awesome just happened.
-16–20
-You cast gust of wind.
-21–25
-You cast detect thoughts on the target you
-chose. If you didn’t target a creature, you
-instead take 1d6 psychic damage.
-26–30
-You cast stinking cloud.
-31–33
-Heavy rain falls in a 60-­‐foot radius centered on
-the target. The area becomes lightly obscured.
-The rain falls until the start of your next turn.
-34–36
-An animal appears in the unoccupied space
-nearest the target. The animal isn’t under your
-control and acts as it normally would. Roll a d100
-to determine which animal appears. On a 01–25,
-a rhinoceros appears; on a 26–50, an elephant
-appears; and on a 51–100, a rat appears.
-37–46
-You cast lightning bolt.
-47–49
-A cloud of 600 oversized butterflies fills a 30-­‐foot
-radius centered on the target. The area becomes
-heavily obscured. The butterflies remain for 10
-minutes.
-50–53
-You enlarge the target as if you had cast
-enlarge/reduce. If the target can’t be affected by
-that spell, or if you didn’t target a creature, you
-become the target.
-54–58
-You cast darkness.
-59–62
-Grass grows on the ground in a 60-­‐foot radius
-centered on the target. If grass is already there,
-it grows to ten times its normal size and remains
-overgrown for 1 minute.
-63–65
-An object of the GM’s choice disappears into the
-Ethereal Plane. The object must be neither worn
-nor carried, within 120 feet of the target, and no
-larger than 10 feet in any dimension.
-66–69
-You shrink yourself as if you had cast
-enlarge/reduce on yourself.
-70–79
-You cast fireball.
-80–84
-You cast invisibility on yourself.
-85–87
-Leaves grow from the target. If you chose a point
-in space as the target, leaves sprout from the
-creature nearest to that point. Unless they are
-picked off, the leaves turn brown and fall off
-after 24 hours.
-88–90
-A stream of 1d4 × 10 gems, each worth 1 gp,
-shoots from the wand’s tip in a line 30 feet long
-and 5 feet wide. Each gem deals 1 bludgeoning
-damage, and the total damage of the gems is
-divided equally among all creatures in the line.
-91–95
-A burst of colorful shimmering light extends
-from you in a 30-­‐foot radius. You and each
-creature in the area that can see must succeed
-on a DC 15 Constitution saving throw or become
-blinded for 1 minute. A creature can repeat the
-saving throw at the end of each of its turns,
-ending the effect on itself on a success.
-96–97
-The target’s skin turns bright blue for 1d10 days.
-If you chose a point in space, the creature
-nearest to that point is affected.
-98–00
-If you targeted a creature, it must make a DC 15
-Constitution saving throw. If you didn’t target a
-creature, you become the target and must make
-the saving throw. If the saving throw fails by 5 or
-more, the target is instantly petrified. On any
-other failed save, the target is restrained and
-begins to turn to stone. While restrained in this
-way, the target must repeat the saving throw at
-the end of its next turn, becoming petrified on a
-failure or ending the effect on a success. The
-petrification lasts until the target is freed by the
-greater restoration spell or similar magic.
+Weapon, +1
+Weapon (any), uncommon
+You have a bonus to attack and damage rolls made
+with this magic weapon. The bonus is determined by
+the weapon’s rarity.
 
-Weapon, +1, +2, or +3
-Weapon (any), uncommon (+1), rare (+2), or very
-rare (+3)
+Weapon, +2
+Weapon (any), rare
+You have a bonus to attack and damage rolls made
+with this magic weapon. The bonus is determined by
+the weapon’s rarity.
+
+Weapon, +3
+Weapon (any), rare
 You have a bonus to attack and damage rolls made
 with this magic weapon. The bonus is determined by
 the weapon’s rarity.
@@ -4933,121 +4290,6 @@ hour or until you repeat the command word as an
 action. The wings give you a flying speed of 60 feet.
 When they disappear, you can’t use them again for
 1d12 hours.
-
-Sentient Magic Items
-
-Communication
-01–60
-The item communicates by transmitting emotion
-to the creature carrying or wielding it.
-61–90
-The item can speak, read, and understand one
-or more languages.
-91–00
-The item can speak, read, and understand one
-or more languages. In addition, the item can
-communicate telepathically with any character
-that carries or wields it.
-
-Senses
-1
-Hearing and normal vision out to 30 feet.
-2
-Hearing and normal vision out to 60 feet
-3
-Hearing and normal vision out to 120 feet.
-4
-Hearing and darkvision out to 120 feet.
-
-Alignment
-01–15
-Lawful good
-74–85
-Chaotic neutral
-16–35
-Neutral good
-86–89
-Lawful evil
-36–50
-Chaotic good
-90–96
-Neutral evil
-51–63
-Lawful neutral
-97–00
-Chaotic evil
-64–73
-Neutral
-
-Special Purpose
-1
-Aligned: The item seeks to defeat or destroy those of a
-diametrically opposed alignment. (Such an item is
-never neutral.)
-2
-Bane: The item seeks to defeat or destroy creatures of
-a particular kind, such as fiends, shapechangers, trolls,
-or wizards.
-3
-Protector: The item seeks to defend a particular race
-or kind of creature, such as elves or druids.
-4
-Crusader: The item seeks to defeat, weaken, or
-destroy the servants of a particular deity.
-5
-Templar: The item seeks to defend the servants and
-interests of a particular deity.
-6
-Destroyer: The item craves destruction and goads its
-user to fight arbitrarily.
-7
-Glory Seeker: The item seeks renown as the greatest
-magic item in the world, by establishing its user as a
-famous or notorious figure.
-8
-Lore Seeker: The item craves knowledge or is
-determined to solve a mystery, learn a secret, or
-unravel a cryptic prophecy.
-9
-Destiny Seeker: The item is convinced that it and its
-wielder have key roles to play in future events.
-10
-Creator Seeker: The item seeks its creator and wants
-to understand why it was created.
-
-Conflict
-A sentient item has a will of its own, shaped by its
-personality and alignment. If its wielder acts in a
-manner opposed to the item’s alignment or purpose,
-conflict can arise. When such a conflict occurs, the
-item makes a Charisma check contested by the
-wielder’s Charisma check. If the item wins the
-contest, it makes one or more of the following
-demands:
-• The item insists on being carried or worn at all
-times.
-• The item demands that its wielder dispose of
-anything the item finds repugnant.
-• The item demands that its wielder pursue the
-item’s goals to the exclusion of all other goals.
-• The item demands to be given to someone else.
-If its wielder refuses to comply with the item’s
-wishes, the item can do any or all of the following:
-• Make it impossible for its wielder to attune to it.
-• Suppress one or more of its activated properties.
-• Attempt to take control of its wielder.
-If a sentient item attempts to take control of its
-wielder, the wielder must make a Charisma saving
-throw, with a DC equal to 12 + the item’s Charisma
-modifier. On a failed save, the wielder is charmed by
-the item for 1d12 hours. While charmed, the wielder
-must try to follow the item’s commands. If the
-wielder takes damage, it can repeat the saving throw,
-ending the effect on a success. Whether the attempt
-to control its user succeeds or fails, the item can’t
-use this power again until the next dawn.
-
-Artifacts
 
 Orb of Dragonkind
 Wondrous item, artifact (requires attunement)
@@ -5120,3 +4362,4 @@ fragile but is impervious to most damage, including
 the attacks and breath weapons of dragons. A
 disintegrate spell or one good hit from a +3 magic
 weapon is sufficient to destroy an orb, however.
+

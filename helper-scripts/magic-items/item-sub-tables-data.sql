@@ -1,0 +1,102 @@
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 1, 1, 'Legs and tail extend, allowing the apparatus to walk and swim.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 1, 0, 'Legs and tail retract, reducing the apparatus’s speed to 0 and making it unable to benefit from bonuses to speed.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 2, 1, 'Forward window shutter opens.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 2, 0, 'Forward window shutter closes.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 3, 1, 'Side window shutters open (two per side).');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 3, 0, 'Side window shutters close (two per side).');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 4, 1, 'Two claws extend from the front sides of the apparatus.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 4, 0, 'The claws retract.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 5, 1, 'Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: 7 (2d6) bludgeoning damage.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 5, 0, 'Each extended claw makes the following melee weapon attack: +8 to hit, reach 5 ft., one target. Hit: The target is grappled (escape DC 15).');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 6, 1, 'The apparatus walks or swims forward.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 6, 0, 'The apparatus walks or swims backward.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 7, 1, 'The apparatus turns 90 degrees left.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 7, 0, 'The apparatus turns 90 degrees right.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 8, 1, 'Eyelike fixtures emit bright light in a 30-­‐foot radius and dim light for an additional 30 feet.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 8, 0, 'The light turns off.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 9, 1, 'The apparatus sinks as much as 20 feet in liquid.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 9, 0, 'The apparatus rises up to 20 feet in liquid.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 10, 1, 'The rear hatch unseals and opens.');
+INSERT INTO itemApparatusOfTheCrabLever (lever, position, effect) VALUES ( 10, 0, 'The rear hatch closes and seals.');
+
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (1, 1);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (2, 3);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (3, 4);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (4, 11);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (5, 6);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (6, 7);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (7, 9);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (8, 10);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (9, 5);
+INSERT INTO itemArmorOfResistanceResistance (roll, damageID) VALUES (10, 13);
+
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (1, '5d4 toadstools sprout. If a creature eats a toadstool, roll any die. On an odd roll, the eater must succeed on a DC 15 Constitution saving throw or take 5d6 poison damage and become poisoned for 1 hour. On an even roll, the eater gains 5d6 temporary hit points for 1 hour.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (10, 'A geyser erupts and spouts water, beer, berry juice, tea, vinegar, wine, or oil (GM’s choice) 30 feet into the air for 1d12 rounds.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (20, 'A treant sprouts. There’s a 50 percent chance that the treant is chaotic evil and attacks.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (30, 'An animate, immobile stone statue in your likeness rises. It makes verbal threats against you. If you leave it and others come near, it describes you as the most heinous of villains and directs the newcomers to find and attack you. If you are on the same plane of existence as the statue, it knows where you are. The statue becomes inanimate after 24 hours.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (40, 'A campfire with blue flames springs forth and burns for 24 hours (or until it is extinguished).');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (50, '1d6 + 6 shriekers sprout.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (60, '1d4 + 8 bright pink toads crawl forth. Whenever a toad is touched, it transforms into a Large or smaller monster of the GM’s choice. The monster remains for 1 minute, then disappears in a puff of bright pink smoke.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (70, 'A hungry bulette burrows up and attacks.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (80, 'A fruit tree grows. It has 1d10 + 20 fruit, 1d8 of which act as randomly determined magic potions, while one acts as an ingested poison of the GM’s choice. The tree vanishes after 1 hour.  Picked fruit remains, retaining any magic for 30 days.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (90, 'A nest of 1d4 + 3 eggs springs up. Any creature that eats an egg must make a DC 20 Constitution saving throw. On a successful save, a creature permanently increases its lowest ability score by 1, randomly choosing among equally low scores.  On a failed save, the creature takes 10d6 force damage from an internal magical explosion.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (99, 'A pyramid with a 60-­‐foot-­‐square base bursts upward. Inside is a sarcophagus containing a mummy lord. The pyramid is treated as the mummy lord’s lair, and its sarcophagus contains treasure of the GM’s choice.');
+INSERT INTO itemBagOfBeansBean (roll, effect) VALUES (100, 'A giant beanstalk sprouts, growing to a height of the GM’s choice. The top leads where the GM chooses, such as to a great view, a cloud giant’s castle, or a different plane of existence.');
+
+INSERT INTO itemBagOfTricksType (name) VALUES ('Gray');
+INSERT INTO itemBagOfTricksType (name) VALUES ('Rust');
+INSERT INTO itemBagOfTricksType (name) VALUES ('Tan');
+
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 1, 309);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 2, 256);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 3, 217);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 4, 222);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 5, 280);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 6, 239);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 7, 231);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (1, 8, 247);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 1, 286);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 2, 279);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 3, 276);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 4, 267);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 5, 250);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 6, 241);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 7, 273);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (2, 8, 223);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 1, 271);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 2, 212);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 3, 216);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 4, 215);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 5, 219);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 6, 265);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 7, 251);
+INSERT INTO itemBagOfTricksTrick (bagID, roll, creatureID) VALUES (3, 8, 306);
+
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (2, 9);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (4, 8);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (7, 7);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (9, 6);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (11, 5);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (13, 4);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (15, 3);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (17, 2);
+INSERT INTO itemCandleOfInvocationType (roll, alignmentID) VALUES (20, 1);
+
+INSERT INTO itemCarpetOfFlyingType (roll, width, height, measureID, carryCapacity, speed, speedMeasureID) VALUES (20, 3, 5, 3, 200, 80, 3);
+INSERT INTO itemCarpetOfFlyingType (roll, width, height, measureID, carryCapacity, speed, speedMeasureID) VALUES (55, 4, 6, 3, 400, 60, 3);
+INSERT INTO itemCarpetOfFlyingType (roll, width, height, measureID, carryCapacity, speed, speedMeasureID) VALUES (80, 5, 7, 3, 600, 40, 3);
+INSERT INTO itemCarpetOfFlyingType (roll, width, height, measureID, carryCapacity, speed, speedMeasureID) VALUES (100, 6, 9, 3, 800, 30, 3);
+
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (1, 1, 'Gases, wind, and fog can’t pass through the barrier.');
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (2, 2, 'Nonliving matter can’t pass through the barrier. Walls, floors, and ceilings can pass through at your discretion.');
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (3, 3, 'Living matter can’t pass through the barrier.');
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (4, 4, 'Spell effects can’t pass through the barrier.');
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (5, 5, 'Nothing can pass through the barrier.  Walls, floors, and ceilings can pass through at your discretion.');
+INSERT INTO itemCubeOfForceFace (face, cost, effect) VALUES (6, 0, 'The barrier deactivates.');
+
+INSERT INTO itemCubeOfForceChargeLoss (spellNotItem, sourceID, formula) VALUES (0, 84, '1d12');
+INSERT INTO itemCubeOfForceChargeLoss (spellNotItem, sourceID, formula) VALUES (1, 0, '1d10');
+INSERT INTO itemCubeOfForceChargeLoss (spellNotItem, sourceID, formula) VALUES (0, 215, '1d6');
+INSERT INTO itemCubeOfForceChargeLoss (spellNotItem, sourceID, formula) VALUES (0, 228, '1d20');
+INSERT INTO itemCubeOfForceChargeLoss (spellNotItem, sourceID, formula) VALUES (0, 305, '1d4');
+
