@@ -20,5 +20,5 @@ This is a small file that I use to keep track of what sections still need relati
 - [x] Appendix PH-A
 - [x] Appendix PH-B (nice)
 - [x] Appendix PH-C
-- [ ] Appendix MM-A
-- [ ] Appendix MM-B
+- [x] Appendix MM-A
+- [x] Appendix MM-B

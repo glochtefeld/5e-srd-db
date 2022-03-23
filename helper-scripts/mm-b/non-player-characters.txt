@@ -71,7 +71,7 @@ Moral Prescriptivism. Bandits may only be non-lawful alignments.
 Description. Bandits rove in gangs and are sometimes led by thugs, veterans, or spellcasters. Not all bandits are evil. Oppression, drought, disease, or famine can often drive otherwise honest folk to a life of banditry.  Pirates are bandits of the high seas. They might be freebooters interested only in treasure and murder, or they might be privateers sanctioned by the crown to attack and plunder an enemy nation’s vessels.
 Actions
 Scimitar. MWA. +3 to hit, reach 5 Feet, 1 target. Hit: 4 (1d6+1) slashing damage.
-Light Crossbow. RWA. +3 to hit, range 80 Feet/320 Feet, 1 target. Hit: 5 (1d8+1) piercing damage.
+Light Crossbow. RWA. +3 to hit, range 80/320 Feet, 1 target. Hit: 5 (1d8+1) piercing damage.
 END
 
 Bandit Captain
@@ -306,7 +306,7 @@ Keen Hearing and Sight. The scout has advantage on Wisdom (Perception) checks th
 Actions
 Multiattack. The scout makes two melee attacks or two ranged attacks.
 Shortsword. MWA. +4 to hit, reach 5 Feet, 1 target. Hit: 5 (1d6+2) piercing damage.
-Longbow. RWA. +4 to hit, ranged 150/600 Feet, 1 target. Hit: 6 (1d8+2) piercing damage.
+Longbow. RWA. +4 to hit, range 150/600 Feet, 1 target. Hit: 6 (1d8+2) piercing damage.
 END
 
 Spy
@@ -380,3 +380,4 @@ Longsword. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8+3) slashing damag
 Shortsword. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 6 (1d6+3) piercing damage.
 Heavy Crossbow. RWA. +3 to hit, range 100/400 Feet, 1 target. Hit: 6 (1d10+1) piercing damage.
 END
+

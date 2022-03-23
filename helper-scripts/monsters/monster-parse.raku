@@ -1,8 +1,8 @@
 use v6;
 use DBIish;
 
-# other path: /mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db
-my $db = DBIish.connect('SQLite', :database</mnt/c/Users/gll/SRD5.db>);
+# other path: /mnt/c/Users/gll/SRD5.db
+my $db = DBIish.connect('SQLite', :database</mnt/c/users/Gavin Lochtefeld/Desktop/SRD5.db>);
 sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %types = as-hash('select name, id from monsterType');
 my %languages = as-hash('select name, id from language');
@@ -410,7 +410,7 @@ sub MAIN($file) {
         }
         for $m.damage-modifiers {
             my @vals = $_.value;
-            @damage-modifiers-sql.push("INSERT INTO monsterDamageModifier (monsterID, damageTypeID, onlyNonmagical, exceptNMSilver, exceptNMAdamantine, magicalGood, dmgMultiplier) VALUES ({$m.id}, {$_.key}, {@vals[0].Int}, {@vals[1].Int}, {@vals[2].Int}, {@vals[3]}, {@vals[4]});"); 
+            @damage-modifiers-sql.push("INSERT INTO monsterDamageModifier (monsterID, damageTypeID, onlyNonmagical, exceptNMSilver, exceptNMAdamantine, magicalGood, fromSpell, dmgMultiplier) VALUES ({$m.id}, {$_.key}, {@vals[0].Int}, {@vals[1].Int}, {@vals[2].Int}, {@vals[3].Int}, {@vals[4].Int}, {@vals[5]});"); 
         }
         for $m.condition-immunities {
             @condition-immunities-sql.push("INSERT INTO monsterConditionImmunity (monsterID, conditionID) VALUES ({$m.id}, $_);");
@@ -435,7 +435,7 @@ sub MAIN($file) {
             @reactions-sql.push("INSERT INTO monsterReaction (monsterID, name, description) VALUES ({$m.id}, '{$_.key}', '{$_.value}');");
         }
     }
-    #`[
+
     "DELETE FROM monster;\nDELETE FROM sqlite_sequence WHERE name='monster';".say;
     for @monster-sql { $_.say; }
     "\nDELETE FROM monsterSpeed;\nDELETE FROM sqlite_sequence WHERE name='monsterSpeed';".say;
@@ -466,7 +466,7 @@ sub MAIN($file) {
     for @legendary-actions-sql { $_.say; }
     "\nDELETE FROM monsterReaction;\nDELETE FROM sqlite_sequence WHERE name='monsterReaction';".say;
     for @reactions-sql { $_.say; }
-]
+
 }
 #`{
     A warning:
