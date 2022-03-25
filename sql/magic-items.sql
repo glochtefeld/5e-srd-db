@@ -18,6 +18,7 @@ CREATE TABLE magicItem (
     typeClarification VARCHAR(25) NOT NULL DEFAULT '',
     rarityID INTEGER REFERENCES rarity (id),
     requiresAttunement BOOLEAN NOT NULL DEFAULT FALSE,
+    attunementDetails VARCHAR(50) NOT NULL DEFAULT '',
     description VARCHAR(1000) NOT NULL
 );
     

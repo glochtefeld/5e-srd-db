@@ -1,8 +1,0 @@
-id | name | type | type clarification) | rarity | attunement | description
-
-common
-uncommon
-rare
-very rare
-legendary
-artifact
