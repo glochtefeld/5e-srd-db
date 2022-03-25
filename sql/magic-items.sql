@@ -14,8 +14,10 @@ DROP TABLE IF EXISTS magicItem;
 CREATE TABLE magicItem (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(30) NOT NULL,
-    rarityID REFERENCES rarity (id),
-    itemType REFERENCES magicItemType (id),
-    attunable BOOLEAN NOT NULL DEFAULT FALSE
+    itemType INTEGER REFERENCES magicItemType (id),
+    typeClarification VARCHAR(25) NOT NULL DEFAULT '',
+    rarityID INTEGER REFERENCES rarity (id),
+    requiresAttunement BOOLEAN NOT NULL DEFAULT FALSE,
+    description VARCHAR(1000) NOT NULL
 );
     
