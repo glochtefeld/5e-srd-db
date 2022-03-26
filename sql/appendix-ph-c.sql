@@ -9,6 +9,6 @@ DROP TABLE IF EXISTS plane;
 CREATE TABLE plane (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(50) NOT NULL,
-    planeType REFERENCES planeType (id),
+    planeType INTEGER REFERENCES planeType (id),
     description VARCHAR(2500)
 );

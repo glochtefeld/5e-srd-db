@@ -10,18 +10,18 @@ DROP TABLE IF EXISTS armorType;
 CREATE TABLE armorType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(20) NOT NULL,
-    donTimeID REFERENCES time (id),
+    donTimeID INTEGER REFERENCES time (id),
     donTime INTEGER NOT NULL,
-    doffTimeID REFERENCES time (id),
+    doffTimeID INTEGER REFERENCES time (id),
     doffTime INTEGER NOT NULL
 );
 
 DROP TABLE IF EXISTS armor;
 CREATE TABLE armor (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    typeID REFERENCES armorType (id),
+    typeID INTEGER REFERENCES armorType (id),
     name VARCHAR(20) NOT NULL,
-    coinID REFERENCES coin (id) NOT NULL,
+    coinID INTEGER REFERENCES coin (id) NOT NULL,
     cost INTEGER NOT NULL,
     acBonus INTEGER NOT NULL,
     maxDexMod INTEGER,
@@ -39,7 +39,7 @@ CREATE TABLE objectAC (
 
 DROP TABLE IF EXISTS objectHP;
 CREATE TABLE objectHP (
-    sizeID REFERENCES creatureSize (id) PRIMARY KEY,
+    sizeID INTEGER REFERENCES creatureSize (id) PRIMARY KEY,
     fragile VARCHAR(5) NOT NULL,
     resilient VARCHAR(5) NOT NULL
 );

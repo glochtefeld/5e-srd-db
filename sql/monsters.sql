@@ -31,7 +31,7 @@ CREATE TABLE monster (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(50) NOT NULL,
     sizeID INTEGER REFERENCES creatureSize (id),
-    monsterTypeID REFERENCES monsterType (id),
+    monsterTypeID INTEGER REFERENCES monsterType (id),
     otherTypes VARCHAR(30) NOT NULL DEFAULT '',
     alignmentID INTEGER REFERENCES alignment (id),
     ac INTEGER NOT NULL DEFAULT 10,

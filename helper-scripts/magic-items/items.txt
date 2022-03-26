@@ -2352,8 +2352,7 @@ level of the fireball by 1 for each bead beyond the
 first.
 
 Necklace of Prayer Beads
-Wondrous item, rare (requires attunement by a cleric,
-druid, or paladin)
+Wondrous item, rare (requires attunement by a cleric; druid; or paladin)
 This necklace has 1d4 + 2 magic beads made from
 aquamarine, black pearl, or topaz. It also has many
 nonmagical beads made from stones such as amber,
@@ -2802,7 +2801,6 @@ After the djinni departs, it can’t be summoned
 again for 24 hours, and the ring becomes nonmagical
 if the djinni dies.
 
-
 Ring of Air Elemental Command
 Ring, legendary (requires attunement)
 You can expend 2 of the ring’s charges to cast dominate monster on
@@ -3160,7 +3158,7 @@ reappear in the last space you occupied, or if that
 space is occupied, the nearest unoccupied space.
 
 Robe of the Archmagi
-Wondrous item, legendary (requires attunement by a sorcerer, warlock, or wizard)
+Wondrous item, legendary (requires attunement by a sorcerer; warlock; or wizard)
 This elegant garment is made from exquisite cloth of
 white, gray, or black and adorned with silvery runes.
 The robe’s color corresponds to the alignment for
@@ -3546,7 +3544,7 @@ portable hole, the GM determines randomly what
 happens, using the following table.
 
 Staff of Charming
-Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)
+Staff, rare (requires attunement by a bard; cleric; druid; sorcerer; warlock; or wizard)
 While holding this staff, you can use an action to
 expend 1 of its 10 charges to cast charm person,
 command, or comprehend languages from it using
@@ -3566,7 +3564,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff becomes a nonmagical quarterstaff.
 
 Staff of Fire
-Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)
+Staff, very rare (requires attunement by a druid; sorcerer; warlock; or wizard)
 You have resistance to fire damage while you hold
 this staff.
 The staff has 10 charges. While holding it, you can
@@ -3580,7 +3578,7 @@ a 1, the staff blackens, crumbles into cinders, and is
 destroyed.
 
 Staff of Frost
-Staff, very rare (requires attunement by a druid, sorcerer, warlock, or wizard)
+Staff, very rare (requires attunement by a druid; sorcerer; warlock; or wizard)
 You have resistance to cold damage while you hold
 this staff.
 The staff has 10 charges. While holding it, you can
@@ -3594,7 +3592,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff turns to water and is destroyed.
 
 Staff of Healing
-Staff, rare (requires attunement by a bard, cleric, or druid)
+Staff, rare (requires attunement by a bard; cleric; or druid)
 This staff has 10 charges. While holding it, you can
 use an action to expend 1 or more of its charges to
 cast one of the following spells from it, using your
@@ -3607,7 +3605,7 @@ at dawn. If you expend the last charge, roll a d20. On
 a 1, the staff vanishes in a flash of light, lost forever.
 
 Staff of Power
-Staff, very rare (requires attunement by a sorcerer, warlock, or wizard)
+Staff, very rare (requires attunement by a sorcerer; warlock; or wizard)
 This staff can be wielded as a magic quarterstaff that
 grants a +2 bonus to attack and damage rolls made
 with it. While holding it, you gain a +2 bonus to
@@ -3661,7 +3659,7 @@ expend the last charge, roll a d20. On a 1, the staff
 becomes a nonmagical quarterstaff.
 
 Staff of Swarming Insects
-Staff, rare (requires attunement by a bard, cleric, druid, sorcerer, warlock, or wizard)
+Staff, rare (requires attunement by a bard; cleric; druid; sorcerer; warlock; or wizard)
 This staff has 10 charges and regains 1d6 + 4
 expended charges daily at dawn. If you expend the
 last charge, roll a d20. On a 1, a swarm of insects
@@ -3681,7 +3679,7 @@ miles per hour disperses the swarm and ends the
 effect.
 
 Staff of the Magi
-Staff, legendary (requires attunement by a sorcerer, warlock, or wizard)
+Staff, legendary (requires attunement by a sorcerer; warlock; or wizard)
 This staff can be wielded as a magic quarterstaff that
 grants a +2 bonus to attack and damage rolls made
 with it. While you hold it, you gain a +2 bonus to
@@ -3733,7 +3731,7 @@ table. On a successful save, a creature takes half as
 much damage.
 
 Staff of the Python
-Staff, uncommon (requires attunement by a cleric, druid, or warlock)
+Staff, uncommon (requires attunement by a cleric; druid; or warlock)
 You can use an action to speak this staff’s command
 word and throw the staff on the ground within 10
 feet of you. The staff becomes a giant constrictor
@@ -3820,7 +3818,7 @@ at the same time. Doing so doesn’t expend the daily
 use of those properties, only the use of this one.
 
 Staff of Withering
-Staff, rare (requires attunement by a cleric, druid, or warlock)
+Staff, rare (requires attunement by a cleric; druid; or warlock)
 This staff has 3 charges and regains 1d3 expended
 charges daily at dawn.
 The staff can be wielded as a magic quarterstaff.
@@ -4360,4 +4358,3 @@ fragile but is impervious to most damage, including
 the attacks and breath weapons of dragons. A
 disintegrate spell or one good hit from a +3 magic
 weapon is sufficient to destroy an orb, however.
-

@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS rageProgression;
 CREATE TABLE rageProgression (
-    levelID REFERENCES level (id),
+    levelID INTEGER REFERENCES level (id),
     amount INTEGER NOT NULL,
     damageBonus INTEGER NOT NULL,
     PRIMARY KEY (levelID)
@@ -8,14 +8,14 @@ CREATE TABLE rageProgression (
 
 DROP TABLE IF EXISTS martialDamage;
 CREATE TABLE martialDamage (
-    levelID REFERENCES level (id),
+    levelID INTEGER REFERENCES level (id),
     dieSize INTEGER NOT NULL,
     PRIMARY KEY (levelID)
 );
 
 DROP TABLE IF EXISTS movementBonus;
 CREATE TABLE movementBonus (
-    levelID REFERENCES level(id),
+    levelID INTEGER REFERENCES level(id),
     amount INTEGER NOT NULL,
     PRIMARY KEY (levelID)
 );
@@ -24,7 +24,7 @@ CREATE TABLE movementBonus (
 /* Ki points, sorcery points  follow this pattern: (level) => level == 1 ? 0 : level */
 DROP TABLE IF EXISTS invocationsKnown;
 CREATE TABLE invocationsKnown (
-    levelID REFERENCES level (id),
+    levelID INTEGER REFERENCES level (id),
     amount INTEGER NOT NULL,
     PRIMARY KEY (levelID)
 );
@@ -53,7 +53,7 @@ CREATE TABLE pactBoon (
 DROP TABLE IF EXISTS warlockInvocation;
 CREATE TABLE warlockInvocation (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    levelPrereq REFERENCES level (id) DEFAULT NULL,
+    levelPrereq INTEGER REFERENCES level (id) DEFAULT NULL,
     otherPrereq VARCHAR(50) DEFAULT NULL,
     name VARCHAR(50) NOT NULL,
     description VARCHAR(500) NOT NULL

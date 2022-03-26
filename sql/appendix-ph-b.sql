@@ -21,16 +21,16 @@ CREATE TABLE domain (
 DROP TABLE IF EXISTS deity;
 CREATE TABLE deity (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    pantheon REFERENCES pantheon (id),
+    pantheon INTEGER REFERENCES pantheon (id),
     name VARCHAR(25) NOT NULL,
     description VARCHAR(50),
-    alignment REFERENCES alignment (id),
+    alignment INTEGER REFERENCES alignment (id),
     symbol VARCHAR(50) NOT NULL
 );
 
 DROP TABLE IF EXISTS deityDomain;
 CREATE TABLE deityDomain (
-    deity REFERENCES deity (id),
-    domain REFERENCES domain (id),
+    deity INTEGER REFERENCES deity (id),
+    domain INTEGER REFERENCES domain (id),
     PRIMARY KEY (deity, domain)
 );

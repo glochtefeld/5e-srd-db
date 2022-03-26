@@ -202,7 +202,7 @@ INSERT INTO stdPlayingCard (suitID, numID) VALUES (NULL, 15);
 
 DELETE FROM itemDeckOfIllusionsMonster;
 DELETE FROM sqlite_sequence WHERE name='itemDeckOfIllusionsMonster';
-INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (3, 1, 59, 1););
+INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (3, 1, 59, 1);
 INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (3, 13, 325, 1);
 INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (3, 13, 324, 4);
 INSERT INTO itemDeckOfIllusionsMonster (suitID, numID, monsterID, quantity) VALUES (3, 12, 198, 1);
@@ -343,13 +343,13 @@ INSERT INTO itemManualOfGolemsType (roll, monsterID, buildingTime, timeID, cost,
 
 DELETE FROM itemNecklaceofPrayerBeadsType;
 DELETE FROM sqlite_sequence WHERE name='itemNecklaceofPrayerBeadsType';
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (6, 'Blessing', 29, 0);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (12, 'Curing', 70, 1);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (12, 'Curing', 178, 0);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (16, 'Favor', 143, 0);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (18, 'Smiting', 34, 0);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (19, 'Summons', 218, 0);
-INSERT INTO itemNecklaceofPrayerBeadsType (roll, spellID, higherLevelMod) VALUES (20, 'Wind walking', 315, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (6, 'Blessing', 29, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (12, 'Curing', 70, 1);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (12, 'Curing', 178, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (16, 'Favor', 143, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (18, 'Smiting', 34, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (19, 'Summons', 218, 0);
+INSERT INTO itemNecklaceofPrayerBeadsType (roll, beadName, spellID, higherLevelMod) VALUES (20, 'Wind walking', 315, 0);
 
 DELETE FROM itemPotionOfResistanceType;
 DELETE FROM sqlite_sequence WHERE name='itemPotionOfResistanceType';
@@ -392,7 +392,7 @@ INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (22, 'Iron door (up t
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (30, '10 gems worth 100 gp each');
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (44, 'Wooden ladder (24 feet long)');
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (51, 'A riding horse with saddle bags');
-INSERT INTO itemRobe (roll, patch) VALUES (59, 'Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you');
+INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (59, 'Pit (a cube 10 feet on a side), which you can place on the ground within 10 feet of you');
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (68, '4 potions of healing');
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (75, 'Rowboat (12 feet long)');
 INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (83, 'Spell scroll containing one spell of 1st to 3rd');
@@ -402,16 +402,16 @@ INSERT INTO itemRobeOfUsefulItemsItem (roll, patch) VALUES (100, 'Portable ram')
 
 DELETE FROM itemSpellScroll;
 DELETE FROM sqlite_sequence WHERE name='itemSpellScroll';
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (0, 1, 13, 5);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (1, 1, 13, 5);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (2, 2, 13, 5);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (3, 2, 15, 7);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (4, 3, 15, 7);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (5, 3, 17, 9);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (6, 4, 17, 9);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (7, 4, 18, 10);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (8, 4, 18, 10);
-INSERT INTO itemSpellScroll (level, rarity, saveDC, atkBonus) VALUES (9, 5, 19, 11);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (0, 1, 13, 5);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (1, 1, 13, 5);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (2, 2, 13, 5);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (3, 2, 15, 7);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (4, 3, 15, 7);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (5, 3, 17, 9);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (6, 4, 17, 9);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (7, 4, 18, 10);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (8, 4, 18, 10);
+INSERT INTO itemSpellScroll (level, rarityID, saveDC, atkBonus) VALUES (9, 5, 19, 11);
 
 DELETE FROM itemSphereOfAnnihilationCollisionWithPortalEffect;
 DELETE FROM sqlite_sequence WHERE name='itemSphereOfAnnihilationCollisionWithPortalEffect';

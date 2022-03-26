@@ -17,7 +17,7 @@ DROP TABLE IF EXISTS skill;
 CREATE TABLE skill (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(20) NOT NULL,
-    abilityID REFERENCES ability (id),
+    abilityID INTEGER REFERENCES ability (id),
     example VARCHAR(500) NOT NULL
 );
 
@@ -30,9 +30,9 @@ CREATE TABLE travelPace (
 
 DROP TABLE IF EXISTS travel;
 CREATE TABLE travel (
-    paceID REFERENCES travelPace (id),
-    distanceID REFERENCES distance (id),
-    timeID REFERENCES time (id),
+    paceID INTEGER REFERENCES travelPace (id),
+    distanceID INTEGER REFERENCES distance (id),
+    timeID INTEGER REFERENCES time (id),
     quantity INTEGER NOT NULL
 );
 

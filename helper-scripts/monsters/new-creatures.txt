@@ -1,0 +1,43 @@
+Apparatus of the Crab
+Large construct, neutral neutral
+Armor Class 20
+Hit Points 200 (200d1+0)
+Speed 30 Feet, swim 30 Feet
+16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3)
+Damage Immunities poison, psychic
+Challenge 0 (0XP)
+Traits
+Actions
+END
+
+Avatar of Death
+Medium undead, neutral evil
+Armor Class 20
+Hit Points 999 (0d0+1)
+Speed 60 Feet, fly 60 Feet (hover)
+16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3) 16 (+3)
+Damage Immunities necrotic, poison
+Condition Immunities charmed, frightened, paralyzed, petrified, poisoned, unconscious
+Senses darkvision 60 Feet, truesight 60 Feet
+Languages Any 1
+Challenge 0 (0 XP)
+Traits
+Summon. The avatar of death starts with half of the hit points of its summoner.
+Multilingual. The avatar of death knows all the languages of its summoner.
+Incorporeal Movement. The avatar can move through other creatures and objects as if they were difficult terrain. It takes 5 (1d10) force damage if it ends its turn inside an object.
+Turning Immunity. The avatar is immune to features that turn undead.
+Actions
+Reaping Scythe. MWA. +5 to hit, reach 5 Feet, 1 target. Hit: 7 (1d8 + 3) slashing damage plus 4 (1d8) necrotic damage.
+END
+
+Giant Fly
+Large beast, neutral neutral
+Armor Class 11
+Hit Points 19 (3d10+3)
+Speed 30 Feet, fly 60 Feet
+14 (+2) 13 (+1) 13 (+1) 2 (−4) 10 (+0) 3 (−4)
+Senses darkvision 60 Feet
+Challenge 0 (0 XP)
+Traits
+Actions
+END

@@ -14,7 +14,7 @@ DROP TABLE IF EXISTS startEquipItem;
 CREATE TABLE startEquipItem (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     /* PK (tableID, itemID) could be possible, but that adds a lot more nullable columns in the other tables. */
-    tableID REFERENCES startEquipTbl (id),
+    tableID INTEGER REFERENCES startEquipTbl (id),
     itemID INTEGER NOT NULL,
     quantity INTEGER NOT NULL DEFAULT 1
 );
@@ -23,16 +23,16 @@ CREATE TABLE startEquipItem (
 DROP TABLE IF EXISTS startEquipBundle;
 CREATE TABLE startEquipBundle (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    item1ID REFERENCES startEquipItem (id),
-    item2ID REFERENCES startEquipItem (id) DEFAULT NULL,
-    item3ID REFERENCES startEquipItem (id) DEFAULT NULL
+    item1ID INTEGER REFERENCES startEquipItem (id),
+    item2ID INTEGER REFERENCES startEquipItem (id) DEFAULT NULL,
+    item3ID INTEGER REFERENCES startEquipItem (id) DEFAULT NULL
 );
 
 DROP TABLE IF EXISTS classBundleOption;
 CREATE TABLE classBundleOption (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    classID REFERENCES class (id),
-    bundle1ID REFERENCES startEquipBundle (id),
-    bundle2ID REFERENCES startEquipBundle (id) DEFAULT NULL,
-    bundle3ID REFERENCES startEquipBundle (id) DEFAULT NULL
+    classID INTEGER REFERENCES class (id),
+    bundle1ID INTEGER REFERENCES startEquipBundle (id),
+    bundle2ID INTEGER REFERENCES startEquipBundle (id) DEFAULT NULL,
+    bundle3ID INTEGER REFERENCES startEquipBundle (id) DEFAULT NULL
 );

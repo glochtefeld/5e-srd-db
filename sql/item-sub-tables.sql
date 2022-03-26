@@ -61,7 +61,7 @@ CREATE TABLE itemCubeOfForceFace (
 );
 
 DROP TABLE IF EXISTS itemCubeOfForceChargeLoss;
-CREATE TABLE itemCubeOfForceSpellChargeLoss (
+CREATE TABLE itemCubeOfForceChargeLoss (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     spellNotItem BOOLEAN NOT NULL DEFAULT TRUE,
     sourceID INTEGER NOT NULL,
@@ -158,6 +158,7 @@ DROP TABLE IF EXISTS itemNecklaceofPrayerBeadsType;
 CREATE TABLE itemNecklaceofPrayerBeadsType (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     roll INTEGER NOT NULL,
+    beadName VARCHAR(15) NOT NULL,
     spellID INTEGER REFERENCES spell (id),
     higherLevelMod INTEGER NOT NULL DEFAULT 0
 );

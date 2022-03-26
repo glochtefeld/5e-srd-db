@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS spellList;
 CREATE TABLE spellList (
-    classID REFERENCES class (id),
-    spellID REFERENCES spell (id),
+    classID INTEGER REFERENCES class (id),
+    spellID INTEGER REFERENCES spell (id),
     PRIMARY KEY (classID, spellID)
 );
 
@@ -10,7 +10,7 @@ DROP TABLE IF EXISTS subclassSpellList;
 CREATE TABLE subclassSpellList (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     source VARCHAR (25) DEFAULT NULL,
-    subclassID REFERENCES subclass (id),
-    levelAdded REFERENCES level (id) DEFAULT NULL,
-    spellID REFERENCES spell (id)
+    subclassID INTEGER REFERENCES subclass (id),
+    levelAdded INTEGER REFERENCES level (id) DEFAULT NULL,
+    spellID INTEGER REFERENCES spell (id)
 );

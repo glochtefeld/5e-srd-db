@@ -7,7 +7,6 @@ sub as-hash($sql) { $db.execute($sql).allrows().map({@_[0] => @_[1]}).hash; }
 my %magic-item-type = as-hash('select name, id from magicItemType');
 my %item-rarity = as-hash('select name, id from rarity');
 
-# name | itemType | typeClarification | rarityID | requiresAttunement | description
 my method rsplit(Str:D $in: Str:D $delim, $count=999) {
     my @res-idx = $in.indices($delim)[*-($count == 999 ?? 0 !! $count-1)..*];
 
@@ -17,16 +16,13 @@ my method rsplit(Str:D $in: Str:D $delim, $count=999) {
         @res.push($in.substr($start..@res-idx[$i] - 1));
         $start = @res-idx[$i] + 1;
     }
-    @res.push($in.substr(@res-idx[*-1] + 1..*));
-}
-my &get-hash-pair = -> %hash { -> $s {
-    (my $key, my $val) = $s.trim.&rsplit(' ', 2);
-    %hash{$key} => Int($val);
-} };
-
-sub pair-from-hash($line, %list, :$idx, :$split=',') {
-    my &check = &get-hash-pair(%list);
-    $line.substr($idx..*).split($split).map(&check);
+    if @res-idx.elems > 0 {
+        @res.push($in.substr(@res-idx[*-1] + 1..*));
+    }
+    else {
+        @res.push($in);
+    }
+    return @res;
 }
 
 class Item {
@@ -45,23 +41,26 @@ sub MAIN($file) {
     my @items-sql = Array.new;
 
     loop (my $i = 0; $i < @items.elems; $i++) {
-        my @lines = @items.split(/\n/);
-        my $i = Item.new;
+        my @lines = @items[$i].split(/\n/);
+        my $it = Item.new;
 
-        $i.name = @lines[0];
-        (my $type, my $typeClar, my $rarity, my $attuneFull) = @lines[1].&rsplit(',', 2).map({$_.trim.split(' ', 2)}).flat;
-        $i.type = get-hash-pair(%magic-item-type)($type);
-        $i.typeClarification = $typeClar;
-        $i.rarity = get-hash-pair(%item-rarity)($rarity.wordcase);
-        $i.attune = $attuneFull ~~ Any:D;
-        $i.attuneDetails = $i.attune 
+        $it.name = @lines[0];
+
+        (my $typeFull, my $rareAttune) = @lines[1].&rsplit(',', 2).map({$_.trim});
+        (my $type, my $typeClar) = $typeFull.&rsplit(' (', 2);
+        (my $rarity, my $attuneFull) = $rareAttune.&rsplit(' (', 2);
+
+        $it.itemType = %magic-item-type{$type.wordcase};
+        $it.typeClarif = $typeClar || '';
+        $it.rarity = %item-rarity{$rarity.wordcase};
+        $it.attune = $attuneFull ~~ Any:D;
+        $it.attuneDetails = $it.attune 
             ?? $attuneFull.substr(21..^*).chop()
             !! '';
 
-        my $line
-        for @lines[2..*] {
-            
-        }
+        $it.descrip = @lines[2..*].join(' ');
+
+        @items-sql.push("INSERT INTO magicItem (name, itemType, typeClarification, rarityID, requiresAttunement, attunementDetails, description) VALUES ('{$it.name}', {$it.itemType}, '{$it.typeClarif}', {$it.rarity}, {$it.attune.Int}, '{$it.attuneDetails}', '{$it.descrip}');");
     }
     
     "DELETE FROM magicItem;\nDELETE FROM sqlite_sequence WHERE name='magicItem';".say;

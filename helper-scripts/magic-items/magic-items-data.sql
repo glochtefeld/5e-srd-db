@@ -1,24 +1,3 @@
-DELETE FROM rarity;
-DELETE FROM sqlite_sequence WHERE name='rarity';
-INSERT INTO rarity (name) VALUES ('Common');
-INSERT INTO rarity (name) VALUES ('Uncommon');
-INSERT INTO rarity (name) VALUES ('Rare');
-INSERT INTO rarity (name) VALUES ('Very Rare');
-INSERT INTO rarity (name) VALUES ('Legendary');
-INSERT INTO rarity (name) VALUES ('Artifact');
-
-DELETE FROM magicItemType;
-DELETE FROM sqlite_sequence WHERE name='magicItemType';
-INSERT INTO magicItemType (name) VALUES ('Armor');
-INSERT INTO magicItemType (name) VALUES ('Potion');
-INSERT INTO magicItemType (name) VALUES ('Ring');
-INSERT INTO magicItemType (name) VALUES ('Rod');
-INSERT INTO magicItemType (name) VALUES ('Scroll');
-INSERT INTO magicItemType (name) VALUES ('Staff');
-INSERT INTO magicItemType (name) VALUES ('Wand');
-INSERT INTO magicItemType (name) VALUES ('Weapon');
-INSERT INTO magicItemType (name) VALUES ('Wondrous Item');
-
 DELETE FROM magicItem;
 DELETE FROM sqlite_sequence WHERE name='magicItem';
 INSERT INTO magicItem (name, itemType, typeClarification, rarityID, requiresAttunement, attunementDetails, description) VALUES ('Adamantine Armor', 1, '(medium or heavy, but not hide)', 2, 0, '', 'This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you’re wearing it, any critical hit against you becomes a normal hit.');

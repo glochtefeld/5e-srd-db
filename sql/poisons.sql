@@ -9,7 +9,7 @@ CREATE TABLE poison (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,
     description VARCHAR (500) NOT NULL,
-    poisonTypeID REFERENCES poisonType (id),
-    coinID REFERENCES coin (id),
+    poisonTypeID INTEGER REFERENCES poisonType (id),
+    coinID INTEGER REFERENCES coin (id),
     price INTEGER NOT NULL
 );

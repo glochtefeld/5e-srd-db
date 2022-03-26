@@ -8,6 +8,6 @@ DROP TABLE IF EXISTS language;
 CREATE TABLE language (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR (25) NOT NULL,
-    scriptID REFERENCES script (id),
+    scriptID INTEGER REFERENCES script (id),
     exotic BOOLEAN NOT NULL
 );

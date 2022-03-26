@@ -22,18 +22,17 @@ DROP TABLE IF EXISTS weapon;
 CREATE TABLE weapon (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name VARCHAR(25) NOT NULL,
-    coinID REFERENCES coin (id) NOT NULL,
+    coinID INTEGER REFERENCES coin (id) NOT NULL,
     cost INTEGER NOT NULL,
     damageTypeID INTEGER NOT NULL,
-    diceID REFERENCES weaponDice (id) NOT NULL,
-    weight DECIMAL(18,10) NOT NULL,
-    roll BLOB DEFAULT NULL
+    diceID INTEGER REFERENCES weaponDice (id) NOT NULL,
+    weight DECIMAL(18,10) NOT NULL
 );
 
 DROP TABLE IF EXISTS weaponWithProperty;
 CREATE TABLE weaponWithProperty (
-    weaponID REFERENCES weapon (id) NOT NULL,
-    propertyID REFERENCES weaponProperty (id) NOT NULL,
-    rangeID REFERENCES weaponRange (id) NOT NULL,
-    higherDiceID REFERENCES weaponDice (id)
+    weaponID INTEGER REFERENCES weapon (id) NOT NULL,
+    propertyID INTEGER REFERENCES weaponProperty (id) NOT NULL,
+    rangeID INTEGER REFERENCES weaponRange (id) NOT NULL,
+    higherDiceID INTEGER REFERENCES weaponDice (id)
 );
